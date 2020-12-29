@@ -1,0 +1,57 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Arial" font-size="14px" color="#4a4a4a" />
+      <mj-wrapper padding="0" padding-left="0" padding-right="0" />
+      <mj-section padding="0" padding-left="8px" padding-right="8px" background-size="616px" background-url="https://static.like.co/edm/templates/basic/bg.jpg" />
+      <mj-column padding="0" padding-left="16px" padding-right="16px" />
+      <mj-image padding="0" />
+      <mj-text padding="0" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="white" width="616px">
+    <mj-include path="../components/header.mjml" />
+
+    <mj-section padding-left="0" padding-right="0" background-url="https://static.like.co/edm/templates/basic/header-top.jpg">
+      <mj-column width="120px" padding-left="0" padding-right="0">
+        {{#if isCivicLiker}}
+          <mj-raw>
+            <div style="text-align:center;padding:8px;background: transparent url('https://static.like.co/avatar/halo/civic-liker.png') no-repeat center center;background-size:contain">
+              <img src="{{ avatarURL }}" style="width:102px;height:102px;border-radius:100%;object-fit:cover;border:2px solid #ccc">
+            </div>
+          </mj-raw>
+        {{else}}
+          <mj-image src="{{ avatarURL }}" width="116px" height="116px" border-radius="60px" border="2px solid #ccc" />
+        {{/if}}
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-url="https://static.like.co/edm/templates/basic/header-middle.jpg"
+      padding-left="32px"
+      padding-right="32px"
+      padding-top="16px"
+      padding-bottom="16px"
+    >
+      <mj-column>
+        {{#if title}}
+          <mj-text align="center" font-size="24px">{{{ title }}}</mj-text>
+        {{/if}}
+        {{#if billingPlan}}
+        <mj-text align="center" font-size="36px" color="#28646e" padding-top="16px">
+          <img src="{{ priceEmojiURL }}" style="height:48px;vertical-align:middle">
+          {{{ billingPlan }}}
+        </mj-text>
+        {{/if}}
+      </mj-column>
+    </mj-section>
+    <mj-section background-url="https://static.like.co/edm/templates/basic/header-bottom.jpg">
+      <mj-column>
+        <mj-spacer height="8px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="../components/content.mjml" />
+    <mj-include path="../components/cta-app.mjml" />
+    <mj-include path="../components/footer.mjml" />
+  </mj-body>
+</mjml>

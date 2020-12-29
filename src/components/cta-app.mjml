@@ -1,0 +1,21 @@
+<mj-section padding-left="0" padding-right="0" padding-top="32px" padding-bottom="32px">
+  <mj-column>
+    <mj-image src="https://static.like.co/edm/banners/app-cta-en.png" width="400px" alt="Liker Land App" href="https://likecoin.page.link/likerland" />
+    <mj-social mode="horizontal" inner-padding="8px">
+      <mj-social-element
+        name="appstore"
+        icon-size="106px"
+        icon-height="35px"
+        src="https://static.like.co/edm/badges/app-store.png"
+        href="https://likecoin.page.link/likerland"
+      />
+      <mj-social-element
+        name="googleplay"
+        icon-size="119px"
+        icon-height="35px"
+        src="https://static.like.co/edm/badges/google-play.png"
+        href="https://likecoin.page.link/likerland"
+      />
+    </mj-social>
+  </mj-column>
+</mj-section>

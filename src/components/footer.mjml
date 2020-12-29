@@ -1,0 +1,44 @@
+<mj-section background-color="white" background-url="" padding-top="24px" padding-bottom="24px">
+  <mj-column>
+    <mj-social
+      icon-size="28px"
+      icon-height="28px"
+      icon-padding="0"
+      mode="horizontal"
+      border-radius="24px"
+      inner-padding="6px"
+      container-background-color="white"
+    >
+      <mj-social-element
+        href="https://matters.news/@likecoin"
+        src="https://static.like.co/email/images/links/matters.png"
+      />
+      <mj-social-element
+        href="https://t.me/likecoin"
+        src="https://static.like.co/email/images/links/telegram.png"
+      />
+      <mj-social-element
+        href="https://medium.com/likecoin"
+        src="https://static.like.co/email/images/links/medium.png"
+      />
+      <mj-social-element
+        src="https://static.like.co/email/images/links/github.png"
+        href="https://github.com/likecoin"
+      />
+      <mj-social-element
+        src="https://static.like.co/email/images/links/twitter.png"
+        href="https://twitter.com/likecoin"
+      />
+      <mj-social-element
+        src="https://static.like.co/email/images/links/facebook.png"
+        href="https://www.facebook.com/groups/likecoin"
+      />
+    </mj-social>
+    <mj-text align="center" padding="8px">
+      <a href="https://docs.like.co/" target="_blank" style="color:#28646e">{{ helpCenterText }}</a>
+    </mj-text>
+    <mj-text align="center" padding="8px">
+      <a href="https://like.co/in/settings/others" target="_blank" style="color:#28646e">{{ unsubscribeText }}</a>
+    </mj-text>
+  </mj-column>
+</mj-section>

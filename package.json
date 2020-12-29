@@ -1,0 +1,64 @@
+{
+  "version": "0.1.0",
+  "license": "GPL-3.0-or-later",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build",
+    "size": "size-limit",
+    "analyze": "size-limit --why"
+  },
+  "peerDependencies": {},
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "name": "likecoin-edm",
+  "author": "Ng Wing Tat, David",
+  "module": "dist/likecoin-edm.esm.js",
+  "size-limit": [
+    {
+      "path": "dist/likecoin-edm.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/likecoin-edm.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "devDependencies": {
+    "@size-limit/preset-small-lib": "^4.9.1",
+    "@types/mjml": "^4.0.4",
+    "@types/mjml-react": "^1.0.4",
+    "@types/react": "^17.0.0",
+    "husky": "^4.3.6",
+    "size-limit": "^4.9.1",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.0.3",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "mjml": "^4.7.1",
+    "mjml-react": "^1.0.63",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}

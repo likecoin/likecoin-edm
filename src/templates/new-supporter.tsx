@@ -1,5 +1,4 @@
-import React from 'react';
-
+import * as React from 'react';
 import {
   Mjml,
   MjmlHead,
@@ -21,7 +20,7 @@ import { HeaderSection } from '../components/header';
 import { AppCTASection } from '../components/cta-app';
 import { FooterSection } from '../components/footer';
 
-export interface NewSupporterTemplateOptions {
+export interface NewSupporterTemplateProps {
   title?: string;
   billingPlan?: string;
   amount?: number;
@@ -32,7 +31,7 @@ export interface NewSupporterTemplateOptions {
   unsubscribeText?: string;
 }
 
-export const compileNewSupporterTemplate = ({
+export const NewSupporterTemplate = ({
   title,
   billingPlan,
   amount,
@@ -41,7 +40,7 @@ export const compileNewSupporterTemplate = ({
   content,
   helpCenterText,
   unsubscribeText,
-}: NewSupporterTemplateOptions) => {
+}: NewSupporterTemplateProps) => {
   const priceEmojiURL = getPriceEmojiURL(amount);
   return (
     <Mjml>

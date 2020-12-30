@@ -81,4 +81,10 @@ For vanilla CSS, you can include it at the root directory and add it to the `fil
 
 ## Publishing to NPM
 
-We recommend using [np](https://github.com/sindresorhus/np).
+We are using [np](https://github.com/sindresorhus/np).
+
+Run np and follow the steps:
+> make sure you have installed `np` globally
+```
+np
+```

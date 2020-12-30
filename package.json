@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.0-0",
   "license": "GPL-3.0-or-later",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -31,7 +31,14 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "likecoin-edm",
+  "name": "@likecoin/edm",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nwingt/likecoin-edm"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Ng Wing Tat, David",
   "module": "dist/likecoin-edm.esm.js",
   "size-limit": [

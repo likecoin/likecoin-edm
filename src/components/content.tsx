@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { MjmlColumn, MjmlText } from 'mjml-react';
 
 import { BasicSection } from './section';

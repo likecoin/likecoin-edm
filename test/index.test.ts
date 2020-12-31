@@ -12,9 +12,6 @@ describe('Parsing HTML templates', () => {
       helpCenterText: 'Help Centre',
       unsubscribeText: 'Unsubscribe Now',
     });
-    if (process.env.NODE_ENV !== 'production') {
-      console.log(html);
-    }
     expect(html).toMatchSnapshot();
   });
 });

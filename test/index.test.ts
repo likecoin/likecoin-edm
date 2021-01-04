@@ -5,7 +5,6 @@ describe('Parsing templates', () => {
     const html = getBasicWithAvatarTemplate({
       title: 'Hello World',
       subtitle: 'The world is big',
-      isCivicLiker: false,
       content: '<p>Hello Test</p><p>This is a test email.</p>',
       helpCenterText: 'Help Centre',
       unsubscribeText: 'Unsubscribe Now',
@@ -13,12 +12,27 @@ describe('Parsing templates', () => {
     expect(html).toMatchSnapshot();
   });
 
+  it('Basic with avatar', () => {
+    const html = getBasicWithAvatarTemplate({
+      isCivicLiker: false,
+      avatarURL: 'https://via.placeholder.com/102.png',
+    });
+    expect(html).toMatchSnapshot();
+  });
+
+  it('Basic with avatar (Civic Liker)', () => {
+    const html = getBasicWithAvatarTemplate({
+      isCivicLiker: true,
+      avatarURL: 'https://via.placeholder.com/102.png',
+    });
+    expect(html).toMatchSnapshot();
+  });
+
   it('New supporter', () => {
     const html = getNewSupporterTemplate({
-      title: 'Hello World',
+      subtitle: 'New subscription',
       billingPlan: 'USD5/mo',
       amount: 5,
-      isCivicLiker: true,
     });
     expect(html).toMatchSnapshot();
   });

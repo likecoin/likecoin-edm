@@ -1,10 +1,14 @@
 import express from 'express';
 
-import { getBasicWithAvatarTemplate, getNewSupporterTemplate } from '../dist';
+import { getBasicTemplate, getBasicWithAvatarTemplate, getNewSupporterTemplate } from '../dist';
 
 const PORT = process.env.PORT || 3000;
 
 const app = express();
+
+app.get('/basic', (req, res) => {
+  res.send(getBasicTemplate(req.query));
+});
 
 app.get('/basic/avatar', (req, res) => {
   res.send(getBasicWithAvatarTemplate(req.query));

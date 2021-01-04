@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { render } from 'mjml-react';
 
+import { BasicTemplate, BasicTemplateProps } from './templates/basic';
 import {
   BasicWithAvatarTemplate,
   BasicWithAvatarTemplateProps,
@@ -9,6 +10,11 @@ import {
   NewSupporterTemplate,
   NewSupporterTemplateProps,
 } from './templates/new-supporter';
+
+export const getBasicTemplate = (props: BasicTemplateProps) => {
+  const { html } = render(<BasicTemplate {...props} />);
+  return html;
+};
 
 export const getBasicWithAvatarTemplate = (
   props: BasicWithAvatarTemplateProps

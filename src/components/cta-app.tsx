@@ -13,8 +13,8 @@ const GET_APP_URL = 'https://likecoin.page.link/likerland';
 export const AppCTASection = () => {
   return (
     <BasicSection
-      paddingLeft={0}
-      paddingRight={0}
+      paddingLeft={8}
+      paddingRight={8}
       paddingTop={32}
       paddingBottom={32}
     >

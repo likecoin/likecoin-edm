@@ -7,8 +7,8 @@ export const ContentSection = ({ content }: { content?: string }) => {
   return (
     <BasicSection
       paddingTop={32}
-      paddingLeft={32}
-      paddingRight={32}
+      paddingLeft={40}
+      paddingRight={40}
       paddingBottom={32}
     >
       <MjmlColumn>

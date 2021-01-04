@@ -7,8 +7,8 @@ export const HeaderSection = () => {
   return (
     <BasicSection
       paddingTop={32}
-      paddingRight={32}
-      paddingLeft={32}
+      paddingRight={40}
+      paddingLeft={40}
       paddingBottom={32}
     >
       <MjmlColumn>

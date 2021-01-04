@@ -6,8 +6,7 @@ describe('Parsing templates', () => {
       title: 'Hello World',
       subtitle: 'The world is big',
       content: '<p>Hello Test</p><p>This is a test email.</p>',
-      helpCenterText: 'Help Centre',
-      unsubscribeText: 'Unsubscribe Now',
+      language: 'zh',
     });
     expect(html).toMatchSnapshot();
   });

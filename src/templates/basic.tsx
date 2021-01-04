@@ -25,8 +25,7 @@ export interface BasicTemplateProps {
   avatarURL?: string;
   isCivicLiker?: boolean;
   content?: string;
-  helpCenterText?: string;
-  unsubscribeText?: string;
+  language?: string;
 }
 
 export const BasicTemplate = ({
@@ -35,8 +34,7 @@ export const BasicTemplate = ({
   subtitle,
   subtitlePrepend,
   content,
-  helpCenterText,
-  unsubscribeText,
+  language,
 }: BasicTemplateProps) => {
   return (
     <Mjml>
@@ -101,7 +99,7 @@ export const BasicTemplate = ({
         </BasicSection>
         <ContentSection content={content} />
         <AppCTASection />
-        <FooterSection {...{ helpCenterText, unsubscribeText }} />
+        <FooterSection language={language} />
       </MjmlBody>
     </Mjml>
   );

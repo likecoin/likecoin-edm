@@ -7,14 +7,10 @@ import {
 } from 'mjml-react';
 
 import { BasicSection } from './section';
+import { HelpCenterLink } from './help-center-link';
+import { UnsubscribeLink } from './unsubscribe-link';
 
-export const FooterSection = ({
-  helpCenterText = 'Help Center',
-  unsubscribeText = 'Unsubscribe',
-}: {
-  helpCenterText?: string;
-  unsubscribeText?: string;
-}) => {
+export const FooterSection = ({ language }: { language?: string }) => {
   return (
     <BasicSection
       backgroundColor="white"
@@ -70,24 +66,10 @@ export const FooterSection = ({
           </MjmlSocialElement>
         </MjmlSocial>
         <MjmlText align="center" padding={8}>
-          <a
-            href="https://docs.like.co/"
-            target="_blank"
-            rel="noreferrer"
-            style={{ color: '#28646e' }}
-          >
-            {helpCenterText}
-          </a>
+          <HelpCenterLink language={language} />
         </MjmlText>
         <MjmlText align="center" padding={8}>
-          <a
-            href="https://like.co/in/settings/others"
-            target="_blank"
-            rel="noreferrer"
-            style={{ color: '#28646e' }}
-          >
-            {unsubscribeText}
-          </a>
+          <UnsubscribeLink language={language} />
         </MjmlText>
       </MjmlColumn>
     </BasicSection>

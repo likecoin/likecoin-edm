@@ -1,10 +1,14 @@
 import express from 'express';
 
-import { getNewSupporterTemplate } from '../dist';
+import { getBasicWithAvatarTemplate, getNewSupporterTemplate } from '../dist';
 
 const PORT = process.env.PORT || 3000;
 
 const app = express();
+
+app.get('/basic/avatar', (req, res) => {
+  res.send(getBasicWithAvatarTemplate(req.query));
+});
 
 app.get('/new-supporter', (req, res) => {
   res.send(getNewSupporterTemplate(req.query));
@@ -13,6 +17,11 @@ app.get('/new-supporter', (req, res) => {
 app.get('/', (_, res) => {
   res.json({
     templates: [
+      {
+        basic: [
+          'avatar'
+        ]
+      },
       '/new-supporter',
     ],
   })

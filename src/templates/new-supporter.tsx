@@ -12,6 +12,7 @@ import {
   MjmlSpacer,
 } from 'mjml-react';
 
+import { DEFAULT_AVATAR_URL } from '../constants';
 import { getPriceEmojiURL } from '../utils/civic';
 
 import { ContentSection } from '../components/content';
@@ -35,7 +36,7 @@ export const NewSupporterTemplate = ({
   title,
   billingPlan,
   amount,
-  avatarURL,
+  avatarURL = DEFAULT_AVATAR_URL,
   isCivicLiker = false,
   content,
   helpCenterText,

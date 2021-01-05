@@ -6,7 +6,7 @@ function getLocalizedUnsubscribeText(language?: string) {
     case 'zh':
       return '取消訂閱';
     case 'cn':
-      return '幫助中心';
+      return '取消订阅';
     default:
       return 'Unsubscribe';
   }

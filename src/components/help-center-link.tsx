@@ -18,7 +18,7 @@ function getLocalizedHelpCenterText(language?: string) {
     case 'zh':
       return '幫助中心';
     case 'cn':
-      return '幫助中心';
+      return '帮助中心';
     default:
       return 'Help Center';
   }

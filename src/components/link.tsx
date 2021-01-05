@@ -10,7 +10,7 @@ export const Link = (
   return (
     <a
       target="_blank"
-      rel="noreferrer"
+      rel="noreferrer noopener"
       style={{ color: '#28646e', ...style }}
       {...restProps}
     >

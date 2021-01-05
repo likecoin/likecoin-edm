@@ -98,7 +98,7 @@ export const BasicTemplate = ({
           </MjmlColumn>
         </BasicSection>
         <ContentSection content={content} />
-        <AppCTASection />
+        <AppCTASection language={language} />
         <FooterSection language={language} />
       </MjmlBody>
     </Mjml>

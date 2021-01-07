@@ -6,9 +6,10 @@ import {
   MjmlSocialElement,
 } from 'mjml-react';
 
+import { wrapUtm } from '../utils/url';
 import { BasicSection } from './section';
 
-const GET_APP_URL = 'https://likecoin.page.link/likerland';
+const GET_APP_URL = wrapUtm('https://likecoin.page.link/likerland');
 
 function getLocalizedBannerSrc(language?: string) {
   let suffix: string;

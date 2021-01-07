@@ -1,4 +1,7 @@
 import * as React from 'react';
+
+import { wrapUtm } from '../utils/url';
+
 import { Link } from './link';
 
 function getLocalizedUnsubscribeText(language?: string) {
@@ -13,7 +16,7 @@ function getLocalizedUnsubscribeText(language?: string) {
 }
 
 export const UnsubscribeLink = ({ language }: { language?: string }) => (
-  <Link href="https://like.co/in/settings/others">
+  <Link href={wrapUtm('https://like.co/in/settings/others')}>
     {getLocalizedUnsubscribeText(language)}
   </Link>
 );

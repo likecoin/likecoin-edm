@@ -1,16 +1,21 @@
 import * as React from 'react';
 
+import { wrapUtm } from '../utils/url';
+
 import { Link } from './link';
 
 function getLocalizedHelpCenterLink(language?: string) {
+  let url: string;
   switch (language) {
     case 'zh':
     case 'cn':
-      return 'https://docs.like.co/v/zh/';
+      url = 'https://docs.like.co/v/zh';
+      break;
 
     default:
-      return 'https://docs.like.co/';
+      url = 'https://docs.like.co';
   }
+  return wrapUtm(url);
 }
 
 function getLocalizedHelpCenterText(language?: string) {

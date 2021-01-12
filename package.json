@@ -34,7 +34,7 @@
   "name": "@likecoin/edm",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nwingt/likecoin-edm"
+    "url": "https://github.com/likecoin/likecoin-edm"
   },
   "publishConfig": {
     "access": "public"

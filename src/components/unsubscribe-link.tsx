@@ -1,22 +1,12 @@
 import * as React from 'react';
+import { FormattedMessage } from 'react-intl';
 
 import { wrapUtm } from '../utils/url';
 
 import { Link } from './link';
 
-function getLocalizedUnsubscribeText(language?: string) {
-  switch (language) {
-    case 'zh':
-      return '取消訂閱';
-    case 'cn':
-      return '取消订阅';
-    default:
-      return 'Unsubscribe';
-  }
-}
-
-export const UnsubscribeLink = ({ language }: { language?: string }) => (
+export const UnsubscribeLink = () => (
   <Link href={wrapUtm('https://like.co/in/settings/others')}>
-    {getLocalizedUnsubscribeText(language)}
+    <FormattedMessage id="unsubscribe.text" />
   </Link>
 );

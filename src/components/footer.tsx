@@ -10,7 +10,7 @@ import { BasicSection } from './section';
 import { HelpCenterLink } from './help-center-link';
 import { UnsubscribeLink } from './unsubscribe-link';
 
-export const FooterSection = ({ language }: { language?: string }) => {
+export const FooterSection = () => {
   return (
     <BasicSection
       backgroundColor="white"
@@ -66,10 +66,10 @@ export const FooterSection = ({ language }: { language?: string }) => {
           </MjmlSocialElement>
         </MjmlSocial>
         <MjmlText align="center" padding={8}>
-          <HelpCenterLink language={language} />
+          <HelpCenterLink />
         </MjmlText>
         <MjmlText align="center" padding={8}>
-          <UnsubscribeLink language={language} />
+          <UnsubscribeLink />
         </MjmlText>
       </MjmlColumn>
     </BasicSection>

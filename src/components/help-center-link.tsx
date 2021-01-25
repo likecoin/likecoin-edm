@@ -1,36 +1,15 @@
 import * as React from 'react';
+import { FormattedMessage, useIntl } from 'react-intl';
 
 import { wrapUtm } from '../utils/url';
 
 import { Link } from './link';
 
-function getLocalizedHelpCenterLink(language?: string) {
-  let url: string;
-  switch (language) {
-    case 'zh':
-    case 'cn':
-      url = 'https://docs.like.co/v/zh';
-      break;
-
-    default:
-      url = 'https://docs.like.co';
-  }
-  return wrapUtm(url);
-}
-
-function getLocalizedHelpCenterText(language?: string) {
-  switch (language) {
-    case 'zh':
-      return '幫助中心';
-    case 'cn':
-      return '帮助中心';
-    default:
-      return 'Help Center';
-  }
-}
-
-export const HelpCenterLink = ({ language }: { language?: string }) => (
-  <Link href={getLocalizedHelpCenterLink(language)}>
-    {getLocalizedHelpCenterText(language)}
-  </Link>
-);
+export const HelpCenterLink = () => {
+  const intl = useIntl();
+  return (
+    <Link href={wrapUtm(intl.formatMessage({ id: 'help.center.url' }))}>
+      <FormattedMessage id="help.center.text" />
+    </Link>
+  );
+};

@@ -68,6 +68,7 @@
     "mjml": "^4.7.1",
     "mjml-react": "^1.0.63",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-intl": "^5.10.16"
   }
 }

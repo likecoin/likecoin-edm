@@ -1,4 +1,6 @@
 import * as React from 'react';
+import { useIntl } from 'react-intl';
+
 import {
   MjmlColumn,
   MjmlImage,
@@ -11,20 +13,8 @@ import { BasicSection } from './section';
 
 const GET_APP_URL = wrapUtm('https://likecoin.page.link/likerland');
 
-function getLocalizedBannerSrc(language?: string) {
-  let suffix: string;
-  switch (language) {
-    case 'zh':
-    case 'cn':
-      suffix = language;
-      break;
-    default:
-      suffix = 'en';
-  }
-  return `https://static.like.co/edm/banners/app-cta-${suffix}.png`;
-}
-
-export const AppCTASection = ({ language }: { language?: string }) => {
+export const AppCTASection = () => {
+  const intl = useIntl();
   return (
     <BasicSection
       paddingLeft={8}
@@ -34,7 +24,10 @@ export const AppCTASection = ({ language }: { language?: string }) => {
     >
       <MjmlColumn>
         <MjmlImage
-          src={getLocalizedBannerSrc(language)}
+          src={intl.formatMessage({
+            id: 'cta.app.banner.src',
+            description: 'The URL of the CTA banner',
+          })}
           width={400}
           alt="Liker Land App"
         />

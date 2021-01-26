@@ -1,4 +1,20 @@
-import { getBasicWithAvatarTemplate, getNewSupporterTemplate } from '../src';
+import {
+  getBasicWithAvatarTemplate,
+  getNewSupporterTemplate,
+  getReferralTxTemplate,
+} from '../src';
+
+const referralParams = {
+  refereeLikerID: 'ngwingtat',
+  refereeDisplayName: 'Ng Wing Tat',
+  isRefereeCivicLiker: true,
+  refereeAmount: 100,
+
+  referrerLikerID: 'foundation',
+  referrerDisplayName: 'Foundation',
+  referrerAvatarSrc: 'https://liker.land/logo.png',
+  referrerAmount: 100,
+};
 
 describe('Parsing templates', () => {
   it('Basic with avatar', () => {
@@ -32,6 +48,22 @@ describe('Parsing templates', () => {
       subtitle: 'New subscription',
       billingPlan: 'USD5/mo',
       amount: 5,
+    });
+    expect(html).toMatchSnapshot();
+  });
+
+  it('Referral Tx (Referee)', () => {
+    const html = getReferralTxTemplate({
+      receiverLikerID: 'ngwingtat',
+      ...referralParams,
+    });
+    expect(html).toMatchSnapshot();
+  });
+
+  it('Referral Tx (Referrer)', () => {
+    const html = getReferralTxTemplate({
+      receiverLikerID: 'foundation',
+      ...referralParams,
     });
     expect(html).toMatchSnapshot();
   });

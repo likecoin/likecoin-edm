@@ -1,22 +1,14 @@
 import * as React from 'react';
-import {
-  Mjml,
-  MjmlHead,
-  MjmlBody,
-  MjmlColumn,
-  MjmlText,
-  MjmlAttributes,
-  MjmlAll,
-  MjmlSpacer,
-  MjmlImage,
-} from 'mjml-react';
+import { MjmlColumn, MjmlText, MjmlSpacer, MjmlImage } from 'mjml-react';
 
-import { IntlProvider } from '../i18n';
+import * as Colors from '../constants/colors';
+
 import { ContentSection } from '../components/content';
-import { BasicSection } from '../components/section';
-import { HeaderSection } from '../components/header';
 import { AppCTASection } from '../components/cta-app';
 import { FooterSection } from '../components/footer';
+import { HeaderSection } from '../components/header';
+import { BasicSection } from '../components/section';
+import { TemplateBase } from '../components/template-base';
 
 export interface BasicTemplateProps {
   title?: string;
@@ -38,72 +30,64 @@ export const BasicTemplate = ({
   language,
 }: BasicTemplateProps) => {
   return (
-    <IntlProvider language={language}>
-      <Mjml>
-        <MjmlHead>
-          <MjmlAttributes>
-            <MjmlAll
-              fontFamily="Arial"
-              fontSize="14px"
-              color="#4a4a4a"
-              padding={0}
+    <TemplateBase language={language} isExtruded={true}>
+      <HeaderSection />
+      <BasicSection
+        paddingTop={0}
+        paddingBottom={0}
+        paddingLeft={0}
+        paddingRight={0}
+        backgroundUrl="https://static.like.co/edm/templates/basic/header-top.jpg"
+      >
+        <MjmlColumn width={120} paddingLeft={0} paddingRight={0}>
+          {titleTop || (
+            <MjmlImage
+              src="https://static.like.co/edm/likecoin-logo.png"
+              width={120}
+              height={120}
+              borderRadius={60}
             />
-          </MjmlAttributes>
-        </MjmlHead>
-        <MjmlBody backgroundColor="white" width={616}>
-          <HeaderSection />
-          <BasicSection
-            paddingLeft={0}
-            paddingRight={0}
-            backgroundUrl="https://static.like.co/edm/templates/basic/header-top.jpg"
-          >
-            <MjmlColumn width={120} paddingLeft={0} paddingRight={0}>
-              {titleTop || (
-                <MjmlImage
-                  src="https://static.like.co/edm/likecoin-logo.png"
-                  width={120}
-                  height={120}
-                  borderRadius={60}
-                />
-              )}
-            </MjmlColumn>
-          </BasicSection>
-          <BasicSection
-            backgroundUrl="https://static.like.co/edm/templates/basic/header-middle.jpg"
-            paddingLeft={32}
-            paddingRight={32}
-            paddingTop={16}
-            paddingBottom={16}
-          >
-            <MjmlColumn>
-              {title && (
-                <MjmlText align="center" fontSize={24}>
-                  {title}
-                </MjmlText>
-              )}
-              {subtitle && (
-                <MjmlText
-                  align="center"
-                  fontSize={36}
-                  color="#28646e"
-                  paddingTop={16}
-                >
-                  {subtitlePrepend}
-                  {subtitle}
-                </MjmlText>
-              )}
-            </MjmlColumn>
-          </BasicSection>
-          <BasicSection backgroundUrl="https://static.like.co/edm/templates/basic/header-bottom.jpg">
-            <MjmlColumn>
-              <MjmlSpacer height={8} />
-            </MjmlColumn>
-          </BasicSection>
-          <ContentSection content={content} />
-          <AppCTASection />
-          <FooterSection />
-        </MjmlBody>
-      </Mjml>
-    </IntlProvider>
+          )}
+        </MjmlColumn>
+      </BasicSection>
+      <BasicSection
+        backgroundUrl="https://static.like.co/edm/templates/basic/header-middle.jpg"
+        paddingTop={16}
+        paddingBottom={16}
+      >
+        <MjmlColumn>
+          {title && (
+            <MjmlText align="center" fontSize={24}>
+              {title}
+            </MjmlText>
+          )}
+          {subtitle && (
+            <MjmlText
+              align="center"
+              fontSize={36}
+              color={Colors.LikeGreen}
+              paddingTop={16}
+            >
+              {subtitlePrepend}
+              {subtitle}
+            </MjmlText>
+          )}
+        </MjmlColumn>
+      </BasicSection>
+      <BasicSection
+        paddingTop={0}
+        paddingBottom={0}
+        paddingLeft={0}
+        paddingRight={0}
+        backgroundUrl="https://static.like.co/edm/templates/basic/header-bottom.jpg"
+      >
+        <MjmlColumn>
+          <MjmlSpacer height={8} />
+        </MjmlColumn>
+      </BasicSection>
+      <ContentSection content={content} />
+      <AppCTASection />
+      <FooterSection />
+    </TemplateBase>
   );
 };

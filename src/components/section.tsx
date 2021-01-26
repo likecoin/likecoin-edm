@@ -8,6 +8,8 @@ import {
   RequiredChildrenProps,
 } from 'mjml-react';
 
+import { useTheme } from './template-base';
+
 export const BasicSection = ({
   children,
   ...props
@@ -16,12 +18,21 @@ export const BasicSection = ({
   BorderProps &
   PaddingProps &
   ClassNameProps) => {
+  const {
+    sectionWidth,
+    sectionPaddingX,
+    sectionBgURL,
+    sectionBgColor,
+  } = useTheme();
   return (
     <MjmlSection
-      paddingLeft={8}
-      paddingRight={8}
-      backgroundSize={616}
-      backgroundUrl="https://static.like.co/edm/templates/basic/bg.jpg"
+      paddingTop={32}
+      paddingBottom={32}
+      paddingLeft={sectionPaddingX}
+      paddingRight={sectionPaddingX}
+      backgroundSize={sectionWidth}
+      backgroundUrl={sectionBgURL}
+      backgroundColor={sectionBgColor}
       {...props}
     >
       {children}

@@ -10,6 +10,10 @@ import {
   NewSupporterTemplate,
   NewSupporterTemplateProps,
 } from './templates/new-supporter';
+import {
+  ReferralTxTemplate,
+  ReferralTxTemplateProps,
+} from './templates/referral-tx';
 
 export const getBasicTemplate = (props: BasicTemplateProps) => {
   const { html } = render(<BasicTemplate {...props} />);
@@ -25,5 +29,10 @@ export const getBasicWithAvatarTemplate = (
 
 export const getNewSupporterTemplate = (props: NewSupporterTemplateProps) => {
   const { html } = render(<NewSupporterTemplate {...props} />);
+  return html;
+};
+
+export const getReferralTxTemplate = (props: ReferralTxTemplateProps) => {
+  const { html } = render(<ReferralTxTemplate {...props} />);
   return html;
 };

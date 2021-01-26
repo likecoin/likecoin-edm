@@ -1,5 +1,7 @@
 import * as React from 'react';
 
+import * as Colors from '../constants/colors';
+
 export const Link = (
   props: React.DetailedHTMLProps<
     React.AnchorHTMLAttributes<HTMLAnchorElement>,
@@ -11,7 +13,7 @@ export const Link = (
     <a
       target="_blank"
       rel="noreferrer noopener"
-      style={{ color: '#28646e', ...style }}
+      style={{ color: Colors.LikeGreen, ...style }}
       {...restProps}
     >
       {children}

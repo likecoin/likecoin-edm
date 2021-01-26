@@ -1,6 +1,11 @@
 import express from 'express';
 
-import { getBasicTemplate, getBasicWithAvatarTemplate, getNewSupporterTemplate } from '../dist';
+import {
+  getBasicTemplate,
+  getBasicWithAvatarTemplate,
+  getNewSupporterTemplate,
+  getReferralTxTemplate,
+} from '../dist';
 
 const PORT = process.env.PORT || 3000;
 
@@ -18,6 +23,10 @@ app.get('/new-supporter', (req, res) => {
   res.send(getNewSupporterTemplate(req.query));
 });
 
+app.get('/referral-tx', (req, res) => {
+  res.send(getReferralTxTemplate(req.query));
+});
+
 app.get('/', (_, res) => {
   res.json({
     templates: [
@@ -27,6 +36,7 @@ app.get('/', (_, res) => {
         ]
       },
       '/new-supporter',
+      '/referral-tx',
     ],
   })
 });

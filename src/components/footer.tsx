@@ -21,7 +21,8 @@ export const FooterSection = () => {
       <MjmlColumn>
         <MjmlSocial
           mode="horizontal"
-          padding={8}
+          paddingTop={8}
+          paddingBottom={8}
           innerPadding="6px"
           iconSize="28px"
           iconHeight="28px"
@@ -65,10 +66,10 @@ export const FooterSection = () => {
             {null}
           </MjmlSocialElement>
         </MjmlSocial>
-        <MjmlText align="center" padding={8}>
+        <MjmlText align="center" padding={4}>
           <HelpCenterLink />
         </MjmlText>
-        <MjmlText align="center" padding={8}>
+        <MjmlText align="center" padding={4}>
           <UnsubscribeLink />
         </MjmlText>
       </MjmlColumn>

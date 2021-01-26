@@ -17,8 +17,8 @@ export const AppCTASection = () => {
   const intl = useIntl();
   return (
     <BasicSection
-      paddingLeft={8}
-      paddingRight={8}
+      paddingLeft={16}
+      paddingRight={16}
       paddingTop={32}
       paddingBottom={32}
     >
@@ -31,7 +31,12 @@ export const AppCTASection = () => {
           width={400}
           alt="Liker Land App"
         />
-        <MjmlSocial mode="horizontal" innerPadding="8px">
+        <MjmlSocial
+          mode="horizontal"
+          innerPadding="8px"
+          paddingLeft={24}
+          paddingRight={24}
+        >
           <MjmlSocialElement
             iconSize="106px"
             iconHeight="35px"

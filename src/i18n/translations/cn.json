@@ -1,6 +1,13 @@
 {
   "cta.app.banner.src": "https://static.like.co/edm/banners/app-cta-cn.png",
+
   "help.center.text": "帮助中心",
   "help.center.url": "https://docs.like.co/v/zh",
+
+  "referral-tx.title": "恭喜，你已获得推荐奖赏",
+  "referral-tx.description.referee": "你因 <span>user</span> 的推荐下载了 Liker Land。<br></br>你们两位各获得 {amount} LikeCoin 奖赏。",
+  "referral-tx.description.referrer": "<span>user</span> 已因你的推荐下载了 Liker Land。<br></br>你们两位各获得 {amount} LikeCoin 奖赏。",
+  "referral-tx.check-wallet": "奖金已转帐至你的钱包，请用 <a>Liker Land app</a> 查看。",
+
   "unsubscribe.text": "取消订阅"
 }

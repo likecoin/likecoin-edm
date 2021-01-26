@@ -1,6 +1,13 @@
 {
   "cta.app.banner.src": "https://static.like.co/edm/banners/app-cta-en.png",
+
   "help.center.text": "Help Center",
   "help.center.url": "https://docs.like.co",
+
+  "referral-tx.title": "Congratulation, you received referral rewards",
+  "referral-tx.description.referee": "You have installed Liker Land app with <span>user</span>'s referral code.<br></br>You both received {amount} LikeCoin as rewards.",
+  "referral-tx.description.referrer": "<span>user</span> has installed Liker Land app because of you.<br></br>You both received {amount} LikeCoin as rewards.",
+  "referral-tx.check-wallet": "The rewards had been transferred to your wallet, you may open the <a>Liker Land app</a> and check.",
+
   "unsubscribe.text": "Unsubscribe"
 }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Templates</h1>
+
+    <h2>Basic</h2>
+    <ul>
+      <li>
+        <a href="/basic?title=Lorem Ipsum&subtitle=Lorem Ipsum&content=<p>Lorem <b>Ipsum</b></p>">
+          Default
+        </a>
+      </li>
+      <li>
+        <a href="/basic/avatar?title=Lorem Ipsum&subtitle=Lorem Ipsum&content=<p>Lorem <b>Ipsum</b></p>&isCivicLiker=true&avatarURL=https://liker.land/logo.png">
+          With avatar
+        </a>
+      </li>
+    </ul>
+
+    <h2>New supporter</h2>
+    <ul>
+      <li>
+        <a href="/new-supporter?title=Lorem Ipsum&content=<p>Lorem <b>Ipsum</b></p>&isCivicLiker=true&avatarURL=https://liker.land/logo.png&billingPlan=USD100/month&amount=20">
+          Default
+        </a>
+      </li>
+    </ul>
+
+    <h2>Referral Tx</h2>
+    <ul>
+      <li>
+        <a href="/referral-tx?receiverLikerID=ngwingtat&refereeLikerID=ngwingtat&refereeDisplayName=Ng Wing Tat&isRefereeCivicLiker=true&refereeAmount=100&referrerLikerID=foundation&referrerDisplayName=Foundation&referrerAvatarSrc=https://liker.land/logo.png&referrerAmount=100">
+          Referee
+        </a>
+      </li>
+      <li>
+        <a href="/referral-tx?receiverLikerID=foundation&refereeLikerID=ngwingtat&refereeDisplayName=Ng Wing Tat&isRefereeCivicLiker=true&refereeAmount=100&referrerLikerID=foundation&referrerDisplayName=Foundation&referrerAvatarSrc=https://liker.land/logo.png&referrerAmount=100">
+          Referrer
+        </a>
+      </li>
+    </ul>
+  
+  </body>
+</html>

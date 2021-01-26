@@ -1,3 +1,4 @@
+import path from 'path';
 import express from 'express';
 
 import {
@@ -28,17 +29,7 @@ app.get('/referral-tx', (req, res) => {
 });
 
 app.get('/', (_, res) => {
-  res.json({
-    templates: [
-      {
-        basic: [
-          'avatar'
-        ]
-      },
-      '/new-supporter',
-      '/referral-tx',
-    ],
-  })
+  res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 app.listen(PORT, () => {

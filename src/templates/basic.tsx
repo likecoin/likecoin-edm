@@ -2,6 +2,7 @@ import * as React from 'react';
 import { MjmlColumn, MjmlText, MjmlSpacer, MjmlImage } from 'mjml-react';
 
 import * as Colors from '../constants/colors';
+import { getAssetPath } from '../utils/url';
 
 import { ContentSection } from '../components/content';
 import { AppCTASection } from '../components/cta-app';
@@ -37,12 +38,12 @@ export const BasicTemplate = ({
         paddingBottom={0}
         paddingLeft={0}
         paddingRight={0}
-        backgroundUrl="https://static.like.co/edm/templates/basic/header-top.jpg"
+        backgroundUrl={getAssetPath('/templates/basic/header-top.jpg')}
       >
         <MjmlColumn width={120} paddingLeft={0} paddingRight={0}>
           {titleTop || (
             <MjmlImage
-              src="https://static.like.co/edm/likecoin-logo.png"
+              src={getAssetPath('/likecoin-logo.png')}
               width={120}
               height={120}
               borderRadius={60}
@@ -51,7 +52,7 @@ export const BasicTemplate = ({
         </MjmlColumn>
       </BasicSection>
       <BasicSection
-        backgroundUrl="https://static.like.co/edm/templates/basic/header-middle.jpg"
+        backgroundUrl={getAssetPath('/templates/basic/header-middle.jpg')}
         paddingTop={16}
         paddingBottom={16}
       >
@@ -79,7 +80,7 @@ export const BasicTemplate = ({
         paddingBottom={0}
         paddingLeft={0}
         paddingRight={0}
-        backgroundUrl="https://static.like.co/edm/templates/basic/header-bottom.jpg"
+        backgroundUrl={getAssetPath('/templates/basic/header-bottom.jpg')}
       >
         <MjmlColumn>
           <MjmlSpacer height={8} />

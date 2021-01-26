@@ -6,6 +6,8 @@ import {
   MjmlText,
 } from 'mjml-react';
 
+import { getAssetPath } from '../utils/url';
+
 import { BasicSection } from './section';
 import { HelpCenterLink } from './help-center-link';
 import { UnsubscribeLink } from './unsubscribe-link';
@@ -31,36 +33,36 @@ export const FooterSection = () => {
         >
           <MjmlSocialElement
             href="https://matters.news/@likecoin"
-            src="https://static.like.co/email/images/links/matters.png"
+            src={getAssetPath('/social-elements/matters.png')}
           >
             {null}
           </MjmlSocialElement>
           <MjmlSocialElement
             href="https://t.me/likecoin"
-            src="https://static.like.co/email/images/links/telegram.png"
+            src={getAssetPath('/social-elements/telegram.png')}
           >
             {null}
           </MjmlSocialElement>
           <MjmlSocialElement
             href="https://medium.com/likecoin"
-            src="https://static.like.co/email/images/links/medium.png"
+            src={getAssetPath('/social-elements/medium.png')}
           >
             {null}
           </MjmlSocialElement>
           <MjmlSocialElement
-            src="https://static.like.co/email/images/links/github.png"
+            src={getAssetPath('/social-elements/github.png')}
             href="https://github.com/likecoin"
           >
             {null}
           </MjmlSocialElement>
           <MjmlSocialElement
-            src="https://static.like.co/email/images/links/twitter.png"
+            src={getAssetPath('/social-elements/twitter.png')}
             href="https://twitter.com/likecoin"
           >
             {null}
           </MjmlSocialElement>
           <MjmlSocialElement
-            src="https://static.like.co/email/images/links/facebook.png"
+            src={getAssetPath('/social-elements/facebook.png')}
             href="https://www.facebook.com/groups/likecoin"
           >
             {null}

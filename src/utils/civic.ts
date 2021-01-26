@@ -1,3 +1,5 @@
+import { getAssetPath } from './url';
+
 export function getPriceEmojiName(price = 0) {
   if (price >= 100) return 'champagne';
   if (price >= 10) return 'cake';
@@ -8,7 +10,7 @@ export function getPriceEmojiName(price = 0) {
 export function getPriceEmojiURL(price = 0) {
   const name = getPriceEmojiName(price);
   if (name) {
-    return `https://static.like.co/edm/emoji/${name}.png`;
+    return getAssetPath(`/emoji/${name}.png`);
   }
   return '';
 }

@@ -2,6 +2,7 @@ import * as React from 'react';
 import { MjmlRaw } from 'mjml-react';
 
 import { DEFAULT_AVATAR_URL } from '../constants';
+import { getAssetPath } from '../utils/url';
 
 import { Link } from './link';
 
@@ -29,8 +30,9 @@ export const Avatar = (props: AvatarProps) => {
           padding: size * 0.08,
           ...(isCivicLiker
             ? {
-                backgroundImage:
-                  'url(https://static.like.co/avatar/halo/civic-liker.png)',
+                backgroundImage: `url(${getAssetPath(
+                  '/avatar/halo/civic-liker.png'
+                )})`,
                 backgroundRepeat: 'no-repeat',
                 backgroundPosition: 'center',
                 backgroundSize: 'contain',

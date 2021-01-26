@@ -1,6 +1,8 @@
 import * as React from 'react';
 import { MjmlColumn, MjmlImage } from 'mjml-react';
 
+import { getAssetPath } from '../utils/url';
+
 import { BasicSection } from './section';
 
 export const HeaderSection = () => {
@@ -15,7 +17,7 @@ export const HeaderSection = () => {
         <MjmlImage
           align="left"
           width={90}
-          src="https://static.like.co/edm/liker-land-logo.png"
+          src={getAssetPath('/liker-land-logo.png')}
           href="https://liker.land"
         />
       </MjmlColumn>

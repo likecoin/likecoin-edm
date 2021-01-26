@@ -8,29 +8,19 @@ import {
   MjmlSocialElement,
 } from 'mjml-react';
 
-import { wrapUtm } from '../utils/url';
+import { getAssetPath, wrapUtm } from '../utils/url';
+
 import { BasicSection } from './section';
 
 const GET_APP_URL = wrapUtm('https://likecoin.page.link/likerland');
 
 export const AppCTASection = () => {
   const intl = useIntl();
+  const bannerSrc = getAssetPath(`/banners/cta-app/${intl.locale}.png`);
   return (
-    <BasicSection
-      paddingLeft={16}
-      paddingRight={16}
-      paddingTop={32}
-      paddingBottom={32}
-    >
+    <BasicSection paddingLeft={16} paddingRight={16}>
       <MjmlColumn>
-        <MjmlImage
-          src={intl.formatMessage({
-            id: 'cta.app.banner.src',
-            description: 'The URL of the CTA banner',
-          })}
-          width={400}
-          alt="Liker Land App"
-        />
+        <MjmlImage src={bannerSrc} width={400} alt="Liker Land App" />
         <MjmlSocial
           mode="horizontal"
           innerPadding="8px"
@@ -40,7 +30,7 @@ export const AppCTASection = () => {
           <MjmlSocialElement
             iconSize="106px"
             iconHeight="35px"
-            src="https://static.like.co/edm/badges/app-store.png"
+            src={getAssetPath('/badges/app-store.png')}
             href={GET_APP_URL}
           >
             {null}
@@ -48,7 +38,7 @@ export const AppCTASection = () => {
           <MjmlSocialElement
             iconSize="119px"
             iconHeight="35px"
-            src="https://static.like.co/edm/badges/google-play.png"
+            src={getAssetPath('/badges/google-play.png')}
             href={GET_APP_URL}
           >
             {null}

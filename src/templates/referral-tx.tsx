@@ -3,6 +3,7 @@ import { MjmlColumn, MjmlText, MjmlImage } from 'mjml-react';
 import { FormattedMessage } from 'react-intl';
 
 import * as Colors from '../constants/colors';
+import { getAssetPath } from '../utils/url';
 
 import { Avatar } from '../components/avatar';
 import { AppCTASection } from '../components/cta-app';
@@ -89,7 +90,7 @@ export const ReferralTxTemplate = ({
             <FormattedMessage id="referral-tx.title" />
           </MjmlText>
           <MjmlImage
-            src="https://static.like.co/email/images/reward_100.png"
+            src={getAssetPath('/banners/referral-rewards.png')}
             width={288}
           />
           <MjmlText

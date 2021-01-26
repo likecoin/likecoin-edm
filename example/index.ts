@@ -12,6 +12,8 @@ const PORT = process.env.PORT || 3000;
 
 const app = express();
 
+app.use('/static', express.static(path.join(__dirname, '../src/assets')));
+
 app.get('/basic', (req, res) => {
   res.send(getBasicTemplate(req.query));
 });

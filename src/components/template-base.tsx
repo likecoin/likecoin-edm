@@ -9,6 +9,7 @@ import {
 } from 'mjml-react';
 
 import * as Colors from '../constants/colors';
+import { getAssetPath } from '../utils/url';
 
 import { IntlProvider } from '../i18n';
 
@@ -19,9 +20,7 @@ function getThemeConfig(opts: { isExtruded?: boolean } = {}) {
     templateWidth,
     sectionWidth: templateWidth,
     sectionPaddingX: isExtruded ? 40 : 32,
-    sectionBgURL: isExtruded
-      ? 'https://static.like.co/edm/templates/basic/bg.jpg'
-      : '',
+    sectionBgURL: isExtruded ? getAssetPath('/templates/basic/bg.jpg') : '',
     sectionBgColor: isExtruded ? 'white' : Colors.GreyF7,
   };
 }

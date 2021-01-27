@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { MjmlRaw } from 'mjml-react';
 
-import { DEFAULT_AVATAR_URL } from '../constants';
+import { DEFAULT_AVATAR_URL, LIKER_LAND_ROOT } from '../constants';
 import { getAssetPath } from '../utils/url';
 
 import { Link } from './link';
@@ -11,6 +11,7 @@ export interface AvatarProps {
   isCivicLiker?: boolean;
   src?: string;
   size?: number;
+  align?: 'left' | 'center' | 'right';
 }
 
 export const Avatar = (props: AvatarProps) => {
@@ -19,14 +20,15 @@ export const Avatar = (props: AvatarProps) => {
     isCivicLiker = false,
     src = DEFAULT_AVATAR_URL,
     size = 40,
+    align = 'center',
   } = props;
   return (
     <MjmlRaw>
       <Link
-        href={`https://liker.land/${likerID}`}
+        href={`${LIKER_LAND_ROOT}/${likerID}`}
         style={{
           display: 'block',
-          textAlign: 'center',
+          textAlign: align,
           padding: size * 0.08,
           ...(isCivicLiker
             ? {
@@ -34,7 +36,8 @@ export const Avatar = (props: AvatarProps) => {
                   '/avatar/halo/civic-liker.png'
                 )})`,
                 backgroundRepeat: 'no-repeat',
-                backgroundPosition: 'center',
+                backgroundPositionX: align,
+                backgroundPositionY: 'center',
                 backgroundSize: 'contain',
               }
             : {}),

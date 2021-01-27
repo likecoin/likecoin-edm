@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { MjmlColumn, MjmlImage } from 'mjml-react';
 
+import { LIKER_LAND_ROOT } from '../constants';
 import { getAssetPath } from '../utils/url';
 
 import { BasicSection } from './section';
@@ -18,7 +19,7 @@ export const HeaderSection = () => {
           align="left"
           width={90}
           src={getAssetPath('/liker-land-logo.png')}
-          href="https://liker.land"
+          href={LIKER_LAND_ROOT}
         />
       </MjmlColumn>
     </BasicSection>

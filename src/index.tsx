@@ -14,6 +14,10 @@ import {
   ReferralTxTemplate,
   ReferralTxTemplateProps,
 } from './templates/referral-tx';
+import {
+  MonthlyReportWriterTemplate,
+  MonthlyReportWriterTemplateProps,
+} from './templates/reports/monthly/writer';
 
 export const getBasicTemplate = (props: BasicTemplateProps) => {
   const { html } = render(<BasicTemplate {...props} />);
@@ -34,5 +38,12 @@ export const getNewSupporterTemplate = (props: NewSupporterTemplateProps) => {
 
 export const getReferralTxTemplate = (props: ReferralTxTemplateProps) => {
   const { html } = render(<ReferralTxTemplate {...props} />);
+  return html;
+};
+
+export const getMonthlyReportWriterTemplate = (
+  props: MonthlyReportWriterTemplateProps
+) => {
+  const { html } = render(<MonthlyReportWriterTemplate {...props} />);
   return html;
 };

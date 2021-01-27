@@ -4,3 +4,5 @@ export const ASSETS_ROOT =
     : 'http://localhost:3000/static';
 
 export const DEFAULT_AVATAR_URL = `${ASSETS_ROOT}/default-avatar.jpg`;
+
+export const LIKER_LAND_ROOT = 'https://liker.land';

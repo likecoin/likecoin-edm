@@ -1,6 +1,21 @@
 {
+  "cta.sponsor-link.banner.alt": "Copy and share your sponsor link",
+  "cta.sponsor-link.hint": "Build your fans group by this link. <a>Learn more</a>",
+
   "help.center.text": "Help Center",
   "help.center.url": "https://docs.like.co",
+
+  "report.monthly.writer.title": "Monthly LikeCoin Reward Summary",
+  "report.monthly.writer.total": "Reward Received",
+  "report.monthly.writer.subscription": "Civic Liker Subscription",
+  "report.monthly.writer.subscribers": "Monthly subscribers",
+  "report.monthly.writer.subscribers.legacy": "Other Civic Likers",
+  "report.monthly.writer.subscribers.legacy.hint": "(legacy)",
+  "report.monthly.writer.view-supporters": "View your supporters",
+  "report.monthly.writer.fund": "Creators Fund",
+  "report.monthly.writer.likers": "Likers",
+  "report.monthly.writer.likers.civic": "Civic Likers",
+  "report.monthly.writer.top-contents": "Your top works",
 
   "referral-tx.title": "Congratulation, you received referral rewards",
   "referral-tx.description.referee": "You have installed Liker Land app with <span>user</span>'s referral code.<br></br>You both received {amount} LikeCoin as rewards.",

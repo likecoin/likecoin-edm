@@ -4,6 +4,7 @@ import express from 'express';
 import {
   getBasicTemplate,
   getBasicWithAvatarTemplate,
+  getMonthlyReportWriterTemplate,
   getNewSupporterTemplate,
   getReferralTxTemplate,
 } from '../dist';
@@ -28,6 +29,10 @@ app.get('/new-supporter', (req, res) => {
 
 app.get('/referral-tx', (req, res) => {
   res.send(getReferralTxTemplate(req.query));
+});
+
+app.get('/monthly-reports/writer', (req, res) => {
+  res.send(getMonthlyReportWriterTemplate(req.query));
 });
 
 app.get('/', (_, res) => {

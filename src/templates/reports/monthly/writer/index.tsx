@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { FormattedDate, FormattedMessage, FormattedNumber } from 'react-intl';
+import { FormattedMessage, FormattedNumber } from 'react-intl';
 import {
   MjmlColumn,
   MjmlDivider,
@@ -11,6 +11,8 @@ import {
 
 import { LIKER_LAND_ROOT } from '../../../../constants';
 import * as Colors from '../../../../constants/colors';
+
+import { parseArray } from '../../../../utils';
 import { getAssetPath } from '../../../../utils/url';
 
 import { SponsorLinkCTASection } from '../../../../components/cta-sponsor-link';
@@ -18,58 +20,17 @@ import { FooterSection } from '../../../../components/footer';
 import { HeaderSection } from '../../../../components/header';
 import { Link } from '../../../../components/link';
 import { TemplateBase } from '../../../../components/template-base';
-import {
-  BasicSection,
-  HeadingsWithAvatarSection,
-} from '../../../../components/section';
+import { BasicSection } from '../../../../components/sections/basic';
+import { MonthlyReportHeaderSection } from '../../../../components/sections/monthly-report-header';
 import { SignedNumber } from '../../../../components/signed-number';
 
-import {
-  MonthlyReportWriterTopContent,
-  WriterTopContentRow,
-} from './top-content-row';
+import { WriterTopContentRow } from './top-content-row';
 import { RewardsDetailsColumn } from './rewards-details-column';
 
-function parseTopContents(contents?: MonthlyReportWriterTopContent[] | string) {
-  let topContents: MonthlyReportWriterTopContent[] = [];
-  try {
-    if (typeof contents === 'string') {
-      topContents = JSON.parse(contents);
-    }
-    if (!Array.isArray(topContents)) {
-      throw new Error(
-        'The given monthly report writer top contents is not array.'
-      );
-    }
-  } catch {
-    topContents = [];
-  }
-  return topContents;
-}
-
-export interface MonthlyReportWriterTemplateProps {
-  language?: string;
-  likerID?: string;
-  avatarSrc?: string;
-  isCivicLiker?: boolean;
-  timestamp?: number;
-  totalRewardsInLIKE?: number;
-  totalRewardsInUSD?: number;
-  totalRewardsDiffPercentStr?: string;
-  subscriptionAmountInLIKE?: number;
-  subscriptionAmountInUSD?: number;
-  subscribersCount?: number;
-  subscribersDiff?: number;
-  legacySubscribersCount?: number;
-  legacySubscribersDiff?: number;
-  fundAmountInLIKE?: number;
-  fundAmountInUSD?: number;
-  civicLikersCount?: number;
-  civicLikersDiff?: number;
-  likersCount?: number;
-  likersDiff?: number;
-  topContents?: MonthlyReportWriterTopContent[] | string;
-}
+import {
+  MonthlyReportWriterTemplateProps,
+  MonthlyReportWriterTopContent,
+} from './types';
 
 export const MonthlyReportWriterTemplate = ({
   language,
@@ -94,22 +55,18 @@ export const MonthlyReportWriterTemplate = ({
   likersDiff = 0,
   ...props
 }: MonthlyReportWriterTemplateProps) => {
-  const topContents = parseTopContents(props.topContents);
+  const topContents = parseArray<MonthlyReportWriterTopContent>(
+    props.topContents
+  );
   return (
     <TemplateBase language={language}>
       <HeaderSection />
 
-      <HeadingsWithAvatarSection
+      <MonthlyReportHeaderSection
         avatarSrc={avatarSrc}
         isCivicLiker={isCivicLiker}
         title={<FormattedMessage id="report.monthly.writer.title" />}
-        subtitle={
-          <FormattedDate
-            value={new Date(Number(timestamp))}
-            year="numeric"
-            month="short"
-          />
-        }
+        timestamp={timestamp}
       />
 
       <BasicSection paddingTop={48} paddingBottom={24} backgroundColor="white">
@@ -165,7 +122,7 @@ export const MonthlyReportWriterTemplate = ({
         </MjmlColumn>
       </MjmlSection>
 
-      <BasicSection backgroundColor="white">
+      <BasicSection paddingBottom={0} backgroundColor="white">
         <RewardsDetailsColumn
           title={<FormattedMessage id="report.monthly.writer.subscription" />}
           amountInLIKE={subscriptionAmountInLIKE}
@@ -229,6 +186,8 @@ export const MonthlyReportWriterTemplate = ({
         />
       </BasicSection>
 
+      <SponsorLinkCTASection likerID={likerID} />
+
       <BasicSection>
         <MjmlColumn>
           <MjmlText paddingBottom={16} fontSize={16} fontWeight={600}>
@@ -237,7 +196,7 @@ export const MonthlyReportWriterTemplate = ({
           <MjmlTable cellpadding="8px">
             {topContents.map((content, i) => (
               <WriterTopContentRow
-                key={content.url}
+                key={i}
                 isFirstChild={i === 0}
                 {...content}
               />
@@ -245,8 +204,6 @@ export const MonthlyReportWriterTemplate = ({
           </MjmlTable>
         </MjmlColumn>
       </BasicSection>
-
-      <SponsorLinkCTASection likerID={likerID} />
 
       <FooterSection />
     </TemplateBase>

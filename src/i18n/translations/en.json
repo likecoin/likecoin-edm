@@ -2,8 +2,27 @@
   "cta.sponsor-link.banner.alt": "Copy and share your sponsor link",
   "cta.sponsor-link.hint": "Build your fans group by this link. <a>Learn more</a>",
 
+  "cta.likecoin-button": "Click the LikeCoin button in any articles, distribute Creators Fund to reward the creators.",
+
   "help.center.text": "Help Center",
   "help.center.url": "https://docs.like.co",
+
+  "date.month": "Month",
+
+  "report.monthly.header.date": "{month} {year}",
+
+  "report.monthly.civic-liker.title": "Civic Liker Monthly Report",
+  "report.monthly.civic-liker.subscribers.description": "You are supporting the follow creators by monthly subscription. Your billing date is {day} of each month. Click <a>here</a> to manage your subscription",
+  "report.monthly.civic-liker.subscribers.title": "Subscribing creators",
+  "report.monthly.civic-liker.supported.contents.description": "The creators got extra bonus from the Creators Fund because of your likes. You can check the details in <a>Liker Land app.</a>",
+  "report.monthly.civic-liker.supported.contents.title": "Contents you have supported",
+  "report.monthly.civic-liker.supported.contents": "Contents",
+  "report.monthly.civic-liker.supported.creators.fund": "by Creators Fund",
+  "report.monthly.civic-liker.supported.creators.subscription": "by Civic Liker subscription",
+  "report.monthly.civic-liker.supported.creators.title": "Top creators you have supported",
+  "report.monthly.civic-liker.supported.creators": "Creators",
+  "report.monthly.civic-liker.supported.v1": "You supported",
+  "report.monthly.civic-liker.supported.v2": "Number of creators supported",
 
   "report.monthly.writer.title": "Monthly LikeCoin Reward Summary",
   "report.monthly.writer.total": "Reward Received",

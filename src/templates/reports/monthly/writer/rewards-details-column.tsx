@@ -5,21 +5,9 @@ import { FormattedNumber } from 'react-intl';
 import * as Colors from '../../../../constants/colors';
 
 import { SignedNumber } from '../../../../components/signed-number';
+import { TableRow } from '../../../../components/table-row';
 
-interface RewardsDetailsDataRow {
-  label?: React.ReactNode;
-  hint?: React.ReactNode;
-  value?: number;
-  valueUnit?: React.ReactNode;
-  diff?: number;
-  diffUnit?: React.ReactNode;
-}
-export interface RewardsDetailsColumnProps extends React.PropsWithChildren<{}> {
-  title?: React.ReactNode;
-  amountInLIKE?: number;
-  amountInUSD?: number;
-  dataRows?: RewardsDetailsDataRow[];
-}
+import { RewardsDetailsColumnProps } from './types';
 
 export const RewardsDetailsColumn = (props: RewardsDetailsColumnProps) => {
   const {
@@ -53,12 +41,10 @@ export const RewardsDetailsColumn = (props: RewardsDetailsColumnProps) => {
       </MjmlText>
       <MjmlTable cellpadding="8px">
         {dataRows.map((data, i) => (
-          <tr
+          <TableRow
             key={i}
-            style={{
-              verticalAlign: 'top',
-              borderTop: i > 0 ? `1px solid ${Colors.GreyD8}` : 'none',
-            }}
+            verticalAlign="top"
+            isLastChild={i === dataRows.length - 1}
           >
             <td>
               {data.label}
@@ -76,7 +62,7 @@ export const RewardsDetailsColumn = (props: RewardsDetailsColumnProps) => {
                 suffix={`${data.diffUnit || ''})`}
               />
             </td>
-          </tr>
+          </TableRow>
         ))}
       </MjmlTable>
       {children}

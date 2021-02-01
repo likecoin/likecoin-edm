@@ -10,7 +10,7 @@ import { AppCTASection } from '../components/cta-app';
 import { FooterSection } from '../components/footer';
 import { HeaderSection } from '../components/header';
 import { Link } from '../components/link';
-import { BasicSection } from '../components/section';
+import { BasicSection } from '../components/sections/basic';
 import { TemplateBase } from '../components/template-base';
 
 interface ReferralUserColumnProps {

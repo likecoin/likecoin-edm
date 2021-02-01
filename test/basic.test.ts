@@ -1,6 +1,6 @@
 import { getBasicWithAvatarTemplate } from '../src';
 
-import { SAMPLE_IMAGE_URL, SAMPLE_TEXT } from './stub';
+import { SAMPLE_IMAGE_URL, SAMPLE_TEXT } from './stub/samples';
 
 describe('Render basic templates', () => {
   it('Default', () => {

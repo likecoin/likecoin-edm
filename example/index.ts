@@ -4,10 +4,20 @@ import express from 'express';
 import {
   getBasicTemplate,
   getBasicWithAvatarTemplate,
+  getMonthlyReportCivicLikerV1Template,
+  getMonthlyReportCivicLikerV2Template,
   getMonthlyReportWriterTemplate,
   getNewSupporterTemplate,
   getReferralTxTemplate,
 } from '../dist';
+
+import {
+  MonthlyReportCivicLikerV1SampleData,
+  MonthlyReportCivicLikerV2SampleData,
+} from './data/civic-liker';
+import {
+  MonthlyReportWriterTemplateSampleData,
+} from './data/writer';
 
 const PORT = process.env.PORT || 3000;
 
@@ -32,7 +42,24 @@ app.get('/referral-tx', (req, res) => {
 });
 
 app.get('/monthly-reports/writer', (req, res) => {
-  res.send(getMonthlyReportWriterTemplate(req.query));
+  res.send(getMonthlyReportWriterTemplate({
+    ...MonthlyReportWriterTemplateSampleData,
+    ...req.query,
+  }));
+});
+
+app.get('/monthly-reports/civic-liker/v1', (req, res ) => {
+  res.send(getMonthlyReportCivicLikerV1Template({
+    ...MonthlyReportCivicLikerV1SampleData,
+    ...req.query,
+  }));
+});
+
+app.get('/monthly-reports/civic-liker/v2', (req, res) => {
+  res.send(getMonthlyReportCivicLikerV2Template({
+    ...MonthlyReportCivicLikerV2SampleData,
+    ...req.query,
+  }));
 });
 
 app.get('/', (_, res) => {

@@ -1,6 +1,10 @@
 import { getNewSupporterTemplate } from '../src';
 
-import { SAMPLE_IMAGE_URL, SAMPLE_RICH_TEXT, SAMPLE_TEXT } from './stub';
+import {
+  SAMPLE_IMAGE_URL,
+  SAMPLE_RICH_TEXT,
+  SAMPLE_TEXT,
+} from './stub/samples';
 
 describe('Render new supporter templates', () => {
   it('Default', () => {

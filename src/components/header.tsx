@@ -4,7 +4,7 @@ import { MjmlColumn, MjmlImage } from 'mjml-react';
 import { LIKER_LAND_ROOT } from '../constants';
 import { getAssetPath } from '../utils/url';
 
-import { BasicSection } from './section';
+import { BasicSection } from './sections/basic';
 
 export const HeaderSection = () => {
   return (

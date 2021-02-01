@@ -1,6 +1,6 @@
 import { getReferralTxTemplate } from '../src';
 
-import { SAMPLE_IMAGE_URL } from './stub';
+import { SAMPLE_IMAGE_URL } from './stub/samples';
 
 const REFERRAL_PARAMS = {
   refereeLikerID: 'ngwingtat',

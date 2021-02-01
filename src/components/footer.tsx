@@ -8,7 +8,7 @@ import {
 
 import { getAssetPath } from '../utils/url';
 
-import { BasicSection } from './section';
+import { BasicSection } from './sections/basic';
 import { HelpCenterLink } from './help-center-link';
 import { UnsubscribeLink } from './unsubscribe-link';
 

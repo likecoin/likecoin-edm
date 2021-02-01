@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { MjmlColumn, MjmlText } from 'mjml-react';
 
-import { BasicSection } from './section';
+import { BasicSection } from './sections/basic';
 
 export const ContentSection = ({ content }: { content?: string }) => {
   return (

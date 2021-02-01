@@ -8,6 +8,7 @@ import { Link } from './link';
 
 export interface AvatarProps {
   likerID?: string;
+  displayName?: string;
   isCivicLiker?: boolean;
   src?: string;
   size?: number;
@@ -17,6 +18,7 @@ export interface AvatarProps {
 export const Avatar = (props: AvatarProps) => {
   const {
     likerID,
+    displayName = '',
     isCivicLiker = false,
     src = DEFAULT_AVATAR_URL,
     size = 40,
@@ -30,6 +32,7 @@ export const Avatar = (props: AvatarProps) => {
           display: 'block',
           textAlign: align,
           padding: size * 0.08,
+          lineHeight: 1,
           ...(isCivicLiker
             ? {
                 backgroundImage: `url(${getAssetPath(
@@ -45,7 +48,7 @@ export const Avatar = (props: AvatarProps) => {
       >
         <img
           src={src}
-          alt=""
+          alt={displayName || likerID}
           style={{
             width: size,
             height: size,

@@ -2,8 +2,25 @@
   "cta.sponsor-link.banner.alt": "复制及分享你的赞助链结",
   "cta.sponsor-link.hint": "用这条链结建立你的粉丝团。<a>详情</a>",
 
+  "cta.likecoin-button": "在文章中点击 LikeCoin button，可分配创作基金，额外奖励作者。",
+
   "help.center.text": "帮助中心",
   "help.center.url": "https://docs.like.co/v/zh",
+
+  "report.monthly.header.date": "{month}月 {year}",
+
+  "report.monthly.civic-liker.title": "赞赏公民每月报告",
+  "report.monthly.civic-liker.subscribers.description": "你正在按月支持以下作者，扣款日期为每月 {day} 日 。按<a>此</a>管理订阅选项",
+  "report.monthly.civic-liker.subscribers.title": "已订阅的作者",
+  "report.monthly.civic-liker.supported.contents.description": "作者因你的按赞，获得创作基金的奖励。详细赞赏记录可于 <a>Liker Land 手机应用程式</a>查阅。",
+  "report.monthly.civic-liker.supported.contents.title": "你赞赏了的文章",
+  "report.monthly.civic-liker.supported.contents": "作品",
+  "report.monthly.civic-liker.supported.creators.fund": "按赞分配创作基金",
+  "report.monthly.civic-liker.supported.creators.subscription": "赞赏公民订阅",
+  "report.monthly.civic-liker.supported.creators.title": "首几位你支持了的作者",
+  "report.monthly.civic-liker.supported.creators": "创作者",
+  "report.monthly.civic-liker.supported.v1": "你支持了",
+  "report.monthly.civic-liker.supported.v2": "已支持作者人数",
 
   "report.monthly.writer.title": "每月赞赏收入报告",
   "report.monthly.writer.total": "所获回馈",

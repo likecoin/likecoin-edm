@@ -6,7 +6,7 @@ import { LIKER_LAND_ROOT } from '../constants';
 import * as Colors from '../constants/colors';
 import { getAssetPath } from '../utils/url';
 
-import { BasicSection } from './section';
+import { BasicSection } from './sections/basic';
 import { Link } from './link';
 
 export interface SponsorLinkCTASectionProps {
@@ -20,7 +20,7 @@ export const SponsorLinkCTASection = (props: SponsorLinkCTASectionProps) => {
     `/banners/cta-sponsor-link/${intl.locale}.png`
   );
   return (
-    <BasicSection paddingBottom={8} backgroundColor="white">
+    <BasicSection backgroundColor="white">
       <MjmlColumn>
         <MjmlImage
           src={bannerSrc}

@@ -8,7 +8,7 @@ import { ContentSection } from '../components/content';
 import { AppCTASection } from '../components/cta-app';
 import { FooterSection } from '../components/footer';
 import { HeaderSection } from '../components/header';
-import { BasicSection } from '../components/section';
+import { BasicSection } from '../components/sections/basic';
 import { TemplateBase } from '../components/template-base';
 
 export interface BasicTemplateProps {

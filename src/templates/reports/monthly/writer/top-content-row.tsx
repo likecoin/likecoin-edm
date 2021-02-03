@@ -34,7 +34,7 @@ export const WriterTopContentRow = (props: WriterTopContentRowProps) => {
           {title}
         </Link>
       </td>
-      <td style={{ maxWidth: 100, textAlign: 'right' }}>
+      <td style={{ wordBreak: 'keep-all', textAlign: 'right' }}>
         <div style={{ color: Colors.LikeGreen, fontSize: 16, fontWeight: 600 }}>
           <FormattedNumber value={likesCount} />
         </div>

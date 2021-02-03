@@ -17,7 +17,7 @@ export interface AvatarProps {
 
 export const Avatar = (props: AvatarProps) => {
   const {
-    likerID,
+    likerID = '',
     displayName = '',
     isCivicLiker = false,
     src = DEFAULT_AVATAR_URL,

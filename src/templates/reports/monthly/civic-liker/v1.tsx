@@ -49,7 +49,7 @@ export const MonthlyReportCivicLikerV1Template = (
 
       <TwoNumbersSection
         title={
-          <FormattedMessage id="report.monthly.civic-liker.supported.v2" />
+          <FormattedMessage id="report.monthly.civic-liker.supported.v1" />
         }
         value1={creatorsCount}
         label1={

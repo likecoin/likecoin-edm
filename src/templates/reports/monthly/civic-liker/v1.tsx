@@ -70,7 +70,7 @@ export const MonthlyReportCivicLikerV1Template = (
           </MjmlText>
           <MjmlTable cellpadding="8px">
             {supportedCreators.map((creator, i) => (
-              <TableRow key={i} isFirstChild={i === 0}>
+              <TableRow key={creator.likerID} isFirstChild={i === 0}>
                 <td style={{ width: 48 }}>
                   <Avatar
                     src={creator.avatarSrc}

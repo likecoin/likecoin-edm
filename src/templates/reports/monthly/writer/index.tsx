@@ -196,7 +196,7 @@ export const MonthlyReportWriterTemplate = ({
           <MjmlTable cellpadding="8px">
             {topContents.map((content, i) => (
               <WriterTopContentRow
-                key={i}
+                key={content.url}
                 isFirstChild={i === 0}
                 {...content}
               />

@@ -81,7 +81,7 @@ export const MonthlyReportCivicLikerV2Template = (
           </MjmlText>
           <MjmlTable cellpadding="8px">
             {subscribingCreators.map((creator, i) => (
-              <TableRow key={i} isFirstChild={i === 0}>
+              <TableRow key={creator.likerID} isFirstChild={i === 0}>
                 <td width={48}>
                   <Avatar
                     src={creator.avatarSrc}
@@ -138,7 +138,7 @@ export const MonthlyReportCivicLikerV2Template = (
           </MjmlText>
           <MjmlTable cellpadding="8px">
             {supportedContents.map((content, i) => (
-              <TableRow key={i} isFirstChild={i === 0}>
+              <TableRow key={content.url} isFirstChild={i === 0}>
                 <td style={{ width: 64 }}>
                   <Link href={content.url}>
                     <img

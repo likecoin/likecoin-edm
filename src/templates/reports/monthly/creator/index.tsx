@@ -14,7 +14,7 @@ import { LIKER_LAND_ROOT } from '../../../../constants';
 import * as Colors from '../../../../constants/colors';
 
 import { parseArray } from '../../../../utils';
-import { getAssetPath } from '../../../../utils/url';
+import { getAssetPath, wrapUtm } from '../../../../utils/url';
 
 import { SponsorLinkCTASection } from '../../../../components/cta-sponsor-link';
 import { FooterSection } from '../../../../components/footer';
@@ -158,7 +158,7 @@ export const MonthlyReportCreatorTemplate = ({
             fontWeight={600}
             align="center"
           >
-            <Link href={`${LIKER_LAND_ROOT}/settings/support`}>
+            <Link href={wrapUtm(`${LIKER_LAND_ROOT}/settings/support`)}>
               <FormattedMessage id="report.monthly.creator.view-supporters" />
             </Link>
           </MjmlText>

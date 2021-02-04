@@ -172,7 +172,7 @@ export const MonthlyReportCivicLikerV2Template = (
                 </td>
                 <td style={{ maxWidth: 100 }}>
                   <Link
-                    href={`${LIKER_LAND_ROOT}/${content.likerID}`}
+                    href={wrapUtm(`${LIKER_LAND_ROOT}/${content.likerID}`)}
                     style={{ textDecoration: 'none', color: Colors.Grey4A }}
                   >
                     {content.displayName}

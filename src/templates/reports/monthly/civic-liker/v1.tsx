@@ -5,6 +5,9 @@ import { FormattedMessage } from 'react-intl';
 import { LIKER_LAND_ROOT } from '../../../../constants';
 import * as Colors from '../../../../constants/colors';
 
+import { parseArray } from '../../../../utils';
+import { wrapUtm } from '../../../../utils/url';
+
 import { Avatar } from '../../../../components/avatar';
 import { LikeCoinButtonCTA } from '../../../../components/cta-likecoin-button';
 import { FooterSection } from '../../../../components/footer';
@@ -15,7 +18,6 @@ import { MonthlyReportHeaderSection } from '../../../../components/sections/mont
 import { TableRow } from '../../../../components/table-row';
 import { TwoNumbersSection } from '../../../../components/sections/two-numbers';
 import { TemplateBase } from '../../../../components/template-base';
-import { parseArray } from '../../../../utils';
 
 import {
   MonthlyReportCivicLikerV1TemplateProps,
@@ -82,7 +84,7 @@ export const MonthlyReportCivicLikerV1Template = (
                 </td>
                 <td>
                   <Link
-                    href={`${LIKER_LAND_ROOT}/${creator.likerID}`}
+                    href={wrapUtm(`${LIKER_LAND_ROOT}/${creator.likerID}`)}
                     style={{ textDecoration: 'none', color: Colors.Grey4A }}
                   >
                     {creator.displayName}

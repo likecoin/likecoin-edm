@@ -3,7 +3,7 @@ import { MjmlColumn, MjmlText, MjmlImage } from 'mjml-react';
 import { FormattedMessage } from 'react-intl';
 
 import * as Colors from '../constants/colors';
-import { getAssetPath } from '../utils/url';
+import { getAssetPath, wrapUtm } from '../utils/url';
 
 import { Avatar } from '../components/avatar';
 import { AppCTASection } from '../components/cta-app';
@@ -141,7 +141,7 @@ export const ReferralTxTemplate = ({
               values={{
                 a: (title: string) => (
                   <Link
-                    href="https://like.co/in/getapp"
+                    href={wrapUtm('https://like.co/in/getapp')}
                     style={{ textDecoration: 'underline' }}
                   >
                     {title}

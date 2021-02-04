@@ -6,6 +6,7 @@ import {
   MjmlAttributes,
   MjmlAll,
   MjmlText,
+  MjmlBreakpoint,
 } from 'mjml-react';
 
 import * as Colors from '../constants/colors';
@@ -51,6 +52,7 @@ export const TemplateBase = (props: TemplateBaseProps) => {
               />
               <MjmlText lineHeight="1.5" />
             </MjmlAttributes>
+            <MjmlBreakpoint width={600} />
           </MjmlHead>
           <MjmlBody backgroundColor="white" width={theme.templateWidth}>
             {props.children}

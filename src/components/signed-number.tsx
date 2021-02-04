@@ -19,7 +19,7 @@ export const SignedNumber = (props: SignedNumberProps) => {
   const color = getNumberColor(numericValue);
   const sign = numericValue > 0 ? '+' : '';
   return (
-    <span style={{ color }}>
+    <span style={{ color, wordBreak: 'keep-all' }}>
       {prefix}
       {sign}
       {numericValue}

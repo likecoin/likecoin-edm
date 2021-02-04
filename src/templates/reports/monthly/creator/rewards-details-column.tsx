@@ -57,7 +57,7 @@ export const MonthlyReportCreatorRewardsDetailsColumn = (
             <td style={{ textAlign: 'right', fontWeight: 600 }}>
               {data.value} {data.valueUnit || ''}
             </td>
-            <td style={{ textAlign: 'right', fontWeight: 600 }}>
+            <td style={{ textAlign: 'right', fontSize: 12 }}>
               <SignedNumber
                 prefix="("
                 value={data.diff}

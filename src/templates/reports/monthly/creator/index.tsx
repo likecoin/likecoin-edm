@@ -3,6 +3,7 @@ import { FormattedMessage, FormattedNumber } from 'react-intl';
 import {
   MjmlColumn,
   MjmlDivider,
+  MjmlGroup,
   MjmlImage,
   MjmlSection,
   MjmlTable,
@@ -79,31 +80,33 @@ export const MonthlyReportCreatorTemplate = ({
         </MjmlColumn>
       </BasicSection>
       <BasicSection paddingY={0} backgroundColor="white">
-        <MjmlColumn width="15%">
-          <MjmlText color="transparent" lineHeight="42px">
-            ({totalRewardsDiffPercentStr})
-          </MjmlText>
-        </MjmlColumn>
-        <MjmlColumn width="70%">
-          <MjmlText
-            fontWeight={600}
-            fontSize={42}
-            lineHeight="42px"
-            align="center"
-            color={Colors.LikeGreen}
-          >
-            <FormattedNumber value={totalRewardsInLIKE} /> LIKE
-          </MjmlText>
-        </MjmlColumn>
-        <MjmlColumn width="15%">
-          <MjmlText lineHeight="42px" align="right">
-            <SignedNumber
-              prefix="("
-              value={totalRewardsDiffPercentStr}
-              suffix="%)"
-            />
-          </MjmlText>
-        </MjmlColumn>
+        <MjmlGroup>
+          <MjmlColumn width="15%">
+            <MjmlText fontSize={12} color="transparent" lineHeight="36px">
+              ({totalRewardsDiffPercentStr})
+            </MjmlText>
+          </MjmlColumn>
+          <MjmlColumn width="70%">
+            <MjmlText
+              fontWeight={600}
+              fontSize={36}
+              lineHeight="36px"
+              align="center"
+              color={Colors.LikeGreen}
+            >
+              <FormattedNumber value={totalRewardsInLIKE} /> LIKE
+            </MjmlText>
+          </MjmlColumn>
+          <MjmlColumn width="15%">
+            <MjmlText fontSize={12} lineHeight="36px" align="right">
+              <SignedNumber
+                prefix="("
+                value={totalRewardsDiffPercentStr}
+                suffix="%)"
+              />
+            </MjmlText>
+          </MjmlColumn>
+        </MjmlGroup>
       </BasicSection>
       <BasicSection paddingTop={0} paddingBottom={48} backgroundColor="white">
         <MjmlColumn>
@@ -124,7 +127,7 @@ export const MonthlyReportCreatorTemplate = ({
         </MjmlColumn>
       </MjmlSection>
 
-      <BasicSection paddingBottom={0} backgroundColor="white">
+      <BasicSection paddingBottom={0} paddingX={8} backgroundColor="white">
         <MonthlyReportCreatorRewardsDetailsColumn
           title={<FormattedMessage id="report.monthly.creator.subscription" />}
           amountInLIKE={subscriptionAmountInLIKE}

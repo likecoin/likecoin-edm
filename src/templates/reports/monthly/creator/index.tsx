@@ -176,14 +176,24 @@ export const MonthlyReportCreatorTemplate = ({
                 <FormattedMessage id="report.monthly.creator.likers.civic" />
               ),
               value: civicLikersCount,
-              valueUnit: 'likes',
+              valueUnit: (
+                <FormattedMessage
+                  id="report.monthly.creator.unit"
+                  values={{ value: civicLikersCount }}
+                />
+              ),
               diff: civicLikersDiff,
               diffUnit: '%',
             },
             {
               label: <FormattedMessage id="report.monthly.creator.likers" />,
               value: likersCount,
-              valueUnit: 'likes',
+              valueUnit: (
+                <FormattedMessage
+                  id="report.monthly.creator.unit"
+                  values={{ value: likersCount }}
+                />
+              ),
               diff: likersDiff,
               diffUnit: '%',
             },

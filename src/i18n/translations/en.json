@@ -34,6 +34,7 @@
   "report.monthly.creator.fund": "Creators Fund",
   "report.monthly.creator.likers": "Likers",
   "report.monthly.creator.likers.civic": "Civic Likers",
+  "report.monthly.creator.unit": "{value, plural, one {like} other {likes}}",
   "report.monthly.creator.top-contents": "Your top works",
 
   "referral-tx.title": "Congratulation, you received referral rewards",

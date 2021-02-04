@@ -12,4 +12,5 @@ export interface MonthlyReportCivicLikerV2TemplateProps extends MonthlyReport {
   billingDateTimestamp?: number;
   subscribingCreators?: SubscribingCreator[];
   supportedContents?: SupportedContent[];
+  supportedContentsRemainsCount?: number;
 }

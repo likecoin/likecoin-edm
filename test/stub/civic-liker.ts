@@ -53,4 +53,5 @@ export const MonthlyReportCivicLikerV2SampleData: MonthlyReportCivicLikerV2Templ
     avatarSrc: SAMPLE_IMAGE_URL,
     isCivicLiker: true,
   }),
+  supportedContentsRemainsCount: 3,
 };

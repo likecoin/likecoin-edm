@@ -15,6 +15,7 @@
   "report.monthly.civic-liker.supported.contents.description": "作者因你的按赞，获得创作基金的奖励。详细赞赏记录可于 <a>Liker Land 手机应用程式</a>查阅。",
   "report.monthly.civic-liker.supported.contents.title": "你赞赏了的文章",
   "report.monthly.civic-liker.supported.contents": "作品",
+  "report.monthly.civic-liker.supported.contents.more": "還有 {count} 作品",
   "report.monthly.civic-liker.supported.creators.fund": "按赞分配创作基金",
   "report.monthly.civic-liker.supported.creators.subscription": "赞赏公民订阅",
   "report.monthly.civic-liker.supported.creators.title": "首几位你支持了的作者",

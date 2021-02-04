@@ -35,6 +35,7 @@ export const MonthlyReportCivicLikerV2Template = (
     billingDateTimestamp,
     subscribingCreators = [],
     supportedContents = [],
+    supportedContentsRemainsCount = 0,
   } = props;
   return (
     <TemplateBase language={language}>
@@ -181,6 +182,19 @@ export const MonthlyReportCivicLikerV2Template = (
               </TableRow>
             ))}
           </MjmlTable>
+          {supportedContentsRemainsCount && (
+            <MjmlText
+              paddingTop={16}
+              color={Colors.Grey9B}
+              fontSize={14}
+              align="center"
+            >
+              <FormattedMessage
+                id="report.monthly.civic-liker.supported.contents.more"
+                values={{ count: supportedContentsRemainsCount }}
+              />
+            </MjmlText>
+          )}
         </MjmlColumn>
       </BasicSection>
 

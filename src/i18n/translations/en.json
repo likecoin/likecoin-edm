@@ -17,6 +17,7 @@
   "report.monthly.civic-liker.supported.contents.description": "The creators got extra bonus from the Creators Fund because of your likes. You can check the details in <a>Liker Land app.</a>",
   "report.monthly.civic-liker.supported.contents.title": "Contents you have supported",
   "report.monthly.civic-liker.supported.contents": "Contents",
+  "report.monthly.civic-liker.supported.contents.more": "and {count} more",
   "report.monthly.civic-liker.supported.creators.fund": "by Creators Fund",
   "report.monthly.civic-liker.supported.creators.subscription": "by Civic Liker subscription",
   "report.monthly.civic-liker.supported.creators.title": "Top creators you have supported",

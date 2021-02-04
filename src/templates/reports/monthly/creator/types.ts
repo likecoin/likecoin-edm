@@ -1,14 +1,11 @@
-import { MonthlyReport } from '../../../../types';
+import { Content, MonthlyReport } from '../../../../types';
 
-export interface MonthlyReportWriterTopContent {
-  title?: string;
-  imageSrc?: string;
-  url?: string;
+export interface MonthlyReportCreatorTopContent extends Content {
   likesCount?: number;
 }
 
-export interface WriterTopContentRowProps
-  extends MonthlyReportWriterTopContent {
+export interface MonthlyReportCreatorTopContentRowProps
+  extends MonthlyReportCreatorTopContent {
   isFirstChild?: boolean;
 }
 
@@ -21,14 +18,15 @@ interface RewardsDetailsDataRow {
   diffUnit?: React.ReactNode;
 }
 
-export interface RewardsDetailsColumnProps extends React.PropsWithChildren<{}> {
+export interface MonthlyReportCreatorRewardsDetailsColumnProps
+  extends React.PropsWithChildren<{}> {
   title?: React.ReactNode;
   amountInLIKE?: number;
   amountInUSD?: number;
   dataRows?: RewardsDetailsDataRow[];
 }
 
-export interface MonthlyReportWriterTemplateProps extends MonthlyReport {
+export interface MonthlyReportCreatorTemplateProps extends MonthlyReport {
   totalRewardsInLIKE?: number;
   totalRewardsInUSD?: number;
   totalRewardsDiffPercentStr?: string;
@@ -44,5 +42,5 @@ export interface MonthlyReportWriterTemplateProps extends MonthlyReport {
   civicLikersDiff?: number;
   likersCount?: number;
   likersDiff?: number;
-  topContents?: MonthlyReportWriterTopContent[] | string;
+  topContents?: MonthlyReportCreatorTopContent[] | string;
 }

@@ -7,9 +7,11 @@ import * as Colors from '../../../../constants/colors';
 import { SignedNumber } from '../../../../components/signed-number';
 import { TableRow } from '../../../../components/table-row';
 
-import { RewardsDetailsColumnProps } from './types';
+import { MonthlyReportCreatorRewardsDetailsColumnProps } from './types';
 
-export const RewardsDetailsColumn = (props: RewardsDetailsColumnProps) => {
+export const MonthlyReportCreatorRewardsDetailsColumn = (
+  props: MonthlyReportCreatorRewardsDetailsColumnProps
+) => {
   const {
     title,
     amountInLIKE = 0,

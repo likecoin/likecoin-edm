@@ -24,15 +24,15 @@ import { BasicSection } from '../../../../components/sections/basic';
 import { MonthlyReportHeaderSection } from '../../../../components/sections/monthly-report-header';
 import { SignedNumber } from '../../../../components/signed-number';
 
-import { WriterTopContentRow } from './top-content-row';
-import { RewardsDetailsColumn } from './rewards-details-column';
+import { MonthlyReportCreatorTopContentRow } from './top-content-row';
+import { MonthlyReportCreatorRewardsDetailsColumn } from './rewards-details-column';
 
 import {
-  MonthlyReportWriterTemplateProps,
-  MonthlyReportWriterTopContent,
+  MonthlyReportCreatorTemplateProps,
+  MonthlyReportCreatorTopContent,
 } from './types';
 
-export const MonthlyReportWriterTemplate = ({
+export const MonthlyReportCreatorTemplate = ({
   language,
   likerID,
   displayName,
@@ -55,8 +55,8 @@ export const MonthlyReportWriterTemplate = ({
   likersCount = 0,
   likersDiff = 0,
   ...props
-}: MonthlyReportWriterTemplateProps) => {
-  const topContents = parseArray<MonthlyReportWriterTopContent>(
+}: MonthlyReportCreatorTemplateProps) => {
+  const topContents = parseArray<MonthlyReportCreatorTopContent>(
     props.topContents
   );
   return (
@@ -67,14 +67,14 @@ export const MonthlyReportWriterTemplate = ({
         avatarSrc={avatarSrc}
         displayName={displayName}
         isCivicLiker={isCivicLiker}
-        title={<FormattedMessage id="report.monthly.writer.title" />}
+        title={<FormattedMessage id="report.monthly.creator.title" />}
         timestamp={timestamp}
       />
 
       <BasicSection paddingTop={48} paddingBottom={24} backgroundColor="white">
         <MjmlColumn>
           <MjmlText fontSize={16} fontWeight={600} align="center">
-            <FormattedMessage id="report.monthly.writer.total" />
+            <FormattedMessage id="report.monthly.creator.total" />
           </MjmlText>
         </MjmlColumn>
       </BasicSection>
@@ -125,24 +125,24 @@ export const MonthlyReportWriterTemplate = ({
       </MjmlSection>
 
       <BasicSection paddingBottom={0} backgroundColor="white">
-        <RewardsDetailsColumn
-          title={<FormattedMessage id="report.monthly.writer.subscription" />}
+        <MonthlyReportCreatorRewardsDetailsColumn
+          title={<FormattedMessage id="report.monthly.creator.subscription" />}
           amountInLIKE={subscriptionAmountInLIKE}
           amountInUSD={subscriptionAmountInUSD}
           dataRows={[
             {
               label: (
-                <FormattedMessage id="report.monthly.writer.subscribers" />
+                <FormattedMessage id="report.monthly.creator.subscribers" />
               ),
               value: subscribersCount,
               diff: subscribersDiff,
             },
             {
               label: (
-                <FormattedMessage id="report.monthly.writer.subscribers.legacy" />
+                <FormattedMessage id="report.monthly.creator.subscribers.legacy" />
               ),
               hint: (
-                <FormattedMessage id="report.monthly.writer.subscribers.legacy.hint" />
+                <FormattedMessage id="report.monthly.creator.subscribers.legacy.hint" />
               ),
               value: legacySubscribersCount,
               diff: legacySubscribersDiff,
@@ -156,21 +156,21 @@ export const MonthlyReportWriterTemplate = ({
             align="center"
           >
             <Link href={`${LIKER_LAND_ROOT}/settings/support`}>
-              <FormattedMessage id="report.monthly.writer.view-supporters" />
+              <FormattedMessage id="report.monthly.creator.view-supporters" />
             </Link>
           </MjmlText>
-        </RewardsDetailsColumn>
+        </MonthlyReportCreatorRewardsDetailsColumn>
         <MjmlColumn width={72} padding={24}>
           <MjmlImage width={24} src={getAssetPath('/icons/plus.png')} />
         </MjmlColumn>
-        <RewardsDetailsColumn
-          title={<FormattedMessage id="report.monthly.writer.fund" />}
+        <MonthlyReportCreatorRewardsDetailsColumn
+          title={<FormattedMessage id="report.monthly.creator.fund" />}
           amountInLIKE={fundAmountInLIKE}
           amountInUSD={fundAmountInUSD}
           dataRows={[
             {
               label: (
-                <FormattedMessage id="report.monthly.writer.likers.civic" />
+                <FormattedMessage id="report.monthly.creator.likers.civic" />
               ),
               value: civicLikersCount,
               valueUnit: 'likes',
@@ -178,7 +178,7 @@ export const MonthlyReportWriterTemplate = ({
               diffUnit: '%',
             },
             {
-              label: <FormattedMessage id="report.monthly.writer.likers" />,
+              label: <FormattedMessage id="report.monthly.creator.likers" />,
               value: likersCount,
               valueUnit: 'likes',
               diff: likersDiff,
@@ -193,11 +193,11 @@ export const MonthlyReportWriterTemplate = ({
       <BasicSection>
         <MjmlColumn>
           <MjmlText paddingBottom={16} fontSize={16} fontWeight={600}>
-            <FormattedMessage id="report.monthly.writer.top-contents" />
+            <FormattedMessage id="report.monthly.creator.top-contents" />
           </MjmlText>
           <MjmlTable cellpadding="8px">
             {topContents.map((content, i) => (
-              <WriterTopContentRow
+              <MonthlyReportCreatorTopContentRow
                 key={content.url}
                 isFirstChild={i === 0}
                 {...content}

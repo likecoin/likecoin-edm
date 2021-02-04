@@ -1,4 +1,4 @@
-import { MonthlyReportWriterTemplateProps } from '../../src/templates/reports/monthly/writer/types';
+import { MonthlyReportCreatorTemplateProps } from '../../src/templates/reports/monthly/creator/types';
 
 import {
   SAMPLE_IMAGE_URL,
@@ -9,7 +9,7 @@ import {
   SAMPLE_URL,
 } from './samples';
 
-export const MonthlyReportWriterTemplateSampleData: MonthlyReportWriterTemplateProps = {
+export const MonthlyReportCreatorTemplateSampleData: MonthlyReportCreatorTemplateProps = {
   likerID: SAMPLE_LIKER_ID,
   displayName: SAMPLE_LIKER_DISPLAY_NAME,
   avatarSrc: SAMPLE_IMAGE_URL,

@@ -6,9 +6,11 @@ import * as Colors from '../../../../constants/colors';
 import { Link } from '../../../../components/link';
 import { TableRow } from '../../../../components/table-row';
 
-import { WriterTopContentRowProps } from './types';
+import { MonthlyReportCreatorTopContentRowProps } from './types';
 
-export const WriterTopContentRow = (props: WriterTopContentRowProps) => {
+export const MonthlyReportCreatorTopContentRow = (
+  props: MonthlyReportCreatorTopContentRowProps
+) => {
   const { url, title, imageSrc, likesCount = 0, isFirstChild = false } = props;
   return (
     <TableRow isFirstChild={isFirstChild}>

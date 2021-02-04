@@ -14,8 +14,8 @@ import {
   ReferralTxTemplate,
   ReferralTxTemplateProps,
 } from './templates/referral-tx';
-import { MonthlyReportWriterTemplate } from './templates/reports/monthly/writer';
-import { MonthlyReportWriterTemplateProps } from './templates/reports/monthly/writer/types';
+import { MonthlyReportCreatorTemplate } from './templates/reports/monthly/creator';
+import { MonthlyReportCreatorTemplateProps } from './templates/reports/monthly/creator/types';
 import { MonthlyReportCivicLikerV1Template } from './templates/reports/monthly/civic-liker/v1';
 import { MonthlyReportCivicLikerV1TemplateProps } from './templates/reports/monthly/civic-liker/v1.types';
 import { MonthlyReportCivicLikerV2Template } from './templates/reports/monthly/civic-liker/v2';
@@ -43,10 +43,10 @@ export const getReferralTxTemplate = (props: ReferralTxTemplateProps) => {
   return html;
 };
 
-export const getMonthlyReportWriterTemplate = (
-  props: MonthlyReportWriterTemplateProps
+export const getMonthlyReportCreatorTemplate = (
+  props: MonthlyReportCreatorTemplateProps
 ) => {
-  const { html } = render(<MonthlyReportWriterTemplate {...props} />);
+  const { html } = render(<MonthlyReportCreatorTemplate {...props} />);
   return html;
 };
 

@@ -2,6 +2,7 @@ import { MonthlyReportWriterTemplateProps } from '../../src/templates/reports/mo
 
 import {
   SAMPLE_IMAGE_URL,
+  SAMPLE_LIKER_DISPLAY_NAME,
   SAMPLE_LIKER_ID,
   SAMPLE_TEXT,
   SAMPLE_TIMESTAMP,
@@ -10,6 +11,7 @@ import {
 
 export const MonthlyReportWriterTemplateSampleData: MonthlyReportWriterTemplateProps = {
   likerID: SAMPLE_LIKER_ID,
+  displayName: SAMPLE_LIKER_DISPLAY_NAME,
   avatarSrc: SAMPLE_IMAGE_URL,
   isCivicLiker: true,
   timestamp: SAMPLE_TIMESTAMP,

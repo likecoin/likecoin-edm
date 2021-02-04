@@ -1,3 +1,5 @@
+import { MonthlyReport } from '../../../../types';
+
 export interface MonthlyReportWriterTopContent {
   title?: string;
   imageSrc?: string;
@@ -26,12 +28,7 @@ export interface RewardsDetailsColumnProps extends React.PropsWithChildren<{}> {
   dataRows?: RewardsDetailsDataRow[];
 }
 
-export interface MonthlyReportWriterTemplateProps {
-  language?: string;
-  likerID?: string;
-  avatarSrc?: string;
-  isCivicLiker?: boolean;
-  timestamp?: number;
+export interface MonthlyReportWriterTemplateProps extends MonthlyReport {
   totalRewardsInLIKE?: number;
   totalRewardsInUSD?: number;
   totalRewardsDiffPercentStr?: string;

@@ -35,6 +35,7 @@ import {
 export const MonthlyReportWriterTemplate = ({
   language,
   likerID,
+  displayName,
   avatarSrc,
   isCivicLiker,
   timestamp = Date.now(),
@@ -64,6 +65,7 @@ export const MonthlyReportWriterTemplate = ({
 
       <MonthlyReportHeaderSection
         avatarSrc={avatarSrc}
+        displayName={displayName}
         isCivicLiker={isCivicLiker}
         title={<FormattedMessage id="report.monthly.writer.title" />}
         timestamp={timestamp}

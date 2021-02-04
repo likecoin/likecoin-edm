@@ -11,6 +11,8 @@ import {
 } from './samples';
 
 export const MonthlyReportCivicLikerV1SampleData: MonthlyReportCivicLikerV1TemplateProps = {
+  likerID: SAMPLE_LIKER_ID,
+  displayName: SAMPLE_LIKER_DISPLAY_NAME,
   avatarSrc: SAMPLE_IMAGE_URL,
   isCivicLiker: true,
   timestamp: SAMPLE_TIMESTAMP,
@@ -27,6 +29,8 @@ export const MonthlyReportCivicLikerV1SampleData: MonthlyReportCivicLikerV1Templ
 };
 
 export const MonthlyReportCivicLikerV2SampleData: MonthlyReportCivicLikerV2TemplateProps = {
+  likerID: SAMPLE_LIKER_ID,
+  displayName: SAMPLE_LIKER_DISPLAY_NAME,
   avatarSrc: SAMPLE_IMAGE_URL,
   isCivicLiker: true,
   timestamp: SAMPLE_TIMESTAMP,

@@ -1,16 +1,12 @@
-import { Content, Liker } from '../../../../types';
+import { Content, MonthlyReport, User } from '../../../../types';
 
-export interface SubscribingCreator extends Liker {
+export interface SubscribingCreator extends User {
   amount?: number;
 }
 
-export type SupportedContent = Content & Liker;
+export type SupportedContent = Content & User;
 
-export interface MonthlyReportCivicLikerV2TemplateProps {
-  language?: string;
-  avatarSrc?: string;
-  isCivicLiker?: boolean;
-  timestamp?: number;
+export interface MonthlyReportCivicLikerV2TemplateProps extends MonthlyReport {
   totalSupportedCreatorsBySubscription?: number;
   totalSupportedCreatorsByFund?: number;
   billingDateTimestamp?: number;

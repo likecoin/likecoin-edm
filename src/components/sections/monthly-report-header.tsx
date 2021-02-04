@@ -1,15 +1,15 @@
 import * as React from 'react';
 import { MjmlColumn, MjmlText } from 'mjml-react';
+import { FormattedDateParts, FormattedMessage, useIntl } from 'react-intl';
 
 import * as Colors from '../../constants/colors';
 
+import { User } from '../../types';
+
 import { Avatar } from '../avatar';
 import { BasicSection } from './basic';
-import { FormattedDateParts, FormattedMessage, useIntl } from 'react-intl';
 
-export interface MonthlyReportHeaderSectionProps {
-  avatarSrc?: string;
-  isCivicLiker?: boolean;
+export interface MonthlyReportHeaderSectionProps extends User {
   title?: React.ReactNode;
   timestamp?: number;
 }
@@ -17,13 +17,22 @@ export interface MonthlyReportHeaderSectionProps {
 export const MonthlyReportHeaderSection = (
   props: MonthlyReportHeaderSectionProps
 ) => {
-  const { title, timestamp = 0, avatarSrc, isCivicLiker = false } = props;
+  const {
+    title = '',
+    timestamp = 0,
+    likerID = '',
+    displayName = '',
+    avatarSrc = '',
+    isCivicLiker = false,
+  } = props;
   const intl = useIntl();
   return (
     <BasicSection backgroundColor={Colors.LikeGreen}>
       <MjmlColumn>
         <Avatar
           src={avatarSrc}
+          likerID={likerID}
+          displayName={displayName}
           isCivicLiker={isCivicLiker}
           size={108}
           align="left"

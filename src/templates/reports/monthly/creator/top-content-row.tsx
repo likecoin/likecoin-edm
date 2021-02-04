@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { FormattedNumber } from 'react-intl';
+import { FormattedMessage, FormattedNumber } from 'react-intl';
 
 import * as Colors from '../../../../constants/colors';
 
@@ -40,7 +40,12 @@ export const MonthlyReportCreatorTopContentRow = (
         <div style={{ color: Colors.LikeGreen, fontSize: 16, fontWeight: 600 }}>
           <FormattedNumber value={likesCount} />
         </div>
-        <div style={{ fontSize: 12 }}>likes</div>
+        <div style={{ fontSize: 12 }}>
+          <FormattedMessage
+            id="report.monthly.creator.unit"
+            values={{ count: likesCount }}
+          />
+        </div>
       </td>
     </TableRow>
   );

@@ -22,7 +22,7 @@ export function getLocalizedOrdinalDay(
   timestamp: number = 0
 ) {
   const date = new Date(Number(timestamp));
-  const day = date.getDay();
+  const day = date.getDate();
   if (language === 'en') {
     return getOrdinalNumber(day);
   }

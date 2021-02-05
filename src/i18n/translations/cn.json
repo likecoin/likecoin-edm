@@ -7,7 +7,7 @@
   "help.center.text": "帮助中心",
   "help.center.url": "https://docs.like.co/v/zh",
 
-  "report.monthly.header.date": "{month}月 {year}",
+  "report.monthly.header.date": "{year}年{month}月",
 
   "report.monthly.civic-liker.title": "赞赏公民每月报告",
   "report.monthly.civic-liker.subscribers.description": "你正在按月支持以下作者，扣款日期为每月 {day} 日 。按<a>此</a>管理订阅选项",

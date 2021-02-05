@@ -27,6 +27,8 @@ export const MonthlyReportCivicLikerV2Template = (
 ) => {
   const {
     language,
+    likerID,
+    displayName,
     avatarSrc,
     isCivicLiker = false,
     timestamp = 0,
@@ -42,6 +44,8 @@ export const MonthlyReportCivicLikerV2Template = (
       <HeaderSection />
 
       <MonthlyReportHeaderSection
+        likerID={likerID}
+        displayName={displayName}
         avatarSrc={avatarSrc}
         isCivicLiker={isCivicLiker}
         title={<FormattedMessage id="report.monthly.civic-liker.title" />}

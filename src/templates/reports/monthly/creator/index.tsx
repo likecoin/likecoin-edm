@@ -65,8 +65,9 @@ export const MonthlyReportCreatorTemplate = ({
       <HeaderSection />
 
       <MonthlyReportHeaderSection
-        avatarSrc={avatarSrc}
+        likerID={likerID}
         displayName={displayName}
+        avatarSrc={avatarSrc}
         isCivicLiker={isCivicLiker}
         title={<FormattedMessage id="report.monthly.creator.title" />}
         timestamp={timestamp}

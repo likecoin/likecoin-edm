@@ -37,7 +37,7 @@ export const SponsorLinkCTASection = (props: SponsorLinkCTASectionProps) => {
                 padding: 8,
               }}
             >
-              {`${LIKER_LAND_ROOT}/${likerID}`}
+              {`${LIKER_LAND_ROOT}/${likerID}/civic`}
             </div>
           </MjmlRaw>
         </MjmlText>

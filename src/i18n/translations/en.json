@@ -9,6 +9,8 @@
 
   "date.month": "Month",
 
+  "greeting": "Dear {name}",
+
   "report.monthly.header.date": "{month} {year}",
 
   "report.monthly.civic-liker.title": "Civic Liker Monthly Report",

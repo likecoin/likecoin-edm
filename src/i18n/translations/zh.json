@@ -7,6 +7,8 @@
   "help.center.text": "幫助中心",
   "help.center.url": "https://docs.like.co/v/zh",
 
+  "greeting": "你好 {name}：",
+
   "report.monthly.header.date": "{year}年{month}月",
 
   "report.monthly.civic-liker.title": "讚賞公民每月報告",

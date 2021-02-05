@@ -1,5 +1,5 @@
 import path from 'path';
-import express from 'express';
+import express, { RequestHandler } from 'express';
 
 import {
   getBasicTemplate,
@@ -24,41 +24,50 @@ const PORT = process.env.PORT || 3000;
 const app = express();
 
 app.use('/static', express.static(path.join(__dirname, '../src/assets')));
+app.use(express.json());
 
-app.get('/basic', (req, res) => {
-  res.send(getBasicTemplate(req.query));
+function handleRequest(path: string, handler: RequestHandler) {
+  app.get(path, handler);
+  app.post(path, handler);
+}
+
+handleRequest('/basic', (req, res) => {
+  res.send(getBasicTemplate({ ...req.query, ...req.body }));
 });
 
-app.get('/basic/avatar', (req, res) => {
-  res.send(getBasicWithAvatarTemplate(req.query));
+handleRequest('/basic/avatar', (req, res) => {
+  res.send(getBasicWithAvatarTemplate({ ...req.query, ...req.body }));
 });
 
-app.get('/new-supporter', (req, res) => {
-  res.send(getNewSupporterTemplate(req.query));
+handleRequest('/new-supporter', (req, res) => {
+  res.send(getNewSupporterTemplate({ ...req.query, ...req.body }));
 });
 
-app.get('/referral-tx', (req, res) => {
-  res.send(getReferralTxTemplate(req.query));
+handleRequest('/referral-tx', (req, res) => {
+  res.send(getReferralTxTemplate({ ...req.query, ...req.body }));
 });
 
-app.get('/monthly-reports/creator', (req, res) => {
+handleRequest('/monthly-reports/creator', (req, res) => {
   res.send(getMonthlyReportCreatorTemplate({
     ...MonthlyReportCreatorTemplateSampleData,
     ...req.query,
+    ...req.body,
   }));
 });
 
-app.get('/monthly-reports/civic-liker/v1', (req, res ) => {
+handleRequest('/monthly-reports/civic-liker/v1', (req, res ) => {
   res.send(getMonthlyReportCivicLikerV1Template({
     ...MonthlyReportCivicLikerV1SampleData,
     ...req.query,
+    ...req.body,
   }));
 });
 
-app.get('/monthly-reports/civic-liker/v2', (req, res) => {
+handleRequest('/monthly-reports/civic-liker/v2', (req, res) => {
   res.send(getMonthlyReportCivicLikerV2Template({
     ...MonthlyReportCivicLikerV2SampleData,
     ...req.query,
+    ...req.body,
   }));
 });
 

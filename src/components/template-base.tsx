@@ -52,7 +52,7 @@ export const TemplateBase = (props: TemplateBaseProps) => {
               />
               <MjmlText lineHeight="1.5" />
             </MjmlAttributes>
-            <MjmlBreakpoint width={600} />
+            <MjmlBreakpoint width={576} />
           </MjmlHead>
           <MjmlBody backgroundColor="white" width={theme.templateWidth}>
             {props.children}

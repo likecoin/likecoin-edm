@@ -20,7 +20,7 @@ export const MonthlyReportCreatorRewardsDetailsColumn = (
     children,
   } = props;
   return (
-    <MjmlColumn width="40%">
+    <MjmlColumn width="40%" paddingTop={24} paddingBottom={24}>
       <MjmlText fontSize={12} fontWeight={600} align="center">
         {title}
       </MjmlText>

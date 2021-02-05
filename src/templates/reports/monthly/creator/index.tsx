@@ -128,7 +128,12 @@ export const MonthlyReportCreatorTemplate = ({
         </MjmlColumn>
       </MjmlSection>
 
-      <BasicSection paddingBottom={0} paddingX={8} backgroundColor="white">
+      <BasicSection
+        paddingBottom={0}
+        paddingX={24}
+        paddingY={16}
+        backgroundColor="white"
+      >
         <MonthlyReportCreatorRewardsDetailsColumn
           title={<FormattedMessage id="report.monthly.creator.subscription" />}
           amountInLIKE={subscriptionAmountInLIKE}
@@ -164,7 +169,13 @@ export const MonthlyReportCreatorTemplate = ({
             </Link>
           </MjmlText>
         </MonthlyReportCreatorRewardsDetailsColumn>
-        <MjmlColumn width={72} padding={24}>
+        <MjmlColumn
+          width={72}
+          paddingLeft={24}
+          paddingRight={24}
+          paddingTop={32}
+          paddingBottom={32}
+        >
           <MjmlImage width={24} src={getAssetPath('/icons/plus.png')} />
         </MjmlColumn>
         <MonthlyReportCreatorRewardsDetailsColumn

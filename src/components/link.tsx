@@ -13,7 +13,7 @@ export const Link = (
     <a
       target="_blank"
       rel="noreferrer noopener"
-      style={{ color: Colors.LikeGreen, ...style }}
+      style={{ color: Colors.LikeGreen, textDecoration: 'underline', ...style }}
       {...restProps}
     >
       {children}

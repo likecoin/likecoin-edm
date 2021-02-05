@@ -127,83 +127,85 @@ export const MonthlyReportCivicLikerV2Template = (
 
       <LikeCoinButtonCTA />
 
-      <BasicSection>
-        <MjmlColumn>
-          <MjmlText paddingBottom={16} fontSize={16} fontWeight={600}>
-            <FormattedMessage id="report.monthly.civic-liker.supported.contents.title" />
-          </MjmlText>
-          <MjmlText paddingBottom={16} fontSize={16}>
-            <FormattedMessage
-              id="report.monthly.civic-liker.supported.contents.description"
-              values={{
-                a: (text: string) => (
-                  <Link href={wrapUtm(`${LIKER_LAND_ROOT}/getapp`)}>
-                    {text}
-                  </Link>
-                ),
-              }}
-            />
-          </MjmlText>
-          <MjmlTable cellpadding="8px">
-            {supportedContents.map((content, i) => (
-              <TableRow key={content.url} isFirstChild={i === 0}>
-                <td style={{ width: 64 }}>
-                  <Link href={content.url}>
-                    <img
-                      src={content.imageSrc}
-                      alt={content.title}
-                      style={{
-                        display: 'block',
-                        width: 64,
-                        height: 64,
-                        objectFit: 'cover',
-                      }}
-                    />
-                  </Link>
-                </td>
-                <td style={{ paddingLeft: 16, paddingRight: 16 }}>
-                  <Link
-                    href={content.url}
-                    style={{ color: Colors.Grey4A, textDecoration: 'none' }}
-                  >
-                    {content.title}
-                  </Link>
-                </td>
-                <td style={{ width: 48 }}>
-                  <Avatar
-                    src={content.avatarSrc}
-                    likerID={content.likerID}
-                    displayName={content.displayName}
-                    isCivicLiker={content.isCivicLiker}
-                    size={48}
-                  />
-                </td>
-                <td style={{ maxWidth: 100 }}>
-                  <Link
-                    href={wrapUtm(`${LIKER_LAND_ROOT}/${content.likerID}`)}
-                    style={{ textDecoration: 'none', color: Colors.Grey4A }}
-                  >
-                    {content.displayName}
-                  </Link>
-                </td>
-              </TableRow>
-            ))}
-          </MjmlTable>
-          {supportedContentsRemainsCount && (
-            <MjmlText
-              paddingTop={16}
-              color={Colors.Grey9B}
-              fontSize={14}
-              align="center"
-            >
+      {supportedContents.length > 0 && (
+        <BasicSection>
+          <MjmlColumn>
+            <MjmlText paddingBottom={16} fontSize={16} fontWeight={600}>
+              <FormattedMessage id="report.monthly.civic-liker.supported.contents.title" />
+            </MjmlText>
+            <MjmlText paddingBottom={16} fontSize={16}>
               <FormattedMessage
-                id="report.monthly.civic-liker.supported.contents.more"
-                values={{ count: supportedContentsRemainsCount }}
+                id="report.monthly.civic-liker.supported.contents.description"
+                values={{
+                  a: (text: string) => (
+                    <Link href={wrapUtm(`${LIKER_LAND_ROOT}/getapp`)}>
+                      {text}
+                    </Link>
+                  ),
+                }}
               />
             </MjmlText>
-          )}
-        </MjmlColumn>
-      </BasicSection>
+            <MjmlTable cellpadding="8px">
+              {supportedContents.map((content, i) => (
+                <TableRow key={content.url} isFirstChild={i === 0}>
+                  <td style={{ width: 64 }}>
+                    <Link href={content.url}>
+                      <img
+                        src={content.imageSrc}
+                        alt={content.title}
+                        style={{
+                          display: 'block',
+                          width: 64,
+                          height: 64,
+                          objectFit: 'cover',
+                        }}
+                      />
+                    </Link>
+                  </td>
+                  <td style={{ paddingLeft: 16, paddingRight: 16 }}>
+                    <Link
+                      href={content.url}
+                      style={{ color: Colors.Grey4A, textDecoration: 'none' }}
+                    >
+                      {content.title}
+                    </Link>
+                  </td>
+                  <td style={{ width: 48 }}>
+                    <Avatar
+                      src={content.avatarSrc}
+                      likerID={content.likerID}
+                      displayName={content.displayName}
+                      isCivicLiker={content.isCivicLiker}
+                      size={48}
+                    />
+                  </td>
+                  <td style={{ width: '20%' }}>
+                    <Link
+                      href={wrapUtm(`${LIKER_LAND_ROOT}/${content.likerID}`)}
+                      style={{ textDecoration: 'none', color: Colors.Grey4A }}
+                    >
+                      {content.displayName}
+                    </Link>
+                  </td>
+                </TableRow>
+              ))}
+            </MjmlTable>
+            {supportedContentsRemainsCount && (
+              <MjmlText
+                paddingTop={16}
+                color={Colors.Grey9B}
+                fontSize={14}
+                align="center"
+              >
+                <FormattedMessage
+                  id="report.monthly.civic-liker.supported.contents.more"
+                  values={{ count: supportedContentsRemainsCount }}
+                />
+              </MjmlText>
+            )}
+          </MjmlColumn>
+        </BasicSection>
+      )}
 
       <FooterSection />
     </TemplateBase>

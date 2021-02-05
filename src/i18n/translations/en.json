@@ -12,7 +12,7 @@
   "report.monthly.header.date": "{month} {year}",
 
   "report.monthly.civic-liker.title": "Civic Liker Monthly Report",
-  "report.monthly.civic-liker.subscribers.description": "You are supporting the follow creators by monthly subscription. Your billing date is {day} of each month. Click <a>here</a> to manage your subscription",
+  "report.monthly.civic-liker.subscribers.description": "You are supporting the follow creators by monthly subscription. Your billing date is {day} of each month. <a>Click here to manage your subscription</a>",
   "report.monthly.civic-liker.subscribers.title": "Subscribing creators",
   "report.monthly.civic-liker.supported.contents.description": "The creators got extra bonus from the Creators Fund because of your likes. You can check the details in <a>Liker Land app.</a>",
   "report.monthly.civic-liker.supported.contents.title": "Contents you have supported",

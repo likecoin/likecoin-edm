@@ -10,7 +10,7 @@
   "report.monthly.header.date": "{year}年{month}月",
 
   "report.monthly.civic-liker.title": "赞赏公民每月报告",
-  "report.monthly.civic-liker.subscribers.description": "你正在按月支持以下作者，扣款日期为每月 {day} 日 。按<a>此</a>管理订阅选项",
+  "report.monthly.civic-liker.subscribers.description": "你正在按月支持以下作者，扣款日期为每月 {day} 日 。<a>按此<管理订阅选项/a>",
   "report.monthly.civic-liker.subscribers.title": "已订阅的作者",
   "report.monthly.civic-liker.supported.contents.description": "作者因你的按赞，获得创作基金的奖励。详细赞赏记录可于 <a>Liker Land 手机应用程式</a>查阅。",
   "report.monthly.civic-liker.supported.contents.title": "你赞赏了的文章",

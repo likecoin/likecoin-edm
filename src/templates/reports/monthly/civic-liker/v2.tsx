@@ -108,7 +108,10 @@ export const MonthlyReportCivicLikerV2Template = (
                   <img
                     alt={`USD ${creator.amount}/mo`}
                     src={getPriceEmojiURL(creator.amount)}
+                    width={18}
+                    height={18}
                     style={{
+                      width: 18,
                       height: 18,
                       verticalAlign: 'middle',
                       marginRight: 8,

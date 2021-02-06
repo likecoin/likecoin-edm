@@ -7,7 +7,6 @@ import * as Colors from '../../../../constants/colors';
 
 import { getPriceEmojiURL } from '../../../../utils/civic';
 import { getLocalizedOrdinalDay } from '../../../../utils/localization';
-import { wrapUtm } from '../../../../utils/url';
 
 import { Avatar } from '../../../../components/avatar';
 import { LikeCoinButtonCTA } from '../../../../components/cta-likecoin-button';
@@ -76,7 +75,10 @@ export const MonthlyReportCivicLikerV2Template = (
               id="report.monthly.civic-liker.subscribers.description"
               values={{
                 a: (text: string) => (
-                  <Link href={wrapUtm(`${LIKER_LAND_ROOT}/settings/civic`)}>
+                  <Link
+                    href={`${LIKER_LAND_ROOT}/settings/civic`}
+                    isWrapUtm={true}
+                  >
                     {text}
                   </Link>
                 ),
@@ -99,6 +101,7 @@ export const MonthlyReportCivicLikerV2Template = (
                 <td>
                   <Link
                     href={`${LIKER_LAND_ROOT}/${creator.likerID}`}
+                    isWrapUtm={true}
                     style={{ textDecoration: 'none', color: Colors.Grey4A }}
                   >
                     {creator.displayName}
@@ -138,7 +141,7 @@ export const MonthlyReportCivicLikerV2Template = (
                 id="report.monthly.civic-liker.supported.contents.description"
                 values={{
                   a: (text: string) => (
-                    <Link href={wrapUtm(`${LIKER_LAND_ROOT}/getapp`)}>
+                    <Link href={`${LIKER_LAND_ROOT}/getapp`} isWrapUtm={true}>
                       {text}
                     </Link>
                   ),
@@ -181,7 +184,8 @@ export const MonthlyReportCivicLikerV2Template = (
                   </td>
                   <td style={{ width: '20%' }}>
                     <Link
-                      href={wrapUtm(`${LIKER_LAND_ROOT}/${content.likerID}`)}
+                      href={`${LIKER_LAND_ROOT}/${content.likerID}`}
+                      isWrapUtm={true}
                       style={{ textDecoration: 'none', color: Colors.Grey4A }}
                     >
                       {content.displayName}

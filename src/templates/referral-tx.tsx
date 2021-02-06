@@ -2,8 +2,10 @@ import * as React from 'react';
 import { MjmlColumn, MjmlText, MjmlImage } from 'mjml-react';
 import { FormattedMessage } from 'react-intl';
 
+import { LIKER_LAND_ROOT } from '../constants';
 import * as Colors from '../constants/colors';
-import { getAssetPath, wrapUtm } from '../utils/url';
+
+import { getAssetPath } from '../utils/url';
 
 import { Avatar } from '../components/avatar';
 import { AppCTASection } from '../components/cta-app';
@@ -141,7 +143,8 @@ export const ReferralTxTemplate = ({
               values={{
                 a: (title: string) => (
                   <Link
-                    href={wrapUtm('https://like.co/in/getapp')}
+                    href={`${LIKER_LAND_ROOT}/getapp`}
+                    isWrapUtm={true}
                     style={{ textDecoration: 'underline' }}
                   >
                     {title}

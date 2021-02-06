@@ -51,7 +51,9 @@ export const SponsorLinkCTASection = (props: SponsorLinkCTASectionProps) => {
             id="cta.sponsor-link.hint"
             values={{
               a: (text: string) => (
-                <Link href={`${LIKER_LAND_ROOT}/creators`}>{text}</Link>
+                <Link href={`${LIKER_LAND_ROOT}/creators`} isWrapUtm={true}>
+                  {text}
+                </Link>
               ),
             }}
           />

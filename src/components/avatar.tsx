@@ -2,7 +2,7 @@ import * as React from 'react';
 import { MjmlRaw } from 'mjml-react';
 
 import { DEFAULT_AVATAR_URL, LIKER_LAND_ROOT } from '../constants';
-import { getAssetPath, wrapUtm } from '../utils/url';
+import { getAssetPath } from '../utils/url';
 
 import { Link } from './link';
 
@@ -27,7 +27,8 @@ export const Avatar = (props: AvatarProps) => {
   return (
     <MjmlRaw>
       <Link
-        href={wrapUtm(`${LIKER_LAND_ROOT}/${likerID}`)}
+        href={`${LIKER_LAND_ROOT}/${likerID}`}
+        isWrapUtm={true}
         style={{
           display: 'block',
           textAlign: align,

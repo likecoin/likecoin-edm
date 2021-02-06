@@ -6,7 +6,6 @@ import { LIKER_LAND_ROOT } from '../../../../constants';
 import * as Colors from '../../../../constants/colors';
 
 import { parseArray } from '../../../../utils';
-import { wrapUtm } from '../../../../utils/url';
 
 import { Avatar } from '../../../../components/avatar';
 import { LikeCoinButtonCTA } from '../../../../components/cta-likecoin-button';
@@ -88,7 +87,8 @@ export const MonthlyReportCivicLikerV1Template = (
                 </td>
                 <td>
                   <Link
-                    href={wrapUtm(`${LIKER_LAND_ROOT}/${creator.likerID}`)}
+                    href={`${LIKER_LAND_ROOT}/${creator.likerID}`}
+                    isWrapUtm={true}
                     style={{ textDecoration: 'none', color: Colors.Grey4A }}
                   >
                     {creator.displayName}

@@ -11,8 +11,9 @@
 
   "greeting": "Dear {name}",
 
-  "report.monthly.header.date": "{month} {year}",
+  "report.monthly.date": "{month} {year}",
 
+  "report.monthly.civic-liker.subject": "Civic Liker Monthly Report ({date})",
   "report.monthly.civic-liker.title": "Civic Liker Monthly Report",
   "report.monthly.civic-liker.subscribers.description": "You are supporting the follow creators by monthly subscription. Your billing date is {day} of each month. <a>Click here to manage your subscription</a>",
   "report.monthly.civic-liker.subscribers.title": "Subscribing creators",
@@ -27,6 +28,7 @@
   "report.monthly.civic-liker.supported.v1": "You supported",
   "report.monthly.civic-liker.supported.v2": "Number of creators supported",
 
+  "report.monthly.creator.subject": "Monthly LikeCoin Reward Summary ({date})",
   "report.monthly.creator.title": "Monthly LikeCoin Reward Summary",
   "report.monthly.creator.total": "Reward Received",
   "report.monthly.creator.subscription": "Civic Liker Subscription",

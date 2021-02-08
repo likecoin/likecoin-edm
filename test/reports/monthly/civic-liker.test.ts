@@ -10,12 +10,18 @@ import {
 
 describe('Render Civic Liker monthly report templates', () => {
   it('V1', () => {
-    const html = getMonthlyReportCivicLikerV1Template(V1SampleData);
-    expect(html).toMatchSnapshot();
+    const { subject, body } = getMonthlyReportCivicLikerV1Template(
+      V1SampleData
+    );
+    expect(subject).toBeTruthy();
+    expect(body).toMatchSnapshot();
   });
 
   it('V2', () => {
-    const html = getMonthlyReportCivicLikerV2Template(V2SampleData);
-    expect(html).toMatchSnapshot();
+    const { subject, body } = getMonthlyReportCivicLikerV2Template(
+      V2SampleData
+    );
+    expect(subject).toBeTruthy();
+    expect(body).toMatchSnapshot();
   });
 });

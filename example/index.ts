@@ -48,27 +48,30 @@ handleRequest('/referral-tx', (req, res) => {
 });
 
 handleRequest('/monthly-reports/creator', (req, res) => {
-  res.send(getMonthlyReportCreatorTemplate({
+  const { subject, body } = getMonthlyReportCreatorTemplate({
     ...MonthlyReportCreatorTemplateSampleData,
     ...req.query,
     ...req.body,
-  }));
+  });
+  res.send(subject.concat(body));
 });
 
 handleRequest('/monthly-reports/civic-liker/v1', (req, res ) => {
-  res.send(getMonthlyReportCivicLikerV1Template({
+  const { subject, body } = getMonthlyReportCivicLikerV1Template({
     ...MonthlyReportCivicLikerV1SampleData,
     ...req.query,
     ...req.body,
-  }));
+  });
+  res.send(subject.concat(body));
 });
 
 handleRequest('/monthly-reports/civic-liker/v2', (req, res) => {
-  res.send(getMonthlyReportCivicLikerV2Template({
+  const { subject, body } = getMonthlyReportCivicLikerV2Template({
     ...MonthlyReportCivicLikerV2SampleData,
     ...req.query,
     ...req.body,
-  }));
+  });
+  res.send(subject.concat(body));
 });
 
 app.get('/', (_, res) => {

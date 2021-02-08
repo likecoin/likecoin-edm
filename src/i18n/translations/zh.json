@@ -9,8 +9,9 @@
 
   "greeting": "你好 {name}：",
 
-  "report.monthly.header.date": "{year}年{month}月",
+  "report.monthly.date": "{year}年{month}月",
 
+  "report.monthly.civic-liker.subject": "讚賞公民每月報告 ({date})",
   "report.monthly.civic-liker.title": "讚賞公民每月報告",
   "report.monthly.civic-liker.subscribers.description": "你正在按月支持以下作者，扣款日期為每月 {day} 日 。<a>按此管理訂閱選項</a>",
   "report.monthly.civic-liker.subscribers.title": "已訂閱的作者",
@@ -25,6 +26,7 @@
   "report.monthly.civic-liker.supported.v1": "你支持了",
   "report.monthly.civic-liker.supported.v2": "已支持作者人數",
 
+  "report.monthly.creator.subject": "每月讚賞收入報告 ({date})",
   "report.monthly.creator.title": "每月讚賞收入報告",
   "report.monthly.creator.total": "所獲回饋",
   "report.monthly.creator.subscription": "讚賞公民訂閱",

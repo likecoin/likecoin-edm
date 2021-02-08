@@ -1,8 +1,10 @@
 import * as React from 'react';
 import { MjmlColumn, MjmlText, MjmlWrapper } from 'mjml-react';
-import { FormattedDateParts, FormattedMessage, useIntl } from 'react-intl';
+import { FormattedMessage, useIntl } from 'react-intl';
 
 import * as Colors from '../../constants/colors';
+
+import { getLocalizedMonthlyReportDate } from '../../utils/localization';
 
 import { User } from '../../types';
 
@@ -47,21 +49,7 @@ export const MonthlyReportHeaderSection = (
             {title}
           </MjmlText>
           <MjmlText fontSize={18} fontWeight={600} color={Colors.LikeCyan}>
-            <FormattedDateParts
-              value={new Date(Number(timestamp))}
-              year="numeric"
-              month={intl.locale === 'en' ? 'short' : 'numeric'}
-            >
-              {parts => (
-                <FormattedMessage
-                  id="report.monthly.header.date"
-                  values={{
-                    month: parts[0].value,
-                    year: parts[2].value,
-                  }}
-                />
-              )}
-            </FormattedDateParts>
+            {getLocalizedMonthlyReportDate(intl, timestamp)}
           </MjmlText>
         </MjmlColumn>
       </BasicSection>

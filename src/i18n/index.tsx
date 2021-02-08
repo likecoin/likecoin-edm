@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { IntlProvider as ReactIntlProvider } from 'react-intl';
+import { createIntl, createIntlCache, RawIntlProvider } from 'react-intl';
+
 import messages from './translations';
 
 function normalizedLanguage(language?: string) {
@@ -16,21 +17,28 @@ function normalizedLanguage(language?: string) {
   }
 }
 
+export function initIntl(language?: string) {
+  const locale = normalizedLanguage(language);
+  const cache = createIntlCache();
+  return createIntl(
+    {
+      locale,
+      messages: messages[locale],
+      onError: err => {
+        if (err.code === 'MISSING_DATA') return;
+        console.error(err);
+      },
+    },
+    cache
+  );
+}
+
 export function IntlProvider(
   props: React.PropsWithChildren<{ language?: string }>
 ) {
-  const language = normalizedLanguage(props.language);
-
   return (
-    <ReactIntlProvider
-      messages={messages[language]}
-      locale={language}
-      onError={err => {
-        if (err.code === 'MISSING_DATA') return;
-        console.error(err);
-      }}
-    >
+    <RawIntlProvider value={initIntl(props.language)}>
       {props.children}
-    </ReactIntlProvider>
+    </RawIntlProvider>
   );
 }

@@ -4,7 +4,8 @@ import { MonthlyReportCreatorTemplateSampleData as SampleData } from '../../stub
 
 describe('Render writer monthly report templates', () => {
   it('Default', () => {
-    const html = getMonthlyReportCreatorTemplate(SampleData);
-    expect(html).toMatchSnapshot();
+    const { subject, body } = getMonthlyReportCreatorTemplate(SampleData);
+    expect(subject).toBeTruthy();
+    expect(body).toMatchSnapshot();
   });
 });

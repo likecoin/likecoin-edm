@@ -64,6 +64,7 @@ export const MonthlyReportCivicLikerV1Template = (
         label2={
           <FormattedMessage id="report.monthly.civic-liker.supported.contents" />
         }
+        shouldStackOnMobile={false}
       />
 
       <LikeCoinButtonCTA />

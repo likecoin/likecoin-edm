@@ -14,6 +14,7 @@ import { FooterSection } from '../../../../components/footer';
 import { HeaderSection } from '../../../../components/header';
 import { Link } from '../../../../components/link';
 import { BasicSection } from '../../../../components/sections/basic';
+import { BasicWrapper } from '../../../../components/sections/wrapper';
 import { MonthlyReportHeaderSection } from '../../../../components/sections/monthly-report-header';
 import { TableRow } from '../../../../components/table-row';
 import { TemplateBase } from '../../../../components/template-base';
@@ -38,6 +39,7 @@ export const MonthlyReportCivicLikerV2Template = (
     supportedContents = [],
     supportedContentsRemainsCount = 0,
   } = props;
+
   return (
     <TemplateBase language={language}>
       <HeaderSection />
@@ -63,6 +65,7 @@ export const MonthlyReportCivicLikerV2Template = (
         label2={
           <FormattedMessage id="report.monthly.civic-liker.supported.creators.fund" />
         }
+        shouldStackOnMobile={false}
       />
 
       <BasicSection>
@@ -131,7 +134,7 @@ export const MonthlyReportCivicLikerV2Template = (
       <LikeCoinButtonCTA />
 
       {supportedContents.length > 0 && (
-        <BasicSection>
+        <BasicSection paddingBottom={0}>
           <MjmlColumn>
             <MjmlText paddingBottom={16} fontSize={16} fontWeight={600}>
               <FormattedMessage id="report.monthly.civic-liker.supported.contents.title" />
@@ -141,76 +144,98 @@ export const MonthlyReportCivicLikerV2Template = (
                 id="report.monthly.civic-liker.supported.contents.description"
                 values={{
                   a: (text: string) => (
-                    <Link href={`${LIKER_LAND_ROOT}/getapp`} isWrapUtm={true}>
+                    <Link href={`/getapp`} isWrapUtm={true}>
                       {text}
                     </Link>
                   ),
                 }}
               />
             </MjmlText>
-            <MjmlTable cellpadding="8px">
-              {supportedContents.map((content, i) => (
-                <TableRow key={content.url} isFirstChild={i === 0}>
-                  <td style={{ width: 64 }}>
-                    <Link href={content.url}>
-                      <img
-                        src={content.imageSrc}
-                        alt={content.title}
-                        style={{
-                          display: 'block',
-                          width: 64,
-                          height: 64,
-                          objectFit: 'cover',
-                        }}
-                      />
-                    </Link>
-                  </td>
-                  <td style={{ paddingLeft: 16, paddingRight: 16 }}>
-                    <Link
-                      href={content.url}
-                      style={{ color: Colors.Grey4A, textDecoration: 'none' }}
-                    >
-                      {content.title}
-                    </Link>
-                  </td>
-                  <td style={{ width: 48 }}>
-                    <Avatar
-                      src={content.avatarSrc}
-                      likerID={content.likerID}
-                      displayName={content.displayName}
-                      isCivicLiker={content.isCivicLiker}
-                      size={48}
-                    />
-                  </td>
-                  <td style={{ width: '20%' }}>
-                    <Link
-                      href={`${LIKER_LAND_ROOT}/${content.likerID}`}
-                      isWrapUtm={true}
-                      style={{ textDecoration: 'none', color: Colors.Grey4A }}
-                    >
-                      {content.displayName}
-                    </Link>
-                  </td>
-                </TableRow>
-              ))}
-            </MjmlTable>
-            {supportedContentsRemainsCount && (
-              <MjmlText
-                paddingTop={16}
-                color={Colors.Grey9B}
-                fontSize={14}
-                align="center"
-              >
-                <FormattedMessage
-                  id="report.monthly.civic-liker.supported.contents.more"
-                  values={{ count: supportedContentsRemainsCount }}
-                />
-              </MjmlText>
-            )}
           </MjmlColumn>
         </BasicSection>
       )}
-
+      {supportedContents.length > 0 && (
+        <BasicWrapper paddingX={32}>
+          {supportedContents.map(content => (
+            <BasicSection
+              key={content.url}
+              paddingX={0}
+              paddingY={8}
+              borderTop={`1px solid ${Colors.GreyD8}`}
+            >
+              <MjmlColumn width="65%" paddingTop={8} paddingBottom={8}>
+                <MjmlTable>
+                  <tr>
+                    <td style={{ width: 64 }}>
+                      <Link href={content.url}>
+                        <img
+                          src={content.imageSrc}
+                          alt={content.title}
+                          style={{
+                            display: 'block',
+                            width: 64,
+                            height: 64,
+                            objectFit: 'cover',
+                          }}
+                        />
+                      </Link>
+                    </td>
+                    <td style={{ paddingLeft: 16, paddingRight: 16 }}>
+                      <Link
+                        href={content.url}
+                        style={{ color: Colors.Grey4A, textDecoration: 'none' }}
+                      >
+                        {content.title}
+                      </Link>
+                    </td>
+                  </tr>
+                </MjmlTable>
+              </MjmlColumn>
+              <MjmlColumn width="35%" paddingTop={8} paddingBottom={8}>
+                <MjmlTable>
+                  <tr>
+                    <td style={{ width: 48 }}>
+                      <Avatar
+                        src={content.avatarSrc}
+                        likerID={content.likerID}
+                        displayName={content.displayName}
+                        isCivicLiker={content.isCivicLiker}
+                        size={48}
+                      />
+                    </td>
+                    <td style={{ paddingLeft: 16 }}>
+                      <Link
+                        href={`/${content.likerID}`}
+                        isWrapUtm={true}
+                        style={{ textDecoration: 'none', color: Colors.Grey4A }}
+                      >
+                        {content.displayName}
+                      </Link>
+                    </td>
+                  </tr>
+                </MjmlTable>
+              </MjmlColumn>
+            </BasicSection>
+          ))}
+        </BasicWrapper>
+      )}
+      {supportedContentsRemainsCount && (
+        <BasicSection paddingTop={0}>
+          <MjmlColumn>
+            <MjmlText
+              paddingTop={16}
+              color={Colors.Grey9B}
+              fontSize={14}
+              align="center"
+            >
+              <FormattedMessage
+                id="report.monthly.civic-liker.supported.contents.more"
+                values={{ count: supportedContentsRemainsCount }}
+              />
+            </MjmlText>
+          </MjmlColumn>
+        </BasicSection>
+      )}
       <FooterSection />
     </TemplateBase>
   );

@@ -9,6 +9,7 @@ import {
   getMonthlyReportCivicLikerV2Template,
   getNewSupporterTemplate,
   getReferralTxTemplate,
+  getResetPasswordTemplate,
 } from '../dist';
 
 import {
@@ -37,6 +38,10 @@ handleRequest('/basic', (req, res) => {
 
 handleRequest('/basic/avatar', (req, res) => {
   res.send(getBasicWithAvatarTemplate({ ...req.query, ...req.body }));
+});
+
+handleRequest('/reset-password', (req, res) => {
+  res.send(getResetPasswordTemplate({ ...req.query, ...req.body }));
 });
 
 handleRequest('/new-supporter', (req, res) => {

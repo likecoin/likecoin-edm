@@ -47,5 +47,10 @@
   "referral-tx.description.referrer": "<span>user</span> has installed Liker Land app because of you.<br></br>You both received {amount} LikeCoin as rewards.",
   "referral-tx.check-wallet": "The rewards had been transferred to your wallet, you may open the <a>Liker Land app</a> and check.",
 
-  "unsubscribe.text": "Unsubscribe"
+  "unsubscribe.text": "Unsubscribe",
+
+  "reset-password.subtitle": "Reset Password Instruction",
+  "reset-password.content": "Hi {username}, <br></br><br></br> You can continue reset password through this button ",
+  "reset-password.cta": "Reset password",
+  "reset-password.text": "Didn’t request this email? <br></br>  Your address may have been entered by mistake. <br></br> Simply ignore this email and nothing further will happen."
 }

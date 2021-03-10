@@ -10,6 +10,12 @@ import {
   BasicWithAvatarTemplate,
   BasicWithAvatarTemplateProps,
 } from './templates/basic-with-avatar';
+
+import {
+  ResetPassTemplate,
+  ResetPasswordTemplateProps,
+} from './templates/reset-password';
+
 import {
   NewSupporterTemplate,
   NewSupporterTemplateProps,
@@ -34,6 +40,11 @@ export const getBasicWithAvatarTemplate = (
   props: BasicWithAvatarTemplateProps
 ) => {
   const { html } = render(<BasicWithAvatarTemplate {...props} />);
+  return html;
+};
+
+export const getResetPasswordTemplate = (props: ResetPasswordTemplateProps) => {
+  const { html } = render(<ResetPassTemplate {...props} />);
   return html;
 };
 

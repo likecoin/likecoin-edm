@@ -17,6 +17,11 @@ import {
 } from './templates/reset-password';
 
 import {
+  TransactionTemplate,
+  TransactionTemplateProps,
+} from './templates/transaction';
+
+import {
   NewSupporterTemplate,
   NewSupporterTemplateProps,
 } from './templates/new-supporter';
@@ -45,6 +50,11 @@ export const getBasicWithAvatarTemplate = (
 
 export const getResetPasswordTemplate = (props: ResetPasswordTemplateProps) => {
   const { html } = render(<ResetPasswordTemplate {...props} />);
+  return html;
+};
+
+export const getTransactionTemplate = (props: TransactionTemplateProps) => {
+  const { html } = render(<TransactionTemplate {...props} />);
   return html;
 };
 

@@ -10,6 +10,7 @@ import {
   getNewSupporterTemplate,
   getReferralTxTemplate,
   getResetPasswordTemplate,
+  getTransactionTemplate,
 } from '../dist';
 
 import {
@@ -42,6 +43,10 @@ handleRequest('/basic/avatar', (req, res) => {
 
 handleRequest('/reset-password', (req, res) => {
   res.send(getResetPasswordTemplate({ ...req.query, ...req.body }));
+});
+
+handleRequest('/transaction', (req, res) => {
+  res.send(getTransactionTemplate({ ...req.query, ...req.body }));
 });
 
 handleRequest('/new-supporter', (req, res) => {

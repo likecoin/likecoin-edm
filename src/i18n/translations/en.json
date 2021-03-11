@@ -52,5 +52,8 @@
   "reset-password.subtitle": "Reset Password Instruction",
   "reset-password.content": "Hi {name}, <br></br><br></br> You can continue reset password through this button ",
   "reset-password.cta": "Reset password",
-  "reset-password.text": "Didn’t request this email? <br></br>  Your address may have been entered by mistake. <br></br> Simply ignore this email and nothing further will happen."
+  "reset-password.text": "Didn’t request this email? <br></br>  Your address may have been entered by mistake. <br></br> Simply ignore this email and nothing further will happen.",
+
+  "transaction.subtitle": "Receive {amount} LikeCoin Payment",
+  "transaction.content": "Hi {name}, <br></br><br></br> You receive {amount} LikeCoin from {fromUser}. <br></br> You can check the transaction proof from this link: "
 }

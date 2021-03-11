@@ -50,5 +50,8 @@
   "reset-password.subtitle": "更改密码操作说明",
   "reset-password.content": "{name} 您好, <br></br><br></br> 请按以下按键开始更改您的密码",
   "reset-password.cta": "更改密码",
-  "reset-password.text": "你没有要求修改密码吗? <br></br>  别人可能不小心把Email地址打错成你的地址。 <br></br> 请忽略此邮件，你的密码将维持不变。"
+  "reset-password.text": "你没有要求修改密码吗? <br></br>  别人可能不小心把Email地址打错成你的地址。 <br></br> 请忽略此邮件，你的密码将维持不变。",
+
+  "transaction.subtitle": "收到 {amount} LikeCoin 付款",
+  "transaction.content": "{name} 您好, <br></br><br></br> 您收到 {fromUser} 發送的 {amount} 个 LikeCoin。 <br></br> 您可以到以下网址查阅转帐凭证："
 }

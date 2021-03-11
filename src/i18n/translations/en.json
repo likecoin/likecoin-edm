@@ -50,7 +50,7 @@
   "unsubscribe.text": "Unsubscribe",
 
   "reset-password.subtitle": "Reset Password Instruction",
-  "reset-password.content": "Hi {username}, <br></br><br></br> You can continue reset password through this button ",
+  "reset-password.content": "Hi {name}, <br></br><br></br> You can continue reset password through this button ",
   "reset-password.cta": "Reset password",
   "reset-password.text": "Didn’t request this email? <br></br>  Your address may have been entered by mistake. <br></br> Simply ignore this email and nothing further will happen."
 }

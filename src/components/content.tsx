@@ -5,7 +5,7 @@ import { BasicSection } from './sections/basic';
 
 export const ContentSection = ({
   content,
-  paddingBottom,
+  paddingBottom = 32,
 }: {
   content?: string;
   paddingBottom?: number;

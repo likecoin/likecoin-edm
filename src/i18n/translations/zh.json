@@ -48,7 +48,7 @@
   "unsubscribe.text": "取消訂閱",
 
   "reset-password.subtitle": "更改密碼操作說明",
-  "reset-password.content": "{username} 您好, <br></br><br></br> 請按以下按鍵開始更改您的密碼",
+  "reset-password.content": "{name} 您好, <br></br><br></br> 請按以下按鍵開始更改您的密碼",
   "reset-password.cta": "更改密碼",
   "reset-password.text": "您沒有要求修改密碼嗎? <br></br>  別人可能不小心把Email打錯成您的Email。 <br></br> 請忽略此郵件，您的密碼將維持不變。"
 }

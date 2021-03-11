@@ -18,18 +18,12 @@ import { BasicSection } from '../components/sections/basic';
 import { TemplateBase } from '../components/template-base';
 
 export interface ResetPasswordTemplateProps {
-  titleTop?: React.ReactElement;
-  avatarURL?: string;
-  isCivicLiker?: boolean;
-  //   content?: string;
-  username?: string;
+  displayName?: string;
   language?: string;
 }
 
-export const ResetPassTemplate = ({
-  titleTop,
-  //   content,
-  username,
+export const ResetPasswordTemplate = ({
+  displayName,
   language,
 }: ResetPasswordTemplateProps) => {
   return (
@@ -43,14 +37,14 @@ export const ResetPassTemplate = ({
         backgroundUrl={getAssetPath('/templates/basic/header-top.jpg')}
       >
         <MjmlColumn width={120} paddingLeft={0} paddingRight={0}>
-          {titleTop || (
+          {
             <MjmlImage
               src={getAssetPath('/security.png')}
               width={120}
               height={120}
               borderRadius={60}
             />
-          )}
+          }
         </MjmlColumn>
       </BasicSection>
       <BasicSection
@@ -92,7 +86,7 @@ export const ResetPassTemplate = ({
               id="reset-password.content"
               values={{
                 br: () => <br />,
-                username: username,
+                name: displayName,
               }}
             />
           </MjmlText>
@@ -102,8 +96,8 @@ export const ResetPassTemplate = ({
         <MjmlColumn>
           <MjmlButton
             fontFamily="Arial"
-            backgroundColor="#aaf1e7"
-            color="#28646E"
+            backgroundColor={Colors.LikeBlue}
+            color={Colors.LikeGreen}
             fontSize="14px"
             borderRadius="12px"
             width="256px"
@@ -115,7 +109,12 @@ export const ResetPassTemplate = ({
       </BasicSection>
       <BasicSection padding-top="10px">
         <MjmlColumn>
-          <MjmlText align="center" fontSize={14} color="#9B9B9B" paddingTop={0}>
+          <MjmlText
+            align="center"
+            fontSize={14}
+            color={Colors.Grey9B}
+            paddingTop={0}
+          >
             <FormattedMessage
               id="reset-password.text"
               values={{
@@ -127,7 +126,12 @@ export const ResetPassTemplate = ({
       </BasicSection>
       <BasicSection>
         <MjmlColumn>
-          <MjmlText align="left" fontSize={18} color="#4A4A4A" paddingTop={0}>
+          <MjmlText
+            align="left"
+            fontSize={18}
+            color={Colors.Grey4A}
+            paddingTop={0}
+          >
             Liker Land <br />
             https://liker.land <br />
           </MjmlText>

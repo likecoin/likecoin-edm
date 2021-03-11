@@ -12,7 +12,7 @@ import {
 } from './templates/basic-with-avatar';
 
 import {
-  ResetPassTemplate,
+  ResetPasswordTemplate,
   ResetPasswordTemplateProps,
 } from './templates/reset-password';
 
@@ -44,7 +44,7 @@ export const getBasicWithAvatarTemplate = (
 };
 
 export const getResetPasswordTemplate = (props: ResetPasswordTemplateProps) => {
-  const { html } = render(<ResetPassTemplate {...props} />);
+  const { html } = render(<ResetPasswordTemplate {...props} />);
   return html;
 };
 

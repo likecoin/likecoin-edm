@@ -18,12 +18,10 @@ import { BasicSection } from '../components/sections/basic';
 import { TemplateBase } from '../components/template-base';
 
 export interface ResetPasswordTemplateProps {
-  displayName?: string;
   language?: string;
 }
 
 export const ResetPasswordTemplate = ({
-  displayName,
   language,
 }: ResetPasswordTemplateProps) => {
   return (
@@ -84,7 +82,7 @@ export const ResetPasswordTemplate = ({
               id="reset-password.content"
               values={{
                 br: () => <br />,
-                name: displayName,
+                name: '{display_name}',
               }}
             />
           </MjmlText>

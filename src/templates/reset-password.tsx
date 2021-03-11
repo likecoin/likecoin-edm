@@ -37,14 +37,12 @@ export const ResetPasswordTemplate = ({
         backgroundUrl={getAssetPath('/templates/basic/header-top.jpg')}
       >
         <MjmlColumn width={120} paddingLeft={0} paddingRight={0}>
-          {
-            <MjmlImage
-              src={getAssetPath('/security.png')}
-              width={120}
-              height={120}
-              borderRadius={60}
-            />
-          }
+          <MjmlImage
+            src={getAssetPath('/security.png')}
+            width={120}
+            height={120}
+            borderRadius={60}
+          />
         </MjmlColumn>
       </BasicSection>
       <BasicSection
@@ -96,7 +94,7 @@ export const ResetPasswordTemplate = ({
         <MjmlColumn>
           <MjmlButton
             fontFamily="Arial"
-            backgroundColor={Colors.LikeBlue}
+            backgroundColor={Colors.LighterCyan}
             color={Colors.LikeGreen}
             fontSize="14px"
             borderRadius="12px"

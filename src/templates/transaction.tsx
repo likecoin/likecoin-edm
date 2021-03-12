@@ -103,19 +103,6 @@ export const TransactionTemplate = ({ language }: TransactionTemplateProps) => {
           </MjmlText>
         </MjmlColumn>
       </BasicSection>
-      <BasicSection>
-        <MjmlColumn>
-          <MjmlText
-            align="left"
-            fontSize={18}
-            color={Colors.Grey4A}
-            paddingTop={0}
-          >
-            Liker Land <br />
-            https://liker.land <br />
-          </MjmlText>
-        </MjmlColumn>
-      </BasicSection>
       <AppCTASection />
       <FooterSection />
     </TemplateBase>

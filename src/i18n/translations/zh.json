@@ -52,6 +52,6 @@
   "reset-password.cta": "更改密碼",
   "reset-password.text": "您沒有要求修改密碼嗎? <br></br>  別人可能不小心把Email打錯成您的Email。 <br></br> 請忽略此郵件，您的密碼將維持不變。",
 
-  "transaction.subtitle": "收到 {amount} LikeCoin 付款",
-  "transaction.content": "{name} 您好, <br></br><br></br> 您收到 {fromUser} 發送的 {amount} 個 LikeCoin。 <br></br> 您可以到以下網址查閱轉帳憑證： "
+  "transaction.subtitle": "您已收到 {amount} LikeCoin",
+  "transaction.content": "{name} 您好, <br></br><br></br> 您已收到 {fromUser} 發送的 {amount} LikeCoin。 <br></br> 查閱交易詳情： "
 }

@@ -16,7 +16,7 @@ export interface TransactionTemplateProps {
   toDisplayName?: string;
   fromDisplayName?: string;
   viewTxURL?: string;
-  amount?: number;
+  amount?: string;
 }
 
 export const TransactionTemplate = ({

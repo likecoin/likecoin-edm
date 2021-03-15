@@ -9,6 +9,8 @@ import {
   getMonthlyReportCivicLikerV2Template,
   getNewSupporterTemplate,
   getReferralTxTemplate,
+  getResetPasswordTemplate,
+  getTransactionTemplate,
 } from '../dist';
 
 import {
@@ -37,6 +39,15 @@ handleRequest('/basic', (req, res) => {
 
 handleRequest('/basic/avatar', (req, res) => {
   res.send(getBasicWithAvatarTemplate({ ...req.query, ...req.body }));
+});
+
+handleRequest('/reset-password', (req, res) => {
+  res.send(getResetPasswordTemplate({ ...req.query, ...req.body }));
+});
+
+handleRequest('/transaction', (req, res) => {
+  const { subject, body } = getTransactionTemplate({ ...req.query, ...req.body })
+  res.send(subject.concat(body));
 });
 
 handleRequest('/new-supporter', (req, res) => {

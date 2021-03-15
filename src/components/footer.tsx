@@ -32,14 +32,8 @@ export const FooterSection = () => {
           containerBackgroundColor="white"
         >
           <MjmlSocialElement
-            href="https://matters.news/@likecoin"
-            src={getAssetPath('/social-elements/matters.png')}
-          >
-            {null}
-          </MjmlSocialElement>
-          <MjmlSocialElement
-            href="https://t.me/likecoin"
-            src={getAssetPath('/social-elements/telegram.png')}
+            href="https://discord.gg/W4DQ6peZZZ"
+            src={getAssetPath('/social-elements/discord.png')}
           >
             {null}
           </MjmlSocialElement>
@@ -50,14 +44,14 @@ export const FooterSection = () => {
             {null}
           </MjmlSocialElement>
           <MjmlSocialElement
-            src={getAssetPath('/social-elements/github.png')}
-            href="https://github.com/likecoin"
+            src={getAssetPath('/social-elements/twitter.png')}
+            href="https://twitter.com/likecoin"
           >
             {null}
           </MjmlSocialElement>
           <MjmlSocialElement
-            src={getAssetPath('/social-elements/twitter.png')}
-            href="https://twitter.com/likecoin"
+            src={getAssetPath('/social-elements/github.png')}
+            href="https://github.com/likecoin"
           >
             {null}
           </MjmlSocialElement>

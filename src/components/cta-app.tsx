@@ -20,7 +20,12 @@ export const AppCTASection = () => {
   return (
     <BasicSection paddingLeft={16} paddingRight={16}>
       <MjmlColumn>
-        <MjmlImage src={bannerSrc} width={400} alt="Liker Land App" />
+        <MjmlImage
+          src={bannerSrc}
+          width={400}
+          alt="Liker Land App"
+          paddingBottom={16}
+        />
         <MjmlSocial
           mode="horizontal"
           innerPadding="8px"

@@ -77,7 +77,7 @@ export const ResetPasswordTemplate = ({
         paddingBottom={0}
       >
         <MjmlColumn>
-          <MjmlText>
+          <MjmlText fontSize={18}>
             <FormattedMessage
               id="reset-password.content"
               values={{
@@ -88,7 +88,7 @@ export const ResetPasswordTemplate = ({
           </MjmlText>
         </MjmlColumn>
       </BasicSection>
-      <BasicSection padding-top="12px" padding-bottom="0px">
+      <BasicSection padding-top="18px" padding-bottom="0px">
         <MjmlColumn>
           <MjmlButton
             fontFamily="Arial"
@@ -103,7 +103,7 @@ export const ResetPasswordTemplate = ({
           </MjmlButton>
         </MjmlColumn>
       </BasicSection>
-      <BasicSection padding-top="10px">
+      <BasicSection padding-top="10px" padding-bottom="0px">
         <MjmlColumn>
           <MjmlText
             align="center"
@@ -117,19 +117,6 @@ export const ResetPasswordTemplate = ({
                 br: () => <br />,
               }}
             />
-          </MjmlText>
-        </MjmlColumn>
-      </BasicSection>
-      <BasicSection>
-        <MjmlColumn>
-          <MjmlText
-            align="left"
-            fontSize={18}
-            color={Colors.Grey4A}
-            paddingTop={0}
-          >
-            Liker Land <br />
-            https://liker.land <br />
           </MjmlText>
         </MjmlColumn>
       </BasicSection>

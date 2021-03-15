@@ -3,7 +3,10 @@ import { render } from 'mjml-react';
 
 import { initIntl } from './i18n';
 
-import { getLocalizedMonthlyReportSubject } from './utils/localization';
+import {
+  getLocalizedMonthlyReportSubject,
+  getLocalizedTransactionSubject,
+} from './utils/localization';
 
 import { BasicTemplate, BasicTemplateProps } from './templates/basic';
 import {
@@ -54,8 +57,10 @@ export const getResetPasswordTemplate = (props: ResetPasswordTemplateProps) => {
 };
 
 export const getTransactionTemplate = (props: TransactionTemplateProps) => {
-  const { html } = render(<TransactionTemplate {...props} />);
-  return html;
+  const intl = initIntl();
+  const subject = getLocalizedTransactionSubject(intl, props.amount);
+  const { html: body } = render(<TransactionTemplate {...props} />);
+  return { subject, body };
 };
 
 export const getNewSupporterTemplate = (props: NewSupporterTemplateProps) => {

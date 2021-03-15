@@ -46,7 +46,8 @@ handleRequest('/reset-password', (req, res) => {
 });
 
 handleRequest('/transaction', (req, res) => {
-  res.send(getTransactionTemplate({ ...req.query, ...req.body }));
+  const { subject, body } = getTransactionTemplate({ ...req.query, ...req.body })
+  res.send(subject.concat(body));
 });
 
 handleRequest('/new-supporter', (req, res) => {

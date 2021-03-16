@@ -55,7 +55,9 @@ export const ResetPasswordTemplate = ({
             color={Colors.LikeGreen}
             paddingTop={16}
           >
-            <FormattedMessage id="reset-password.subtitle" />
+            <span style={{ color: `${Colors.LikeGreen} !important` }}>
+              <FormattedMessage id="reset-password.subtitle" />
+            </span>
           </MjmlText>
         </MjmlColumn>
       </BasicSection>
@@ -78,13 +80,15 @@ export const ResetPasswordTemplate = ({
       >
         <MjmlColumn>
           <MjmlText fontSize={18}>
-            <FormattedMessage
-              id="reset-password.content"
-              values={{
-                br: () => <br />,
-                name: '{display_name}',
-              }}
-            />
+            <span style={{ color: `${Colors.Black} !important` }}>
+              <FormattedMessage
+                id="reset-password.content"
+                values={{
+                  br: () => <br />,
+                  name: '{display_name}',
+                }}
+              />
+            </span>
           </MjmlText>
         </MjmlColumn>
       </BasicSection>

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { render } from 'mjml-react';
+import { Mjml2HtmlOptions, render } from 'mjml-react';
 
 import { initIntl } from './i18n';
 
@@ -39,42 +39,59 @@ import { MonthlyReportCivicLikerV1TemplateProps } from './templates/reports/mont
 import { MonthlyReportCivicLikerV2Template } from './templates/reports/monthly/civic-liker/v2';
 import { MonthlyReportCivicLikerV2TemplateProps } from './templates/reports/monthly/civic-liker/v2.types';
 
-export const getBasicTemplate = (props: BasicTemplateProps) => {
-  const { html } = render(<BasicTemplate {...props} />);
+export const getBasicTemplate = (
+  props: BasicTemplateProps,
+  options?: Mjml2HtmlOptions
+) => {
+  const { html } = render(<BasicTemplate {...props} />, options);
   return html;
 };
 
 export const getBasicWithAvatarTemplate = (
-  props: BasicWithAvatarTemplateProps
+  props: BasicWithAvatarTemplateProps,
+  options?: Mjml2HtmlOptions
 ) => {
-  const { html } = render(<BasicWithAvatarTemplate {...props} />);
+  const { html } = render(<BasicWithAvatarTemplate {...props} />, options);
   return html;
 };
 
-export const getResetPasswordTemplate = (props: ResetPasswordTemplateProps) => {
-  const { html } = render(<ResetPasswordTemplate {...props} />);
+export const getResetPasswordTemplate = (
+  props: ResetPasswordTemplateProps,
+  options?: Mjml2HtmlOptions
+) => {
+  const { html } = render(<ResetPasswordTemplate {...props} />, options);
   return html;
 };
 
-export const getTransactionTemplate = (props: TransactionTemplateProps) => {
+export const getTransactionTemplate = (
+  props: TransactionTemplateProps,
+  options?: Mjml2HtmlOptions
+) => {
   const intl = initIntl();
   const subject = getLocalizedTransactionSubject(intl, props.amount);
-  const { html: body } = render(<TransactionTemplate {...props} />);
+  const { html: body } = render(<TransactionTemplate {...props} />, options);
   return { subject, body };
 };
 
-export const getNewSupporterTemplate = (props: NewSupporterTemplateProps) => {
-  const { html } = render(<NewSupporterTemplate {...props} />);
+export const getNewSupporterTemplate = (
+  props: NewSupporterTemplateProps,
+  options?: Mjml2HtmlOptions
+) => {
+  const { html } = render(<NewSupporterTemplate {...props} />, options);
   return html;
 };
 
-export const getReferralTxTemplate = (props: ReferralTxTemplateProps) => {
-  const { html } = render(<ReferralTxTemplate {...props} />);
+export const getReferralTxTemplate = (
+  props: ReferralTxTemplateProps,
+  options?: Mjml2HtmlOptions
+) => {
+  const { html } = render(<ReferralTxTemplate {...props} />, options);
   return html;
 };
 
 export const getMonthlyReportCreatorTemplate = (
-  props: MonthlyReportCreatorTemplateProps
+  props: MonthlyReportCreatorTemplateProps,
+  options?: Mjml2HtmlOptions
 ) => {
   const intl = initIntl();
   const subject = getLocalizedMonthlyReportSubject(
@@ -82,12 +99,16 @@ export const getMonthlyReportCreatorTemplate = (
     'creator',
     props.timestamp
   );
-  const { html: body } = render(<MonthlyReportCreatorTemplate {...props} />);
+  const { html: body } = render(
+    <MonthlyReportCreatorTemplate {...props} />,
+    options
+  );
   return { subject, body };
 };
 
 export const getMonthlyReportCivicLikerV1Template = (
-  props: MonthlyReportCivicLikerV1TemplateProps
+  props: MonthlyReportCivicLikerV1TemplateProps,
+  options?: Mjml2HtmlOptions
 ) => {
   const intl = initIntl();
   const subject = getLocalizedMonthlyReportSubject(
@@ -96,13 +117,15 @@ export const getMonthlyReportCivicLikerV1Template = (
     props.timestamp
   );
   const { html: body } = render(
-    <MonthlyReportCivicLikerV1Template {...props} />
+    <MonthlyReportCivicLikerV1Template {...props} />,
+    options
   );
   return { subject, body };
 };
 
 export const getMonthlyReportCivicLikerV2Template = (
-  props: MonthlyReportCivicLikerV2TemplateProps
+  props: MonthlyReportCivicLikerV2TemplateProps,
+  options?: Mjml2HtmlOptions
 ) => {
   const intl = initIntl();
   const subject = getLocalizedMonthlyReportSubject(
@@ -111,7 +134,8 @@ export const getMonthlyReportCivicLikerV2Template = (
     props.timestamp
   );
   const { html: body } = render(
-    <MonthlyReportCivicLikerV2Template {...props} />
+    <MonthlyReportCivicLikerV2Template {...props} />,
+    options
   );
   return { subject, body };
 };

@@ -24,10 +24,13 @@ describe('Render referral tx templates', () => {
   });
 
   it('Referrer', () => {
-    const html = getReferralTxTemplate({
-      receiverLikerID: 'foundation',
-      ...REFERRAL_PARAMS,
-    });
+    const html = getReferralTxTemplate(
+      {
+        receiverLikerID: 'foundation',
+        ...REFERRAL_PARAMS,
+      },
+      { minify: false }
+    );
     expect(html).toMatchSnapshot();
   });
 });

@@ -57,14 +57,12 @@ export const TransactionTemplate = ({
             color={Colors.LikeGreen}
             paddingTop={16}
           >
-            <span style={{ color: `${Colors.LikeGreen} !important` }}>
-              <FormattedMessage
-                id="transaction.subtitle"
-                values={{
-                  amount: amount,
-                }}
-              />
-            </span>
+            <FormattedMessage
+              id="transaction.subtitle"
+              values={{
+                amount: amount,
+              }}
+            />
           </MjmlText>
         </MjmlColumn>
       </BasicSection>
@@ -86,18 +84,16 @@ export const TransactionTemplate = ({
         paddingBottom={0}
       >
         <MjmlColumn>
-          <MjmlText fontSize={18} background-color={'white'}>
-            <span style={{ color: `${Colors.Black} !important` }}>
-              <FormattedMessage
-                id="transaction.content"
-                values={{
-                  br: () => <br />,
-                  name: toDisplayName,
-                  amount: amount,
-                  fromUser: fromDisplayName,
-                }}
-              />
-            </span>
+          <MjmlText fontSize={18}>
+            <FormattedMessage
+              id="transaction.content"
+              values={{
+                br: () => <br />,
+                name: toDisplayName,
+                amount: amount,
+                fromUser: fromDisplayName,
+              }}
+            />
           </MjmlText>
         </MjmlColumn>
       </BasicSection>

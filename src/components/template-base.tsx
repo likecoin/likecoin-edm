@@ -59,8 +59,8 @@ export const TemplateBase = (props: TemplateBaseProps) => {
               {`
             @media (prefers-color-scheme: dark) {
                 .dark-text {
-                  background-color: white; 
-                  color: black;
+                  background-color: black; 
+                  color: white;
                   }`}
             </MjmlStyle>
             <MjmlBreakpoint width={576} />

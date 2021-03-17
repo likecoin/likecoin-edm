@@ -84,7 +84,7 @@ export const TransactionTemplate = ({
         paddingBottom={0}
       >
         <MjmlColumn>
-          <MjmlText fontSize={18}>
+          <MjmlText fontSize={18} cssClass={'dark-text'}>
             <FormattedMessage
               id="transaction.content"
               values={{

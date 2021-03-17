@@ -55,8 +55,8 @@ export const TemplateBase = (props: TemplateBaseProps) => {
             </MjmlAttributes>
             <MjmlBreakpoint width={576} />
             <MjmlRaw>
-              <meta name="color-scheme" content="light dark" />
-              <meta name="supported-color-schemes" content="light dark" />
+              <meta name="color-scheme" content="light" />
+              <meta name="supported-color-schemes" content="light" />
             </MjmlRaw>
           </MjmlHead>
           <MjmlBody backgroundColor="white" width={theme.templateWidth}>

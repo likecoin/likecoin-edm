@@ -59,7 +59,7 @@ export const TemplateBase = (props: TemplateBaseProps) => {
               {`
             @media (prefers-color-scheme: dark) {
                 .dark-text {
-                  background-color: red; 
+                  background-color: white; 
                   color: black;
                   }`}
             </MjmlStyle>

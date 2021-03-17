@@ -49,7 +49,7 @@ export const TemplateBase = (props: TemplateBaseProps) => {
               <MjmlAll
                 fontFamily="Arial"
                 fontSize="14px"
-                color={Colors.Grey4A}
+                color={Colors.Black}
                 padding={0}
               />
               <MjmlText lineHeight="1.5" />
@@ -59,7 +59,7 @@ export const TemplateBase = (props: TemplateBaseProps) => {
               {`
             @media (prefers-color-scheme: dark) {
                 .dark-text {
-                  color: black;
+                  color: black !important;
                   }`}
             </MjmlStyle>
             <MjmlBreakpoint width={576} />

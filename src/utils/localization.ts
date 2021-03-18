@@ -68,14 +68,6 @@ export function getLocalizedTransactionSubject(
   return intl.formatMessage({ id: 'transaction.subject' }, { amount: amount });
 }
 
-export function getLocalizedBasicSubject(intl: IntlShape) {
-  return intl.formatMessage({ id: 'basic.subject' });
-}
-
-export function getLocalizedBasicWithAvatarSubject(intl: IntlShape) {
-  return intl.formatMessage({ id: 'basic-with-avatar.subject' });
-}
-
 export function getLocalizedResetPasswordSubject(intl: IntlShape) {
   return intl.formatMessage({ id: 'reset-password.subject' });
 }

@@ -6,11 +6,7 @@ import { initIntl } from './i18n';
 import {
   getLocalizedMonthlyReportSubject,
   getLocalizedTransactionSubject,
-  getLocalizedBasicSubject,
-  getLocalizedBasicWithAvatarSubject,
   getLocalizedResetPasswordSubject,
-  getLocalizedNewSupporterSubject,
-  getLocalizedReferralTxSubject,
 } from './utils/localization';
 
 import { BasicTemplate, BasicTemplateProps } from './templates/basic';
@@ -48,8 +44,7 @@ export const getBasicTemplate = (
   props: BasicTemplateProps,
   options?: Mjml2HtmlOptions
 ) => {
-  const intl = initIntl();
-  const subject = getLocalizedBasicSubject(intl);
+  const subject = 'Lorem Ipsum';
   const { html: body } = render(<BasicTemplate {...props} />, options);
   return { subject, body };
 };
@@ -58,8 +53,7 @@ export const getBasicWithAvatarTemplate = (
   props: BasicWithAvatarTemplateProps,
   options?: Mjml2HtmlOptions
 ) => {
-  const intl = initIntl();
-  const subject = getLocalizedBasicWithAvatarSubject(intl);
+  const subject = 'Lorem Ipsum';
   const { html: body } = render(
     <BasicWithAvatarTemplate {...props} />,
     options
@@ -91,8 +85,7 @@ export const getNewSupporterTemplate = (
   props: NewSupporterTemplateProps,
   options?: Mjml2HtmlOptions
 ) => {
-  const intl = initIntl();
-  const subject = getLocalizedNewSupporterSubject(intl);
+  const subject = 'Lorem Ipsum';
   const { html: body } = render(<NewSupporterTemplate {...props} />, options);
   return { subject, body };
 };
@@ -101,8 +94,7 @@ export const getReferralTxTemplate = (
   props: ReferralTxTemplateProps,
   options?: Mjml2HtmlOptions
 ) => {
-  const intl = initIntl();
-  const subject = getLocalizedReferralTxSubject(intl);
+  const subject = 'Lorem Ipsum';
   const { html: body } = render(<ReferralTxTemplate {...props} />, options);
   return { subject, body };
 };

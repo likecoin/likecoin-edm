@@ -77,7 +77,7 @@ export const ResetPasswordTemplate = ({
         paddingBottom={0}
       >
         <MjmlColumn>
-          <MjmlText fontSize={18} color={Colors.Black}>
+          <MjmlText fontSize={18}>
             <FormattedMessage
               id="reset-password.content"
               values={{

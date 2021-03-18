@@ -49,6 +49,7 @@
 
   "unsubscribe.text": "Unsubscribe",
 
+  "reset-password.subject": "Reset Password Instruction",
   "reset-password.subtitle": "Reset Password Instruction",
   "reset-password.content": "Hi {name}, <br></br><br></br> You can continue reset password through this button ",
   "reset-password.cta": "Reset password",

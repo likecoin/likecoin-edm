@@ -47,6 +47,7 @@
 
   "unsubscribe.text": "取消订阅",
 
+  "reset-password.subject": "更改密码操作说明",
   "reset-password.subtitle": "更改密码操作说明",
   "reset-password.content": "{name} 您好, <br></br><br></br> 请按以下按键开始更改您的密码",
   "reset-password.cta": "更改密码",

@@ -6,7 +6,6 @@ import { initIntl } from './i18n';
 import {
   getLocalizedMonthlyReportSubject,
   getLocalizedTransactionSubject,
-  getLocalizedResetPasswordSubject,
 } from './utils/localization';
 
 import { BasicTemplate, BasicTemplateProps } from './templates/basic';
@@ -44,31 +43,27 @@ export const getBasicTemplate = (
   props: BasicTemplateProps,
   options?: Mjml2HtmlOptions
 ) => {
-  const subject = 'Lorem Ipsum';
   const { html: body } = render(<BasicTemplate {...props} />, options);
-  return { subject, body };
+  return { body };
 };
 
 export const getBasicWithAvatarTemplate = (
   props: BasicWithAvatarTemplateProps,
   options?: Mjml2HtmlOptions
 ) => {
-  const subject = 'Lorem Ipsum';
   const { html: body } = render(
     <BasicWithAvatarTemplate {...props} />,
     options
   );
-  return { subject, body };
+  return { body };
 };
 
 export const getResetPasswordTemplate = (
   props: ResetPasswordTemplateProps,
   options?: Mjml2HtmlOptions
 ) => {
-  const intl = initIntl();
-  const subject = getLocalizedResetPasswordSubject(intl);
   const { html: body } = render(<ResetPasswordTemplate {...props} />, options);
-  return { subject, body };
+  return { body };
 };
 
 export const getTransactionTemplate = (
@@ -77,7 +72,10 @@ export const getTransactionTemplate = (
 ) => {
   const intl = initIntl();
   const subject = getLocalizedTransactionSubject(intl, props.amount);
-  const { html: body } = render(<TransactionTemplate {...props} />, options);
+  const { html: body } = render(
+    <TransactionTemplate {...{ ...props, subject }} />,
+    options
+  );
   return { subject, body };
 };
 
@@ -85,18 +83,16 @@ export const getNewSupporterTemplate = (
   props: NewSupporterTemplateProps,
   options?: Mjml2HtmlOptions
 ) => {
-  const subject = 'Lorem Ipsum';
   const { html: body } = render(<NewSupporterTemplate {...props} />, options);
-  return { subject, body };
+  return { body };
 };
 
 export const getReferralTxTemplate = (
   props: ReferralTxTemplateProps,
   options?: Mjml2HtmlOptions
 ) => {
-  const subject = 'Lorem Ipsum';
   const { html: body } = render(<ReferralTxTemplate {...props} />, options);
-  return { subject, body };
+  return { body };
 };
 
 export const getMonthlyReportCreatorTemplate = (

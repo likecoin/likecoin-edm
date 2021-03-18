@@ -34,33 +34,33 @@ function handleRequest(path: string, handler: RequestHandler) {
 }
 
 handleRequest('/basic', (req, res) => {
-  const { subject, body } = getBasicTemplate({ ...req.query, ...req.body });
-  res.send(subject.concat(body));
+  const { body } = getBasicTemplate({ ...req.query, ...req.body });
+  res.send(body);
 });
 
 handleRequest('/basic/avatar', (req, res) => {
-  const { subject, body } = getBasicWithAvatarTemplate({ ...req.query, ...req.body });
-  res.send(subject.concat(body));
+  const { body } = getBasicWithAvatarTemplate({ ...req.query, ...req.body });
+  res.send(body);
 });
 
 handleRequest('/reset-password', (req, res) => {
-  const { subject, body } = getResetPasswordTemplate({ ...req.query, ...req.body });
-  res.send(subject.concat(body));
+  const { body } = getResetPasswordTemplate({ ...req.query, ...req.body });
+  res.send(body);
 });
 
 handleRequest('/transaction', (req, res) => {
-  const { subject, body } = getTransactionTemplate({ ...req.query, ...req.body });
-  res.send(subject.concat(body));
+  const { body } = getTransactionTemplate({ ...req.query, ...req.body });
+  res.send(body);
 });
 
 handleRequest('/new-supporter', (req, res) => {
-  const { subject, body } = getNewSupporterTemplate({ ...req.query, ...req.body });
-  res.send(subject.concat(body));
+  const { body } = getNewSupporterTemplate({ ...req.query, ...req.body });
+  res.send(body);
 });
 
 handleRequest('/referral-tx', (req, res) => {
-  const { subject, body } = getReferralTxTemplate({ ...req.query, ...req.body });
-  res.send(subject.concat(body));
+  const { body } = getReferralTxTemplate({ ...req.query, ...req.body });
+  res.send(body);
 });
 
 handleRequest('/monthly-reports/creator', (req, res) => {

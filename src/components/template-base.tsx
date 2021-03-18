@@ -48,7 +48,7 @@ export const TemplateBase = (props: TemplateBaseProps) => {
               <MjmlAll
                 fontFamily="Arial"
                 fontSize="14px"
-                color={Colors.Grey4A}
+                color={Colors.White}
                 padding={0}
               />
               <MjmlText lineHeight="1.5" />

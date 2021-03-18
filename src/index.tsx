@@ -64,8 +64,11 @@ export const getResetPasswordTemplate = (
   props: ResetPasswordTemplateProps,
   options?: Mjml2HtmlOptions
 ) => {
+  const intl = initIntl();
+  const {
+    subject = intl.formatMessage({ id: 'reset-password.subject' }),
+  } = props;
   const { html: body } = render(<ResetPasswordTemplate {...props} />, options);
-  const { subject } = props;
   return { subject, body };
 };
 
@@ -86,10 +89,7 @@ export const getNewSupporterTemplate = (
   props: NewSupporterTemplateProps,
   options?: Mjml2HtmlOptions
 ) => {
-  const intl = initIntl();
-  const {
-    subject = intl.formatMessage({ id: 'reset-password.subject' }),
-  } = props;
+  const { subject } = props;
   const { html: body } = render(<NewSupporterTemplate {...props} />, options);
   return { subject, body };
 };

@@ -44,7 +44,8 @@ export const getBasicTemplate = (
   options?: Mjml2HtmlOptions
 ) => {
   const { html: body } = render(<BasicTemplate {...props} />, options);
-  return { body };
+  const { subject } = props;
+  return { subject, body };
 };
 
 export const getBasicWithAvatarTemplate = (
@@ -55,7 +56,8 @@ export const getBasicWithAvatarTemplate = (
     <BasicWithAvatarTemplate {...props} />,
     options
   );
-  return { body };
+  const { subject } = props;
+  return { subject, body };
 };
 
 export const getResetPasswordTemplate = (
@@ -63,7 +65,8 @@ export const getResetPasswordTemplate = (
   options?: Mjml2HtmlOptions
 ) => {
   const { html: body } = render(<ResetPasswordTemplate {...props} />, options);
-  return { body };
+  const { subject } = props;
+  return { subject, body };
 };
 
 export const getTransactionTemplate = (
@@ -83,16 +86,18 @@ export const getNewSupporterTemplate = (
   props: NewSupporterTemplateProps,
   options?: Mjml2HtmlOptions
 ) => {
+  const { subject } = props;
   const { html: body } = render(<NewSupporterTemplate {...props} />, options);
-  return { body };
+  return { subject, body };
 };
 
 export const getReferralTxTemplate = (
   props: ReferralTxTemplateProps,
   options?: Mjml2HtmlOptions
 ) => {
+  const { subject } = props;
   const { html: body } = render(<ReferralTxTemplate {...props} />, options);
-  return { body };
+  return { subject, body };
 };
 
 export const getMonthlyReportCreatorTemplate = (

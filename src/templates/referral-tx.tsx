@@ -45,6 +45,7 @@ const ReferralUserColumn = (props: ReferralUserColumnProps) => {
 };
 
 export interface ReferralTxTemplateProps {
+  subject?: string;
   language?: string;
   receiverLikerID?: string;
   refereeLikerID?: string;

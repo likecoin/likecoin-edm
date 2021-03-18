@@ -18,6 +18,7 @@ import { BasicSection } from '../components/sections/basic';
 import { TemplateBase } from '../components/template-base';
 
 export interface ResetPasswordTemplateProps {
+  subject?: string;
   language?: string;
 }
 

@@ -12,6 +12,7 @@ import { BasicSection } from '../components/sections/basic';
 import { TemplateBase } from '../components/template-base';
 
 export interface BasicTemplateProps {
+  subject?: string; // add this line
   title?: string;
   titleTop?: React.ReactElement;
   subtitle?: string;

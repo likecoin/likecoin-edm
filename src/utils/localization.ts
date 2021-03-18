@@ -67,15 +67,3 @@ export function getLocalizedTransactionSubject(
 ) {
   return intl.formatMessage({ id: 'transaction.subject' }, { amount: amount });
 }
-
-export function getLocalizedResetPasswordSubject(intl: IntlShape) {
-  return intl.formatMessage({ id: 'reset-password.subject' });
-}
-
-export function getLocalizedNewSupporterSubject(intl: IntlShape) {
-  return intl.formatMessage({ id: 'reset-new-supporter.subject' });
-}
-
-export function getLocalizedReferralTxSubject(intl: IntlShape) {
-  return intl.formatMessage({ id: 'reset-referral-tx.subject' });
-}

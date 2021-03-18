@@ -86,7 +86,10 @@ export const getNewSupporterTemplate = (
   props: NewSupporterTemplateProps,
   options?: Mjml2HtmlOptions
 ) => {
-  const { subject } = props;
+  const intl = initIntl();
+  const {
+    subject = intl.formatMessage({ id: 'reset-password.subject' }),
+  } = props;
   const { html: body } = render(<NewSupporterTemplate {...props} />, options);
   return { subject, body };
 };

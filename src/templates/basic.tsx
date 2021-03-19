@@ -24,6 +24,7 @@ export interface BasicTemplateProps {
 }
 
 export const BasicTemplate = ({
+  subject,
   title,
   titleTop,
   subtitle,
@@ -32,7 +33,7 @@ export const BasicTemplate = ({
   language,
 }: BasicTemplateProps) => {
   return (
-    <TemplateBase language={language} isExtruded={true}>
+    <TemplateBase language={language} isExtruded={true} subject={subject}>
       <HeaderSection />
       <BasicSection
         paddingTop={0}

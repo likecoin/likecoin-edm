@@ -8,7 +8,7 @@ import {
 
 describe('Render new supporter templates', () => {
   it('Default', () => {
-    const html = getNewSupporterTemplate(
+    const { body } = getNewSupporterTemplate(
       {
         title: SAMPLE_TEXT,
         content: SAMPLE_RICH_TEXT,
@@ -19,6 +19,6 @@ describe('Render new supporter templates', () => {
       },
       { minify: false }
     );
-    expect(html).toMatchSnapshot();
+    expect(body).toMatchSnapshot();
   });
 });

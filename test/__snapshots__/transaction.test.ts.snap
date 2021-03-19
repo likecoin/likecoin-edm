@@ -1,13 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Render new transaction templates Default 1`] = `
-Object {
-  "body": "
+"
     <!doctype html>
     <html xmlns=\\"http://www.w3.org/1999/xhtml\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" xmlns:o=\\"urn:schemas-microsoft-com:office:office\\">
       <head>
         <title>
-          
+          您已收到 100 LikeCoin
         </title>
         <!--[if !mso]><!-- -->
         <meta http-equiv=\\"X-UA-Compatible\\" content=\\"IE=edge\\">
@@ -1100,7 +1099,5 @@ Object {
     
       </body>
     </html>
-  ",
-  "subject": "您已收到 100 LikeCoin",
-}
+  "
 `;

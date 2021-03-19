@@ -7,6 +7,7 @@ import {
   MjmlAll,
   MjmlText,
   MjmlBreakpoint,
+  MjmlTitle,
 } from 'mjml-react';
 
 import * as Colors from '../constants/colors';
@@ -31,18 +32,20 @@ const ThemeContext = React.createContext(getThemeConfig());
 export const useTheme = () => React.useContext(ThemeContext);
 
 export interface TemplateBaseProps extends React.PropsWithChildren<{}> {
+  subject?: string;
   isExtruded?: boolean;
   language?: string;
 }
 
 export const TemplateBase = (props: TemplateBaseProps) => {
-  const { isExtruded = false, language } = props;
+  const { isExtruded = false, language, subject = '' } = props;
   const theme = getThemeConfig({ isExtruded });
   return (
     <IntlProvider language={language}>
       <ThemeContext.Provider value={theme}>
         <Mjml>
           <MjmlHead>
+            <MjmlTitle>{subject}</MjmlTitle>
             <MjmlAttributes>
               <MjmlAll
                 fontFamily="Arial"

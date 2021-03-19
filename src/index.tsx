@@ -43,24 +43,36 @@ export const getBasicTemplate = (
   props: BasicTemplateProps,
   options?: Mjml2HtmlOptions
 ) => {
-  const { html } = render(<BasicTemplate {...props} />, options);
-  return html;
+  const { html: body } = render(<BasicTemplate {...props} />, options);
+  const { subject } = props;
+  return { subject, body };
 };
 
 export const getBasicWithAvatarTemplate = (
   props: BasicWithAvatarTemplateProps,
   options?: Mjml2HtmlOptions
 ) => {
-  const { html } = render(<BasicWithAvatarTemplate {...props} />, options);
-  return html;
+  const { html: body } = render(
+    <BasicWithAvatarTemplate {...props} />,
+    options
+  );
+  const { subject } = props;
+  return { subject, body };
 };
 
 export const getResetPasswordTemplate = (
   props: ResetPasswordTemplateProps,
   options?: Mjml2HtmlOptions
 ) => {
-  const { html } = render(<ResetPasswordTemplate {...props} />, options);
-  return html;
+  const intl = initIntl();
+  const {
+    subject = intl.formatMessage({ id: 'reset-password.subject' }),
+  } = props;
+  const { html: body } = render(
+    <ResetPasswordTemplate {...{ ...props, subject }} />,
+    options
+  );
+  return { subject, body };
 };
 
 export const getTransactionTemplate = (
@@ -69,7 +81,10 @@ export const getTransactionTemplate = (
 ) => {
   const intl = initIntl();
   const subject = getLocalizedTransactionSubject(intl, props.amount);
-  const { html: body } = render(<TransactionTemplate {...props} />, options);
+  const { html: body } = render(
+    <TransactionTemplate {...{ ...props, subject }} />,
+    options
+  );
   return { subject, body };
 };
 
@@ -77,16 +92,18 @@ export const getNewSupporterTemplate = (
   props: NewSupporterTemplateProps,
   options?: Mjml2HtmlOptions
 ) => {
-  const { html } = render(<NewSupporterTemplate {...props} />, options);
-  return html;
+  const { subject } = props;
+  const { html: body } = render(<NewSupporterTemplate {...props} />, options);
+  return { subject, body };
 };
 
 export const getReferralTxTemplate = (
   props: ReferralTxTemplateProps,
   options?: Mjml2HtmlOptions
 ) => {
-  const { html } = render(<ReferralTxTemplate {...props} />, options);
-  return html;
+  const { subject } = props;
+  const { html: body } = render(<ReferralTxTemplate {...props} />, options);
+  return { subject, body };
 };
 
 export const getMonthlyReportCreatorTemplate = (

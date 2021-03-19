@@ -4,7 +4,7 @@ import { SAMPLE_IMAGE_URL, SAMPLE_TEXT } from './stub/samples';
 
 describe('Render basic templates', () => {
   it('Default', () => {
-    const html = getBasicWithAvatarTemplate(
+    const { body } = getBasicWithAvatarTemplate(
       {
         title: SAMPLE_TEXT,
         subtitle: SAMPLE_TEXT,
@@ -12,28 +12,28 @@ describe('Render basic templates', () => {
       },
       { minify: false }
     );
-    expect(html).toMatchSnapshot();
+    expect(body).toMatchSnapshot();
   });
 
   it('With avatar', () => {
-    const html = getBasicWithAvatarTemplate(
+    const { body } = getBasicWithAvatarTemplate(
       {
         isCivicLiker: false,
         avatarURL: SAMPLE_IMAGE_URL,
       },
       { minify: false }
     );
-    expect(html).toMatchSnapshot();
+    expect(body).toMatchSnapshot();
   });
 
   it('With avatar (Civic Liker)', () => {
-    const html = getBasicWithAvatarTemplate(
+    const { body } = getBasicWithAvatarTemplate(
       {
         isCivicLiker: true,
         avatarURL: SAMPLE_IMAGE_URL,
       },
       { minify: false }
     );
-    expect(html).toMatchSnapshot();
+    expect(body).toMatchSnapshot();
   });
 });

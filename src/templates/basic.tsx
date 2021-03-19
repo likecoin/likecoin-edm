@@ -12,6 +12,7 @@ import { BasicSection } from '../components/sections/basic';
 import { TemplateBase } from '../components/template-base';
 
 export interface BasicTemplateProps {
+  subject?: string;
   title?: string;
   titleTop?: React.ReactElement;
   subtitle?: string;
@@ -23,6 +24,7 @@ export interface BasicTemplateProps {
 }
 
 export const BasicTemplate = ({
+  subject,
   title,
   titleTop,
   subtitle,
@@ -31,7 +33,7 @@ export const BasicTemplate = ({
   language,
 }: BasicTemplateProps) => {
   return (
-    <TemplateBase language={language} isExtruded={true}>
+    <TemplateBase language={language} isExtruded={true} subject={subject}>
       <HeaderSection />
       <BasicSection
         paddingTop={0}

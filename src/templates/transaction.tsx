@@ -12,6 +12,7 @@ import { BasicSection } from '../components/sections/basic';
 import { TemplateBase } from '../components/template-base';
 
 export interface TransactionTemplateProps {
+  subject?: string;
   language?: string;
   toDisplayName?: string;
   fromDisplayName?: string;
@@ -20,6 +21,7 @@ export interface TransactionTemplateProps {
 }
 
 export const TransactionTemplate = ({
+  subject,
   language,
   toDisplayName,
   fromDisplayName,
@@ -27,7 +29,7 @@ export const TransactionTemplate = ({
   amount,
 }: TransactionTemplateProps) => {
   return (
-    <TemplateBase language={language} isExtruded={true}>
+    <TemplateBase language={language} isExtruded={true} subject={subject}>
       <HeaderSection />
       <BasicSection
         paddingTop={0}

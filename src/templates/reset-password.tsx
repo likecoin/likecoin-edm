@@ -18,14 +18,16 @@ import { BasicSection } from '../components/sections/basic';
 import { TemplateBase } from '../components/template-base';
 
 export interface ResetPasswordTemplateProps {
+  subject?: string;
   language?: string;
 }
 
 export const ResetPasswordTemplate = ({
+  subject,
   language,
 }: ResetPasswordTemplateProps) => {
   return (
-    <TemplateBase language={language} isExtruded={true}>
+    <TemplateBase language={language} isExtruded={true} subject={subject}>
       <HeaderSection />
       <BasicSection
         paddingTop={0}

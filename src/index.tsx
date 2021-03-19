@@ -6,6 +6,7 @@ import { initIntl } from './i18n';
 import {
   getLocalizedMonthlyReportSubject,
   getLocalizedTransactionSubject,
+  getResendText,
 } from './utils/localization';
 
 import { BasicTemplate, BasicTemplateProps } from './templates/basic';
@@ -77,10 +78,12 @@ export const getResetPasswordTemplate = (
 
 export const getTransactionTemplate = (
   props: TransactionTemplateProps,
+  isResend?: boolean,
   options?: Mjml2HtmlOptions
 ) => {
   const intl = initIntl();
-  const subject = getLocalizedTransactionSubject(intl, props.amount);
+  let subject = getLocalizedTransactionSubject(intl, props.amount);
+  if (isResend) subject = getResendText(intl).concat(subject);
   const { html: body } = render(
     <TransactionTemplate {...{ ...props, subject }} />,
     options

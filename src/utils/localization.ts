@@ -67,3 +67,7 @@ export function getLocalizedTransactionSubject(
 ) {
   return intl.formatMessage({ id: 'transaction.subject' }, { amount: amount });
 }
+
+export function getResendText(intl: IntlShape) {
+  return intl.formatMessage({ id: 'Resend' });
+}

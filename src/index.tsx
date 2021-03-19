@@ -3,11 +3,7 @@ import { Mjml2HtmlOptions, render } from 'mjml-react';
 
 import { initIntl } from './i18n';
 
-import {
-  getLocalizedMonthlyReportSubject,
-  getLocalizedTransactionSubject,
-  getResendText,
-} from './utils/localization';
+import { getLocalizedMonthlyReportSubject } from './utils/localization';
 
 import { BasicTemplate, BasicTemplateProps } from './templates/basic';
 import {
@@ -82,8 +78,11 @@ export const getTransactionTemplate = (
   options?: Mjml2HtmlOptions
 ) => {
   const intl = initIntl();
-  let subject = getLocalizedTransactionSubject(intl, props.amount);
-  if (isResend) subject = getResendText(intl).concat(subject);
+  let subject = intl.formatMessage(
+    { id: 'transaction.subject' },
+    { amount: props.amount }
+  );
+  if (isResend) subject = intl.formatMessage({ id: 'resend' }).concat(subject);
   const { html: body } = render(
     <TransactionTemplate {...{ ...props, subject }} />,
     options

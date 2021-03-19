@@ -60,14 +60,3 @@ export function getLocalizedMonthlyReportSubject(
     }
   );
 }
-
-export function getLocalizedTransactionSubject(
-  intl: IntlShape,
-  amount: string
-) {
-  return intl.formatMessage({ id: 'transaction.subject' }, { amount: amount });
-}
-
-export function getResendText(intl: IntlShape) {
-  return intl.formatMessage({ id: 'Resend' });
-}

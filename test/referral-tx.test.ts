@@ -16,21 +16,21 @@ const REFERRAL_PARAMS = {
 
 describe('Render referral tx templates', () => {
   it('Referee', () => {
-    const html = getReferralTxTemplate({
+    const { body } = getReferralTxTemplate({
       receiverLikerID: 'ngwingtat',
       ...REFERRAL_PARAMS,
     });
-    expect(html).toMatchSnapshot();
+    expect(body).toMatchSnapshot();
   });
 
   it('Referrer', () => {
-    const html = getReferralTxTemplate(
+    const { body } = getReferralTxTemplate(
       {
         receiverLikerID: 'foundation',
         ...REFERRAL_PARAMS,
       },
       { minify: false }
     );
-    expect(html).toMatchSnapshot();
+    expect(body).toMatchSnapshot();
   });
 });

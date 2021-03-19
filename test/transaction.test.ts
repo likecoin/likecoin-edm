@@ -4,7 +4,7 @@ import { SAMPLE_URL, SAMPLE_LIKER_DISPLAY_NAME } from './stub/samples';
 
 describe('Render new transaction templates', () => {
   it('Default', () => {
-    const html = getTransactionTemplate(
+    const { body } = getTransactionTemplate(
       {
         language: 'en',
         toDisplayName: SAMPLE_LIKER_DISPLAY_NAME,
@@ -14,6 +14,6 @@ describe('Render new transaction templates', () => {
       },
       { minify: false }
     );
-    expect(html).toMatchSnapshot();
+    expect(body).toMatchSnapshot();
   });
 });

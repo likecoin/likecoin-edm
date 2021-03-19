@@ -68,7 +68,10 @@ export const getResetPasswordTemplate = (
   const {
     subject = intl.formatMessage({ id: 'reset-password.subject' }),
   } = props;
-  const { html: body } = render(<ResetPasswordTemplate {...props} />, options);
+  const { html: body } = render(
+    <ResetPasswordTemplate {...{ ...props, subject }} />,
+    options
+  );
   return { subject, body };
 };
 

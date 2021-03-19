@@ -1,7 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Render basic templates Default 1`] = `
-"
+Object {
+  "body": "
     <!doctype html>
     <html xmlns=\\"http://www.w3.org/1999/xhtml\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" xmlns:o=\\"urn:schemas-microsoft-com:office:office\\">
       <head>
@@ -998,11 +999,14 @@ exports[`Render basic templates Default 1`] = `
     
       </body>
     </html>
-  "
+  ",
+  "subject": undefined,
+}
 `;
 
 exports[`Render basic templates With avatar (Civic Liker) 1`] = `
-"
+Object {
+  "body": "
     <!doctype html>
     <html xmlns=\\"http://www.w3.org/1999/xhtml\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" xmlns:o=\\"urn:schemas-microsoft-com:office:office\\">
       <head>
@@ -1975,11 +1979,14 @@ exports[`Render basic templates With avatar (Civic Liker) 1`] = `
     
       </body>
     </html>
-  "
+  ",
+  "subject": undefined,
+}
 `;
 
 exports[`Render basic templates With avatar 1`] = `
-"
+Object {
+  "body": "
     <!doctype html>
     <html xmlns=\\"http://www.w3.org/1999/xhtml\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" xmlns:o=\\"urn:schemas-microsoft-com:office:office\\">
       <head>
@@ -2952,5 +2959,7 @@ exports[`Render basic templates With avatar 1`] = `
     
       </body>
     </html>
-  "
+  ",
+  "subject": undefined,
+}
 `;

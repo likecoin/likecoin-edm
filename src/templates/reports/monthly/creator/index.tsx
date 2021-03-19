@@ -34,6 +34,7 @@ import {
 } from './types';
 
 export const MonthlyReportCreatorTemplate = ({
+  subject,
   language,
   likerID,
   displayName,
@@ -61,7 +62,7 @@ export const MonthlyReportCreatorTemplate = ({
     props.topContents
   );
   return (
-    <TemplateBase language={language}>
+    <TemplateBase language={language} subject={subject}>
       <HeaderSection />
 
       <MonthlyReportHeaderSection

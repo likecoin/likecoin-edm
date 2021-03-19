@@ -6,6 +6,7 @@ export interface SupportedCreator extends User {
 }
 
 export interface MonthlyReportCivicLikerV1TemplateProps extends MonthlyReport {
+  subject?: string;
   creatorsCount?: number;
   contentsCount?: number;
   supportedCreators?: SupportedCreator[];

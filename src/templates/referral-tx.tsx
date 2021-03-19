@@ -61,6 +61,7 @@ export interface ReferralTxTemplateProps {
 }
 
 export const ReferralTxTemplate = ({
+  subject,
   language,
   receiverLikerID,
   refereeLikerID,
@@ -75,7 +76,7 @@ export const ReferralTxTemplate = ({
 }: ReferralTxTemplateProps) => {
   const isReceiverReferee = receiverLikerID === refereeLikerID;
   return (
-    <TemplateBase language={language}>
+    <TemplateBase language={language} subject={subject}>
       <HeaderSection />
       <BasicSection
         backgroundColor={Colors.LikeGreen}

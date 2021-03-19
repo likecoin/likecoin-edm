@@ -7,6 +7,7 @@ export interface SubscribingCreator extends User {
 export type SupportedContent = Content & User;
 
 export interface MonthlyReportCivicLikerV2TemplateProps extends MonthlyReport {
+  subject?: string;
   totalSupportedCreatorsBySubscription?: number;
   totalSupportedCreatorsByFund?: number;
   billingDateTimestamp?: number;

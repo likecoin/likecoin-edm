@@ -27,6 +27,7 @@ export const MonthlyReportCivicLikerV1Template = (
   props: MonthlyReportCivicLikerV1TemplateProps
 ) => {
   const {
+    subject,
     language,
     likerID,
     displayName,
@@ -40,7 +41,7 @@ export const MonthlyReportCivicLikerV1Template = (
     props.supportedCreators
   );
   return (
-    <TemplateBase language={language}>
+    <TemplateBase language={language} subject={subject}>
       <HeaderSection />
 
       <MonthlyReportHeaderSection

@@ -23,10 +23,11 @@ export interface ResetPasswordTemplateProps {
 }
 
 export const ResetPasswordTemplate = ({
+  subject,
   language,
 }: ResetPasswordTemplateProps) => {
   return (
-    <TemplateBase language={language} isExtruded={true}>
+    <TemplateBase language={language} isExtruded={true} subject={subject}>
       <HeaderSection />
       <BasicSection
         paddingTop={0}

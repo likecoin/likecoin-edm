@@ -28,6 +28,7 @@ export interface MonthlyReportCreatorRewardsDetailsColumnProps
 
 export interface MonthlyReportCreatorTemplateProps extends MonthlyReport {
   totalRewardsInLIKE?: number;
+  subject?: string;
   totalRewardsInUSD?: number;
   totalRewardsDiffPercentStr?: string;
   subscriptionAmountInLIKE?: number;

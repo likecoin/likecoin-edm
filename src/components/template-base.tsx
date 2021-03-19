@@ -38,14 +38,14 @@ export interface TemplateBaseProps extends React.PropsWithChildren<{}> {
 }
 
 export const TemplateBase = (props: TemplateBaseProps) => {
-  const { isExtruded = false, language, subject } = props;
+  const { isExtruded = false, language, subject = '' } = props;
   const theme = getThemeConfig({ isExtruded });
   return (
     <IntlProvider language={language}>
       <ThemeContext.Provider value={theme}>
         <Mjml>
           <MjmlHead>
-            <MjmlTitle>{subject!}</MjmlTitle>
+            <MjmlTitle>{subject}</MjmlTitle>
             <MjmlAttributes>
               <MjmlAll
                 fontFamily="Arial"

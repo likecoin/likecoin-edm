@@ -12,7 +12,6 @@ describe('Render new transaction templates', () => {
         viewTxURL: SAMPLE_URL,
         amount: '100',
       },
-      false,
       { minify: false }
     );
     expect(body).toMatchSnapshot();

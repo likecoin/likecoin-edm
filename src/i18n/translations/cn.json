@@ -4,10 +4,10 @@
 
   "cta.likecoin-button": "在文章中点击 LikeCoin button，可分配创作基金，额外奖励作者。",
 
+  "greeting": "你好 {name}：",
+
   "help.center.text": "帮助中心",
   "help.center.url": "https://docs.like.co/v/zh",
-
-  "greeting": "你好 {name}：",
 
   "report.monthly.date": "{year}年{month}月",
 
@@ -45,16 +45,18 @@
   "referral-tx.description.referrer": "<span>user</span> 已因你的推荐下载了 Liker Land。<br></br>你们两位各获得 {amount} LikeCoin 奖赏。",
   "referral-tx.check-wallet": "奖金已转帐至你的钱包，请用 <a>Liker Land app</a> 查看。",
 
-  "unsubscribe.text": "取消订阅",
-
   "reset-password.subject": "更改密码操作说明",
   "reset-password.subtitle": "更改密码操作说明",
   "reset-password.content": "{name} 您好, <br></br><br></br> 请按以下按键开始更改您的密码",
   "reset-password.cta": "更改密码",
   "reset-password.text": "你没有要求修改密码吗? <br></br>  别人可能不小心把Email地址打错成你的地址。 <br></br> 请忽略此邮件，你的密码将维持不变。",
 
+  "resend": "重发",
+
   "transaction.subject": "你已收到 {amount} LikeCoin",
   "transaction.subtitle": "你已收到 {amount} LikeCoin",
   "transaction.content": "{name} 你好, <br></br><br></br> 你已收到 {fromUser} 發送的 {amount} LikeCoin。 <br></br> 查阅交易详情：",
-  "resend": "重发"
+  "transaction.remarks": "备註： {remarks}",
+
+  "unsubscribe.text": "取消订阅"
 }

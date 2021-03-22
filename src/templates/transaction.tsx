@@ -19,6 +19,7 @@ export interface TransactionTemplateProps {
   viewTxURL?: string;
   amount: string;
   isResend?: boolean;
+  remarks?: string;
 }
 
 export const TransactionTemplate = ({
@@ -28,6 +29,7 @@ export const TransactionTemplate = ({
   fromDisplayName,
   viewTxURL,
   amount,
+  remarks,
 }: TransactionTemplateProps) => {
   return (
     <TemplateBase language={language} isExtruded={true} subject={subject}>
@@ -109,6 +111,23 @@ export const TransactionTemplate = ({
         <MjmlColumn>
           <MjmlText fontSize={18} color={Colors.LikeGreen}>
             {viewTxURL}
+          </MjmlText>
+        </MjmlColumn>
+      </BasicSection>
+      <BasicSection
+        paddingTop={32}
+        paddingLeft={40}
+        paddingRight={40}
+        paddingBottom={0}
+      >
+        <MjmlColumn>
+          <MjmlText fontSize={18}>
+            <FormattedMessage
+              id="transaction.remarks"
+              values={{
+                remarks: remarks,
+              }}
+            />
           </MjmlText>
         </MjmlColumn>
       </BasicSection>

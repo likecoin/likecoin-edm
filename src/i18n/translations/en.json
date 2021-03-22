@@ -4,12 +4,12 @@
 
   "cta.likecoin-button": "Click the LikeCoin button in any articles, distribute Creators Fund to reward the creators.",
 
-  "help.center.text": "Help Center",
-  "help.center.url": "https://docs.like.co",
-
   "date.month": "Month",
 
   "greeting": "Dear {name}",
+
+  "help.center.text": "Help Center",
+  "help.center.url": "https://docs.like.co",
 
   "report.monthly.date": "{month} {year}",
 
@@ -47,17 +47,18 @@
   "referral-tx.description.referrer": "<span>user</span> has installed Liker Land app because of you.<br></br>You both received {amount} LikeCoin as rewards.",
   "referral-tx.check-wallet": "The rewards had been transferred to your wallet, you may open the <a>Liker Land app</a> and check.",
 
-  "unsubscribe.text": "Unsubscribe",
-
   "reset-password.subject": "Reset Password Instruction",
   "reset-password.subtitle": "Reset Password Instruction",
   "reset-password.content": "Hi {name}, <br></br><br></br> You can continue reset password through this button ",
   "reset-password.cta": "Reset password",
   "reset-password.text": "Didn’t request this email? <br></br>  Your address may have been entered by mistake. <br></br> Simply ignore this email and nothing further will happen.",
 
+  "resend": "Resend",
+
   "transaction.subject": "You have received {amount} LikeCoin",
   "transaction.subtitle": "You have received {amount} LikeCoin",
   "transaction.content": "Hi {name}, <br></br><br></br> You have received {amount} LikeCoin from {fromUser}. <br></br> Check the transaction details: ",
-  "resend": "Resend",
-  "transaction.remarks": "Remarks： {remarks}"
+  "transaction.remarks": "Remarks： {remarks}",
+
+  "unsubscribe.text": "Unsubscribe"
 }

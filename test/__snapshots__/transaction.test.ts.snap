@@ -692,7 +692,7 @@ exports[`Render new transaction templates Default 1`] = `
                 
       <div
          style=\\"font-family:Arial;font-size:18px;line-height:1.5;text-align:left;color:#4a4a4a;\\"
-      >Remarks：</div>
+      >Remarks： likecoin remark</div>
     
               </td>
             </tr>

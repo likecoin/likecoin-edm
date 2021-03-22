@@ -18,6 +18,7 @@ export interface TransactionTemplateProps {
   fromDisplayName?: string;
   viewTxURL?: string;
   amount: string;
+  isResend?: boolean;
 }
 
 export const TransactionTemplate = ({

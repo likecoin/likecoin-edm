@@ -55,5 +55,6 @@
 
   "transaction.subject": "您已收到 {amount} LikeCoin",
   "transaction.subtitle": "您已收到 {amount} LikeCoin",
-  "transaction.content": "{name} 您好, <br></br><br></br> 您已收到 {fromUser} 發送的 {amount} LikeCoin。 <br></br> 查閱交易詳情： "
+  "transaction.content": "{name} 您好, <br></br><br></br> 您已收到 {fromUser} 發送的 {amount} LikeCoin。 <br></br> 查閱交易詳情： ",
+  "resend": "重發"
 }

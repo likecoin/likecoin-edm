@@ -74,7 +74,6 @@ export const getResetPasswordTemplate = (
 
 export const getTransactionTemplate = (
   props: TransactionTemplateProps,
-  isResend?: boolean,
   options?: Mjml2HtmlOptions
 ) => {
   const intl = initIntl();
@@ -82,6 +81,7 @@ export const getTransactionTemplate = (
     { id: 'transaction.subject' },
     { amount: props.amount }
   );
+  const { isResend } = props;
   if (isResend) subject = intl.formatMessage({ id: 'resend' }).concat(subject);
   const { html: body } = render(
     <TransactionTemplate {...{ ...props, subject }} />,

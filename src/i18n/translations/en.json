@@ -58,5 +58,6 @@
   "transaction.subject": "You have received {amount} LikeCoin",
   "transaction.subtitle": "You have received {amount} LikeCoin",
   "transaction.content": "Hi {name}, <br></br><br></br> You have received {amount} LikeCoin from {fromUser}. <br></br> Check the transaction details: ",
-  "resend": "Resend"
+  "resend": "Resend",
+  "transaction.remarks": "Remarks： {remarks}"
 }

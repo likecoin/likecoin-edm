@@ -17,6 +17,8 @@ import { HeaderSection } from '../components/header';
 import { BasicSection } from '../components/sections/basic';
 import { TemplateBase } from '../components/template-base';
 
+import { Link } from '../components/link';
+
 export interface ResetPasswordTemplateProps {
   subject?: string;
   language?: string;
@@ -117,6 +119,14 @@ export const ResetPasswordTemplate = ({
               id="reset-password.text"
               values={{
                 br: () => <br />,
+                a: (text: string) => (
+                  <Link
+                    href={`https://go.crisp.chat/chat/embed/?website_id=5c009125-5863-4059-ba65-43f177ca33f7`}
+                    isWrapUtm={true}
+                  >
+                    {text}
+                  </Link>
+                ),
               }}
             />
           </MjmlText>

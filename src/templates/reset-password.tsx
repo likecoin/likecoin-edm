@@ -17,7 +17,7 @@ import { HeaderSection } from '../components/header';
 import { BasicSection } from '../components/sections/basic';
 import { TemplateBase } from '../components/template-base';
 
-import { CrispLink } from '../components/link';
+import { Link } from '../components/link';
 
 export interface ResetPasswordTemplateProps {
   subject?: string;
@@ -120,12 +120,13 @@ export const ResetPasswordTemplate = ({
               values={{
                 br: () => <br />,
                 a: (text: string) => (
-                  <CrispLink
+                  <Link
                     href={`https://go.crisp.chat/chat/embed/?website_id=5c009125-5863-4059-ba65-43f177ca33f7`}
                     isWrapUtm={true}
+                    isCrispLink={true}
                   >
                     {text}
-                  </CrispLink>
+                  </Link>
                 ),
               }}
             />

@@ -9,31 +9,34 @@ export interface LinkProps
     HTMLAnchorElement
   > {
   isWrapUtm?: boolean;
+  isCrispLink?: boolean;
 }
 
 export const Link = (props: LinkProps) => {
-  const { children, href, style, isWrapUtm = false, ...restProps } = props;
+  const {
+    children,
+    href,
+    style,
+    isWrapUtm = false,
+    isCrispLink = false,
+    ...restProps
+  } = props;
+  let hrefToPass = href;
+  if (href && isWrapUtm && isCrispLink) {
+    hrefToPass = wrapUtm(href, '&');
+  } else if (href && isWrapUtm) {
+    hrefToPass = wrapUtm(href);
+  }
   return (
     <a
-      href={href && isWrapUtm ? wrapUtm(href) : href}
+      href={hrefToPass}
       target="_blank"
       rel="noreferrer noopener"
-      style={{ color: Colors.LikeGreen, textDecoration: 'underline', ...style }}
-      {...restProps}
-    >
-      {children}
-    </a>
-  );
-};
-
-export const CrispLink = (props: LinkProps) => {
-  const { children, href, style, isWrapUtm = false, ...restProps } = props;
-  return (
-    <a
-      href={href && isWrapUtm ? wrapUtm(href, '&') : href}
-      target="_blank"
-      rel="noreferrer noopener"
-      style={{ color: Colors.LikeGreen, textDecoration: 'underline', ...style }}
+      style={{
+        color: Colors.LikeGreen,
+        textDecoration: 'underline',
+        ...style,
+      }}
       {...restProps}
     >
       {children}

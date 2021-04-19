@@ -12,7 +12,7 @@ import { getAssetPath, wrapUtm } from '../utils/url';
 
 import { BasicSection } from './sections/basic';
 
-const GET_APP_URL = wrapUtm('https://likecoin.page.link/likerland', '?');
+const GET_APP_URL = wrapUtm('https://likecoin.page.link/likerland');
 
 export const AppCTASection = () => {
   const intl = useIntl();

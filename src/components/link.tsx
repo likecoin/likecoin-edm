@@ -9,7 +9,7 @@ export interface LinkProps
     HTMLAnchorElement
   > {
   isWrapUtm?: boolean;
-  isCrispLink?: boolean;
+  wrapUtmPrefix?: string;
 }
 
 export const Link = (props: LinkProps) => {
@@ -18,18 +18,13 @@ export const Link = (props: LinkProps) => {
     href,
     style,
     isWrapUtm = false,
-    isCrispLink = false,
+    wrapUtmPrefix,
     ...restProps
   } = props;
-  let hrefToPass = href;
-  if (href && isWrapUtm && isCrispLink) {
-    hrefToPass = wrapUtm(href, '&');
-  } else if (href && isWrapUtm) {
-    hrefToPass = wrapUtm(href);
-  }
+
   return (
     <a
-      href={hrefToPass}
+      href={href && isWrapUtm ? wrapUtm(href, wrapUtmPrefix) : href}
       target="_blank"
       rel="noreferrer noopener"
       style={{

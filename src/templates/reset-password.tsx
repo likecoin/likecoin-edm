@@ -123,7 +123,7 @@ export const ResetPasswordTemplate = ({
                   <Link
                     href={`https://go.crisp.chat/chat/embed/?website_id=5c009125-5863-4059-ba65-43f177ca33f7`}
                     isWrapUtm={true}
-                    isCrispLink={true}
+                    wrapUtmPrefix={'&'}
                   >
                     {text}
                   </Link>

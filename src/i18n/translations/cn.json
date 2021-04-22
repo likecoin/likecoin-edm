@@ -45,11 +45,11 @@
   "referral-tx.description.referrer": "<span>user</span> 已因你的推荐下载了 Liker Land。<br></br>你们两位各获得 {amount} LikeCoin 奖赏。",
   "referral-tx.check-wallet": "奖金已转帐至你的钱包，请用 <a>Liker Land app</a> 查看。",
 
-  "reset-password.subject": "更改密码操作说明",
-  "reset-password.subtitle": "更改密码操作说明",
-  "reset-password.content": "{name} 您好, <br></br><br></br> 请按以下按键开始更改您的密码",
-  "reset-password.cta": "更改密码",
-  "reset-password.text": "你没有要求修改密码吗? <br></br>  别人可能不小心把Email地址打错成你的地址。 <br></br> 请忽略此邮件，你的密码将维持不变。",
+  "reset-password.subject": "重置 Liker Land 密码",
+  "reset-password.subtitle": "重置 Liker Land 密码",
+  "reset-password.content": "{name} 你好, <br></br><br></br> 我们收到重置你Liker Land 帐户密码的指示。",
+  "reset-password.cta": "重置密码",
+  "reset-password.text": "您没發出过重置的请求吗? <br></br>  那麽请无视这封电邮，你的帐号资料便不会被改动。 <br></br> 如需进一步协助，请<a>联繫我们</a>。",
 
   "resend": "重发",
 

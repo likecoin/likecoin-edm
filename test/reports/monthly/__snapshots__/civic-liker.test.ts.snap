@@ -2111,7 +2111,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
                 
       <div
          style=\\"font-family:Arial;font-size:16px;line-height:1.5;text-align:left;color:#4a4a4a;\\"
-      >你正在按月支持以下作者，扣款日期為每月 31 日 。<a href=\\"https://liker.land/settings/civic?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">按此管理訂閱選項</a></div>
+      >你正在按月支持以下作者，扣款日期為每月 1 日 。<a href=\\"https://liker.land/settings/civic?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">按此管理訂閱選項</a></div>
     
               </td>
             </tr>

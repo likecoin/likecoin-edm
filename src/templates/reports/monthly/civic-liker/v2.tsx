@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { MjmlColumn, MjmlTable, MjmlText } from 'mjml-react';
-import { FormattedMessage } from 'react-intl';
+import { FormattedMessage, useIntl } from 'react-intl';
 
 import { LIKER_LAND_ROOT } from '../../../../constants';
 import * as Colors from '../../../../constants/colors';
@@ -21,6 +21,29 @@ import { TemplateBase } from '../../../../components/template-base';
 import { TwoNumbersSection } from '../../../../components/sections/two-numbers';
 
 import { MonthlyReportCivicLikerV2TemplateProps } from './v2.types';
+
+const MonthlyReportCivicLikerV2SubscribersDescription = ({
+  language,
+  billingDateTimestamp,
+}: {
+  language?: string;
+  billingDateTimestamp?: number;
+}) => {
+  const intl = useIntl();
+  return (
+    <FormattedMessage
+      id="report.monthly.civic-liker.subscribers.description"
+      values={{
+        a: (text: string) => (
+          <Link href={`${LIKER_LAND_ROOT}/settings/civic`} isWrapUtm={true}>
+            {text}
+          </Link>
+        ),
+        day: getLocalizedOrdinalDay(intl, language, billingDateTimestamp),
+      }}
+    />
+  );
+};
 
 export const MonthlyReportCivicLikerV2Template = (
   props: MonthlyReportCivicLikerV2TemplateProps
@@ -75,19 +98,9 @@ export const MonthlyReportCivicLikerV2Template = (
             <FormattedMessage id="report.monthly.civic-liker.subscribers.title" />
           </MjmlText>
           <MjmlText paddingBottom={16} fontSize={16}>
-            <FormattedMessage
-              id="report.monthly.civic-liker.subscribers.description"
-              values={{
-                a: (text: string) => (
-                  <Link
-                    href={`${LIKER_LAND_ROOT}/settings/civic`}
-                    isWrapUtm={true}
-                  >
-                    {text}
-                  </Link>
-                ),
-                day: getLocalizedOrdinalDay(language, billingDateTimestamp),
-              }}
+            <MonthlyReportCivicLikerV2SubscribersDescription
+              language={language}
+              billingDateTimestamp={billingDateTimestamp}
             />
           </MjmlText>
           <MjmlTable cellpadding="8px">

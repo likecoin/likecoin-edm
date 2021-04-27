@@ -1,5 +1,7 @@
 import { FormatDateOptions, IntlShape } from 'react-intl';
 
+const DEFAULT_TIMEZONE = 'Asia/Hong_Kong';
+
 export function getOrdinalNumber(value: number) {
   let suffix: string;
   const digit = value % 10;
@@ -20,21 +22,26 @@ export function getOrdinalNumber(value: number) {
 }
 
 export function getLocalizedOrdinalDay(
+  intl: IntlShape,
   language?: string,
-  timestamp: number = 0
+  timestamp: number = 0,
+  { timeZone = DEFAULT_TIMEZONE, ...opts }: FormatDateOptions = {}
 ) {
-  const date = new Date(Number(timestamp));
-  const day = date.getDate();
+  const [day] = intl.formatDateToParts(timestamp, {
+    day: 'numeric',
+    timeZone,
+    ...opts,
+  });
   if (language === 'en') {
-    return getOrdinalNumber(day);
+    return getOrdinalNumber(parseInt(day.value));
   }
-  return `${day}`;
+  return `${day.value}`;
 }
 
 export function getLocalizedMonthlyReportDate(
   intl: IntlShape,
   timestamp?: number,
-  { timeZone = 'Asia/Hong_Kong', ...opts }: FormatDateOptions = {}
+  { timeZone = DEFAULT_TIMEZONE, ...opts }: FormatDateOptions = {}
 ) {
   const [month, , year] = intl.formatDateToParts(timestamp, {
     year: 'numeric',

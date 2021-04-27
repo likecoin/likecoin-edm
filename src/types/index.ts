@@ -14,4 +14,5 @@ export interface Content {
 export interface MonthlyReport extends User {
   language?: string;
   timestamp?: number;
+  timeZone?: string;
 }

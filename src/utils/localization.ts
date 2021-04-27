@@ -1,4 +1,4 @@
-import { IntlShape } from 'react-intl';
+import { FormatDateOptions, IntlShape } from 'react-intl';
 
 export function getOrdinalNumber(value: number) {
   let suffix: string;
@@ -33,11 +33,14 @@ export function getLocalizedOrdinalDay(
 
 export function getLocalizedMonthlyReportDate(
   intl: IntlShape,
-  timestamp?: number
+  timestamp?: number,
+  { timeZone = 'Asia/Hong_Kong', ...opts }: FormatDateOptions = {}
 ) {
   const [month, , year] = intl.formatDateToParts(timestamp, {
     year: 'numeric',
     month: intl.locale === 'en' ? 'short' : 'numeric',
+    timeZone,
+    ...opts,
   });
   return intl.formatMessage(
     { id: 'report.monthly.date' },
@@ -51,12 +54,13 @@ export function getLocalizedMonthlyReportDate(
 export function getLocalizedMonthlyReportSubject(
   intl: IntlShape,
   type: 'creator' | 'civic-liker',
-  timestamp?: number
+  timestamp?: number,
+  opts?: FormatDateOptions
 ) {
   return intl.formatMessage(
     { id: `report.monthly.${type}.subject` },
     {
-      date: getLocalizedMonthlyReportDate(intl, timestamp),
+      date: getLocalizedMonthlyReportDate(intl, timestamp, opts),
     }
   );
 }

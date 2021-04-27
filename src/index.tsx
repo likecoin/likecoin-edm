@@ -116,7 +116,10 @@ export const getMonthlyReportCreatorTemplate = (
   const subject = getLocalizedMonthlyReportSubject(
     intl,
     'creator',
-    props.timestamp
+    props.timestamp,
+    {
+      timeZone: props.timeZone,
+    }
   );
   const { html: body } = render(
     <MonthlyReportCreatorTemplate {...props} />,

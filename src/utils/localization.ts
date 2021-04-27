@@ -1,4 +1,6 @@
-import { IntlShape } from 'react-intl';
+import { FormatDateOptions, IntlShape } from 'react-intl';
+
+const DEFAULT_TIMEZONE = 'Asia/Hong_Kong';
 
 export function getOrdinalNumber(value: number) {
   let suffix: string;
@@ -20,24 +22,32 @@ export function getOrdinalNumber(value: number) {
 }
 
 export function getLocalizedOrdinalDay(
+  intl: IntlShape,
   language?: string,
-  timestamp: number = 0
+  timestamp: number = 0,
+  { timeZone = DEFAULT_TIMEZONE, ...opts }: FormatDateOptions = {}
 ) {
-  const date = new Date(Number(timestamp));
-  const day = date.getDate();
+  const [day] = intl.formatDateToParts(timestamp, {
+    day: 'numeric',
+    timeZone,
+    ...opts,
+  });
   if (language === 'en') {
-    return getOrdinalNumber(day);
+    return getOrdinalNumber(parseInt(day.value));
   }
-  return `${day}`;
+  return `${day.value}`;
 }
 
 export function getLocalizedMonthlyReportDate(
   intl: IntlShape,
-  timestamp?: number
+  timestamp?: number,
+  { timeZone = DEFAULT_TIMEZONE, ...opts }: FormatDateOptions = {}
 ) {
   const [month, , year] = intl.formatDateToParts(timestamp, {
     year: 'numeric',
     month: intl.locale === 'en' ? 'short' : 'numeric',
+    timeZone,
+    ...opts,
   });
   return intl.formatMessage(
     { id: 'report.monthly.date' },
@@ -51,12 +61,13 @@ export function getLocalizedMonthlyReportDate(
 export function getLocalizedMonthlyReportSubject(
   intl: IntlShape,
   type: 'creator' | 'civic-liker',
-  timestamp?: number
+  timestamp?: number,
+  opts?: FormatDateOptions
 ) {
   return intl.formatMessage(
     { id: `report.monthly.${type}.subject` },
     {
-      date: getLocalizedMonthlyReportDate(intl, timestamp),
+      date: getLocalizedMonthlyReportDate(intl, timestamp, opts),
     }
   );
 }

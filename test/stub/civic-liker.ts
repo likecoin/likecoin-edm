@@ -44,6 +44,13 @@ export const MonthlyReportCivicLikerV2SampleData: MonthlyReportCivicLikerV2Templ
     isCivicLiker: true,
     amount: 5,
   }),
+  creatorfundingCreators: new Array(22).fill({
+    likerID: SAMPLE_LIKER_ID,
+    displayName: SAMPLE_LIKER_DISPLAY_NAME,
+    avatarSrc: SAMPLE_IMAGE_URL,
+    isCivicLiker: true,
+    amount: 5,
+  }),
   supportedContents: new Array(3).fill({
     url: SAMPLE_URL,
     title: SAMPLE_TEXT,

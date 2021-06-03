@@ -8,7 +8,7 @@ import * as Colors from '../../../../constants/colors';
 import { getPriceEmojiURL } from '../../../../utils/civic';
 import { getLocalizedOrdinalDay } from '../../../../utils/localization';
 
-import { Avatar } from '../../../../components/avatar';
+import { Avatar, SmallAvatar } from '../../../../components/avatar';
 import { LikeCoinButtonCTA } from '../../../../components/cta-likecoin-button';
 import { FooterSection } from '../../../../components/footer';
 import { HeaderSection } from '../../../../components/header';
@@ -45,6 +45,25 @@ const MonthlyReportCivicLikerV2SubscribersDescription = ({
   );
 };
 
+const MonthlyReportCivicLikerV2CreatorsFundDescription = ({}: {
+  language?: string;
+  billingDateTimestamp?: number;
+}) => {
+  return (
+    <FormattedMessage
+      id="report.monthly.civic-liker.creatorsfund.description"
+      values={{
+        a: (text: string) => (
+          <Link href={`${LIKER_LAND_ROOT}/settings/civic`} isWrapUtm={true}>
+            {text}
+          </Link>
+        ),
+        count: 15,
+      }}
+    />
+  );
+};
+
 export const MonthlyReportCivicLikerV2Template = (
   props: MonthlyReportCivicLikerV2TemplateProps
 ) => {
@@ -60,6 +79,7 @@ export const MonthlyReportCivicLikerV2Template = (
     totalSupportedCreatorsByFund = 0,
     billingDateTimestamp,
     subscribingCreators = [],
+    creatorfundingCreators = [],
     supportedContents = [],
     supportedContentsRemainsCount = 0,
   } = props;
@@ -141,6 +161,36 @@ export const MonthlyReportCivicLikerV2Template = (
                 </td>
               </TableRow>
             ))}
+          </MjmlTable>
+          <MjmlText
+            paddingTop={40}
+            paddingBottom={16}
+            fontSize={16}
+            fontWeight={600}
+          >
+            <FormattedMessage id="report.monthly.civic-liker.creatorsfund.title" />
+          </MjmlText>
+          <MjmlText paddingBottom={16} fontSize={16}>
+            <MonthlyReportCivicLikerV2CreatorsFundDescription
+              language={language}
+            />
+          </MjmlText>
+          <MjmlTable cellpadding="8px">
+            <TableRow>
+              {creatorfundingCreators.map((creator, index) => {
+                return (
+                  index < 19 && (
+                    <SmallAvatar
+                      src={creator.avatarSrc}
+                      likerID={creator.likerID}
+                      displayName={creator.displayName}
+                      isCivicLiker={creator.isCivicLiker}
+                      size={36}
+                    />
+                  )
+                );
+              })}
+            </TableRow>
           </MjmlTable>
         </MjmlColumn>
       </BasicSection>

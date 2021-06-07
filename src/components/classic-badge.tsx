@@ -24,8 +24,8 @@ export const ClassicBadge = (
   return (
     <BasicSection
       backgroundColor="white"
-      paddingTop={24}
-      paddingBottom={48}
+      paddingTop={32}
+      paddingBottom={24}
       {...props}
     >
       <MjmlColumn>

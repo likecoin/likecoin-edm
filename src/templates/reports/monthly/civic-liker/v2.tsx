@@ -1,11 +1,5 @@
 import * as React from 'react';
-import {
-  MjmlColumn,
-  MjmlTable,
-  MjmlText,
-  MjmlButton,
-  MjmlGroup,
-} from 'mjml-react';
+import { MjmlColumn, MjmlTable, MjmlText, MjmlButton } from 'mjml-react';
 import { FormattedMessage, FormattedNumber, useIntl } from 'react-intl';
 
 import { LIKER_LAND_ROOT } from '../../../../constants';
@@ -24,10 +18,7 @@ import { BasicSection } from '../../../../components/sections/basic';
 import { MonthlyReportHeaderSection } from '../../../../components/sections/monthly-report-header';
 import { TableRow } from '../../../../components/table-row';
 import { TemplateBase } from '../../../../components/template-base';
-import {
-  TwoNumbersSection,
-  TextColumn,
-} from '../../../../components/sections/two-numbers';
+import { TwoNumbersSection } from '../../../../components/sections/two-numbers';
 
 import { MonthlyReportCivicLikerV2TemplateProps } from './v2.types';
 
@@ -194,7 +185,7 @@ export const MonthlyReportCivicLikerV2Template = (
               {creatorfundingCreators &&
                 creatorfundingCreators.map((creator, index) => {
                   return (
-                    index < 22 && (
+                    index < 11 && (
                       <SmallAvatar
                         key={creator.likerID}
                         src={creator.avatarSrc}
@@ -238,32 +229,34 @@ export const MonthlyReportCivicLikerV2Template = (
 
       <ClassicBadge />
 
-      <BasicSection paddingTop={0} paddingBottom={24} backgroundColor="white">
-        <MjmlGroup>
-          <TextColumn
-            messageId={
-              'report.monthly.civic-liker.creatorsfund.badge.description.start'
-            }
-            width="40%"
-          />
-          <MjmlColumn width={'20%'}>
-            <MjmlText
-              color={Colors.Grey4A}
-              fontSize={42}
-              fontWeight={600}
-              align="center"
-              lineHeight={'0.5'}
-            >
-              <FormattedNumber value={creatorfundingCreators.length} />
-            </MjmlText>
-          </MjmlColumn>
-          <TextColumn
-            messageId={
-              'report.monthly.civic-liker.creatorsfund.badge.description.end'
-            }
-            width="40%"
-          />
-        </MjmlGroup>
+      <BasicSection paddingTop={0} paddingBottom={0} backgroundColor="white">
+        <MjmlColumn>
+          <MjmlText fontSize={16} fontWeight={600} align="center">
+            <FormattedMessage id="report.monthly.civic-liker.creatorsfund.badge.description.start" />
+          </MjmlText>
+        </MjmlColumn>
+      </BasicSection>
+
+      <BasicSection paddingBottom={24} backgroundColor="white">
+        <MjmlColumn>
+          <MjmlText
+            fontSize={42}
+            fontWeight={600}
+            align="center"
+            color={Colors.Grey4A}
+            lineHeight={'0.5'}
+          >
+            <FormattedNumber value={creatorfundingCreators.length} />
+          </MjmlText>
+        </MjmlColumn>
+      </BasicSection>
+
+      <BasicSection paddingTop={0} paddingBottom={0} backgroundColor="white">
+        <MjmlColumn>
+          <MjmlText fontSize={16} fontWeight={600} align="center">
+            <FormattedMessage id="report.monthly.civic-liker.creatorsfund.badge.description.end" />
+          </MjmlText>
+        </MjmlColumn>
       </BasicSection>
 
       <LikeCoinButtonCTA />

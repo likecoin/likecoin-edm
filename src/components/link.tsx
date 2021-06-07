@@ -10,6 +10,7 @@ export interface LinkProps
   > {
   isWrapUtm?: boolean;
   wrapUtmPrefix?: string;
+  textDecoration?: string;
 }
 
 export const Link = (props: LinkProps) => {
@@ -19,6 +20,7 @@ export const Link = (props: LinkProps) => {
     style,
     isWrapUtm = false,
     wrapUtmPrefix,
+    textDecoration = 'underline',
     ...restProps
   } = props;
 
@@ -29,7 +31,7 @@ export const Link = (props: LinkProps) => {
       rel="noreferrer noopener"
       style={{
         color: Colors.LikeGreen,
-        textDecoration: 'underline',
+        textDecoration: textDecoration,
         ...style,
       }}
       {...restProps}

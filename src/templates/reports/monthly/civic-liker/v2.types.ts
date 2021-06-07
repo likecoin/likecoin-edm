@@ -18,4 +18,5 @@ export interface MonthlyReportCivicLikerV2TemplateProps extends MonthlyReport {
   creatorfundingCreators?: CreatorfundingCreator[];
   supportedContents?: SupportedContent[];
   supportedContentsRemainsCount?: number;
+  fundedCreatorsRemainsCount?: number;
 }

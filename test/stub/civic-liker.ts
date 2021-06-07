@@ -44,7 +44,7 @@ export const MonthlyReportCivicLikerV2SampleData: MonthlyReportCivicLikerV2Templ
     isCivicLiker: true,
     amount: 5,
   }),
-  creatorfundingCreators: new Array(22).fill({
+  creatorfundingCreators: new Array(25).fill({
     likerID: SAMPLE_LIKER_ID,
     displayName: SAMPLE_LIKER_DISPLAY_NAME,
     avatarSrc: SAMPLE_IMAGE_URL,
@@ -61,4 +61,5 @@ export const MonthlyReportCivicLikerV2SampleData: MonthlyReportCivicLikerV2Templ
     isCivicLiker: true,
   }),
   supportedContentsRemainsCount: 3,
+  fundedCreatorsRemainsCount: 3,
 };

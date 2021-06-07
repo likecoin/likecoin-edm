@@ -6,7 +6,7 @@ import {
   MjmlWrapper,
 } from 'mjml-react';
 import * as React from 'react';
-import { FormattedNumber } from 'react-intl';
+import { FormattedNumber, FormattedMessage } from 'react-intl';
 
 import * as Colors from '../../constants/colors';
 import { getAssetPath } from '../../utils/url';
@@ -16,6 +16,11 @@ import { BasicSection } from './basic';
 interface NumberColumnProps {
   value?: number;
   label?: React.ReactNode;
+  width?: number | string;
+}
+
+interface TextColumnProps {
+  messageId?: string;
   width?: number | string;
 }
 
@@ -90,5 +95,21 @@ export const TwoNumbersSection = (props: TwoNumbersSectionProps) => {
         </BasicSection>
       )}
     </MjmlWrapper>
+  );
+};
+
+export const TextColumn = (props: TextColumnProps) => {
+  const { messageId, width } = props;
+  return (
+    <MjmlColumn width={width}>
+      <MjmlText
+        color={Colors.Grey4A}
+        fontSize={16}
+        fontWeight={600}
+        align="center"
+      >
+        <FormattedMessage id={messageId} />
+      </MjmlText>
+    </MjmlColumn>
   );
 };

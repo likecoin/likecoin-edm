@@ -73,38 +73,57 @@ export const SmallAvatar = (props: AvatarProps) => {
     align = 'center',
   } = props;
   return (
-    <Link
-      href={`${LIKER_LAND_ROOT}/${likerID}`}
-      isWrapUtm={true}
-      style={{
-        display: 'inline',
-        textAlign: align,
-        padding: size * 0.08,
-        lineHeight: 1,
-        ...(isCivicLiker
-          ? {
-              backgroundImage: `url(${getAssetPath(
-                '/avatar/halo/civic-liker.png'
-              )})`,
-              backgroundRepeat: 'no-repeat',
-              backgroundPositionX: align,
-              backgroundPositionY: 'center',
-              backgroundSize: 'contain',
-            }
-          : {}),
-      }}
-    >
+    <MjmlRaw>
+      <Link
+        href={`${LIKER_LAND_ROOT}/${likerID}`}
+        isWrapUtm={true}
+        style={{
+          display: 'inline',
+          textAlign: align,
+          padding: size * 0.08,
+          lineHeight: 1,
+          ...(isCivicLiker
+            ? {
+                backgroundImage: `url(${getAssetPath(
+                  '/avatar/halo/civic-liker.png'
+                )})`,
+                backgroundRepeat: 'no-repeat',
+                backgroundPositionX: align,
+                backgroundPositionY: 'center',
+                backgroundSize: 'contain',
+              }
+            : {}),
+        }}
+      >
+        <img
+          src={src}
+          alt={displayName || likerID}
+          style={{
+            width: size,
+            height: size,
+            borderRadius: '100%',
+            objectFit: 'cover',
+            border: '2px solid #ccc',
+          }}
+        />
+      </Link>
+    </MjmlRaw>
+  );
+};
+
+export const CivicLiker = (props: AvatarProps) => {
+  const { size = 40 } = props;
+  return (
+    <MjmlRaw>
       <img
-        src={src}
-        alt={displayName || likerID}
+        src={getAssetPath('/icons/civic-liker-icon@3x.png')}
         style={{
           width: size,
           height: size,
           borderRadius: '100%',
           objectFit: 'cover',
-          border: '2px solid #ccc',
         }}
       />
-    </Link>
+    </MjmlRaw>
   );
 };

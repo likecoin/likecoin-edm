@@ -5,6 +5,7 @@
   "cta.likecoin-button": "Click the LikeCoin button in any articles, distribute Creators Fund to reward the creators.",
 
   "date.month": "Month",
+  "download": "Download:",
 
   "greeting": "Dear {name}",
 
@@ -14,7 +15,7 @@
   "report.monthly.date": "{month} {year}",
 
   "report.monthly.civic-liker.subject": "Civic Liker Monthly Report ({date})",
-  "report.monthly.civic-liker.title": "Civic Liker Monthly Report",
+  "report.monthly.civic-liker.title": "Your Civic Liker Summary",
   "report.monthly.civic-liker.subscribers.description": "You are supporting the follow creators by monthly subscription. Your billing date is {day} of each month. <a>Click here to manage your subscription</a>",
   "report.monthly.civic-liker.subscribers.title": "Subscribing creators",
   "report.monthly.civic-liker.supported.contents.description": "The creators got extra bonus from the Creators Fund because of your likes. You can check the details in <a>Liker Land app.</a>",

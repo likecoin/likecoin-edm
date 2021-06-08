@@ -33,7 +33,7 @@ export const ClassicBadge = (
           <tr>
             <td>
               <img
-                src={getAssetPath('/badges/civic-liker-icon.png')}
+                src={getAssetPath('/badges/civic-liker-icon@3x.png')}
                 style={{
                   display: 'block',
                   width: '100%',

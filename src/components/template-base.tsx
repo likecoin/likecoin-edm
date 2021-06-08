@@ -8,6 +8,7 @@ import {
   MjmlText,
   MjmlBreakpoint,
   MjmlTitle,
+  MjmlStyle,
 } from 'mjml-react';
 
 import * as Colors from '../constants/colors';
@@ -55,6 +56,16 @@ export const TemplateBase = (props: TemplateBaseProps) => {
               />
               <MjmlText lineHeight="1.5" />
             </MjmlAttributes>
+            <MjmlStyle>
+              {`
+                  @media only screen and (max-width: 480px) { 
+                    *[class~=hide_on_mobile] { display: none !important;} 
+                    *[class~=header_columns_left] { width: 45% !important;}
+                    *[class~=header_columns_middle] { width: 15% !important;}
+                    *[class~=header_columns_right] { width: 40% !important;}
+                  }
+                `}
+            </MjmlStyle>
             <MjmlBreakpoint width={576} />
           </MjmlHead>
           <MjmlBody backgroundColor="white" width={theme.templateWidth}>

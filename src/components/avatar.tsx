@@ -13,6 +13,7 @@ export interface AvatarProps {
   src?: string;
   size?: number;
   align?: 'left' | 'center' | 'right';
+  display?: string;
 }
 
 export const Avatar = (props: AvatarProps) => {
@@ -23,6 +24,7 @@ export const Avatar = (props: AvatarProps) => {
     src = DEFAULT_AVATAR_URL,
     size = 40,
     align = 'center',
+    display = 'block',
   } = props;
   return (
     <MjmlRaw>
@@ -30,57 +32,9 @@ export const Avatar = (props: AvatarProps) => {
         href={`${LIKER_LAND_ROOT}/${likerID}`}
         isWrapUtm={true}
         style={{
-          display: 'block',
+          display: display,
           textAlign: align,
-          padding: size * 0.08,
-          lineHeight: 1,
-          ...(isCivicLiker
-            ? {
-                backgroundImage: `url(${getAssetPath(
-                  '/avatar/halo/civic-liker.png'
-                )})`,
-                backgroundRepeat: 'no-repeat',
-                backgroundPositionX: align,
-                backgroundPositionY: 'center',
-                backgroundSize: 'contain',
-              }
-            : {}),
-        }}
-      >
-        <img
-          src={src}
-          alt={displayName || likerID}
-          style={{
-            width: size,
-            height: size,
-            borderRadius: '100%',
-            objectFit: 'cover',
-            border: '2px solid #ccc',
-          }}
-        />
-      </Link>
-    </MjmlRaw>
-  );
-};
-
-export const SmallAvatar = (props: AvatarProps) => {
-  const {
-    likerID = '',
-    displayName = '',
-    isCivicLiker = false,
-    src = DEFAULT_AVATAR_URL,
-    size = 40,
-    align = 'center',
-  } = props;
-  return (
-    <MjmlRaw>
-      <Link
-        href={`${LIKER_LAND_ROOT}/${likerID}`}
-        isWrapUtm={true}
-        style={{
-          display: 'inline',
-          textAlign: align,
-          padding: size * 0.08,
+          padding: Math.ceil(size * 0.08),
           lineHeight: 1,
           ...(isCivicLiker
             ? {

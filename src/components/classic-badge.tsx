@@ -4,15 +4,13 @@ import {
   ClassNameProps,
   MjmlColumn,
   MjmlSectionProps,
-  MjmlTable,
+  MjmlImage,
   PaddingProps,
 } from 'mjml-react';
 
 import { getAssetPath } from '../utils/url';
 
 import { BasicSection, BasicSectionProps } from './sections/basic';
-
-const MAX_WIDTH = 218;
 
 export const ClassicBadge = (
   props: BasicSectionProps &
@@ -29,22 +27,10 @@ export const ClassicBadge = (
       {...props}
     >
       <MjmlColumn>
-        <MjmlTable>
-          <tr>
-            <td>
-              <img
-                src={getAssetPath('/badges/civic-liker-icon@3x.png')}
-                style={{
-                  display: 'block',
-                  width: '100%',
-                  margin: '0 auto',
-                  maxWidth: MAX_WIDTH,
-                }}
-                alt=""
-              />
-            </td>
-          </tr>
-        </MjmlTable>
+        <MjmlImage
+          width={218}
+          src={getAssetPath('/badges/civic-liker-icon@3x.png')}
+        />
       </MjmlColumn>
     </BasicSection>
   );

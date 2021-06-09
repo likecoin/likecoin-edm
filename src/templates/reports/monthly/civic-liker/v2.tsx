@@ -8,7 +8,7 @@ import * as Colors from '../../../../constants/colors';
 import { getPriceEmojiURL } from '../../../../utils/civic';
 import { getLocalizedOrdinalDay } from '../../../../utils/localization';
 
-import { Avatar, SmallAvatar } from '../../../../components/avatar';
+import { Avatar } from '../../../../components/avatar';
 import { LikeCoinButtonCTA } from '../../../../components/cta-likecoin-button';
 import { ClassicBadge } from '../../../../components/classic-badge';
 import { FooterSection } from '../../../../components/footer';
@@ -46,9 +46,9 @@ const MonthlyReportCivicLikerV2SubscribersDescription = ({
 };
 
 const MonthlyReportCivicLikerV2CreatorsFundDescription = ({
-  creatorfundingCreators,
+  fundedCreatorsCount,
 }: {
-  creatorfundingCreators: Array<any>;
+  fundedCreatorsCount: number;
   language?: string;
   billingDateTimestamp?: number;
 }) => {
@@ -56,13 +56,13 @@ const MonthlyReportCivicLikerV2CreatorsFundDescription = ({
     <MjmlText>
       <FormattedMessage
         id={
-          creatorfundingCreators.length > 0
+          fundedCreatorsCount > 0
             ? 'report.monthly.civic-liker.creatorsfund.description.main'
             : 'report.monthly.civic-liker.creatorsfund.description.none'
         }
         values={{
           a: (text: string) => <Link textDecoration="none">{text}</Link>,
-          count: creatorfundingCreators.length,
+          count: fundedCreatorsCount,
         }}
       />
     </MjmlText>
@@ -84,7 +84,7 @@ export const MonthlyReportCivicLikerV2Template = (
     totalSupportedCreatorsByFund = 0,
     billingDateTimestamp,
     subscribingCreators = [],
-    creatorfundingCreators = [],
+    fundedCreators = [],
     fundedCreatorsRemainsCount = 0,
   } = props;
 
@@ -176,25 +176,24 @@ export const MonthlyReportCivicLikerV2Template = (
           </MjmlText>
           <MjmlText paddingBottom={16} fontSize={16}>
             <MonthlyReportCivicLikerV2CreatorsFundDescription
-              creatorfundingCreators={creatorfundingCreators}
+              fundedCreatorsCount={fundedCreators.length}
               language={language}
             />
           </MjmlText>
           <MjmlTable cellpadding="8px" fontSize="14px">
             <TableRow isLastChild={true}>
-              {creatorfundingCreators &&
-                creatorfundingCreators.map((creator, index) => {
+              {fundedCreators &&
+                fundedCreators.slice(0, 11).map(creator => {
                   return (
-                    index < 11 && (
-                      <SmallAvatar
-                        key={creator.likerID}
-                        src={creator.avatarSrc}
-                        likerID={creator.likerID}
-                        displayName={creator.displayName}
-                        isCivicLiker={creator.isCivicLiker}
-                        size={36}
-                      />
-                    )
+                    <Avatar
+                      key={creator.likerID}
+                      src={creator.avatarSrc}
+                      likerID={creator.likerID}
+                      displayName={creator.displayName}
+                      isCivicLiker={creator.isCivicLiker}
+                      size={36}
+                      display="inline"
+                    />
                   );
                 })}
               <td
@@ -211,7 +210,7 @@ export const MonthlyReportCivicLikerV2Template = (
               </td>
             </TableRow>
           </MjmlTable>
-          {creatorfundingCreators.length === 0 && (
+          {fundedCreators.length === 0 && (
             <MjmlButton
               fontFamily="Helvetica-Bold"
               backgroundColor="#e6e6e6"
@@ -232,7 +231,7 @@ export const MonthlyReportCivicLikerV2Template = (
       <BasicSection paddingTop={0} paddingBottom={0} backgroundColor="white">
         <MjmlColumn>
           <MjmlText fontSize={16} fontWeight={600} align="center">
-            <FormattedMessage id="report.monthly.civic-liker.creatorsfund.badge.description.start" />
+            <FormattedMessage id="report.monthly.civic-liker.creatorsfund.badge.count.prepend" />
           </MjmlText>
         </MjmlColumn>
       </BasicSection>
@@ -246,7 +245,7 @@ export const MonthlyReportCivicLikerV2Template = (
             color={Colors.Grey4A}
             lineHeight={'0.5'}
           >
-            <FormattedNumber value={creatorfundingCreators.length} />
+            <FormattedNumber value={fundedCreators.length} />
           </MjmlText>
         </MjmlColumn>
       </BasicSection>
@@ -254,7 +253,7 @@ export const MonthlyReportCivicLikerV2Template = (
       <BasicSection paddingTop={0} paddingBottom={0} backgroundColor="white">
         <MjmlColumn>
           <MjmlText fontSize={16} fontWeight={600} align="center">
-            <FormattedMessage id="report.monthly.civic-liker.creatorsfund.badge.description.end" />
+            <FormattedMessage id="report.monthly.civic-liker.creatorsfund.badge.count.append" />
           </MjmlText>
         </MjmlColumn>
       </BasicSection>

@@ -3,7 +3,7 @@ import { Content, MonthlyReport, User } from '../../../../types';
 export interface SubscribingCreator extends User {
   amount?: number;
 }
-export interface CreatorfundingCreator extends User {
+export interface FundedCreators extends User {
   amount?: number;
 }
 
@@ -15,7 +15,7 @@ export interface MonthlyReportCivicLikerV2TemplateProps extends MonthlyReport {
   totalSupportedCreatorsByFund?: number;
   billingDateTimestamp?: number;
   subscribingCreators?: SubscribingCreator[];
-  creatorfundingCreators?: CreatorfundingCreator[];
+  fundedCreators?: FundedCreators[];
   supportedContents?: SupportedContent[];
   supportedContentsRemainsCount?: number;
   fundedCreatorsRemainsCount?: number;

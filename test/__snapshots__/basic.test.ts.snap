@@ -38,6 +38,9 @@ exports[`Render basic templates Default 1`] = `
     <style type=\\"text/css\\">
       @media only screen and (min-width:576px) {
         .mj-column-per-100 { width:100% !important; max-width: 100%; }
+.mj-column-per-65 { width:65% !important; max-width: 65%; }
+.mj-column-per-15 { width:15% !important; max-width: 15%; }
+.mj-column-per-10 { width:10% !important; max-width: 10%; }
 .mj-column-px-120 { width:120px !important; max-width: 120px; }
       }
     </style>
@@ -53,7 +56,12 @@ exports[`Render basic templates Default 1`] = `
     }
   
         </style>
-        
+        <style type=\\"text/css\\">@media only screen and (max-width: 480px) { 
+                    *[class~=hide_on_mobile] { display: none !important;} 
+                    *[class~=header_columns_left] { width: 45% !important;}
+                    *[class~=header_columns_middle] { width: 15% !important;}
+                    *[class~=header_columns_right] { width: 40% !important;}
+                  }</style>
         
       </head>
       <body style=\\"background-color:white;\\">
@@ -92,12 +100,26 @@ exports[`Render basic templates Default 1`] = `
         <tr>
       
             <td
-               class=\\"\\" style=\\"vertical-align:top;width:536px;\\"
+               class=\\"\\" style=\\"width:536px;\\"
             >
           <![endif]-->
             
       <div
-         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr;\\"
+      >
+        <!--[if mso | IE]>
+        <table
+           border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\"
+        >
+          <tr>
+        
+              <td
+                 style=\\"vertical-align:top;width:348px;\\"
+              >
+              <![endif]-->
+                
+      <div
+         class=\\"mj-column-per-65 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:65%;\\"
       >
         
       <table
@@ -121,10 +143,10 @@ exports[`Render basic templates Default 1`] = `
       >
         <tbody>
           <tr>
-            <td  style=\\"width:90px;\\">
+            <td  style=\\"width:145px;\\">
               
       <img
-         height=\\"auto\\" src=\\"http://localhost:3000/static/liker-land-logo.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"90\\"
+         height=\\"auto\\" src=\\"http://localhost:3000/static/banners/like-coin-press-kit-liker-land-dark@3x.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"145\\"
       />
     
             </td>
@@ -142,6 +164,146 @@ exports[`Render basic templates Default 1`] = `
         </tbody>
       </table>
     
+      </div>
+    
+              <!--[if mso | IE]>
+              </td>
+              
+              <td
+                 style=\\"vertical-align:top;width:80px;\\"
+              >
+              <![endif]-->
+                
+      <div
+         class=\\"mj-column-per-15 mj-outlook-group-fix hide_on_mobile\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:15%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"vertical-align:top;padding:0px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        
+            <tr>
+              <td
+                 align=\\"right\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+              >
+                
+      <div
+         style=\\"font-family:Arial;font-size:14px;font-weight:600;line-height:3.0;text-align:right;color:#4a4a4a;\\"
+      >下載:</div>
+    
+              </td>
+            </tr>
+          
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+              <!--[if mso | IE]>
+              </td>
+              
+              <td
+                 style=\\"vertical-align:top;width:53px;\\"
+              >
+              <![endif]-->
+                
+      <div
+         class=\\"mj-column-per-10 mj-outlook-group-fix hide_on_mobile\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:10%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"vertical-align:top;padding:0px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        
+            <tr>
+              <td
+                 align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+              >
+                
+      <div
+         style=\\"font-family:Arial;font-size:14px;line-height:3.0;text-align:center;color:#4a4a4a;\\"
+      ><a href=\\"https://liker.land/getapp\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" color=\\"#9b9b9b\\">iOS</a></div>
+    
+              </td>
+            </tr>
+          
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+              <!--[if mso | IE]>
+              </td>
+              
+              <td
+                 style=\\"vertical-align:top;width:53px;\\"
+              >
+              <![endif]-->
+                
+      <div
+         class=\\"mj-column-per-10 mj-outlook-group-fix hide_on_mobile\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:10%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"vertical-align:top;padding:0px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        
+            <tr>
+              <td
+                 align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+              >
+                
+      <div
+         style=\\"font-family:Arial;font-size:14px;line-height:3.0;text-align:left;color:#4a4a4a;\\"
+      ><a href=\\"https://liker.land/getapp\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" color=\\"#9b9b9b\\">Android</a></div>
+    
+              </td>
+            </tr>
+          
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+              <!--[if mso | IE]>
+              </td>
+              
+          </tr>
+          </table>
+        <![endif]-->
       </div>
     
           <!--[if mso | IE]>
@@ -211,7 +373,7 @@ exports[`Render basic templates Default 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        <a href=\\"https://liker.land/?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:8.16px;line-height:1\\"><img src=\\"http://localhost:3000/static/default-avatar.jpg\\" alt=\\"\\" style=\\"width:102px;height:102px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a>
+        <a href=\\"https://liker.land/?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:9px;line-height:1\\"><img src=\\"http://localhost:3000/static/default-avatar.jpg\\" alt=\\"\\" style=\\"width:102px;height:102px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a>
       </table>
     
             </td>
@@ -1039,6 +1201,9 @@ exports[`Render basic templates With avatar (Civic Liker) 1`] = `
     <style type=\\"text/css\\">
       @media only screen and (min-width:576px) {
         .mj-column-per-100 { width:100% !important; max-width: 100%; }
+.mj-column-per-65 { width:65% !important; max-width: 65%; }
+.mj-column-per-15 { width:15% !important; max-width: 15%; }
+.mj-column-per-10 { width:10% !important; max-width: 10%; }
 .mj-column-px-120 { width:120px !important; max-width: 120px; }
       }
     </style>
@@ -1054,7 +1219,12 @@ exports[`Render basic templates With avatar (Civic Liker) 1`] = `
     }
   
         </style>
-        
+        <style type=\\"text/css\\">@media only screen and (max-width: 480px) { 
+                    *[class~=hide_on_mobile] { display: none !important;} 
+                    *[class~=header_columns_left] { width: 45% !important;}
+                    *[class~=header_columns_middle] { width: 15% !important;}
+                    *[class~=header_columns_right] { width: 40% !important;}
+                  }</style>
         
       </head>
       <body style=\\"background-color:white;\\">
@@ -1093,12 +1263,26 @@ exports[`Render basic templates With avatar (Civic Liker) 1`] = `
         <tr>
       
             <td
-               class=\\"\\" style=\\"vertical-align:top;width:536px;\\"
+               class=\\"\\" style=\\"width:536px;\\"
             >
           <![endif]-->
             
       <div
-         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr;\\"
+      >
+        <!--[if mso | IE]>
+        <table
+           border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\"
+        >
+          <tr>
+        
+              <td
+                 style=\\"vertical-align:top;width:348px;\\"
+              >
+              <![endif]-->
+                
+      <div
+         class=\\"mj-column-per-65 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:65%;\\"
       >
         
       <table
@@ -1122,10 +1306,10 @@ exports[`Render basic templates With avatar (Civic Liker) 1`] = `
       >
         <tbody>
           <tr>
-            <td  style=\\"width:90px;\\">
+            <td  style=\\"width:145px;\\">
               
       <img
-         height=\\"auto\\" src=\\"http://localhost:3000/static/liker-land-logo.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"90\\"
+         height=\\"auto\\" src=\\"http://localhost:3000/static/banners/like-coin-press-kit-liker-land-dark@3x.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"145\\"
       />
     
             </td>
@@ -1143,6 +1327,146 @@ exports[`Render basic templates With avatar (Civic Liker) 1`] = `
         </tbody>
       </table>
     
+      </div>
+    
+              <!--[if mso | IE]>
+              </td>
+              
+              <td
+                 style=\\"vertical-align:top;width:80px;\\"
+              >
+              <![endif]-->
+                
+      <div
+         class=\\"mj-column-per-15 mj-outlook-group-fix hide_on_mobile\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:15%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"vertical-align:top;padding:0px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        
+            <tr>
+              <td
+                 align=\\"right\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+              >
+                
+      <div
+         style=\\"font-family:Arial;font-size:14px;font-weight:600;line-height:3.0;text-align:right;color:#4a4a4a;\\"
+      >下載:</div>
+    
+              </td>
+            </tr>
+          
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+              <!--[if mso | IE]>
+              </td>
+              
+              <td
+                 style=\\"vertical-align:top;width:53px;\\"
+              >
+              <![endif]-->
+                
+      <div
+         class=\\"mj-column-per-10 mj-outlook-group-fix hide_on_mobile\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:10%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"vertical-align:top;padding:0px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        
+            <tr>
+              <td
+                 align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+              >
+                
+      <div
+         style=\\"font-family:Arial;font-size:14px;line-height:3.0;text-align:center;color:#4a4a4a;\\"
+      ><a href=\\"https://liker.land/getapp\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" color=\\"#9b9b9b\\">iOS</a></div>
+    
+              </td>
+            </tr>
+          
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+              <!--[if mso | IE]>
+              </td>
+              
+              <td
+                 style=\\"vertical-align:top;width:53px;\\"
+              >
+              <![endif]-->
+                
+      <div
+         class=\\"mj-column-per-10 mj-outlook-group-fix hide_on_mobile\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:10%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"vertical-align:top;padding:0px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        
+            <tr>
+              <td
+                 align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+              >
+                
+      <div
+         style=\\"font-family:Arial;font-size:14px;line-height:3.0;text-align:left;color:#4a4a4a;\\"
+      ><a href=\\"https://liker.land/getapp\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" color=\\"#9b9b9b\\">Android</a></div>
+    
+              </td>
+            </tr>
+          
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+              <!--[if mso | IE]>
+              </td>
+              
+          </tr>
+          </table>
+        <![endif]-->
       </div>
     
           <!--[if mso | IE]>
@@ -1212,7 +1536,7 @@ exports[`Render basic templates With avatar (Civic Liker) 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        <a href=\\"https://liker.land/?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:8.16px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position-x:center;background-position-y:center;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"\\" style=\\"width:102px;height:102px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a>
+        <a href=\\"https://liker.land/?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:9px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position-x:center;background-position-y:center;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"\\" style=\\"width:102px;height:102px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a>
       </table>
     
             </td>
@@ -2016,6 +2340,9 @@ exports[`Render basic templates With avatar 1`] = `
     <style type=\\"text/css\\">
       @media only screen and (min-width:576px) {
         .mj-column-per-100 { width:100% !important; max-width: 100%; }
+.mj-column-per-65 { width:65% !important; max-width: 65%; }
+.mj-column-per-15 { width:15% !important; max-width: 15%; }
+.mj-column-per-10 { width:10% !important; max-width: 10%; }
 .mj-column-px-120 { width:120px !important; max-width: 120px; }
       }
     </style>
@@ -2031,7 +2358,12 @@ exports[`Render basic templates With avatar 1`] = `
     }
   
         </style>
-        
+        <style type=\\"text/css\\">@media only screen and (max-width: 480px) { 
+                    *[class~=hide_on_mobile] { display: none !important;} 
+                    *[class~=header_columns_left] { width: 45% !important;}
+                    *[class~=header_columns_middle] { width: 15% !important;}
+                    *[class~=header_columns_right] { width: 40% !important;}
+                  }</style>
         
       </head>
       <body style=\\"background-color:white;\\">
@@ -2070,12 +2402,26 @@ exports[`Render basic templates With avatar 1`] = `
         <tr>
       
             <td
-               class=\\"\\" style=\\"vertical-align:top;width:536px;\\"
+               class=\\"\\" style=\\"width:536px;\\"
             >
           <![endif]-->
             
       <div
-         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr;\\"
+      >
+        <!--[if mso | IE]>
+        <table
+           border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\"
+        >
+          <tr>
+        
+              <td
+                 style=\\"vertical-align:top;width:348px;\\"
+              >
+              <![endif]-->
+                
+      <div
+         class=\\"mj-column-per-65 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:65%;\\"
       >
         
       <table
@@ -2099,10 +2445,10 @@ exports[`Render basic templates With avatar 1`] = `
       >
         <tbody>
           <tr>
-            <td  style=\\"width:90px;\\">
+            <td  style=\\"width:145px;\\">
               
       <img
-         height=\\"auto\\" src=\\"http://localhost:3000/static/liker-land-logo.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"90\\"
+         height=\\"auto\\" src=\\"http://localhost:3000/static/banners/like-coin-press-kit-liker-land-dark@3x.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"145\\"
       />
     
             </td>
@@ -2120,6 +2466,146 @@ exports[`Render basic templates With avatar 1`] = `
         </tbody>
       </table>
     
+      </div>
+    
+              <!--[if mso | IE]>
+              </td>
+              
+              <td
+                 style=\\"vertical-align:top;width:80px;\\"
+              >
+              <![endif]-->
+                
+      <div
+         class=\\"mj-column-per-15 mj-outlook-group-fix hide_on_mobile\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:15%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"vertical-align:top;padding:0px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        
+            <tr>
+              <td
+                 align=\\"right\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+              >
+                
+      <div
+         style=\\"font-family:Arial;font-size:14px;font-weight:600;line-height:3.0;text-align:right;color:#4a4a4a;\\"
+      >下載:</div>
+    
+              </td>
+            </tr>
+          
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+              <!--[if mso | IE]>
+              </td>
+              
+              <td
+                 style=\\"vertical-align:top;width:53px;\\"
+              >
+              <![endif]-->
+                
+      <div
+         class=\\"mj-column-per-10 mj-outlook-group-fix hide_on_mobile\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:10%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"vertical-align:top;padding:0px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        
+            <tr>
+              <td
+                 align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+              >
+                
+      <div
+         style=\\"font-family:Arial;font-size:14px;line-height:3.0;text-align:center;color:#4a4a4a;\\"
+      ><a href=\\"https://liker.land/getapp\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" color=\\"#9b9b9b\\">iOS</a></div>
+    
+              </td>
+            </tr>
+          
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+              <!--[if mso | IE]>
+              </td>
+              
+              <td
+                 style=\\"vertical-align:top;width:53px;\\"
+              >
+              <![endif]-->
+                
+      <div
+         class=\\"mj-column-per-10 mj-outlook-group-fix hide_on_mobile\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:10%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"vertical-align:top;padding:0px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        
+            <tr>
+              <td
+                 align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+              >
+                
+      <div
+         style=\\"font-family:Arial;font-size:14px;line-height:3.0;text-align:left;color:#4a4a4a;\\"
+      ><a href=\\"https://liker.land/getapp\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" color=\\"#9b9b9b\\">Android</a></div>
+    
+              </td>
+            </tr>
+          
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+              <!--[if mso | IE]>
+              </td>
+              
+          </tr>
+          </table>
+        <![endif]-->
       </div>
     
           <!--[if mso | IE]>
@@ -2189,7 +2675,7 @@ exports[`Render basic templates With avatar 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        <a href=\\"https://liker.land/?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:8.16px;line-height:1\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"\\" style=\\"width:102px;height:102px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a>
+        <a href=\\"https://liker.land/?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:9px;line-height:1\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"\\" style=\\"width:102px;height:102px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a>
       </table>
     
             </td>

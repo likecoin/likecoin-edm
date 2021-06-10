@@ -1,15 +1,23 @@
 import * as React from 'react';
-import { MjmlColumn, MjmlGroup, MjmlText, MjmlWrapper } from 'mjml-react';
+import {
+  MjmlColumn,
+  MjmlGroup,
+  MjmlText,
+  MjmlWrapper,
+  MjmlTable,
+} from 'mjml-react';
 import { FormattedMessage, useIntl } from 'react-intl';
-
 import * as Colors from '../../constants/colors';
-
+import { createCanvas } from 'canvas';
 import { getLocalizedMonthlyReportDate } from '../../utils/localization';
 
 import { User } from '../../types';
 
 import { Avatar, CivicLiker } from '../avatar';
 import { BasicSection } from './basic';
+
+const canvas = createCanvas(200, 100);
+const ctx = canvas.getContext('2d');
 
 export interface MonthlyReportHeaderSectionProps extends User {
   title?: React.ReactNode;
@@ -36,7 +44,7 @@ export const MonthlyReportHeaderSection = (
         paddingRight={0}
       >
         <MjmlGroup>
-          <MjmlColumn width={'70%'} cssClass={'header_columns_left'}>
+          <MjmlColumn width="20%" cssClass="header_columns_left">
             <CivicLiker
               src={avatarSrc}
               likerID={likerID}
@@ -46,30 +54,34 @@ export const MonthlyReportHeaderSection = (
               align="left"
             />
           </MjmlColumn>
-          <MjmlColumn
-            width={'8%'}
-            paddingTop={10}
-            cssClass={'header_columns_middle'}
-          >
-            <Avatar
-              src={avatarSrc}
-              likerID={likerID}
-              displayName={displayName}
-              isCivicLiker={isCivicLiker}
-              size={48}
-            />
-          </MjmlColumn>
-          <MjmlColumn width={'22%'} cssClass={'header_columns_right'}>
-            <MjmlText
-              fontSize={18}
-              fontWeight={600}
-              color="white"
-              lineHeight="4.4"
-              align="left"
-              paddingLeft={20}
-            >
-              {likerID}
-            </MjmlText>
+          <MjmlColumn width="80%" cssClass="header_columns_right">
+            <MjmlTable cellpadding="8px" css-class="hoverTable" width="100%">
+              <tr
+                style={{
+                  borderBottom: 'none',
+                  color: 'white',
+                  fontWeight: 'bolder',
+                  fontSize: 18,
+                }}
+              >
+                <td>
+                  <Avatar
+                    src={avatarSrc}
+                    likerID={likerID}
+                    displayName={displayName}
+                    isCivicLiker={isCivicLiker}
+                    size={48}
+                    align="right"
+                  />
+                </td>
+                <td
+                  style={{ textAlign: 'right' }}
+                  width={ctx.measureText(likerID).width * 2.1}
+                >
+                  <MjmlText>{likerID}</MjmlText>
+                </td>
+              </tr>
+            </MjmlTable>
           </MjmlColumn>
         </MjmlGroup>
       </BasicSection>

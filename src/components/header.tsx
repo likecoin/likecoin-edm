@@ -17,7 +17,7 @@ export const HeaderSection = () => {
       paddingBottom={32}
     >
       <MjmlGroup>
-        <MjmlColumn width={'65%'}>
+        <MjmlColumn width="65%">
           <MjmlImage
             align="left"
             width={145}
@@ -26,19 +26,19 @@ export const HeaderSection = () => {
             )}
           />
         </MjmlColumn>
-        <MjmlColumn width={'15%'} cssClass="hide_on_mobile">
+        <MjmlColumn width="15%" cssClass="hide_on_mobile">
           <MjmlText
             color={Colors.Grey4A}
             fontSize={14}
             fontWeight={600}
-            lineHeight={'3.0'}
+            lineHeight="3.0"
             align="right"
           >
             <FormattedMessage id="download" />
           </MjmlText>
         </MjmlColumn>
-        <MjmlColumn width={'10%'} cssClass="hide_on_mobile">
-          <MjmlText fontSize={14} lineHeight={'3.0'} align="center">
+        <MjmlColumn width="10%" cssClass="hide_on_mobile">
+          <MjmlText fontSize={14} lineHeight="3.0" align="center">
             <a
               href={`${LIKER_LAND_ROOT}/getapp`}
               target="_blank"
@@ -49,8 +49,8 @@ export const HeaderSection = () => {
             </a>
           </MjmlText>
         </MjmlColumn>
-        <MjmlColumn width={'10%'} cssClass="hide_on_mobile">
-          <MjmlText fontSize={14} lineHeight={'3.0'}>
+        <MjmlColumn width="10%" cssClass="hide_on_mobile">
+          <MjmlText fontSize={14} lineHeight="3.0">
             <a
               href={`${LIKER_LAND_ROOT}/getapp`}
               target="_blank"

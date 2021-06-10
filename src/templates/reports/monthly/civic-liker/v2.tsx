@@ -1,5 +1,11 @@
 import * as React from 'react';
-import { MjmlColumn, MjmlTable, MjmlText, MjmlButton } from 'mjml-react';
+import {
+  MjmlColumn,
+  MjmlTable,
+  MjmlText,
+  MjmlButton,
+  MjmlWrapper,
+} from 'mjml-react';
 import { FormattedMessage, FormattedNumber, useIntl } from 'react-intl';
 
 import { LIKER_LAND_ROOT } from '../../../../constants';
@@ -10,7 +16,7 @@ import { getLocalizedOrdinalDay } from '../../../../utils/localization';
 
 import { Avatar } from '../../../../components/avatar';
 import { LikeCoinButtonCTA } from '../../../../components/cta-likecoin-button';
-import { ClassicBadge } from '../../../../components/classic-badge';
+import { CivicLikerClassicBadge } from '../../../../components/classic-badge';
 import { FooterSection } from '../../../../components/footer';
 import { HeaderSection } from '../../../../components/header';
 import { Link } from '../../../../components/link';
@@ -86,6 +92,7 @@ export const MonthlyReportCivicLikerV2Template = (
     subscribingCreators = [],
     fundedCreators = [],
     fundedCreatorsRemainsCount = 0,
+    isClassicSubscribed = false,
   } = props;
 
   return (
@@ -118,56 +125,62 @@ export const MonthlyReportCivicLikerV2Template = (
 
       <BasicSection>
         <MjmlColumn>
-          <MjmlText paddingBottom={16} fontSize={16} fontWeight={600}>
-            <FormattedMessage id="report.monthly.civic-liker.subscribers.title" />
-          </MjmlText>
-          <MjmlText paddingBottom={16} fontSize={16}>
-            <MonthlyReportCivicLikerV2SubscribersDescription
-              language={language}
-              billingDateTimestamp={billingDateTimestamp}
-            />
-          </MjmlText>
-          <MjmlTable cellpadding="8px">
-            {subscribingCreators.map((creator, i) => (
-              <TableRow key={creator.likerID} isFirstChild={i === 0}>
-                <td width={48}>
-                  <Avatar
-                    src={creator.avatarSrc}
-                    likerID={creator.likerID}
-                    displayName={creator.displayName}
-                    isCivicLiker={creator.isCivicLiker}
-                    size={48}
-                  />
-                </td>
-                <td>
-                  <Link
-                    href={`${LIKER_LAND_ROOT}/${creator.likerID}`}
-                    isWrapUtm={true}
-                    style={{ textDecoration: 'none', color: Colors.Grey4A }}
-                  >
-                    {creator.displayName}
-                  </Link>
-                </td>
-                <td style={{ textAlign: 'right' }}>
-                  <img
-                    alt={`USD ${creator.amount}/mo`}
-                    src={getPriceEmojiURL(creator.amount)}
-                    width={18}
-                    height={18}
-                    style={{
-                      width: 18,
-                      height: 18,
-                      verticalAlign: 'middle',
-                      marginRight: 8,
-                    }}
-                  />
-                  USD {creator.amount}/mo
-                </td>
-              </TableRow>
-            ))}
-          </MjmlTable>
+          {subscribingCreators.length > 0 && (
+            <MjmlText paddingBottom={16} fontSize={16} fontWeight={600}>
+              <FormattedMessage id="report.monthly.civic-liker.subscribers.title" />
+            </MjmlText>
+          )}
+          {subscribingCreators.length > 0 && (
+            <MjmlText paddingBottom={16} fontSize={16}>
+              <MonthlyReportCivicLikerV2SubscribersDescription
+                language={language}
+                billingDateTimestamp={billingDateTimestamp}
+              />
+            </MjmlText>
+          )}
+          {subscribingCreators.length > 0 && (
+            <MjmlTable cellpadding="8px">
+              {subscribingCreators.map((creator, i) => (
+                <TableRow key={creator.likerID} isFirstChild={i === 0}>
+                  <td width={48}>
+                    <Avatar
+                      src={creator.avatarSrc}
+                      likerID={creator.likerID}
+                      displayName={creator.displayName}
+                      isCivicLiker={creator.isCivicLiker}
+                      size={48}
+                    />
+                  </td>
+                  <td>
+                    <Link
+                      href={`${LIKER_LAND_ROOT}/${creator.likerID}`}
+                      isWrapUtm={true}
+                      style={{ textDecoration: 'none', color: Colors.Grey4A }}
+                    >
+                      {creator.displayName}
+                    </Link>
+                  </td>
+                  <td style={{ textAlign: 'right' }}>
+                    <img
+                      alt={`USD ${creator.amount}/mo`}
+                      src={getPriceEmojiURL(creator.amount)}
+                      width={18}
+                      height={18}
+                      style={{
+                        width: 18,
+                        height: 18,
+                        verticalAlign: 'middle',
+                        marginRight: 8,
+                      }}
+                    />
+                    USD {creator.amount}/mo
+                  </td>
+                </TableRow>
+              ))}
+            </MjmlTable>
+          )}
           <MjmlText
-            paddingTop={40}
+            paddingTop={subscribingCreators.length > 0 ? 30 : 10}
             paddingBottom={16}
             fontSize={16}
             fontWeight={600}
@@ -226,37 +239,49 @@ export const MonthlyReportCivicLikerV2Template = (
         </MjmlColumn>
       </BasicSection>
 
-      <ClassicBadge />
+      {isClassicSubscribed && (
+        <MjmlWrapper>
+          <CivicLikerClassicBadge />
 
-      <BasicSection paddingTop={0} paddingBottom={0} backgroundColor="white">
-        <MjmlColumn>
-          <MjmlText fontSize={16} fontWeight={600} align="center">
-            <FormattedMessage id="report.monthly.civic-liker.creatorsfund.badge.count.prepend" />
-          </MjmlText>
-        </MjmlColumn>
-      </BasicSection>
-
-      <BasicSection paddingBottom={24} backgroundColor="white">
-        <MjmlColumn>
-          <MjmlText
-            fontSize={42}
-            fontWeight={600}
-            align="center"
-            color={Colors.Grey4A}
-            lineHeight={'0.5'}
+          <BasicSection
+            paddingTop={0}
+            paddingBottom={0}
+            backgroundColor="white"
           >
-            <FormattedNumber value={fundedCreators.length} />
-          </MjmlText>
-        </MjmlColumn>
-      </BasicSection>
+            <MjmlColumn>
+              <MjmlText fontSize={16} fontWeight={600} align="center">
+                <FormattedMessage id="report.monthly.civic-liker.creatorsfund.badge.count.prepend" />
+              </MjmlText>
+            </MjmlColumn>
+          </BasicSection>
 
-      <BasicSection paddingTop={0} paddingBottom={0} backgroundColor="white">
-        <MjmlColumn>
-          <MjmlText fontSize={16} fontWeight={600} align="center">
-            <FormattedMessage id="report.monthly.civic-liker.creatorsfund.badge.count.append" />
-          </MjmlText>
-        </MjmlColumn>
-      </BasicSection>
+          <BasicSection paddingBottom={24} backgroundColor="white">
+            <MjmlColumn>
+              <MjmlText
+                fontSize={42}
+                fontWeight={600}
+                align="center"
+                color={Colors.Grey4A}
+                lineHeight="0.5"
+              >
+                <FormattedNumber value={fundedCreators.length} />
+              </MjmlText>
+            </MjmlColumn>
+          </BasicSection>
+
+          <BasicSection
+            paddingTop={0}
+            paddingBottom={0}
+            backgroundColor="white"
+          >
+            <MjmlColumn>
+              <MjmlText fontSize={16} fontWeight={600} align="center">
+                <FormattedMessage id="report.monthly.civic-liker.creatorsfund.badge.count.append" />
+              </MjmlText>
+            </MjmlColumn>
+          </BasicSection>
+        </MjmlWrapper>
+      )}
 
       <LikeCoinButtonCTA />
 

@@ -12,7 +12,7 @@ import { getAssetPath } from '../utils/url';
 
 import { BasicSection, BasicSectionProps } from './sections/basic';
 
-export const ClassicBadge = (
+export const CivicLikerClassicBadge = (
   props: BasicSectionProps &
     MjmlSectionProps &
     BorderProps &

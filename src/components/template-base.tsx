@@ -61,8 +61,9 @@ export const TemplateBase = (props: TemplateBaseProps) => {
                   @media only screen and (max-width: 480px) { 
                     *[class~=hide_on_mobile] { display: none !important;} 
                     *[class~=header_columns_left] { width: 45% !important;}
-                    *[class~=header_columns_middle] { width: 15% !important;}
-                    *[class~=header_columns_right] { width: 40% !important;}
+                    *[class~=header_columns_right] { width: 55% !important;}
+                    *[class~=hoverTable] { table-layout: auto !important;}
+                    
                   }
                 `}
             </MjmlStyle>

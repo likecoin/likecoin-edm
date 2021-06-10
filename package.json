@@ -66,6 +66,7 @@
   },
   "dependencies": {
     "@types/mjml-react": "^1.0.4",
+    "canvas": "^2.8.0",
     "mjml": "^4.7.1",
     "mjml-react": "^1.0.63",
     "react": "^17.0.1",

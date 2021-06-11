@@ -62,10 +62,7 @@ exports[`Render writer monthly report templates Default 1`] = `
         </style>
         <style type=\\"text/css\\">@media only screen and (max-width: 480px) { 
                     *[class~=hide_on_mobile] { display: none !important;} 
-                    *[class~=header_columns_left] { width: 45% !important;}
-                    *[class~=header_columns_right] { width: 55% !important;}
                     *[class~=hoverTable] { table-layout: auto !important;}
-                    
                   }</style>
         
       </head>
@@ -378,7 +375,7 @@ exports[`Render writer monthly report templates Default 1`] = `
           <tbody>
             <tr>
               <td
-                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:0px;padding-left:32px;padding-right:0px;padding-top:32px;text-align:center;\\"
+                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:0px;padding-left:32px;padding-right:32px;padding-top:32px;text-align:center;\\"
               >
                 <!--[if mso | IE]>
                   <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
@@ -386,7 +383,7 @@ exports[`Render writer monthly report templates Default 1`] = `
         <tr>
       
             <td
-               class=\\"\\" style=\\"width:568px;\\"
+               class=\\"\\" style=\\"width:536px;\\"
             >
           <![endif]-->
             
@@ -400,44 +397,12 @@ exports[`Render writer monthly report templates Default 1`] = `
           <tr>
         
               <td
-                 style=\\"vertical-align:top;width:113px;\\"
+                 style=\\"vertical-align:top;width:107px;\\"
               >
               <![endif]-->
                 
       <div
-         class=\\"mj-column-per-20 mj-outlook-group-fix header_columns_left\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:20%;\\"
-      >
-        
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
-      >
-        <tbody>
-          <tr>
-            <td  style=\\"vertical-align:top;padding:0px;\\">
-              
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
-      >
-        <img src=\\"http://localhost:3000/static/icons/civic-liker-icon@3x.png\\" style=\\"width:68px;height:68px;border-radius:100%;object-fit:cover\\"/>
-      </table>
-    
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
-      </div>
-    
-              <!--[if mso | IE]>
-              </td>
-              
-              <td
-                 style=\\"vertical-align:top;width:454px;\\"
-              >
-              <![endif]-->
-                
-      <div
-         class=\\"mj-column-per-80 mj-outlook-group-fix header_columns_right\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:80%;\\"
+         class=\\"mj-column-per-20 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:20%;\\"
       >
         
       <table
@@ -453,11 +418,67 @@ exports[`Render writer monthly report templates Default 1`] = `
         
             <tr>
               <td
-                 align=\\"left\\" class=\\"hoverTable\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                 align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
               >
                 
       <table
-         cellpadding=\\"8px\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\" style=\\"color:#4a4a4a;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;border:none;\\"
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:collapse;border-spacing:0px;\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"width:68px;\\">
+              
+      <img
+         height=\\"65\\" src=\\"http://localhost:3000/static/icons/civic-liker-icon@3x.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:65px;width:100%;font-size:14px;\\" width=\\"68\\"
+      />
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+              </td>
+            </tr>
+          
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+              <!--[if mso | IE]>
+              </td>
+              
+              <td
+                 style=\\"vertical-align:top;width:428px;\\"
+              >
+              <![endif]-->
+                
+      <div
+         class=\\"mj-column-per-80 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:80%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"vertical-align:top;padding:0px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        
+            <tr>
+              <td
+                 align=\\"left\\" class=\\"hoverTable\\" style=\\"font-size:0px;padding:0px;padding-top:8px;word-break:break-word;\\"
+              >
+                
+      <table
+         cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\" style=\\"color:#4a4a4a;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;border:none;\\"
       >
         <tr style=\\"border-bottom:none;color:white;font-weight:bolder;font-size:18px\\"><td><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:right;padding:4px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position-x:right;background-position-y:center;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td style=\\"text-align:right\\" width=\\"86.10000000000001\\"><mj-text>likertemp</mj-text></td></tr>
       </table>
@@ -616,11 +637,21 @@ exports[`Render writer monthly report templates Default 1`] = `
               </td>
             </tr>
           
-            <tr>
-              <td
-                 class=\\"\\" width=\\"600px\\"
-              >
-          
+                  </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      
       <table
          align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\"
       >
@@ -706,24 +737,6 @@ exports[`Render writer monthly report templates Default 1`] = `
         </v:textbox>
       </v:rect>
     
-          </td>
-        </tr>
-      </table>
-      
-              </td>
-            </tr>
-          
-                  </table>
-                <![endif]-->
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        
-      </div>
-    
-      
-      <!--[if mso | IE]>
           </td>
         </tr>
       </table>

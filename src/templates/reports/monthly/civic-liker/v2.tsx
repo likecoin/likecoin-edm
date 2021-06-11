@@ -108,6 +108,14 @@ export const MonthlyReportCivicLikerV2Template = (
         timestamp={timestamp}
       />
 
+      <BasicSection backgroundColor="white" paddingBottom={0}>
+        <MjmlColumn>
+          <MjmlText color={Colors.LikeGreen} fontSize={16} fontWeight={600}>
+            <FormattedMessage id="greeting" values={{ name: displayName }} />
+          </MjmlText>
+        </MjmlColumn>
+      </BasicSection>
+
       <TwoNumbersSection
         title={
           <FormattedMessage id="report.monthly.civic-liker.supported.v2" />
@@ -230,8 +238,9 @@ export const MonthlyReportCivicLikerV2Template = (
               color={Colors.Grey9B}
               fontSize="14px"
               borderRadius="23px"
-              width="460px"
+              width="85%"
               height="46px"
+              cssClass="flexible_button"
             >
               <FormattedMessage id="report.monthly.civic-liker.creatorsfund.contents.none" />
             </MjmlButton>

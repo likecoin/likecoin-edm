@@ -64,20 +64,3 @@ export const Avatar = (props: AvatarProps) => {
     </MjmlRaw>
   );
 };
-
-export const CivicLiker = (props: AvatarProps) => {
-  const { size = 40 } = props;
-  return (
-    <MjmlRaw>
-      <img
-        src={getAssetPath('/icons/civic-liker-icon@3x.png')}
-        style={{
-          width: size,
-          height: size,
-          borderRadius: '100%',
-          objectFit: 'cover',
-        }}
-      />
-    </MjmlRaw>
-  );
-};

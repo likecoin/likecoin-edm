@@ -53,6 +53,14 @@ export const MonthlyReportCivicLikerV1Template = (
         timestamp={timestamp}
       />
 
+      <BasicSection backgroundColor="white" paddingBottom={0}>
+        <MjmlColumn>
+          <MjmlText color={Colors.LikeGreen} fontSize={16} fontWeight={600}>
+            <FormattedMessage id="greeting" values={{ name: displayName }} />
+          </MjmlText>
+        </MjmlColumn>
+      </BasicSection>
+
       <TwoNumbersSection
         title={
           <FormattedMessage id="report.monthly.civic-liker.supported.v1" />

@@ -58,11 +58,11 @@ export const TemplateBase = (props: TemplateBaseProps) => {
             </MjmlAttributes>
             <MjmlStyle>
               {`
-                  @media only screen and (max-width: 480px) { 
-                    *[class~=hide_on_mobile] { display: none !important;} 
-                    *[class~=hoverTable] { table-layout: auto !important;}
-                  }
-                `}
+                @media only screen and (max-width: 480px) { 
+                  *[class~=hide_on_mobile] { display: none !important;} 
+                  *[class~=hoverTable] { table-layout: auto !important;}
+                }
+              `}
             </MjmlStyle>
             <MjmlBreakpoint width={576} />
           </MjmlHead>

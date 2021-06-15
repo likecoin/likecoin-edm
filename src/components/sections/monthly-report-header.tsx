@@ -8,8 +8,8 @@ import {
   MjmlImage,
 } from 'mjml-react';
 import { useIntl } from 'react-intl';
-import * as Colors from '../../constants/colors';
 import { createCanvas } from 'canvas';
+import * as Colors from '../../constants/colors';
 import { getLocalizedMonthlyReportDate } from '../../utils/localization';
 import { getAssetPath } from '../../utils/url';
 import { User } from '../../types';
@@ -19,6 +19,7 @@ import { BasicSection } from './basic';
 
 const canvas = createCanvas(200, 100);
 const ctx = canvas.getContext('2d');
+ctx.font = '18px monospace';
 
 export interface MonthlyReportHeaderSectionProps extends User {
   title?: React.ReactNode;
@@ -71,7 +72,7 @@ export const MonthlyReportHeaderSection = (
                 </td>
                 <td
                   style={{ textAlign: 'right' }}
-                  width={ctx.measureText(likerID).width * 2.1}
+                  width={ctx.measureText(likerID).width}
                 >
                   <MjmlText>{likerID}</MjmlText>
                 </td>

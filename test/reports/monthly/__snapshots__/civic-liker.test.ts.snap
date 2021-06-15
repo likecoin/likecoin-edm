@@ -8,7 +8,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
         <title>
           
         </title>
-        <!--[if !mso]><!-- -->
+        <!--[if !mso]><!-->
         <meta http-equiv=\\"X-UA-Compatible\\" content=\\"IE=edge\\">
         <!--<![endif]-->
         <meta http-equiv=\\"Content-Type\\" content=\\"text/html; charset=UTF-8\\">
@@ -21,12 +21,14 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
           p { display:block;margin:13px 0; }
         </style>
         <!--[if mso]>
+        <noscript>
         <xml>
         <o:OfficeDocumentSettings>
           <o:AllowPNG/>
           <o:PixelsPerInch>96</o:PixelsPerInch>
         </o:OfficeDocumentSettings>
         </xml>
+        </noscript>
         <![endif]-->
         <!--[if lte mso 11]>
         <style type=\\"text/css\\">
@@ -46,6 +48,15 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
 .mj-column-per-40 { width:40% !important; max-width: 40%; }
       }
     </style>
+    <style media=\\"screen and (min-width:576px)\\">
+      .moz-text-html .mj-column-per-100 { width:100% !important; max-width: 100%; }
+.moz-text-html .mj-column-per-65 { width:65% !important; max-width: 65%; }
+.moz-text-html .mj-column-per-15 { width:15% !important; max-width: 15%; }
+.moz-text-html .mj-column-per-10 { width:10% !important; max-width: 10%; }
+.moz-text-html .mj-column-per-20 { width:20% !important; max-width: 20%; }
+.moz-text-html .mj-column-per-80 { width:80% !important; max-width: 80%; }
+.moz-text-html .mj-column-per-40 { width:40% !important; max-width: 40%; }
+    </style>
     
   
         <style type=\\"text/css\\">
@@ -59,12 +70,12 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
   
         </style>
         <style type=\\"text/css\\">@media only screen and (max-width: 480px) { 
-                    *[class~=hide_on_mobile] { display: none !important;} 
-                    *[class~=hoverTable] { table-layout: auto !important;}
-                  }</style>
+                  *[class~=hide_on_mobile] { display: none !important;} 
+                  *[class~=hoverTable] { table-layout: auto !important;}
+                }</style>
         
       </head>
-      <body style=\\"background-color:white;\\">
+      <body style=\\"word-spacing:normal;background-color:white;\\">
         
         
       <div
@@ -72,17 +83,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
       >
         
       
-      <!--[if mso | IE]>
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\"
-      >
-        <tr>
-          <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
-      
-        <v:rect  style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\">
-        <v:fill  origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"#f7f7f7\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" />
-        <v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\">
-      <![endif]-->
+      <!--[if mso | IE]><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"#f7f7f7\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"#f7f7f7\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
           
       <div  style=\\"background:#f7f7f7;background-color:#f7f7f7;margin:0px auto;max-width:600px;\\">
         <div  style=\\"line-height:0;font-size:0;\\">
@@ -94,29 +95,12 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
               <td
                  style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:32px;padding-left:40px;padding-right:40px;padding-top:32px;text-align:center;\\"
               >
-                <!--[if mso | IE]>
-                  <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
-                
-        <tr>
-      
-            <td
-               class=\\"\\" style=\\"width:520px;\\"
-            >
-          <![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"width:520px;\\" ><![endif]-->
             
       <div
          class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr;\\"
       >
-        <!--[if mso | IE]>
-        <table
-           border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\"
-        >
-          <tr>
-        
-              <td
-                 style=\\"vertical-align:top;width:338px;\\"
-              >
-              <![endif]-->
+        <!--[if mso | IE]><table border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" ><tr><td style=\\"vertical-align:top;width:338px;\\" ><![endif]-->
                 
       <div
          class=\\"mj-column-per-65 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:65%;\\"
@@ -132,12 +116,13 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:collapse;border-spacing:0px;\\"
       >
@@ -154,9 +139,10 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
         </tbody>
       </table>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -166,13 +152,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
     
       </div>
     
-              <!--[if mso | IE]>
-              </td>
-              
-              <td
-                 style=\\"vertical-align:top;width:78px;\\"
-              >
-              <![endif]-->
+              <!--[if mso | IE]></td><td style=\\"vertical-align:top;width:78px;\\" ><![endif]-->
                 
       <div
          class=\\"mj-column-per-15 mj-outlook-group-fix hide_on_mobile\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:15%;\\"
@@ -188,19 +168,21 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"right\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"right\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:14px;font-weight:600;line-height:3.0;text-align:right;color:#4a4a4a;\\"
       >下載:</div>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -210,13 +192,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
     
       </div>
     
-              <!--[if mso | IE]>
-              </td>
-              
-              <td
-                 style=\\"vertical-align:top;width:52px;\\"
-              >
-              <![endif]-->
+              <!--[if mso | IE]></td><td style=\\"vertical-align:top;width:52px;\\" ><![endif]-->
                 
       <div
          class=\\"mj-column-per-10 mj-outlook-group-fix hide_on_mobile\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:10%;\\"
@@ -232,19 +208,21 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:14px;line-height:3.0;text-align:center;color:#4a4a4a;\\"
       ><a href=\\"https://liker.land/getapp\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" color=\\"#9b9b9b\\">iOS</a></div>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -254,13 +232,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
     
       </div>
     
-              <!--[if mso | IE]>
-              </td>
-              
-              <td
-                 style=\\"vertical-align:top;width:52px;\\"
-              >
-              <![endif]-->
+              <!--[if mso | IE]></td><td style=\\"vertical-align:top;width:52px;\\" ><![endif]-->
                 
       <div
          class=\\"mj-column-per-10 mj-outlook-group-fix hide_on_mobile\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:10%;\\"
@@ -276,19 +248,21 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:14px;line-height:3.0;text-align:left;color:#4a4a4a;\\"
       ><a href=\\"https://liker.land/getapp\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" color=\\"#9b9b9b\\">Android</a></div>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -298,21 +272,10 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
     
       </div>
     
-              <!--[if mso | IE]>
-              </td>
-              
-          </tr>
-          </table>
-        <![endif]-->
+              <!--[if mso | IE]></td></tr></table><![endif]-->
       </div>
     
-          <!--[if mso | IE]>
-            </td>
-          
-        </tr>
-      
-                  </table>
-                <![endif]-->
+          <!--[if mso | IE]></td></tr></table><![endif]-->
               </td>
             </tr>
           </tbody>
@@ -320,20 +283,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
         </div>
       </div>
     
-        <!--[if mso | IE]>
-        </v:textbox>
-      </v:rect>
-    
-          </td>
-        </tr>
-      </table>
-      
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\"
-      >
-        <tr>
-          <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
-      <![endif]-->
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"#28646e\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
     
       
       <div  style=\\"background:#28646e;background-color:#28646e;margin:0px auto;max-width:600px;\\">
@@ -346,24 +296,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
               <td
                  style=\\"direction:ltr;font-size:0px;padding:0px;text-align:center;\\"
               >
-                <!--[if mso | IE]>
-                  <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
-                
-            <tr>
-              <td
-                 class=\\"\\" width=\\"600px\\"
-              >
-          
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\"
-      >
-        <tr>
-          <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
-      
-        <v:rect  style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\">
-        <v:fill  origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"#28646e\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" />
-        <v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\">
-      <![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" width=\\"600px\\" ><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"#28646e\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"#28646e\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
           
       <div  style=\\"background:#28646e;background-color:#28646e;margin:0px auto;max-width:600px;\\">
         <div  style=\\"line-height:0;font-size:0;\\">
@@ -375,29 +308,12 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
               <td
                  style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:0px;padding-left:32px;padding-right:32px;padding-top:32px;text-align:center;\\"
               >
-                <!--[if mso | IE]>
-                  <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
-                
-        <tr>
-      
-            <td
-               class=\\"\\" style=\\"width:536px;\\"
-            >
-          <![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"width:536px;\\" ><![endif]-->
             
       <div
          class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr;\\"
       >
-        <!--[if mso | IE]>
-        <table
-           border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\"
-        >
-          <tr>
-        
-              <td
-                 style=\\"vertical-align:top;width:107px;\\"
-              >
-              <![endif]-->
+        <!--[if mso | IE]><table border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" ><tr><td style=\\"vertical-align:top;width:107px;\\" ><![endif]-->
                 
       <div
          class=\\"mj-column-per-20 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:20%;\\"
@@ -413,12 +329,13 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:collapse;border-spacing:0px;\\"
       >
@@ -435,9 +352,10 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
         </tbody>
       </table>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -447,13 +365,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
     
       </div>
     
-              <!--[if mso | IE]>
-              </td>
-              
-              <td
-                 style=\\"vertical-align:top;width:428px;\\"
-              >
-              <![endif]-->
+              <!--[if mso | IE]></td><td style=\\"vertical-align:top;width:428px;\\" ><![endif]-->
                 
       <div
          class=\\"mj-column-per-80 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:80%;\\"
@@ -469,21 +381,23 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"left\\" class=\\"hoverTable\\" style=\\"font-size:0px;padding:0px;padding-top:8px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"left\\" class=\\"hoverTable\\" style=\\"font-size:0px;padding:0px;padding-top:8px;word-break:break-word;\\"
+                >
+                  
       <table
          cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\" style=\\"color:#4a4a4a;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;border:none;\\"
       >
-        <tr style=\\"border-bottom:none;color:white;font-weight:bolder;font-size:18px\\"><td><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:right;padding:4px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position-x:right;background-position-y:center;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td style=\\"text-align:right\\" width=\\"86.10000000000001\\"><mj-text>likertemp</mj-text></td></tr>
+        <tr style=\\"border-bottom:none;color:white;font-weight:bolder;font-size:18px\\"><td><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:right;padding:4px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position-x:right;background-position-y:center;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td style=\\"text-align:right\\" width=\\"99\\"><mj-text>likertemp</mj-text></td></tr>
       </table>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -493,21 +407,10 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
     
       </div>
     
-              <!--[if mso | IE]>
-              </td>
-              
-          </tr>
-          </table>
-        <![endif]-->
+              <!--[if mso | IE]></td></tr></table><![endif]-->
       </div>
     
-          <!--[if mso | IE]>
-            </td>
-          
-        </tr>
-      
-                  </table>
-                <![endif]-->
+          <!--[if mso | IE]></td></tr></table><![endif]-->
               </td>
             </tr>
           </tbody>
@@ -515,32 +418,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
         </div>
       </div>
     
-        <!--[if mso | IE]>
-        </v:textbox>
-      </v:rect>
-    
-          </td>
-        </tr>
-      </table>
-      
-              </td>
-            </tr>
-          
-            <tr>
-              <td
-                 class=\\"\\" width=\\"600px\\"
-              >
-          
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\"
-      >
-        <tr>
-          <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
-      
-        <v:rect  style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\">
-        <v:fill  origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"#28646e\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" />
-        <v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\">
-      <![endif]-->
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table></td></tr><tr><td class=\\"\\" width=\\"600px\\" ><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"#28646e\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"#28646e\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
           
       <div  style=\\"background:#28646e;background-color:#28646e;margin:0px auto;max-width:600px;\\">
         <div  style=\\"line-height:0;font-size:0;\\">
@@ -552,15 +430,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
               <td
                  style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:32px;padding-left:32px;padding-right:32px;padding-top:0px;text-align:center;\\"
               >
-                <!--[if mso | IE]>
-                  <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
-                
-        <tr>
-      
-            <td
-               class=\\"\\" style=\\"vertical-align:top;width:536px;\\"
-            >
-          <![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
             
       <div
          class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
@@ -576,31 +446,33 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"left\\" style=\\"font-size:0px;padding:0px;padding-top:16px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;padding-top:16px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:28px;font-weight:600;line-height:1.5;text-align:left;color:white;\\"
       >你的讚賞公民月報</div>
     
-              </td>
-            </tr>
-          
-            <tr>
-              <td
-                 align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:18px;font-weight:600;line-height:1.5;text-align:left;color:#50e3c2;\\"
       >2021年1月</div>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -610,13 +482,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
     
       </div>
     
-          <!--[if mso | IE]>
-            </td>
-          
-        </tr>
-      
-                  </table>
-                <![endif]-->
+          <!--[if mso | IE]></td></tr></table><![endif]-->
               </td>
             </tr>
           </tbody>
@@ -624,19 +490,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
         </div>
       </div>
     
-        <!--[if mso | IE]>
-        </v:textbox>
-      </v:rect>
-    
-          </td>
-        </tr>
-      </table>
-      
-              </td>
-            </tr>
-          
-                  </table>
-                <![endif]-->
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table></td></tr></table><![endif]-->
               </td>
             </tr>
           </tbody>
@@ -645,21 +499,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
       </div>
     
       
-      <!--[if mso | IE]>
-          </td>
-        </tr>
-      </table>
-      
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\"
-      >
-        <tr>
-          <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
-      
-        <v:rect  style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\">
-        <v:fill  origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"white\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" />
-        <v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\">
-      <![endif]-->
+      <!--[if mso | IE]></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"white\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
           
       <div  style=\\"background:white;background-color:white;margin:0px auto;max-width:600px;\\">
         <div  style=\\"line-height:0;font-size:0;\\">
@@ -671,15 +511,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
               <td
                  style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:0px;padding-left:32px;padding-right:32px;padding-top:32px;text-align:center;\\"
               >
-                <!--[if mso | IE]>
-                  <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
-                
-        <tr>
-      
-            <td
-               class=\\"\\" style=\\"vertical-align:top;width:536px;\\"
-            >
-          <![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
             
       <div
          class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
@@ -695,19 +527,21 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:16px;font-weight:600;line-height:1.5;text-align:left;color:#28646e;\\"
       >你好 Temp Liker ID：</div>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -717,13 +551,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
     
       </div>
     
-          <!--[if mso | IE]>
-            </td>
-          
-        </tr>
-      
-                  </table>
-                <![endif]-->
+          <!--[if mso | IE]></td></tr></table><![endif]-->
               </td>
             </tr>
           </tbody>
@@ -731,20 +559,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
         </div>
       </div>
     
-        <!--[if mso | IE]>
-        </v:textbox>
-      </v:rect>
-    
-          </td>
-        </tr>
-      </table>
-      
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\"
-      >
-        <tr>
-          <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
-      <![endif]-->
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
     
       
       <div  style=\\"margin:0px auto;max-width:600px;\\">
@@ -757,24 +572,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
               <td
                  style=\\"direction:ltr;font-size:0px;padding:0px;text-align:center;\\"
               >
-                <!--[if mso | IE]>
-                  <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
-                
-            <tr>
-              <td
-                 class=\\"\\" width=\\"600px\\"
-              >
-          
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\"
-      >
-        <tr>
-          <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
-      
-        <v:rect  style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\">
-        <v:fill  origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"white\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" />
-        <v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\">
-      <![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" width=\\"600px\\" ><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"white\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
           
       <div  style=\\"background:white;background-color:white;margin:0px auto;max-width:600px;\\">
         <div  style=\\"line-height:0;font-size:0;\\">
@@ -786,15 +584,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
               <td
                  style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:24px;padding-left:32px;padding-right:32px;padding-top:32px;text-align:center;\\"
               >
-                <!--[if mso | IE]>
-                  <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
-                
-        <tr>
-      
-            <td
-               class=\\"\\" style=\\"vertical-align:top;width:536px;\\"
-            >
-          <![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
             
       <div
          class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
@@ -810,19 +600,21 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:16px;font-weight:600;line-height:1.5;text-align:center;color:#4a4a4a;\\"
       >你支持了</div>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -832,13 +624,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
     
       </div>
     
-          <!--[if mso | IE]>
-            </td>
-          
-        </tr>
-      
-                  </table>
-                <![endif]-->
+          <!--[if mso | IE]></td></tr></table><![endif]-->
               </td>
             </tr>
           </tbody>
@@ -846,32 +632,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
         </div>
       </div>
     
-        <!--[if mso | IE]>
-        </v:textbox>
-      </v:rect>
-    
-          </td>
-        </tr>
-      </table>
-      
-              </td>
-            </tr>
-          
-            <tr>
-              <td
-                 class=\\"\\" width=\\"600px\\"
-              >
-          
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\"
-      >
-        <tr>
-          <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
-      
-        <v:rect  style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\">
-        <v:fill  origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"white\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" />
-        <v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\">
-      <![endif]-->
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table></td></tr><tr><td class=\\"\\" width=\\"600px\\" ><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"white\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
           
       <div  style=\\"background:white;background-color:white;margin:0px auto;max-width:600px;\\">
         <div  style=\\"line-height:0;font-size:0;\\">
@@ -883,29 +644,12 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
               <td
                  style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:32px;padding-left:32px;padding-right:32px;padding-top:0px;text-align:center;\\"
               >
-                <!--[if mso | IE]>
-                  <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
-                
-        <tr>
-      
-            <td
-               class=\\"\\" style=\\"width:536px;\\"
-            >
-          <![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"width:536px;\\" ><![endif]-->
             
       <div
          class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr;\\"
       >
-        <!--[if mso | IE]>
-        <table
-           border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\"
-        >
-          <tr>
-        
-              <td
-                 style=\\"vertical-align:top;width:214px;\\"
-              >
-              <![endif]-->
+        <!--[if mso | IE]><table border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" ><tr><td style=\\"vertical-align:top;width:214px;\\" ><![endif]-->
                 
       <div
          class=\\"mj-column-per-40 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:40%;\\"
@@ -921,31 +665,33 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:42px;font-weight:600;line-height:1.5;text-align:center;color:#28646e;\\"
       >12</div>
     
-              </td>
-            </tr>
-          
-            <tr>
-              <td
-                 align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:16px;line-height:1.5;text-align:center;color:#9b9b9b;\\"
       >創作者</div>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -955,13 +701,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
     
       </div>
     
-              <!--[if mso | IE]>
-              </td>
-              
-              <td
-                 style=\\"vertical-align:top;width:107px;\\"
-              >
-              <![endif]-->
+              <!--[if mso | IE]></td><td style=\\"vertical-align:top;width:107px;\\" ><![endif]-->
                 
       <div
          class=\\"mj-column-per-20 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:20%;\\"
@@ -977,12 +717,13 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:collapse;border-spacing:0px;\\"
       >
@@ -999,9 +740,10 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
         </tbody>
       </table>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -1011,13 +753,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
     
       </div>
     
-              <!--[if mso | IE]>
-              </td>
-              
-              <td
-                 style=\\"vertical-align:top;width:214px;\\"
-              >
-              <![endif]-->
+              <!--[if mso | IE]></td><td style=\\"vertical-align:top;width:214px;\\" ><![endif]-->
                 
       <div
          class=\\"mj-column-per-40 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:40%;\\"
@@ -1033,31 +769,33 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:42px;font-weight:600;line-height:1.5;text-align:center;color:#28646e;\\"
       >34</div>
     
-              </td>
-            </tr>
-          
-            <tr>
-              <td
-                 align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:16px;line-height:1.5;text-align:center;color:#9b9b9b;\\"
       >作品</div>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -1067,21 +805,10 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
     
       </div>
     
-              <!--[if mso | IE]>
-              </td>
-              
-          </tr>
-          </table>
-        <![endif]-->
+              <!--[if mso | IE]></td></tr></table><![endif]-->
       </div>
     
-          <!--[if mso | IE]>
-            </td>
-          
-        </tr>
-      
-                  </table>
-                <![endif]-->
+          <!--[if mso | IE]></td></tr></table><![endif]-->
               </td>
             </tr>
           </tbody>
@@ -1089,19 +816,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
         </div>
       </div>
     
-        <!--[if mso | IE]>
-        </v:textbox>
-      </v:rect>
-    
-          </td>
-        </tr>
-      </table>
-      
-              </td>
-            </tr>
-          
-                  </table>
-                <![endif]-->
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table></td></tr></table><![endif]-->
               </td>
             </tr>
           </tbody>
@@ -1110,21 +825,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
       </div>
     
       
-      <!--[if mso | IE]>
-          </td>
-        </tr>
-      </table>
-      
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\"
-      >
-        <tr>
-          <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
-      
-        <v:rect  style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\">
-        <v:fill  origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"white\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" />
-        <v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\">
-      <![endif]-->
+      <!--[if mso | IE]></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"white\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
           
       <div  style=\\"background:white;background-color:white;margin:0px auto;max-width:600px;\\">
         <div  style=\\"line-height:0;font-size:0;\\">
@@ -1136,15 +837,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
               <td
                  style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:48px;padding-left:32px;padding-right:32px;padding-top:24px;text-align:center;\\"
               >
-                <!--[if mso | IE]>
-                  <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
-                
-        <tr>
-      
-            <td
-               class=\\"\\" style=\\"vertical-align:top;width:536px;\\"
-            >
-          <![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
             
       <div
          class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
@@ -1160,21 +853,23 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <table
          cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\" style=\\"color:#4a4a4a;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;border:none;\\"
       >
         <tr><td><img src=\\"http://localhost:3000/static/banners/cta-likecoin-button.png\\" style=\\"display:block;width:100%;margin:0 auto;max-width:360px\\" alt=\\"\\"/></td></tr><tr><td><div style=\\"box-sizing:border-box;max-width:360px;margin:0 auto;padding:24px;padding-top:0;color:white;font-size:16px;text-align:center;background-color:#28646e;border-bottom-left-radius:12px;border-bottom-right-radius:12px\\">在文章中點擊 LikeCoin button，可分配創作基金，額外奬勵作者。</div></td></tr>
       </table>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -1184,13 +879,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
     
       </div>
     
-          <!--[if mso | IE]>
-            </td>
-          
-        </tr>
-      
-                  </table>
-                <![endif]-->
+          <!--[if mso | IE]></td></tr></table><![endif]-->
               </td>
             </tr>
           </tbody>
@@ -1198,24 +887,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
         </div>
       </div>
     
-        <!--[if mso | IE]>
-        </v:textbox>
-      </v:rect>
-    
-          </td>
-        </tr>
-      </table>
-      
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\"
-      >
-        <tr>
-          <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
-      
-        <v:rect  style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\">
-        <v:fill  origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"#f7f7f7\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" />
-        <v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\">
-      <![endif]-->
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"#f7f7f7\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"#f7f7f7\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
           
       <div  style=\\"background:#f7f7f7;background-color:#f7f7f7;margin:0px auto;max-width:600px;\\">
         <div  style=\\"line-height:0;font-size:0;\\">
@@ -1227,15 +899,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
               <td
                  style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:32px;padding-left:32px;padding-right:32px;padding-top:32px;text-align:center;\\"
               >
-                <!--[if mso | IE]>
-                  <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
-                
-        <tr>
-      
-            <td
-               class=\\"\\" style=\\"vertical-align:top;width:536px;\\"
-            >
-          <![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
             
       <div
          class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
@@ -1251,33 +915,35 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"left\\" style=\\"font-size:0px;padding:0px;padding-bottom:16px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;padding-bottom:16px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:16px;font-weight:600;line-height:1.5;text-align:left;color:#4a4a4a;\\"
       >首幾位你支持了的作者</div>
     
-              </td>
-            </tr>
-          
-            <tr>
-              <td
-                 align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <table
          cellpadding=\\"8px\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\" style=\\"color:#4a4a4a;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;border:none;\\"
       >
         <tr style=\\"vertical-align:middle;border-top:1px solid #d8d8d8;border-bottom:1px solid #d8d8d8\\"><td style=\\"width:48px\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:4px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position-x:center;background-position-y:center;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#4a4a4a;text-decoration:none\\">Temp Liker ID</a></td><td style=\\"text-align:right\\"><div style=\\"color:#28646e;font-size:16px\\">12</div><div style=\\"font-size:12px\\">作品</div></td><td style=\\"text-align:right\\"><div style=\\"color:#28646e;font-size:16px\\">1234</div><div style=\\"font-size:12px\\">LIKE</div></td></tr><tr style=\\"vertical-align:middle;border-top:none;border-bottom:1px solid #d8d8d8\\"><td style=\\"width:48px\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:4px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position-x:center;background-position-y:center;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#4a4a4a;text-decoration:none\\">Temp Liker ID</a></td><td style=\\"text-align:right\\"><div style=\\"color:#28646e;font-size:16px\\">12</div><div style=\\"font-size:12px\\">作品</div></td><td style=\\"text-align:right\\"><div style=\\"color:#28646e;font-size:16px\\">1234</div><div style=\\"font-size:12px\\">LIKE</div></td></tr><tr style=\\"vertical-align:middle;border-top:none;border-bottom:1px solid #d8d8d8\\"><td style=\\"width:48px\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:4px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position-x:center;background-position-y:center;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#4a4a4a;text-decoration:none\\">Temp Liker ID</a></td><td style=\\"text-align:right\\"><div style=\\"color:#28646e;font-size:16px\\">12</div><div style=\\"font-size:12px\\">作品</div></td><td style=\\"text-align:right\\"><div style=\\"color:#28646e;font-size:16px\\">1234</div><div style=\\"font-size:12px\\">LIKE</div></td></tr>
       </table>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -1287,13 +953,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
     
       </div>
     
-          <!--[if mso | IE]>
-            </td>
-          
-        </tr>
-      
-                  </table>
-                <![endif]-->
+          <!--[if mso | IE]></td></tr></table><![endif]-->
               </td>
             </tr>
           </tbody>
@@ -1301,20 +961,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
         </div>
       </div>
     
-        <!--[if mso | IE]>
-        </v:textbox>
-      </v:rect>
-    
-          </td>
-        </tr>
-      </table>
-      
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\"
-      >
-        <tr>
-          <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
-      <![endif]-->
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
     
       
       <div  style=\\"background:white;background-color:white;margin:0px auto;max-width:600px;\\">
@@ -1327,15 +974,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
               <td
                  style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:24px;padding-left:32px;padding-right:32px;padding-top:24px;text-align:center;\\"
               >
-                <!--[if mso | IE]>
-                  <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
-                
-        <tr>
-      
-            <td
-               class=\\"\\" style=\\"vertical-align:top;width:536px;\\"
-            >
-          <![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
             
       <div
          class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
@@ -1351,21 +990,15 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"center\\" style=\\"background:white;font-size:0px;padding:0px;padding-top:8px;padding-bottom:8px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"background:white;font-size:0px;padding:0px;padding-top:8px;padding-bottom:8px;word-break:break-word;\\"
+                >
+                  
       
-     <!--[if mso | IE]>
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\"
-      >
-        <tr>
-      
-              <td>
-            <![endif]-->
+     <!--[if mso | IE]><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" ><tr><td><![endif]-->
               <table
                  align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
               >
@@ -1392,11 +1025,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
       </tr>
     
               </table>
-            <!--[if mso | IE]>
-              </td>
-            
-              <td>
-            <![endif]-->
+            <!--[if mso | IE]></td><td><![endif]-->
               <table
                  align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
               >
@@ -1423,11 +1052,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
       </tr>
     
               </table>
-            <!--[if mso | IE]>
-              </td>
-            
-              <td>
-            <![endif]-->
+            <!--[if mso | IE]></td><td><![endif]-->
               <table
                  align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
               >
@@ -1454,11 +1079,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
       </tr>
     
               </table>
-            <!--[if mso | IE]>
-              </td>
-            
-              <td>
-            <![endif]-->
+            <!--[if mso | IE]></td><td><![endif]-->
               <table
                  align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
               >
@@ -1485,11 +1106,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
       </tr>
     
               </table>
-            <!--[if mso | IE]>
-              </td>
-            
-              <td>
-            <![endif]-->
+            <!--[if mso | IE]></td><td><![endif]-->
               <table
                  align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
               >
@@ -1516,41 +1133,37 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
       </tr>
     
               </table>
-            <!--[if mso | IE]>
-              </td>
+            <!--[if mso | IE]></td></tr></table><![endif]-->
+    
+    
+                </td>
+              </tr>
             
-          </tr>
-        </table>
-      <![endif]-->
-    
-    
-              </td>
-            </tr>
-          
-            <tr>
-              <td
-                 align=\\"center\\" style=\\"font-size:0px;padding:4px;word-break:break-word;\\"
-              >
-                
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:4px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:14px;line-height:1.5;text-align:center;color:#4a4a4a;\\"
       ><a href=\\"https://docs.like.co/v/zh?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">幫助中心</a></div>
     
-              </td>
-            </tr>
-          
-            <tr>
-              <td
-                 align=\\"center\\" style=\\"font-size:0px;padding:4px;word-break:break-word;\\"
-              >
-                
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:4px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:14px;line-height:1.5;text-align:center;color:#4a4a4a;\\"
       ><a href=\\"https://like.co/in/settings/others?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">取消訂閱</a></div>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -1560,13 +1173,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
     
       </div>
     
-          <!--[if mso | IE]>
-            </td>
-          
-        </tr>
-      
-                  </table>
-                <![endif]-->
+          <!--[if mso | IE]></td></tr></table><![endif]-->
               </td>
             </tr>
           </tbody>
@@ -1575,11 +1182,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
       </div>
     
       
-      <!--[if mso | IE]>
-          </td>
-        </tr>
-      </table>
-      <![endif]-->
+      <!--[if mso | IE]></td></tr></table><![endif]-->
     
     
       </div>
@@ -1597,7 +1200,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
         <title>
           
         </title>
-        <!--[if !mso]><!-- -->
+        <!--[if !mso]><!-->
         <meta http-equiv=\\"X-UA-Compatible\\" content=\\"IE=edge\\">
         <!--<![endif]-->
         <meta http-equiv=\\"Content-Type\\" content=\\"text/html; charset=UTF-8\\">
@@ -1610,12 +1213,14 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
           p { display:block;margin:13px 0; }
         </style>
         <!--[if mso]>
+        <noscript>
         <xml>
         <o:OfficeDocumentSettings>
           <o:AllowPNG/>
           <o:PixelsPerInch>96</o:PixelsPerInch>
         </o:OfficeDocumentSettings>
         </xml>
+        </noscript>
         <![endif]-->
         <!--[if lte mso 11]>
         <style type=\\"text/css\\">
@@ -1635,6 +1240,15 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
 .mj-column-per-40 { width:40% !important; max-width: 40%; }
       }
     </style>
+    <style media=\\"screen and (min-width:576px)\\">
+      .moz-text-html .mj-column-per-100 { width:100% !important; max-width: 100%; }
+.moz-text-html .mj-column-per-65 { width:65% !important; max-width: 65%; }
+.moz-text-html .mj-column-per-15 { width:15% !important; max-width: 15%; }
+.moz-text-html .mj-column-per-10 { width:10% !important; max-width: 10%; }
+.moz-text-html .mj-column-per-20 { width:20% !important; max-width: 20%; }
+.moz-text-html .mj-column-per-80 { width:80% !important; max-width: 80%; }
+.moz-text-html .mj-column-per-40 { width:40% !important; max-width: 40%; }
+    </style>
     
   
         <style type=\\"text/css\\">
@@ -1648,12 +1262,12 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
   
         </style>
         <style type=\\"text/css\\">@media only screen and (max-width: 480px) { 
-                    *[class~=hide_on_mobile] { display: none !important;} 
-                    *[class~=hoverTable] { table-layout: auto !important;}
-                  }</style>
+                  *[class~=hide_on_mobile] { display: none !important;} 
+                  *[class~=hoverTable] { table-layout: auto !important;}
+                }</style>
         
       </head>
-      <body style=\\"background-color:white;\\">
+      <body style=\\"word-spacing:normal;background-color:white;\\">
         
         
       <div
@@ -1661,17 +1275,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
       >
         
       
-      <!--[if mso | IE]>
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\"
-      >
-        <tr>
-          <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
-      
-        <v:rect  style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\">
-        <v:fill  origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"#f7f7f7\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" />
-        <v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\">
-      <![endif]-->
+      <!--[if mso | IE]><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"#f7f7f7\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"#f7f7f7\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
           
       <div  style=\\"background:#f7f7f7;background-color:#f7f7f7;margin:0px auto;max-width:600px;\\">
         <div  style=\\"line-height:0;font-size:0;\\">
@@ -1683,29 +1287,12 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
               <td
                  style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:32px;padding-left:40px;padding-right:40px;padding-top:32px;text-align:center;\\"
               >
-                <!--[if mso | IE]>
-                  <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
-                
-        <tr>
-      
-            <td
-               class=\\"\\" style=\\"width:520px;\\"
-            >
-          <![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"width:520px;\\" ><![endif]-->
             
       <div
          class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr;\\"
       >
-        <!--[if mso | IE]>
-        <table
-           border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\"
-        >
-          <tr>
-        
-              <td
-                 style=\\"vertical-align:top;width:338px;\\"
-              >
-              <![endif]-->
+        <!--[if mso | IE]><table border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" ><tr><td style=\\"vertical-align:top;width:338px;\\" ><![endif]-->
                 
       <div
          class=\\"mj-column-per-65 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:65%;\\"
@@ -1721,12 +1308,13 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:collapse;border-spacing:0px;\\"
       >
@@ -1743,9 +1331,10 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
         </tbody>
       </table>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -1755,13 +1344,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
     
       </div>
     
-              <!--[if mso | IE]>
-              </td>
-              
-              <td
-                 style=\\"vertical-align:top;width:78px;\\"
-              >
-              <![endif]-->
+              <!--[if mso | IE]></td><td style=\\"vertical-align:top;width:78px;\\" ><![endif]-->
                 
       <div
          class=\\"mj-column-per-15 mj-outlook-group-fix hide_on_mobile\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:15%;\\"
@@ -1777,19 +1360,21 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"right\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"right\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:14px;font-weight:600;line-height:3.0;text-align:right;color:#4a4a4a;\\"
       >下載:</div>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -1799,13 +1384,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
     
       </div>
     
-              <!--[if mso | IE]>
-              </td>
-              
-              <td
-                 style=\\"vertical-align:top;width:52px;\\"
-              >
-              <![endif]-->
+              <!--[if mso | IE]></td><td style=\\"vertical-align:top;width:52px;\\" ><![endif]-->
                 
       <div
          class=\\"mj-column-per-10 mj-outlook-group-fix hide_on_mobile\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:10%;\\"
@@ -1821,19 +1400,21 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:14px;line-height:3.0;text-align:center;color:#4a4a4a;\\"
       ><a href=\\"https://liker.land/getapp\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" color=\\"#9b9b9b\\">iOS</a></div>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -1843,13 +1424,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
     
       </div>
     
-              <!--[if mso | IE]>
-              </td>
-              
-              <td
-                 style=\\"vertical-align:top;width:52px;\\"
-              >
-              <![endif]-->
+              <!--[if mso | IE]></td><td style=\\"vertical-align:top;width:52px;\\" ><![endif]-->
                 
       <div
          class=\\"mj-column-per-10 mj-outlook-group-fix hide_on_mobile\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:10%;\\"
@@ -1865,19 +1440,21 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:14px;line-height:3.0;text-align:left;color:#4a4a4a;\\"
       ><a href=\\"https://liker.land/getapp\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" color=\\"#9b9b9b\\">Android</a></div>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -1887,21 +1464,10 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
     
       </div>
     
-              <!--[if mso | IE]>
-              </td>
-              
-          </tr>
-          </table>
-        <![endif]-->
+              <!--[if mso | IE]></td></tr></table><![endif]-->
       </div>
     
-          <!--[if mso | IE]>
-            </td>
-          
-        </tr>
-      
-                  </table>
-                <![endif]-->
+          <!--[if mso | IE]></td></tr></table><![endif]-->
               </td>
             </tr>
           </tbody>
@@ -1909,20 +1475,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
         </div>
       </div>
     
-        <!--[if mso | IE]>
-        </v:textbox>
-      </v:rect>
-    
-          </td>
-        </tr>
-      </table>
-      
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\"
-      >
-        <tr>
-          <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
-      <![endif]-->
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"#28646e\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
     
       
       <div  style=\\"background:#28646e;background-color:#28646e;margin:0px auto;max-width:600px;\\">
@@ -1935,24 +1488,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
               <td
                  style=\\"direction:ltr;font-size:0px;padding:0px;text-align:center;\\"
               >
-                <!--[if mso | IE]>
-                  <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
-                
-            <tr>
-              <td
-                 class=\\"\\" width=\\"600px\\"
-              >
-          
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\"
-      >
-        <tr>
-          <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
-      
-        <v:rect  style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\">
-        <v:fill  origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"#28646e\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" />
-        <v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\">
-      <![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" width=\\"600px\\" ><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"#28646e\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"#28646e\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
           
       <div  style=\\"background:#28646e;background-color:#28646e;margin:0px auto;max-width:600px;\\">
         <div  style=\\"line-height:0;font-size:0;\\">
@@ -1964,29 +1500,12 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
               <td
                  style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:0px;padding-left:32px;padding-right:32px;padding-top:32px;text-align:center;\\"
               >
-                <!--[if mso | IE]>
-                  <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
-                
-        <tr>
-      
-            <td
-               class=\\"\\" style=\\"width:536px;\\"
-            >
-          <![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"width:536px;\\" ><![endif]-->
             
       <div
          class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr;\\"
       >
-        <!--[if mso | IE]>
-        <table
-           border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\"
-        >
-          <tr>
-        
-              <td
-                 style=\\"vertical-align:top;width:107px;\\"
-              >
-              <![endif]-->
+        <!--[if mso | IE]><table border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" ><tr><td style=\\"vertical-align:top;width:107px;\\" ><![endif]-->
                 
       <div
          class=\\"mj-column-per-20 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:20%;\\"
@@ -2002,12 +1521,13 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:collapse;border-spacing:0px;\\"
       >
@@ -2024,9 +1544,10 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
         </tbody>
       </table>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -2036,13 +1557,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
     
       </div>
     
-              <!--[if mso | IE]>
-              </td>
-              
-              <td
-                 style=\\"vertical-align:top;width:428px;\\"
-              >
-              <![endif]-->
+              <!--[if mso | IE]></td><td style=\\"vertical-align:top;width:428px;\\" ><![endif]-->
                 
       <div
          class=\\"mj-column-per-80 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:80%;\\"
@@ -2058,21 +1573,23 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"left\\" class=\\"hoverTable\\" style=\\"font-size:0px;padding:0px;padding-top:8px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"left\\" class=\\"hoverTable\\" style=\\"font-size:0px;padding:0px;padding-top:8px;word-break:break-word;\\"
+                >
+                  
       <table
          cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\" style=\\"color:#4a4a4a;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;border:none;\\"
       >
-        <tr style=\\"border-bottom:none;color:white;font-weight:bolder;font-size:18px\\"><td><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:right;padding:4px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position-x:right;background-position-y:center;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td style=\\"text-align:right\\" width=\\"86.10000000000001\\"><mj-text>likertemp</mj-text></td></tr>
+        <tr style=\\"border-bottom:none;color:white;font-weight:bolder;font-size:18px\\"><td><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:right;padding:4px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position-x:right;background-position-y:center;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td style=\\"text-align:right\\" width=\\"99\\"><mj-text>likertemp</mj-text></td></tr>
       </table>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -2082,21 +1599,10 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
     
       </div>
     
-              <!--[if mso | IE]>
-              </td>
-              
-          </tr>
-          </table>
-        <![endif]-->
+              <!--[if mso | IE]></td></tr></table><![endif]-->
       </div>
     
-          <!--[if mso | IE]>
-            </td>
-          
-        </tr>
-      
-                  </table>
-                <![endif]-->
+          <!--[if mso | IE]></td></tr></table><![endif]-->
               </td>
             </tr>
           </tbody>
@@ -2104,32 +1610,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
         </div>
       </div>
     
-        <!--[if mso | IE]>
-        </v:textbox>
-      </v:rect>
-    
-          </td>
-        </tr>
-      </table>
-      
-              </td>
-            </tr>
-          
-            <tr>
-              <td
-                 class=\\"\\" width=\\"600px\\"
-              >
-          
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\"
-      >
-        <tr>
-          <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
-      
-        <v:rect  style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\">
-        <v:fill  origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"#28646e\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" />
-        <v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\">
-      <![endif]-->
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table></td></tr><tr><td class=\\"\\" width=\\"600px\\" ><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"#28646e\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"#28646e\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
           
       <div  style=\\"background:#28646e;background-color:#28646e;margin:0px auto;max-width:600px;\\">
         <div  style=\\"line-height:0;font-size:0;\\">
@@ -2141,15 +1622,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
               <td
                  style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:32px;padding-left:32px;padding-right:32px;padding-top:0px;text-align:center;\\"
               >
-                <!--[if mso | IE]>
-                  <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
-                
-        <tr>
-      
-            <td
-               class=\\"\\" style=\\"vertical-align:top;width:536px;\\"
-            >
-          <![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
             
       <div
          class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
@@ -2165,31 +1638,33 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"left\\" style=\\"font-size:0px;padding:0px;padding-top:16px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;padding-top:16px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:28px;font-weight:600;line-height:1.5;text-align:left;color:white;\\"
       >你的讚賞公民月報</div>
     
-              </td>
-            </tr>
-          
-            <tr>
-              <td
-                 align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:18px;font-weight:600;line-height:1.5;text-align:left;color:#50e3c2;\\"
       >2021年1月</div>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -2199,13 +1674,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
     
       </div>
     
-          <!--[if mso | IE]>
-            </td>
-          
-        </tr>
-      
-                  </table>
-                <![endif]-->
+          <!--[if mso | IE]></td></tr></table><![endif]-->
               </td>
             </tr>
           </tbody>
@@ -2213,19 +1682,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
         </div>
       </div>
     
-        <!--[if mso | IE]>
-        </v:textbox>
-      </v:rect>
-    
-          </td>
-        </tr>
-      </table>
-      
-              </td>
-            </tr>
-          
-                  </table>
-                <![endif]-->
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table></td></tr></table><![endif]-->
               </td>
             </tr>
           </tbody>
@@ -2234,21 +1691,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
       </div>
     
       
-      <!--[if mso | IE]>
-          </td>
-        </tr>
-      </table>
-      
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\"
-      >
-        <tr>
-          <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
-      
-        <v:rect  style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\">
-        <v:fill  origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"white\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" />
-        <v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\">
-      <![endif]-->
+      <!--[if mso | IE]></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"white\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
           
       <div  style=\\"background:white;background-color:white;margin:0px auto;max-width:600px;\\">
         <div  style=\\"line-height:0;font-size:0;\\">
@@ -2260,15 +1703,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
               <td
                  style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:0px;padding-left:32px;padding-right:32px;padding-top:32px;text-align:center;\\"
               >
-                <!--[if mso | IE]>
-                  <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
-                
-        <tr>
-      
-            <td
-               class=\\"\\" style=\\"vertical-align:top;width:536px;\\"
-            >
-          <![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
             
       <div
          class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
@@ -2284,19 +1719,21 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:16px;font-weight:600;line-height:1.5;text-align:left;color:#28646e;\\"
       >你好 Temp Liker ID：</div>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -2306,13 +1743,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
     
       </div>
     
-          <!--[if mso | IE]>
-            </td>
-          
-        </tr>
-      
-                  </table>
-                <![endif]-->
+          <!--[if mso | IE]></td></tr></table><![endif]-->
               </td>
             </tr>
           </tbody>
@@ -2320,20 +1751,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
         </div>
       </div>
     
-        <!--[if mso | IE]>
-        </v:textbox>
-      </v:rect>
-    
-          </td>
-        </tr>
-      </table>
-      
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\"
-      >
-        <tr>
-          <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
-      <![endif]-->
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
     
       
       <div  style=\\"margin:0px auto;max-width:600px;\\">
@@ -2346,24 +1764,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
               <td
                  style=\\"direction:ltr;font-size:0px;padding:0px;text-align:center;\\"
               >
-                <!--[if mso | IE]>
-                  <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
-                
-            <tr>
-              <td
-                 class=\\"\\" width=\\"600px\\"
-              >
-          
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\"
-      >
-        <tr>
-          <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
-      
-        <v:rect  style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\">
-        <v:fill  origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"white\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" />
-        <v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\">
-      <![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" width=\\"600px\\" ><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"white\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
           
       <div  style=\\"background:white;background-color:white;margin:0px auto;max-width:600px;\\">
         <div  style=\\"line-height:0;font-size:0;\\">
@@ -2375,15 +1776,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
               <td
                  style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:24px;padding-left:32px;padding-right:32px;padding-top:32px;text-align:center;\\"
               >
-                <!--[if mso | IE]>
-                  <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
-                
-        <tr>
-      
-            <td
-               class=\\"\\" style=\\"vertical-align:top;width:536px;\\"
-            >
-          <![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
             
       <div
          class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
@@ -2399,19 +1792,21 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:16px;font-weight:600;line-height:1.5;text-align:center;color:#4a4a4a;\\"
       >已支持作者人數</div>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -2421,13 +1816,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
     
       </div>
     
-          <!--[if mso | IE]>
-            </td>
-          
-        </tr>
-      
-                  </table>
-                <![endif]-->
+          <!--[if mso | IE]></td></tr></table><![endif]-->
               </td>
             </tr>
           </tbody>
@@ -2435,32 +1824,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
         </div>
       </div>
     
-        <!--[if mso | IE]>
-        </v:textbox>
-      </v:rect>
-    
-          </td>
-        </tr>
-      </table>
-      
-              </td>
-            </tr>
-          
-            <tr>
-              <td
-                 class=\\"\\" width=\\"600px\\"
-              >
-          
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\"
-      >
-        <tr>
-          <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
-      
-        <v:rect  style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\">
-        <v:fill  origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"white\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" />
-        <v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\">
-      <![endif]-->
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table></td></tr><tr><td class=\\"\\" width=\\"600px\\" ><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"white\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
           
       <div  style=\\"background:white;background-color:white;margin:0px auto;max-width:600px;\\">
         <div  style=\\"line-height:0;font-size:0;\\">
@@ -2472,29 +1836,12 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
               <td
                  style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:32px;padding-left:32px;padding-right:32px;padding-top:0px;text-align:center;\\"
               >
-                <!--[if mso | IE]>
-                  <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
-                
-        <tr>
-      
-            <td
-               class=\\"\\" style=\\"width:536px;\\"
-            >
-          <![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"width:536px;\\" ><![endif]-->
             
       <div
          class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr;\\"
       >
-        <!--[if mso | IE]>
-        <table
-           border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\"
-        >
-          <tr>
-        
-              <td
-                 style=\\"vertical-align:top;width:214px;\\"
-              >
-              <![endif]-->
+        <!--[if mso | IE]><table border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" ><tr><td style=\\"vertical-align:top;width:214px;\\" ><![endif]-->
                 
       <div
          class=\\"mj-column-per-40 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:40%;\\"
@@ -2510,31 +1857,33 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:42px;font-weight:600;line-height:1.5;text-align:center;color:#28646e;\\"
       >12</div>
     
-              </td>
-            </tr>
-          
-            <tr>
-              <td
-                 align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:16px;line-height:1.5;text-align:center;color:#9b9b9b;\\"
       >讚賞公民訂閱</div>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -2544,13 +1893,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
     
       </div>
     
-              <!--[if mso | IE]>
-              </td>
-              
-              <td
-                 style=\\"vertical-align:top;width:107px;\\"
-              >
-              <![endif]-->
+              <!--[if mso | IE]></td><td style=\\"vertical-align:top;width:107px;\\" ><![endif]-->
                 
       <div
          class=\\"mj-column-per-20 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:20%;\\"
@@ -2566,12 +1909,13 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:collapse;border-spacing:0px;\\"
       >
@@ -2588,9 +1932,10 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
         </tbody>
       </table>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -2600,13 +1945,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
     
       </div>
     
-              <!--[if mso | IE]>
-              </td>
-              
-              <td
-                 style=\\"vertical-align:top;width:214px;\\"
-              >
-              <![endif]-->
+              <!--[if mso | IE]></td><td style=\\"vertical-align:top;width:214px;\\" ><![endif]-->
                 
       <div
          class=\\"mj-column-per-40 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:40%;\\"
@@ -2622,31 +1961,33 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:42px;font-weight:600;line-height:1.5;text-align:center;color:#28646e;\\"
       >34</div>
     
-              </td>
-            </tr>
-          
-            <tr>
-              <td
-                 align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:16px;line-height:1.5;text-align:center;color:#9b9b9b;\\"
       >按讚分配創作基金</div>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -2656,21 +1997,10 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
     
       </div>
     
-              <!--[if mso | IE]>
-              </td>
-              
-          </tr>
-          </table>
-        <![endif]-->
+              <!--[if mso | IE]></td></tr></table><![endif]-->
       </div>
     
-          <!--[if mso | IE]>
-            </td>
-          
-        </tr>
-      
-                  </table>
-                <![endif]-->
+          <!--[if mso | IE]></td></tr></table><![endif]-->
               </td>
             </tr>
           </tbody>
@@ -2678,19 +2008,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
         </div>
       </div>
     
-        <!--[if mso | IE]>
-        </v:textbox>
-      </v:rect>
-    
-          </td>
-        </tr>
-      </table>
-      
-              </td>
-            </tr>
-          
-                  </table>
-                <![endif]-->
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table></td></tr></table><![endif]-->
               </td>
             </tr>
           </tbody>
@@ -2699,21 +2017,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
       </div>
     
       
-      <!--[if mso | IE]>
-          </td>
-        </tr>
-      </table>
-      
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\"
-      >
-        <tr>
-          <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
-      
-        <v:rect  style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\">
-        <v:fill  origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"#f7f7f7\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" />
-        <v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\">
-      <![endif]-->
+      <!--[if mso | IE]></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"#f7f7f7\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"#f7f7f7\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
           
       <div  style=\\"background:#f7f7f7;background-color:#f7f7f7;margin:0px auto;max-width:600px;\\">
         <div  style=\\"line-height:0;font-size:0;\\">
@@ -2725,15 +2029,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
               <td
                  style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:32px;padding-left:32px;padding-right:32px;padding-top:32px;text-align:center;\\"
               >
-                <!--[if mso | IE]>
-                  <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
-                
-        <tr>
-      
-            <td
-               class=\\"\\" style=\\"vertical-align:top;width:536px;\\"
-            >
-          <![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
             
       <div
          class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
@@ -2749,88 +2045,89 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"left\\" style=\\"font-size:0px;padding:0px;padding-bottom:16px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;padding-bottom:16px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:16px;font-weight:600;line-height:1.5;text-align:left;color:#4a4a4a;\\"
       >已訂閱的作者</div>
     
-              </td>
-            </tr>
-          
-            <tr>
-              <td
-                 align=\\"left\\" style=\\"font-size:0px;padding:0px;padding-bottom:16px;word-break:break-word;\\"
-              >
-                
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;padding-bottom:16px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:16px;line-height:1.5;text-align:left;color:#4a4a4a;\\"
       >你正在按月支持以下作者，扣款日期為每月 1 日 。<a href=\\"https://liker.land/settings/civic?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">按此管理訂閱選項</a></div>
     
-              </td>
-            </tr>
-          
-            <tr>
-              <td
-                 align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <table
          cellpadding=\\"8px\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\" style=\\"color:#4a4a4a;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;border:none;\\"
       >
         <tr style=\\"vertical-align:middle;border-top:1px solid #d8d8d8;border-bottom:1px solid #d8d8d8\\"><td width=\\"48\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:4px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position-x:center;background-position-y:center;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#4a4a4a;text-decoration:none\\">Temp Liker ID</a></td><td style=\\"text-align:right\\"><img alt=\\"USD 5/mo\\" src=\\"http://localhost:3000/static/emoji/coffee.png\\" width=\\"18\\" height=\\"18\\" style=\\"width:18px;height:18px;vertical-align:middle;margin-right:8px\\"/>USD 5/mo</td></tr><tr style=\\"vertical-align:middle;border-top:none;border-bottom:1px solid #d8d8d8\\"><td width=\\"48\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:4px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position-x:center;background-position-y:center;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#4a4a4a;text-decoration:none\\">Temp Liker ID</a></td><td style=\\"text-align:right\\"><img alt=\\"USD 5/mo\\" src=\\"http://localhost:3000/static/emoji/coffee.png\\" width=\\"18\\" height=\\"18\\" style=\\"width:18px;height:18px;vertical-align:middle;margin-right:8px\\"/>USD 5/mo</td></tr><tr style=\\"vertical-align:middle;border-top:none;border-bottom:1px solid #d8d8d8\\"><td width=\\"48\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:4px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position-x:center;background-position-y:center;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#4a4a4a;text-decoration:none\\">Temp Liker ID</a></td><td style=\\"text-align:right\\"><img alt=\\"USD 5/mo\\" src=\\"http://localhost:3000/static/emoji/coffee.png\\" width=\\"18\\" height=\\"18\\" style=\\"width:18px;height:18px;vertical-align:middle;margin-right:8px\\"/>USD 5/mo</td></tr>
       </table>
     
-              </td>
-            </tr>
-          
-            <tr>
-              <td
-                 align=\\"left\\" style=\\"font-size:0px;padding:0px;padding-top:30px;padding-bottom:16px;word-break:break-word;\\"
-              >
-                
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;padding-top:30px;padding-bottom:16px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:16px;font-weight:600;line-height:1.5;text-align:left;color:#4a4a4a;\\"
       >創作基金</div>
     
-              </td>
-            </tr>
-          
-            <tr>
-              <td
-                 align=\\"left\\" style=\\"font-size:0px;padding:0px;padding-bottom:16px;word-break:break-word;\\"
-              >
-                
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;padding-bottom:16px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:16px;line-height:1.5;text-align:left;color:#4a4a4a;\\"
       ><mj-text>高達 10,000 美元的额外創作基金，將透過讚賞公民的按讚而分配給作者。<a target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:none\\">一起按讚文章，支持作者！</a></mj-text></div>
     
-              </td>
-            </tr>
-          
-            <tr>
-              <td
-                 align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <table
          cellpadding=\\"8px\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\" style=\\"color:#4a4a4a;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;border:none;\\"
       >
         <tr style=\\"vertical-align:middle;border-top:none;border-bottom:none\\"><td style=\\"font-size:14px;display:block;text-align:center\\"><mj-text color=\\"#9b9b9b\\" font-size=\\"14px\\" align=\\"right\\">還有 3 個作者</mj-text></td></tr>
       </table>
     
-              </td>
-            </tr>
-          
-            <tr>
-              <td
-                 align=\\"center\\" vertical-align=\\"middle\\" class=\\"flexible_button\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" vertical-align=\\"middle\\" class=\\"flexible_button\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:separate;width:85%;line-height:100%;\\"
       >
@@ -2847,9 +2144,10 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
         </tr>
       </table>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -2859,13 +2157,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
     
       </div>
     
-          <!--[if mso | IE]>
-            </td>
-          
-        </tr>
-      
-                  </table>
-                <![endif]-->
+          <!--[if mso | IE]></td></tr></table><![endif]-->
               </td>
             </tr>
           </tbody>
@@ -2873,24 +2165,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
         </div>
       </div>
     
-        <!--[if mso | IE]>
-        </v:textbox>
-      </v:rect>
-    
-          </td>
-        </tr>
-      </table>
-      
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\"
-      >
-        <tr>
-          <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
-      
-        <v:rect  style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\">
-        <v:fill  origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"white\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" />
-        <v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\">
-      <![endif]-->
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"white\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
           
       <div  style=\\"background:white;background-color:white;margin:0px auto;max-width:600px;\\">
         <div  style=\\"line-height:0;font-size:0;\\">
@@ -2902,15 +2177,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
               <td
                  style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:48px;padding-left:32px;padding-right:32px;padding-top:24px;text-align:center;\\"
               >
-                <!--[if mso | IE]>
-                  <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
-                
-        <tr>
-      
-            <td
-               class=\\"\\" style=\\"vertical-align:top;width:536px;\\"
-            >
-          <![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
             
       <div
          class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
@@ -2926,21 +2193,23 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <table
          cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\" style=\\"color:#4a4a4a;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;border:none;\\"
       >
         <tr><td><img src=\\"http://localhost:3000/static/banners/cta-likecoin-button.png\\" style=\\"display:block;width:100%;margin:0 auto;max-width:360px\\" alt=\\"\\"/></td></tr><tr><td><div style=\\"box-sizing:border-box;max-width:360px;margin:0 auto;padding:24px;padding-top:0;color:white;font-size:16px;text-align:center;background-color:#28646e;border-bottom-left-radius:12px;border-bottom-right-radius:12px\\">在文章中點擊 LikeCoin button，可分配創作基金，額外奬勵作者。</div></td></tr>
       </table>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -2950,13 +2219,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
     
       </div>
     
-          <!--[if mso | IE]>
-            </td>
-          
-        </tr>
-      
-                  </table>
-                <![endif]-->
+          <!--[if mso | IE]></td></tr></table><![endif]-->
               </td>
             </tr>
           </tbody>
@@ -2964,20 +2227,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
         </div>
       </div>
     
-        <!--[if mso | IE]>
-        </v:textbox>
-      </v:rect>
-    
-          </td>
-        </tr>
-      </table>
-      
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\"
-      >
-        <tr>
-          <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
-      <![endif]-->
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
     
       
       <div  style=\\"background:white;background-color:white;margin:0px auto;max-width:600px;\\">
@@ -2990,15 +2240,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
               <td
                  style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:24px;padding-left:32px;padding-right:32px;padding-top:24px;text-align:center;\\"
               >
-                <!--[if mso | IE]>
-                  <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
-                
-        <tr>
-      
-            <td
-               class=\\"\\" style=\\"vertical-align:top;width:536px;\\"
-            >
-          <![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
             
       <div
          class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
@@ -3014,21 +2256,15 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"center\\" style=\\"background:white;font-size:0px;padding:0px;padding-top:8px;padding-bottom:8px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"background:white;font-size:0px;padding:0px;padding-top:8px;padding-bottom:8px;word-break:break-word;\\"
+                >
+                  
       
-     <!--[if mso | IE]>
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\"
-      >
-        <tr>
-      
-              <td>
-            <![endif]-->
+     <!--[if mso | IE]><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" ><tr><td><![endif]-->
               <table
                  align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
               >
@@ -3055,11 +2291,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
       </tr>
     
               </table>
-            <!--[if mso | IE]>
-              </td>
-            
-              <td>
-            <![endif]-->
+            <!--[if mso | IE]></td><td><![endif]-->
               <table
                  align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
               >
@@ -3086,11 +2318,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
       </tr>
     
               </table>
-            <!--[if mso | IE]>
-              </td>
-            
-              <td>
-            <![endif]-->
+            <!--[if mso | IE]></td><td><![endif]-->
               <table
                  align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
               >
@@ -3117,11 +2345,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
       </tr>
     
               </table>
-            <!--[if mso | IE]>
-              </td>
-            
-              <td>
-            <![endif]-->
+            <!--[if mso | IE]></td><td><![endif]-->
               <table
                  align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
               >
@@ -3148,11 +2372,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
       </tr>
     
               </table>
-            <!--[if mso | IE]>
-              </td>
-            
-              <td>
-            <![endif]-->
+            <!--[if mso | IE]></td><td><![endif]-->
               <table
                  align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
               >
@@ -3179,41 +2399,37 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
       </tr>
     
               </table>
-            <!--[if mso | IE]>
-              </td>
+            <!--[if mso | IE]></td></tr></table><![endif]-->
+    
+    
+                </td>
+              </tr>
             
-          </tr>
-        </table>
-      <![endif]-->
-    
-    
-              </td>
-            </tr>
-          
-            <tr>
-              <td
-                 align=\\"center\\" style=\\"font-size:0px;padding:4px;word-break:break-word;\\"
-              >
-                
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:4px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:14px;line-height:1.5;text-align:center;color:#4a4a4a;\\"
       ><a href=\\"https://docs.like.co/v/zh?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">幫助中心</a></div>
     
-              </td>
-            </tr>
-          
-            <tr>
-              <td
-                 align=\\"center\\" style=\\"font-size:0px;padding:4px;word-break:break-word;\\"
-              >
-                
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:4px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:14px;line-height:1.5;text-align:center;color:#4a4a4a;\\"
       ><a href=\\"https://like.co/in/settings/others?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">取消訂閱</a></div>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -3223,13 +2439,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
     
       </div>
     
-          <!--[if mso | IE]>
-            </td>
-          
-        </tr>
-      
-                  </table>
-                <![endif]-->
+          <!--[if mso | IE]></td></tr></table><![endif]-->
               </td>
             </tr>
           </tbody>
@@ -3238,11 +2448,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
       </div>
     
       
-      <!--[if mso | IE]>
-          </td>
-        </tr>
-      </table>
-      <![endif]-->
+      <!--[if mso | IE]></td></tr></table><![endif]-->
     
     
       </div>

@@ -11,8 +11,7 @@ import {
 describe('Render Civic Liker monthly report templates', () => {
   it('V1', () => {
     const { subject, body } = getMonthlyReportCivicLikerV1Template(
-      V1SampleData,
-      { minify: false }
+      V1SampleData
     );
     expect(subject).toBeTruthy();
     expect(body).toMatchSnapshot();
@@ -20,8 +19,7 @@ describe('Render Civic Liker monthly report templates', () => {
 
   it('V2', () => {
     const { subject, body } = getMonthlyReportCivicLikerV2Template(
-      V2SampleData,
-      { minify: false }
+      V2SampleData
     );
     expect(subject).toBeTruthy();
     expect(body).toMatchSnapshot();

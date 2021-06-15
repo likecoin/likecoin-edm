@@ -54,7 +54,7 @@
     }
   ],
   "devDependencies": {
-    "@size-limit/preset-small-lib": "^4.9.1",
+    "@size-limit/preset-small-lib": "^4.12.0",
     "@types/mjml": "^4.0.4",
     "@types/mjml-react": "^1.0.4",
     "@types/react": "^17.0.0",
@@ -67,7 +67,7 @@
   "dependencies": {
     "@types/mjml-react": "^1.0.4",
     "canvas": "^2.8.0",
-    "mjml": "^4.7.1",
+    "mjml": "^4.9.3",
     "mjml-react": "^1.0.63",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",

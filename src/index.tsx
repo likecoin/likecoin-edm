@@ -40,7 +40,10 @@ export const getBasicTemplate = (
   props: BasicTemplateProps,
   options?: Mjml2HtmlOptions
 ) => {
-  const { html: body } = render(<BasicTemplate {...props} />, options);
+  const { html: body } = render(<BasicTemplate {...props} />, {
+    minify: false,
+    ...options,
+  });
   const { subject } = props;
   return { subject, body };
 };
@@ -49,10 +52,10 @@ export const getBasicWithAvatarTemplate = (
   props: BasicWithAvatarTemplateProps,
   options?: Mjml2HtmlOptions
 ) => {
-  const { html: body } = render(
-    <BasicWithAvatarTemplate {...props} />,
-    options
-  );
+  const { html: body } = render(<BasicWithAvatarTemplate {...props} />, {
+    minify: false,
+    ...options,
+  });
   const { subject } = props;
   return { subject, body };
 };
@@ -67,7 +70,7 @@ export const getResetPasswordTemplate = (
   } = props;
   const { html: body } = render(
     <ResetPasswordTemplate {...{ ...props, subject }} />,
-    options
+    { minify: false, ...options }
   );
   return { subject, body };
 };
@@ -85,7 +88,7 @@ export const getTransactionTemplate = (
   if (isResend) subject = intl.formatMessage({ id: 'resend' }).concat(subject);
   const { html: body } = render(
     <TransactionTemplate {...{ ...props, subject }} />,
-    options
+    { minify: false, ...options }
   );
   return { subject, body };
 };
@@ -95,7 +98,10 @@ export const getNewSupporterTemplate = (
   options?: Mjml2HtmlOptions
 ) => {
   const { subject } = props;
-  const { html: body } = render(<NewSupporterTemplate {...props} />, options);
+  const { html: body } = render(<NewSupporterTemplate {...props} />, {
+    minify: false,
+    ...options,
+  });
   return { subject, body };
 };
 
@@ -104,7 +110,10 @@ export const getReferralTxTemplate = (
   options?: Mjml2HtmlOptions
 ) => {
   const { subject } = props;
-  const { html: body } = render(<ReferralTxTemplate {...props} />, options);
+  const { html: body } = render(<ReferralTxTemplate {...props} />, {
+    minify: false,
+    ...options,
+  });
   return { subject, body };
 };
 
@@ -121,10 +130,10 @@ export const getMonthlyReportCreatorTemplate = (
       timeZone: props.timeZone,
     }
   );
-  const { html: body } = render(
-    <MonthlyReportCreatorTemplate {...props} />,
-    options
-  );
+  const { html: body } = render(<MonthlyReportCreatorTemplate {...props} />, {
+    minify: false,
+    ...options,
+  });
   return { subject, body };
 };
 
@@ -140,7 +149,7 @@ export const getMonthlyReportCivicLikerV1Template = (
   );
   const { html: body } = render(
     <MonthlyReportCivicLikerV1Template {...props} />,
-    options
+    { minify: false, ...options }
   );
   return { subject, body };
 };
@@ -157,7 +166,7 @@ export const getMonthlyReportCivicLikerV2Template = (
   );
   const { html: body } = render(
     <MonthlyReportCivicLikerV2Template {...props} />,
-    options
+    { minify: false, ...options }
   );
   return { subject, body };
 };

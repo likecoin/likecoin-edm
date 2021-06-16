@@ -68,6 +68,7 @@ export const MonthlyReportHeaderSection = (
                     isCivicLiker={isCivicLiker}
                     size={48}
                     align="right"
+                    lineHeight={0.5}
                   />
                 </td>
                 <td

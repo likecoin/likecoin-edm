@@ -308,7 +308,7 @@ exports[`Render new supporter templates Default 1`] = `
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
         <tbody>
-          <a href=\\"https://liker.land/?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:9px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position-x:center;background-position-y:center;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"\\" style=\\"width:102px;height:102px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a>
+          <a href=\\"https://liker.land/?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:9px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center center;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"\\" style=\\"width:102px;height:102px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a>
         </tbody>
       </table>
     

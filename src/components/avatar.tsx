@@ -14,6 +14,7 @@ export interface AvatarProps {
   size?: number;
   align?: 'left' | 'center' | 'right';
   display?: string;
+  lineHeight?: number;
 }
 
 export const Avatar = (props: AvatarProps) => {
@@ -25,6 +26,7 @@ export const Avatar = (props: AvatarProps) => {
     size = 40,
     align = 'center',
     display = 'block',
+    lineHeight = 1,
   } = props;
   return (
     <MjmlRaw>
@@ -35,15 +37,14 @@ export const Avatar = (props: AvatarProps) => {
           display: display,
           textAlign: align,
           padding: Math.ceil(size * 0.08),
-          lineHeight: 1,
+          lineHeight: lineHeight,
           ...(isCivicLiker
             ? {
                 backgroundImage: `url(${getAssetPath(
                   '/avatar/halo/civic-liker.png'
                 )})`,
                 backgroundRepeat: 'no-repeat',
-                backgroundPositionX: align,
-                backgroundPositionY: 'center',
+                backgroundPosition: `center ${align}`,
                 backgroundSize: 'contain',
               }
             : {}),

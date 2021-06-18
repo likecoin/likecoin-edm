@@ -2,7 +2,7 @@ import * as React from 'react';
 import { MjmlColumn, MjmlImage, MjmlGroup, MjmlText } from 'mjml-react';
 import { FormattedMessage } from 'react-intl';
 import * as Colors from '../constants/colors';
-import { LIKER_LAND_ROOT } from '../constants';
+import { GetAppLink } from '../components/link';
 
 import { getAssetPath } from '../utils/url';
 
@@ -39,26 +39,12 @@ export const HeaderSection = () => {
         </MjmlColumn>
         <MjmlColumn width="10%" cssClass="hide_on_mobile">
           <MjmlText fontSize={14} lineHeight="3.0" align="center">
-            <a
-              href={`${LIKER_LAND_ROOT}/getapp`}
-              target="_blank"
-              rel="noreferrer noopener"
-              color={Colors.Grey9B}
-            >
-              iOS
-            </a>
+            <GetAppLink operatingSystem="iOS"></GetAppLink>
           </MjmlText>
         </MjmlColumn>
         <MjmlColumn width="10%" cssClass="hide_on_mobile">
           <MjmlText fontSize={14} lineHeight="3.0">
-            <a
-              href={`${LIKER_LAND_ROOT}/getapp`}
-              target="_blank"
-              rel="noreferrer noopener"
-              color={Colors.Grey9B}
-            >
-              Android
-            </a>
+            <GetAppLink operatingSystem="Android"></GetAppLink>
           </MjmlText>
         </MjmlColumn>
       </MjmlGroup>

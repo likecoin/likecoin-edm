@@ -95,6 +95,8 @@ export const MonthlyReportCivicLikerV2Template = (
     isClassicSubscribed = false,
   } = props;
 
+  const hasSubscribingCreators = subscribingCreators.length > 0;
+
   return (
     <TemplateBase language={language} subject={subject}>
       <HeaderSection />
@@ -133,12 +135,12 @@ export const MonthlyReportCivicLikerV2Template = (
 
       <BasicSection>
         <MjmlColumn>
-          {subscribingCreators.length > 0 && (
+          {hasSubscribingCreators && (
             <MjmlText paddingBottom={16} fontSize={16} fontWeight={600}>
               <FormattedMessage id="report.monthly.civic-liker.subscribers.title" />
             </MjmlText>
           )}
-          {subscribingCreators.length > 0 && (
+          {hasSubscribingCreators && (
             <MjmlText paddingBottom={16} fontSize={16}>
               <MonthlyReportCivicLikerV2SubscribersDescription
                 language={language}
@@ -146,7 +148,7 @@ export const MonthlyReportCivicLikerV2Template = (
               />
             </MjmlText>
           )}
-          {subscribingCreators.length > 0 && (
+          {hasSubscribingCreators && (
             <MjmlTable cellpadding="8px">
               {subscribingCreators.map((creator, i) => (
                 <TableRow key={creator.likerID} isFirstChild={i === 0}>
@@ -188,7 +190,7 @@ export const MonthlyReportCivicLikerV2Template = (
             </MjmlTable>
           )}
           <MjmlText
-            paddingTop={subscribingCreators.length > 0 ? 30 : 10}
+            paddingTop={hasSubscribingCreators ? 30 : 10}
             paddingBottom={16}
             fontSize={16}
             fontWeight={600}

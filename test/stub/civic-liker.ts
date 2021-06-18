@@ -63,3 +63,40 @@ export const MonthlyReportCivicLikerV2SampleData: MonthlyReportCivicLikerV2Templ
   supportedContentsRemainsCount: 3,
   fundedCreatorsRemainsCount: 3,
 };
+
+export const MonthlyReportCivicLikerV2ClassicSampleData: MonthlyReportCivicLikerV2TemplateProps = {
+  likerID: SAMPLE_LIKER_ID,
+  displayName: SAMPLE_LIKER_DISPLAY_NAME,
+  avatarSrc: SAMPLE_IMAGE_URL,
+  isCivicLiker: true,
+  timestamp: SAMPLE_TIMESTAMP,
+  totalSupportedCreatorsBySubscription: 3,
+  totalSupportedCreatorsByFund: 17,
+  billingDateTimestamp: SAMPLE_TIMESTAMP,
+  isClassicSubscribed: true,
+  subscribingCreators: new Array(3).fill({
+    likerID: SAMPLE_LIKER_ID,
+    displayName: SAMPLE_LIKER_DISPLAY_NAME,
+    avatarSrc: SAMPLE_IMAGE_URL,
+    isCivicLiker: true,
+    amount: 5,
+  }),
+  fundedCreators: new Array(17).fill({
+    likerID: SAMPLE_LIKER_ID,
+    displayName: SAMPLE_LIKER_DISPLAY_NAME,
+    avatarSrc: SAMPLE_IMAGE_URL,
+    isCivicLiker: true,
+    amount: 5,
+  }),
+  supportedContents: new Array(3).fill({
+    url: SAMPLE_URL,
+    title: SAMPLE_TEXT,
+    imageSrc: SAMPLE_IMAGE_URL,
+    likerID: SAMPLE_LIKER_ID,
+    displayName: SAMPLE_LIKER_DISPLAY_NAME,
+    avatarSrc: SAMPLE_IMAGE_URL,
+    isCivicLiker: true,
+  }),
+  supportedContentsRemainsCount: 3,
+  fundedCreatorsRemainsCount: 6,
+};

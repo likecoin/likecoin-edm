@@ -2,6 +2,7 @@ import * as React from 'react';
 
 import * as Colors from '../constants/colors';
 import { wrapUtm } from '../utils/url';
+import { LIKER_LAND_ROOT } from '../constants';
 
 export interface LinkProps
   extends React.DetailedHTMLProps<
@@ -11,6 +12,10 @@ export interface LinkProps
   isWrapUtm?: boolean;
   wrapUtmPrefix?: string;
   textDecoration?: string;
+}
+
+export interface GetAppLinkProps {
+  operatingSystem?: string;
 }
 
 export const Link = (props: LinkProps) => {
@@ -37,6 +42,20 @@ export const Link = (props: LinkProps) => {
       {...restProps}
     >
       {children}
+    </a>
+  );
+};
+
+export const GetAppLink = (props: GetAppLinkProps) => {
+  const { operatingSystem } = props;
+  return (
+    <a
+      href={`${LIKER_LAND_ROOT}/getapp`}
+      target="_blank"
+      rel="noreferrer noopener"
+      color={Colors.Grey9B}
+    >
+      {operatingSystem}
     </a>
   );
 };

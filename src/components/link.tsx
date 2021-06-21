@@ -14,9 +14,11 @@ export interface LinkProps
   textDecoration?: string;
 }
 
-export interface GetAppLinkProps {
-  operatingSystem?: string;
-}
+export interface GetAppLinkProps
+  extends React.DetailedHTMLProps<
+    React.AnchorHTMLAttributes<HTMLAnchorElement>,
+    HTMLAnchorElement
+  > {}
 
 export const Link = (props: LinkProps) => {
   const {
@@ -47,7 +49,7 @@ export const Link = (props: LinkProps) => {
 };
 
 export const GetAppLink = (props: GetAppLinkProps) => {
-  const { operatingSystem } = props;
+  const { children } = props;
   return (
     <a
       href={`${LIKER_LAND_ROOT}/getapp`}
@@ -55,7 +57,7 @@ export const GetAppLink = (props: GetAppLinkProps) => {
       rel="noreferrer noopener"
       color={Colors.Grey9B}
     >
-      {operatingSystem}
+      {children}
     </a>
   );
 };

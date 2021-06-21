@@ -39,12 +39,12 @@ export const HeaderSection = () => {
         </MjmlColumn>
         <MjmlColumn width="10%" cssClass="hide_on_mobile">
           <MjmlText fontSize={14} lineHeight="3.0" align="center">
-            <GetAppLink operatingSystem="iOS"></GetAppLink>
+            <GetAppLink>iOS</GetAppLink>
           </MjmlText>
         </MjmlColumn>
         <MjmlColumn width="10%" cssClass="hide_on_mobile">
           <MjmlText fontSize={14} lineHeight="3.0">
-            <GetAppLink operatingSystem="Android"></GetAppLink>
+            <GetAppLink>Android</GetAppLink>
           </MjmlText>
         </MjmlColumn>
       </MjmlGroup>

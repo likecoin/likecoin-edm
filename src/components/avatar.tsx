@@ -13,6 +13,8 @@ export interface AvatarProps {
   src?: string;
   size?: number;
   align?: 'left' | 'center' | 'right';
+  display?: string;
+  lineHeight?: number;
 }
 
 export const Avatar = (props: AvatarProps) => {
@@ -23,6 +25,8 @@ export const Avatar = (props: AvatarProps) => {
     src = DEFAULT_AVATAR_URL,
     size = 40,
     align = 'center',
+    display = 'block',
+    lineHeight = 1,
   } = props;
   return (
     <MjmlRaw>
@@ -30,18 +34,17 @@ export const Avatar = (props: AvatarProps) => {
         href={`${LIKER_LAND_ROOT}/${likerID}`}
         isWrapUtm={true}
         style={{
-          display: 'block',
+          display: display,
           textAlign: align,
-          padding: size * 0.08,
-          lineHeight: 1,
+          padding: Math.ceil(size * 0.08),
+          lineHeight: lineHeight,
           ...(isCivicLiker
             ? {
                 backgroundImage: `url(${getAssetPath(
                   '/avatar/halo/civic-liker.png'
                 )})`,
                 backgroundRepeat: 'no-repeat',
-                backgroundPositionX: align,
-                backgroundPositionY: 'center',
+                backgroundPosition: `center ${align}`,
                 backgroundSize: 'contain',
               }
             : {}),

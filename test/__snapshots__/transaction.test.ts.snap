@@ -8,7 +8,7 @@ exports[`Render new transaction templates Default 1`] = `
         <title>
           您已收到 100 LikeCoin
         </title>
-        <!--[if !mso]><!-- -->
+        <!--[if !mso]><!-->
         <meta http-equiv=\\"X-UA-Compatible\\" content=\\"IE=edge\\">
         <!--<![endif]-->
         <meta http-equiv=\\"Content-Type\\" content=\\"text/html; charset=UTF-8\\">
@@ -21,12 +21,14 @@ exports[`Render new transaction templates Default 1`] = `
           p { display:block;margin:13px 0; }
         </style>
         <!--[if mso]>
+        <noscript>
         <xml>
         <o:OfficeDocumentSettings>
           <o:AllowPNG/>
           <o:PixelsPerInch>96</o:PixelsPerInch>
         </o:OfficeDocumentSettings>
         </xml>
+        </noscript>
         <![endif]-->
         <!--[if lte mso 11]>
         <style type=\\"text/css\\">
@@ -38,8 +40,18 @@ exports[`Render new transaction templates Default 1`] = `
     <style type=\\"text/css\\">
       @media only screen and (min-width:576px) {
         .mj-column-per-100 { width:100% !important; max-width: 100%; }
+.mj-column-per-65 { width:65% !important; max-width: 65%; }
+.mj-column-per-15 { width:15% !important; max-width: 15%; }
+.mj-column-per-10 { width:10% !important; max-width: 10%; }
 .mj-column-px-120 { width:120px !important; max-width: 120px; }
       }
+    </style>
+    <style media=\\"screen and (min-width:576px)\\">
+      .moz-text-html .mj-column-per-100 { width:100% !important; max-width: 100%; }
+.moz-text-html .mj-column-per-65 { width:65% !important; max-width: 65%; }
+.moz-text-html .mj-column-per-15 { width:15% !important; max-width: 15%; }
+.moz-text-html .mj-column-per-10 { width:10% !important; max-width: 10%; }
+.moz-text-html .mj-column-px-120 { width:120px !important; max-width: 120px; }
     </style>
     
   
@@ -53,10 +65,13 @@ exports[`Render new transaction templates Default 1`] = `
     }
   
         </style>
-        
+        <style type=\\"text/css\\">@media only screen and (max-width: 480px) { 
+                  *[class~=hide_on_mobile] { display: none !important;} 
+                  *[class~=hoverTable] { table-layout: auto !important;}
+                }</style>
         
       </head>
-      <body style=\\"background-color:white;\\">
+      <body style=\\"word-spacing:normal;background-color:white;\\">
         
         
       <div
@@ -64,17 +79,7 @@ exports[`Render new transaction templates Default 1`] = `
       >
         
       
-      <!--[if mso | IE]>
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:616px;\\" width=\\"616\\"
-      >
-        <tr>
-          <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
-      
-        <v:rect  style=\\"width:616px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\">
-        <v:fill  origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"http://localhost:3000/static/templates/basic/bg.jpg\\" color=\\"white\\" type=\\"tile\\" size=\\"616px\\" aspect=\\"atmost\\" />
-        <v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\">
-      <![endif]-->
+      <!--[if mso | IE]><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:616px;\\" width=\\"616\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:616px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"http://localhost:3000/static/templates/basic/bg.jpg\\" color=\\"white\\" type=\\"tile\\" size=\\"616px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
           
       <div  style=\\"background:white url(http://localhost:3000/static/templates/basic/bg.jpg) center top / 616px repeat;background-position:center top;background-repeat:repeat;background-size:616px;margin:0px auto;max-width:616px;\\">
         <div  style=\\"line-height:0;font-size:0;\\">
@@ -86,18 +91,15 @@ exports[`Render new transaction templates Default 1`] = `
               <td
                  style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:32px;padding-left:40px;padding-right:40px;padding-top:32px;text-align:center;\\"
               >
-                <!--[if mso | IE]>
-                  <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
-                
-        <tr>
-      
-            <td
-               class=\\"\\" style=\\"vertical-align:top;width:536px;\\"
-            >
-          <![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"width:536px;\\" ><![endif]-->
             
       <div
-         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr;\\"
+      >
+        <!--[if mso | IE]><table border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" ><tr><td style=\\"vertical-align:top;width:348px;\\" ><![endif]-->
+                
+      <div
+         class=\\"mj-column-per-65 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:65%;\\"
       >
         
       <table
@@ -110,21 +112,22 @@ exports[`Render new transaction templates Default 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:collapse;border-spacing:0px;\\"
       >
         <tbody>
           <tr>
-            <td  style=\\"width:90px;\\">
+            <td  style=\\"width:145px;\\">
               
       <img
-         height=\\"auto\\" src=\\"http://localhost:3000/static/liker-land-logo.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"90\\"
+         height=\\"auto\\" src=\\"http://localhost:3000/static/banners/like-coin-press-kit-liker-land-dark@3x.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"145\\"
       />
     
             </td>
@@ -132,9 +135,10 @@ exports[`Render new transaction templates Default 1`] = `
         </tbody>
       </table>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -144,13 +148,130 @@ exports[`Render new transaction templates Default 1`] = `
     
       </div>
     
-          <!--[if mso | IE]>
-            </td>
+              <!--[if mso | IE]></td><td style=\\"vertical-align:top;width:80px;\\" ><![endif]-->
+                
+      <div
+         class=\\"mj-column-per-15 mj-outlook-group-fix hide_on_mobile\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:15%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"vertical-align:top;padding:0px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        <tbody>
           
-        </tr>
-      
-                  </table>
-                <![endif]-->
+              <tr>
+                <td
+                   align=\\"right\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Arial;font-size:14px;font-weight:600;line-height:3.0;text-align:right;color:#4a4a4a;\\"
+      >Download:</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+              <!--[if mso | IE]></td><td style=\\"vertical-align:top;width:53px;\\" ><![endif]-->
+                
+      <div
+         class=\\"mj-column-per-10 mj-outlook-group-fix hide_on_mobile\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:10%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"vertical-align:top;padding:0px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Arial;font-size:14px;line-height:3.0;text-align:center;color:#4a4a4a;\\"
+      ><a href=\\"https://liker.land/getapp\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" color=\\"#9b9b9b\\">iOS</a></div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+              <!--[if mso | IE]></td><td style=\\"vertical-align:top;width:53px;\\" ><![endif]-->
+                
+      <div
+         class=\\"mj-column-per-10 mj-outlook-group-fix hide_on_mobile\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:10%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"vertical-align:top;padding:0px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Arial;font-size:14px;line-height:3.0;text-align:left;color:#4a4a4a;\\"
+      ><a href=\\"https://liker.land/getapp\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" color=\\"#9b9b9b\\">Android</a></div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
               </td>
             </tr>
           </tbody>
@@ -158,24 +279,7 @@ exports[`Render new transaction templates Default 1`] = `
         </div>
       </div>
     
-        <!--[if mso | IE]>
-        </v:textbox>
-      </v:rect>
-    
-          </td>
-        </tr>
-      </table>
-      
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:616px;\\" width=\\"616\\"
-      >
-        <tr>
-          <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
-      
-        <v:rect  style=\\"width:616px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\">
-        <v:fill  origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"http://localhost:3000/static/templates/basic/header-top.jpg\\" color=\\"white\\" type=\\"tile\\" size=\\"616px\\" aspect=\\"atmost\\" />
-        <v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\">
-      <![endif]-->
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:616px;\\" width=\\"616\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:616px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"http://localhost:3000/static/templates/basic/header-top.jpg\\" color=\\"white\\" type=\\"tile\\" size=\\"616px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
           
       <div  style=\\"background:white url(http://localhost:3000/static/templates/basic/header-top.jpg) center top / 616px repeat;background-position:center top;background-repeat:repeat;background-size:616px;margin:0px auto;max-width:616px;\\">
         <div  style=\\"line-height:0;font-size:0;\\">
@@ -187,15 +291,7 @@ exports[`Render new transaction templates Default 1`] = `
               <td
                  style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;text-align:center;\\"
               >
-                <!--[if mso | IE]>
-                  <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
-                
-        <tr>
-      
-            <td
-               class=\\"\\" style=\\"vertical-align:top;width:120px;\\"
-            >
-          <![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:120px;\\" ><![endif]-->
             
       <div
          class=\\"mj-column-px-120 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
@@ -211,12 +307,13 @@ exports[`Render new transaction templates Default 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:collapse;border-spacing:0px;\\"
       >
@@ -233,9 +330,10 @@ exports[`Render new transaction templates Default 1`] = `
         </tbody>
       </table>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -245,13 +343,7 @@ exports[`Render new transaction templates Default 1`] = `
     
       </div>
     
-          <!--[if mso | IE]>
-            </td>
-          
-        </tr>
-      
-                  </table>
-                <![endif]-->
+          <!--[if mso | IE]></td></tr></table><![endif]-->
               </td>
             </tr>
           </tbody>
@@ -259,24 +351,7 @@ exports[`Render new transaction templates Default 1`] = `
         </div>
       </div>
     
-        <!--[if mso | IE]>
-        </v:textbox>
-      </v:rect>
-    
-          </td>
-        </tr>
-      </table>
-      
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:616px;\\" width=\\"616\\"
-      >
-        <tr>
-          <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
-      
-        <v:rect  style=\\"width:616px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\">
-        <v:fill  origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"http://localhost:3000/static/templates/basic/header-middle.jpg\\" color=\\"white\\" type=\\"tile\\" size=\\"616px\\" aspect=\\"atmost\\" />
-        <v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\">
-      <![endif]-->
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:616px;\\" width=\\"616\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:616px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"http://localhost:3000/static/templates/basic/header-middle.jpg\\" color=\\"white\\" type=\\"tile\\" size=\\"616px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
           
       <div  style=\\"background:white url(http://localhost:3000/static/templates/basic/header-middle.jpg) center top / 616px repeat;background-position:center top;background-repeat:repeat;background-size:616px;margin:0px auto;max-width:616px;\\">
         <div  style=\\"line-height:0;font-size:0;\\">
@@ -288,15 +363,7 @@ exports[`Render new transaction templates Default 1`] = `
               <td
                  style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:16px;padding-left:40px;padding-right:40px;padding-top:16px;text-align:center;\\"
               >
-                <!--[if mso | IE]>
-                  <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
-                
-        <tr>
-      
-            <td
-               class=\\"\\" style=\\"vertical-align:top;width:536px;\\"
-            >
-          <![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
             
       <div
          class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
@@ -312,19 +379,21 @@ exports[`Render new transaction templates Default 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:16px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:16px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:36px;line-height:1.5;text-align:center;color:#28646e;\\"
       >You have received 100 LikeCoin</div>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -334,13 +403,7 @@ exports[`Render new transaction templates Default 1`] = `
     
       </div>
     
-          <!--[if mso | IE]>
-            </td>
-          
-        </tr>
-      
-                  </table>
-                <![endif]-->
+          <!--[if mso | IE]></td></tr></table><![endif]-->
               </td>
             </tr>
           </tbody>
@@ -348,24 +411,7 @@ exports[`Render new transaction templates Default 1`] = `
         </div>
       </div>
     
-        <!--[if mso | IE]>
-        </v:textbox>
-      </v:rect>
-    
-          </td>
-        </tr>
-      </table>
-      
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:616px;\\" width=\\"616\\"
-      >
-        <tr>
-          <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
-      
-        <v:rect  style=\\"width:616px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\">
-        <v:fill  origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"http://localhost:3000/static/templates/basic/header-bottom.jpg\\" color=\\"white\\" type=\\"tile\\" size=\\"616px\\" aspect=\\"atmost\\" />
-        <v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\">
-      <![endif]-->
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:616px;\\" width=\\"616\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:616px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"http://localhost:3000/static/templates/basic/header-bottom.jpg\\" color=\\"white\\" type=\\"tile\\" size=\\"616px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
           
       <div  style=\\"background:white url(http://localhost:3000/static/templates/basic/header-bottom.jpg) center top / 616px repeat;background-position:center top;background-repeat:repeat;background-size:616px;margin:0px auto;max-width:616px;\\">
         <div  style=\\"line-height:0;font-size:0;\\">
@@ -377,15 +423,7 @@ exports[`Render new transaction templates Default 1`] = `
               <td
                  style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px;text-align:center;\\"
               >
-                <!--[if mso | IE]>
-                  <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
-                
-        <tr>
-      
-            <td
-               class=\\"\\" style=\\"vertical-align:top;width:616px;\\"
-            >
-          <![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:616px;\\" ><![endif]-->
             
       <div
          class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
@@ -401,35 +439,21 @@ exports[`Render new transaction templates Default 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
-      
-    <!--[if mso | IE]>
-    
-        <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td height=\\"8\\" style=\\"height:8px;\\">
-      
-    <![endif]-->
-  
-      <div
-         style=\\"height:8px;\\"
-      >
-        &nbsp;
-      </div>
-      
-    <!--[if mso | IE]>
-    
-        </td></tr></table>
-      
-    <![endif]-->
-  
-    
-              </td>
-            </tr>
+        <tbody>
           
+              <tr>
+                <td
+                   style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"height:8px;line-height:8px;\\"
+      >&#8202;</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -439,13 +463,7 @@ exports[`Render new transaction templates Default 1`] = `
     
       </div>
     
-          <!--[if mso | IE]>
-            </td>
-          
-        </tr>
-      
-                  </table>
-                <![endif]-->
+          <!--[if mso | IE]></td></tr></table><![endif]-->
               </td>
             </tr>
           </tbody>
@@ -453,24 +471,7 @@ exports[`Render new transaction templates Default 1`] = `
         </div>
       </div>
     
-        <!--[if mso | IE]>
-        </v:textbox>
-      </v:rect>
-    
-          </td>
-        </tr>
-      </table>
-      
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:616px;\\" width=\\"616\\"
-      >
-        <tr>
-          <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
-      
-        <v:rect  style=\\"width:616px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\">
-        <v:fill  origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"http://localhost:3000/static/templates/basic/bg.jpg\\" color=\\"white\\" type=\\"tile\\" size=\\"616px\\" aspect=\\"atmost\\" />
-        <v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\">
-      <![endif]-->
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:616px;\\" width=\\"616\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:616px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"http://localhost:3000/static/templates/basic/bg.jpg\\" color=\\"white\\" type=\\"tile\\" size=\\"616px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
           
       <div  style=\\"background:white url(http://localhost:3000/static/templates/basic/bg.jpg) center top / 616px repeat;background-position:center top;background-repeat:repeat;background-size:616px;margin:0px auto;max-width:616px;\\">
         <div  style=\\"line-height:0;font-size:0;\\">
@@ -482,15 +483,7 @@ exports[`Render new transaction templates Default 1`] = `
               <td
                  style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:0px;padding-left:40px;padding-right:40px;padding-top:32px;text-align:center;\\"
               >
-                <!--[if mso | IE]>
-                  <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
-                
-        <tr>
-      
-            <td
-               class=\\"\\" style=\\"vertical-align:top;width:536px;\\"
-            >
-          <![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
             
       <div
          class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
@@ -506,19 +499,21 @@ exports[`Render new transaction templates Default 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:18px;line-height:1.5;text-align:left;color:#4a4a4a;\\"
       >Hi Temp Liker ID, <br/><br/> You have received 100 LikeCoin from Temp Liker ID. <br/> Check the transaction details:</div>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -528,13 +523,7 @@ exports[`Render new transaction templates Default 1`] = `
     
       </div>
     
-          <!--[if mso | IE]>
-            </td>
-          
-        </tr>
-      
-                  </table>
-                <![endif]-->
+          <!--[if mso | IE]></td></tr></table><![endif]-->
               </td>
             </tr>
           </tbody>
@@ -542,24 +531,7 @@ exports[`Render new transaction templates Default 1`] = `
         </div>
       </div>
     
-        <!--[if mso | IE]>
-        </v:textbox>
-      </v:rect>
-    
-          </td>
-        </tr>
-      </table>
-      
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:616px;\\" width=\\"616\\"
-      >
-        <tr>
-          <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
-      
-        <v:rect  style=\\"width:616px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\">
-        <v:fill  origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"http://localhost:3000/static/templates/basic/bg.jpg\\" color=\\"white\\" type=\\"tile\\" size=\\"616px\\" aspect=\\"atmost\\" />
-        <v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\">
-      <![endif]-->
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:616px;\\" width=\\"616\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:616px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"http://localhost:3000/static/templates/basic/bg.jpg\\" color=\\"white\\" type=\\"tile\\" size=\\"616px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
           
       <div  style=\\"background:white url(http://localhost:3000/static/templates/basic/bg.jpg) center top / 616px repeat;background-position:center top;background-repeat:repeat;background-size:616px;margin:0px auto;max-width:616px;\\">
         <div  style=\\"line-height:0;font-size:0;\\">
@@ -571,15 +543,7 @@ exports[`Render new transaction templates Default 1`] = `
               <td
                  style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:0px;padding-left:40px;padding-right:40px;padding-top:32px;text-align:center;\\"
               >
-                <!--[if mso | IE]>
-                  <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
-                
-        <tr>
-      
-            <td
-               class=\\"\\" style=\\"vertical-align:top;width:536px;\\"
-            >
-          <![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
             
       <div
          class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
@@ -595,19 +559,21 @@ exports[`Render new transaction templates Default 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:18px;line-height:1.5;text-align:left;color:#28646e;\\"
       >https://example.com</div>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -617,13 +583,7 @@ exports[`Render new transaction templates Default 1`] = `
     
       </div>
     
-          <!--[if mso | IE]>
-            </td>
-          
-        </tr>
-      
-                  </table>
-                <![endif]-->
+          <!--[if mso | IE]></td></tr></table><![endif]-->
               </td>
             </tr>
           </tbody>
@@ -631,24 +591,7 @@ exports[`Render new transaction templates Default 1`] = `
         </div>
       </div>
     
-        <!--[if mso | IE]>
-        </v:textbox>
-      </v:rect>
-    
-          </td>
-        </tr>
-      </table>
-      
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:616px;\\" width=\\"616\\"
-      >
-        <tr>
-          <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
-      
-        <v:rect  style=\\"width:616px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\">
-        <v:fill  origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"http://localhost:3000/static/templates/basic/bg.jpg\\" color=\\"white\\" type=\\"tile\\" size=\\"616px\\" aspect=\\"atmost\\" />
-        <v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\">
-      <![endif]-->
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:616px;\\" width=\\"616\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:616px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"http://localhost:3000/static/templates/basic/bg.jpg\\" color=\\"white\\" type=\\"tile\\" size=\\"616px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
           
       <div  style=\\"background:white url(http://localhost:3000/static/templates/basic/bg.jpg) center top / 616px repeat;background-position:center top;background-repeat:repeat;background-size:616px;margin:0px auto;max-width:616px;\\">
         <div  style=\\"line-height:0;font-size:0;\\">
@@ -660,15 +603,7 @@ exports[`Render new transaction templates Default 1`] = `
               <td
                  style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:0px;padding-left:40px;padding-right:40px;padding-top:32px;text-align:center;\\"
               >
-                <!--[if mso | IE]>
-                  <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
-                
-        <tr>
-      
-            <td
-               class=\\"\\" style=\\"vertical-align:top;width:536px;\\"
-            >
-          <![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
             
       <div
          class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
@@ -684,19 +619,21 @@ exports[`Render new transaction templates Default 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:18px;line-height:1.5;text-align:left;color:#4a4a4a;\\"
       >Remarks： likecoin remark</div>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -706,13 +643,7 @@ exports[`Render new transaction templates Default 1`] = `
     
       </div>
     
-          <!--[if mso | IE]>
-            </td>
-          
-        </tr>
-      
-                  </table>
-                <![endif]-->
+          <!--[if mso | IE]></td></tr></table><![endif]-->
               </td>
             </tr>
           </tbody>
@@ -720,24 +651,7 @@ exports[`Render new transaction templates Default 1`] = `
         </div>
       </div>
     
-        <!--[if mso | IE]>
-        </v:textbox>
-      </v:rect>
-    
-          </td>
-        </tr>
-      </table>
-      
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:616px;\\" width=\\"616\\"
-      >
-        <tr>
-          <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
-      
-        <v:rect  style=\\"width:616px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\">
-        <v:fill  origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"http://localhost:3000/static/templates/basic/bg.jpg\\" color=\\"white\\" type=\\"tile\\" size=\\"616px\\" aspect=\\"atmost\\" />
-        <v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\">
-      <![endif]-->
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:616px;\\" width=\\"616\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:616px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"http://localhost:3000/static/templates/basic/bg.jpg\\" color=\\"white\\" type=\\"tile\\" size=\\"616px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
           
       <div  style=\\"background:white url(http://localhost:3000/static/templates/basic/bg.jpg) center top / 616px repeat;background-position:center top;background-repeat:repeat;background-size:616px;margin:0px auto;max-width:616px;\\">
         <div  style=\\"line-height:0;font-size:0;\\">
@@ -749,15 +663,7 @@ exports[`Render new transaction templates Default 1`] = `
               <td
                  style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:32px;padding-left:16px;padding-right:16px;padding-top:32px;text-align:center;\\"
               >
-                <!--[if mso | IE]>
-                  <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
-                
-        <tr>
-      
-            <td
-               class=\\"\\" style=\\"vertical-align:top;width:584px;\\"
-            >
-          <![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:584px;\\" ><![endif]-->
             
       <div
          class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
@@ -773,12 +679,13 @@ exports[`Render new transaction templates Default 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-bottom:16px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-bottom:16px;word-break:break-word;\\"
+                >
+                  
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:collapse;border-spacing:0px;\\"
       >
@@ -795,23 +702,16 @@ exports[`Render new transaction templates Default 1`] = `
         </tbody>
       </table>
     
-              </td>
-            </tr>
-          
-            <tr>
-              <td
-                 align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-right:24px;padding-left:24px;word-break:break-word;\\"
-              >
-                
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-right:24px;padding-left:24px;word-break:break-word;\\"
+                >
+                  
       
-     <!--[if mso | IE]>
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\"
-      >
-        <tr>
-      
-              <td>
-            <![endif]-->
+     <!--[if mso | IE]><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" ><tr><td><![endif]-->
               <table
                  align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
               >
@@ -838,11 +738,7 @@ exports[`Render new transaction templates Default 1`] = `
       </tr>
     
               </table>
-            <!--[if mso | IE]>
-              </td>
-            
-              <td>
-            <![endif]-->
+            <!--[if mso | IE]></td><td><![endif]-->
               <table
                  align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
               >
@@ -869,17 +765,13 @@ exports[`Render new transaction templates Default 1`] = `
       </tr>
     
               </table>
-            <!--[if mso | IE]>
-              </td>
+            <!--[if mso | IE]></td></tr></table><![endif]-->
+    
+    
+                </td>
+              </tr>
             
-          </tr>
-        </table>
-      <![endif]-->
-    
-    
-              </td>
-            </tr>
-          
+        </tbody>
       </table>
     
             </td>
@@ -889,13 +781,7 @@ exports[`Render new transaction templates Default 1`] = `
     
       </div>
     
-          <!--[if mso | IE]>
-            </td>
-          
-        </tr>
-      
-                  </table>
-                <![endif]-->
+          <!--[if mso | IE]></td></tr></table><![endif]-->
               </td>
             </tr>
           </tbody>
@@ -903,20 +789,7 @@ exports[`Render new transaction templates Default 1`] = `
         </div>
       </div>
     
-        <!--[if mso | IE]>
-        </v:textbox>
-      </v:rect>
-    
-          </td>
-        </tr>
-      </table>
-      
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:616px;\\" width=\\"616\\"
-      >
-        <tr>
-          <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
-      <![endif]-->
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:616px;\\" width=\\"616\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
     
       
       <div  style=\\"background:white;background-color:white;margin:0px auto;max-width:616px;\\">
@@ -929,15 +802,7 @@ exports[`Render new transaction templates Default 1`] = `
               <td
                  style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:24px;padding-left:40px;padding-right:40px;padding-top:24px;text-align:center;\\"
               >
-                <!--[if mso | IE]>
-                  <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
-                
-        <tr>
-      
-            <td
-               class=\\"\\" style=\\"vertical-align:top;width:536px;\\"
-            >
-          <![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
             
       <div
          class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
@@ -953,21 +818,15 @@ exports[`Render new transaction templates Default 1`] = `
       <table
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
-        
-            <tr>
-              <td
-                 align=\\"center\\" style=\\"background:white;font-size:0px;padding:0px;padding-top:8px;padding-bottom:8px;word-break:break-word;\\"
-              >
-                
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"background:white;font-size:0px;padding:0px;padding-top:8px;padding-bottom:8px;word-break:break-word;\\"
+                >
+                  
       
-     <!--[if mso | IE]>
-      <table
-         align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\"
-      >
-        <tr>
-      
-              <td>
-            <![endif]-->
+     <!--[if mso | IE]><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" ><tr><td><![endif]-->
               <table
                  align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
               >
@@ -994,11 +853,7 @@ exports[`Render new transaction templates Default 1`] = `
       </tr>
     
               </table>
-            <!--[if mso | IE]>
-              </td>
-            
-              <td>
-            <![endif]-->
+            <!--[if mso | IE]></td><td><![endif]-->
               <table
                  align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
               >
@@ -1025,11 +880,7 @@ exports[`Render new transaction templates Default 1`] = `
       </tr>
     
               </table>
-            <!--[if mso | IE]>
-              </td>
-            
-              <td>
-            <![endif]-->
+            <!--[if mso | IE]></td><td><![endif]-->
               <table
                  align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
               >
@@ -1056,11 +907,7 @@ exports[`Render new transaction templates Default 1`] = `
       </tr>
     
               </table>
-            <!--[if mso | IE]>
-              </td>
-            
-              <td>
-            <![endif]-->
+            <!--[if mso | IE]></td><td><![endif]-->
               <table
                  align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
               >
@@ -1087,11 +934,7 @@ exports[`Render new transaction templates Default 1`] = `
       </tr>
     
               </table>
-            <!--[if mso | IE]>
-              </td>
-            
-              <td>
-            <![endif]-->
+            <!--[if mso | IE]></td><td><![endif]-->
               <table
                  align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
               >
@@ -1118,41 +961,37 @@ exports[`Render new transaction templates Default 1`] = `
       </tr>
     
               </table>
-            <!--[if mso | IE]>
-              </td>
+            <!--[if mso | IE]></td></tr></table><![endif]-->
+    
+    
+                </td>
+              </tr>
             
-          </tr>
-        </table>
-      <![endif]-->
-    
-    
-              </td>
-            </tr>
-          
-            <tr>
-              <td
-                 align=\\"center\\" style=\\"font-size:0px;padding:4px;word-break:break-word;\\"
-              >
-                
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:4px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:14px;line-height:1.5;text-align:center;color:#4a4a4a;\\"
       ><a href=\\"https://docs.like.co?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">Help Center</a></div>
     
-              </td>
-            </tr>
-          
-            <tr>
-              <td
-                 align=\\"center\\" style=\\"font-size:0px;padding:4px;word-break:break-word;\\"
-              >
-                
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:4px;word-break:break-word;\\"
+                >
+                  
       <div
          style=\\"font-family:Arial;font-size:14px;line-height:1.5;text-align:center;color:#4a4a4a;\\"
       ><a href=\\"https://like.co/in/settings/others?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">Unsubscribe</a></div>
     
-              </td>
-            </tr>
-          
+                </td>
+              </tr>
+            
+        </tbody>
       </table>
     
             </td>
@@ -1162,13 +1001,7 @@ exports[`Render new transaction templates Default 1`] = `
     
       </div>
     
-          <!--[if mso | IE]>
-            </td>
-          
-        </tr>
-      
-                  </table>
-                <![endif]-->
+          <!--[if mso | IE]></td></tr></table><![endif]-->
               </td>
             </tr>
           </tbody>
@@ -1177,11 +1010,7 @@ exports[`Render new transaction templates Default 1`] = `
       </div>
     
       
-      <!--[if mso | IE]>
-          </td>
-        </tr>
-      </table>
-      <![endif]-->
+      <!--[if mso | IE]></td></tr></table><![endif]-->
     
     
       </div>

@@ -8,17 +8,14 @@ import {
 
 describe('Render new transaction templates', () => {
   it('Default', () => {
-    const { body } = getTransactionTemplate(
-      {
-        language: 'en',
-        toDisplayName: SAMPLE_LIKER_DISPLAY_NAME,
-        fromDisplayName: SAMPLE_LIKER_DISPLAY_NAME,
-        viewTxURL: SAMPLE_URL,
-        amount: '100',
-        remarks: SAMPLE_REMARK,
-      },
-      { minify: false }
-    );
+    const { body } = getTransactionTemplate({
+      language: 'en',
+      toDisplayName: SAMPLE_LIKER_DISPLAY_NAME,
+      fromDisplayName: SAMPLE_LIKER_DISPLAY_NAME,
+      viewTxURL: SAMPLE_URL,
+      amount: '100',
+      remarks: SAMPLE_REMARK,
+    });
     expect(body).toMatchSnapshot();
   });
 });

@@ -8,17 +8,14 @@ import {
 
 describe('Render new supporter templates', () => {
   it('Default', () => {
-    const { body } = getNewSupporterTemplate(
-      {
-        title: SAMPLE_TEXT,
-        content: SAMPLE_RICH_TEXT,
-        isCivicLiker: true,
-        avatarURL: SAMPLE_IMAGE_URL,
-        billingPlan: 'USD100/month',
-        amount: 20,
-      },
-      { minify: false }
-    );
+    const { body } = getNewSupporterTemplate({
+      title: SAMPLE_TEXT,
+      content: SAMPLE_RICH_TEXT,
+      isCivicLiker: true,
+      avatarURL: SAMPLE_IMAGE_URL,
+      billingPlan: 'USD100/month',
+      amount: 20,
+    });
     expect(body).toMatchSnapshot();
   });
 });

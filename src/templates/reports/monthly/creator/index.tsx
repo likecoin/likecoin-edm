@@ -74,6 +74,14 @@ export const MonthlyReportCreatorTemplate = ({
         timestamp={timestamp}
       />
 
+      <BasicSection backgroundColor="white" paddingBottom={0}>
+        <MjmlColumn>
+          <MjmlText color={Colors.LikeGreen} fontSize={16} fontWeight={600}>
+            <FormattedMessage id="greeting" values={{ name: displayName }} />
+          </MjmlText>
+        </MjmlColumn>
+      </BasicSection>
+
       <BasicSection paddingTop={48} paddingBottom={24} backgroundColor="white">
         <MjmlColumn>
           <MjmlText fontSize={16} fontWeight={600} align="center">

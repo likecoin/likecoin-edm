@@ -455,7 +455,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
                   
       <div
          style=\\"font-family:Arial;font-size:28px;font-weight:600;line-height:1.5;text-align:left;color:white;\\"
-      >你的讚賞公民月報</div>
+      >讚賞公民每月贊助報告</div>
     
                 </td>
               </tr>
@@ -1647,7 +1647,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
                   
       <div
          style=\\"font-family:Arial;font-size:28px;font-weight:600;line-height:1.5;text-align:left;color:white;\\"
-      >你的讚賞公民月報</div>
+      >讚賞公民每月贊助報告</div>
     
                 </td>
               </tr>
@@ -1878,7 +1878,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
                   
       <div
          style=\\"font-family:Arial;font-size:16px;line-height:1.5;text-align:center;color:#9b9b9b;\\"
-      >讚賞公民訂閱</div>
+      >個別訂閱</div>
     
                 </td>
               </tr>
@@ -1982,7 +1982,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
                   
       <div
          style=\\"font-family:Arial;font-size:16px;line-height:1.5;text-align:center;color:#9b9b9b;\\"
-      >按讚分配創作基金</div>
+      >創作基金（按讚分配）</div>
     
                 </td>
               </tr>
@@ -2054,7 +2054,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
                   
       <div
          style=\\"font-family:Arial;font-size:16px;font-weight:600;line-height:1.5;text-align:left;color:#4a4a4a;\\"
-      >已訂閱的作者</div>
+      >每月訂閱</div>
     
                 </td>
               </tr>
@@ -2104,7 +2104,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
                   
       <div
          style=\\"font-family:Arial;font-size:16px;line-height:1.5;text-align:left;color:#4a4a4a;\\"
-      ><mj-text>高達 10,000 美元的额外創作基金，將透過讚賞公民的按讚而分配給作者。<a target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:none\\">一起按讚文章，支持作者！</a></mj-text></div>
+      ><mj-text>創作基金為鼓勵優質內容而設，根據讚賞公民的按讚分配給作者。<a target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:none\\">一起按讚文章，支持作者吧！</a></mj-text></div>
     
                 </td>
               </tr>
@@ -2117,7 +2117,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
       <table
          cellpadding=\\"8px\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\" style=\\"color:#4a4a4a;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;border:none;\\"
       >
-        <tr style=\\"vertical-align:middle;border-top:none;border-bottom:none\\"><td style=\\"font-size:14px;display:block;text-align:center\\"><mj-text color=\\"#9b9b9b\\" font-size=\\"14px\\" align=\\"right\\">還有 3 個作者</mj-text></td></tr>
+        <tr style=\\"vertical-align:middle;border-top:none;border-bottom:none\\"><td style=\\"font-size:14px;display:block;text-align:center\\"><mj-text color=\\"#9b9b9b\\" font-size=\\"14px\\" align=\\"right\\">及其他 3 位作者</mj-text></td></tr>
       </table>
     
                 </td>
@@ -2138,7 +2138,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
             <p
                style=\\"display:inline-block;background:#e6e6e6;color:#9b9b9b;font-family:Helvetica-Bold;font-size:14px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:23px;\\"
             >
-              點擊LikeCoin讚賞鍵，支持你喜歡的創作者
+              點擊 LikeCoin button，支持你喜歡的創作者
             </p>
           </td>
         </tr>

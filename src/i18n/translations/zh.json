@@ -31,7 +31,7 @@
   "report.monthly.civic-liker.creatorsfund.description.none": "創作基金為鼓勵優質內容而設，根據讚賞公民的按讚分配給作者。<a>一起按讚文章，支持作者吧！</a>",
   "report.monthly.civic-liker.creatorsfund.contents.more": "及其他 {count} 位作者",
   "report.monthly.civic-liker.creatorsfund.contents.none": "點擊 LikeCoin button，支持你喜歡的創作者",
-  "report.monthly.civic-liker.creatorsfund.badge.count.prepend": "你購買了 Civic Liker classic 會籍，本月定額付出 5 美元，透過按讚已分配給",
+  "report.monthly.civic-liker.creatorsfund.badge.count.prepend": "你參加了 Civic Liker Classic，本月已透過按讚分配 5 美元給",
   "report.monthly.civic-liker.creatorsfund.badge.count.append": "位創作者",
 
   "report.monthly.creator.subject": "每月讚賞收入報告 ({date})",

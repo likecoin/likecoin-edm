@@ -34,7 +34,7 @@
   "report.monthly.civic-liker.creatorsfund.contents.more": "and {count} more",
   "report.monthly.civic-liker.creatorsfund.contents.none": "Click LikeCoin button to support creators you love",
   "report.monthly.civic-liker.creatorsfund.badge.count.prepend": "You also supported",
-  "report.monthly.civic-liker.creatorsfund.badge.count.append": "creators",
+  "report.monthly.civic-liker.creatorsfund.badge.count.append": "creators by Civic Liker Classic",
 
   "report.monthly.creator.subject": "Monthly LikeCoin Reward Summary ({date})",
   "report.monthly.creator.title": "Monthly LikeCoin Reward Summary",

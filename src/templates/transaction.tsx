@@ -5,7 +5,7 @@ import { MjmlColumn, MjmlText, MjmlSpacer, MjmlImage } from 'mjml-react';
 import * as Colors from '../constants/colors';
 import { getAssetPath } from '../utils/url';
 
-import { AppCTASection } from '../components/cta-app';
+import { CivicLikerCTASection } from '../components/cta-civic-liker';
 import { FooterSection } from '../components/footer';
 import { HeaderSection } from '../components/header';
 import { BasicSection } from '../components/sections/basic';
@@ -131,7 +131,7 @@ export const TransactionTemplate = ({
           </MjmlText>
         </MjmlColumn>
       </BasicSection>
-      <AppCTASection />
+      <CivicLikerCTASection />
       <FooterSection />
     </TemplateBase>
   );

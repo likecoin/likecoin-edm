@@ -8,7 +8,7 @@ import * as Colors from '../constants/colors';
 import { getAssetPath } from '../utils/url';
 
 import { Avatar } from '../components/avatar';
-import { AppCTASection } from '../components/cta-app';
+import { CivicLikerCTASection } from '../components/cta-civic-liker';
 import { FooterSection } from '../components/footer';
 import { HeaderSection } from '../components/header';
 import { Link } from '../components/link';
@@ -157,7 +157,7 @@ export const ReferralTxTemplate = ({
           </MjmlText>
         </MjmlColumn>
       </BasicSection>
-      <AppCTASection />
+      <CivicLikerCTASection />
       <FooterSection />
     </TemplateBase>
   );

@@ -1,9 +1,5 @@
 import * as React from 'react';
-import { MjmlColumn, MjmlImage, MjmlGroup, MjmlText } from 'mjml-react';
-import { FormattedMessage } from 'react-intl';
-import * as Colors from '../constants/colors';
-import { GetAppLink } from '../components/link';
-
+import { MjmlColumn, MjmlImage, MjmlGroup } from 'mjml-react';
 import { getAssetPath } from '../utils/url';
 
 import { BasicSection } from './sections/basic';
@@ -25,27 +21,6 @@ export const HeaderSection = () => {
               '/banners/like-coin-press-kit-liker-land-dark@3x.png'
             )}
           />
-        </MjmlColumn>
-        <MjmlColumn width="15%" cssClass="hide_on_mobile">
-          <MjmlText
-            color={Colors.Grey4A}
-            fontSize={14}
-            fontWeight={600}
-            lineHeight="3.0"
-            align="right"
-          >
-            <FormattedMessage id="download" />
-          </MjmlText>
-        </MjmlColumn>
-        <MjmlColumn width="10%" cssClass="hide_on_mobile">
-          <MjmlText fontSize={14} lineHeight="3.0" align="center">
-            <GetAppLink>iOS</GetAppLink>
-          </MjmlText>
-        </MjmlColumn>
-        <MjmlColumn width="10%" cssClass="hide_on_mobile">
-          <MjmlText fontSize={14} lineHeight="3.0">
-            <GetAppLink>Android</GetAppLink>
-          </MjmlText>
         </MjmlColumn>
       </MjmlGroup>
     </BasicSection>

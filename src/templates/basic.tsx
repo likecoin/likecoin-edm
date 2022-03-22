@@ -5,7 +5,7 @@ import * as Colors from '../constants/colors';
 import { getAssetPath } from '../utils/url';
 
 import { ContentSection } from '../components/content';
-import { AppCTASection } from '../components/cta-app';
+import { CivicLikerCTASection } from '../components/cta-civic-liker';
 import { FooterSection } from '../components/footer';
 import { HeaderSection } from '../components/header';
 import { BasicSection } from '../components/sections/basic';
@@ -89,7 +89,7 @@ export const BasicTemplate = ({
         </MjmlColumn>
       </BasicSection>
       <ContentSection content={content} />
-      <AppCTASection />
+      <CivicLikerCTASection />
       <FooterSection />
     </TemplateBase>
   );

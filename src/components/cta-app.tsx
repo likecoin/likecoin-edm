@@ -16,7 +16,7 @@ const GET_APP_URL = wrapUtm('https://likecoin.page.link/likerland');
 
 export const AppCTASection = () => {
   const intl = useIntl();
-  const bannerSrc = getAssetPath(`/banners/cta-civic-liker/${intl.locale}.png`);
+  const bannerSrc = getAssetPath(`/banners/cta-app/${intl.locale}.png`);
   return (
     <BasicSection paddingLeft={16} paddingRight={16}>
       <MjmlColumn>

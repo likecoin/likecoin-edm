@@ -41,10 +41,9 @@ exports[`Render writer monthly report templates Default 1`] = `
       @media only screen and (min-width:576px) {
         .mj-column-per-100 { width:100% !important; max-width: 100%; }
 .mj-column-per-65 { width:65% !important; max-width: 65%; }
-.mj-column-per-15 { width:15% !important; max-width: 15%; }
-.mj-column-per-10 { width:10% !important; max-width: 10%; }
 .mj-column-per-20 { width:20% !important; max-width: 20%; }
 .mj-column-per-80 { width:80% !important; max-width: 80%; }
+.mj-column-per-15 { width:15% !important; max-width: 15%; }
 .mj-column-per-70 { width:70% !important; max-width: 70%; }
 .mj-column-per-40 { width:40% !important; max-width: 40%; }
 .mj-column-px-72 { width:72px !important; max-width: 72px; }
@@ -53,10 +52,9 @@ exports[`Render writer monthly report templates Default 1`] = `
     <style media=\\"screen and (min-width:576px)\\">
       .moz-text-html .mj-column-per-100 { width:100% !important; max-width: 100%; }
 .moz-text-html .mj-column-per-65 { width:65% !important; max-width: 65%; }
-.moz-text-html .mj-column-per-15 { width:15% !important; max-width: 15%; }
-.moz-text-html .mj-column-per-10 { width:10% !important; max-width: 10%; }
 .moz-text-html .mj-column-per-20 { width:20% !important; max-width: 20%; }
 .moz-text-html .mj-column-per-80 { width:80% !important; max-width: 80%; }
+.moz-text-html .mj-column-per-15 { width:15% !important; max-width: 15%; }
 .moz-text-html .mj-column-per-70 { width:70% !important; max-width: 70%; }
 .moz-text-html .mj-column-per-40 { width:40% !important; max-width: 40%; }
 .moz-text-html .mj-column-px-72 { width:72px !important; max-width: 72px; }
@@ -142,126 +140,6 @@ exports[`Render writer monthly report templates Default 1`] = `
           </tr>
         </tbody>
       </table>
-    
-                </td>
-              </tr>
-            
-        </tbody>
-      </table>
-    
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
-      </div>
-    
-              <!--[if mso | IE]></td><td style=\\"vertical-align:top;width:78px;\\" ><![endif]-->
-                
-      <div
-         class=\\"mj-column-per-15 mj-outlook-group-fix hide_on_mobile\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:15%;\\"
-      >
-        
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
-      >
-        <tbody>
-          <tr>
-            <td  style=\\"vertical-align:top;padding:0px;\\">
-              
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
-      >
-        <tbody>
-          
-              <tr>
-                <td
-                   align=\\"right\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-                >
-                  
-      <div
-         style=\\"font-family:Arial;font-size:14px;font-weight:600;line-height:3.0;text-align:right;color:#4a4a4a;\\"
-      >下載:</div>
-    
-                </td>
-              </tr>
-            
-        </tbody>
-      </table>
-    
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
-      </div>
-    
-              <!--[if mso | IE]></td><td style=\\"vertical-align:top;width:52px;\\" ><![endif]-->
-                
-      <div
-         class=\\"mj-column-per-10 mj-outlook-group-fix hide_on_mobile\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:10%;\\"
-      >
-        
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
-      >
-        <tbody>
-          <tr>
-            <td  style=\\"vertical-align:top;padding:0px;\\">
-              
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
-      >
-        <tbody>
-          
-              <tr>
-                <td
-                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-                >
-                  
-      <div
-         style=\\"font-family:Arial;font-size:14px;line-height:3.0;text-align:center;color:#4a4a4a;\\"
-      ><a href=\\"https://liker.land/getapp\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" color=\\"#9b9b9b\\">iOS</a></div>
-    
-                </td>
-              </tr>
-            
-        </tbody>
-      </table>
-    
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
-      </div>
-    
-              <!--[if mso | IE]></td><td style=\\"vertical-align:top;width:52px;\\" ><![endif]-->
-                
-      <div
-         class=\\"mj-column-per-10 mj-outlook-group-fix hide_on_mobile\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:10%;\\"
-      >
-        
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
-      >
-        <tbody>
-          <tr>
-            <td  style=\\"vertical-align:top;padding:0px;\\">
-              
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
-      >
-        <tbody>
-          
-              <tr>
-                <td
-                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-                >
-                  
-      <div
-         style=\\"font-family:Arial;font-size:14px;line-height:3.0;text-align:left;color:#4a4a4a;\\"
-      ><a href=\\"https://liker.land/getapp\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" color=\\"#9b9b9b\\">Android</a></div>
     
                 </td>
               </tr>
@@ -471,7 +349,7 @@ exports[`Render writer monthly report templates Default 1`] = `
                   
       <div
          style=\\"font-family:Arial;font-size:18px;font-weight:600;line-height:1.5;text-align:left;color:#50e3c2;\\"
-      >2021年1月</div>
+      >1年2021月</div>
     
                 </td>
               </tr>

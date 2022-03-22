@@ -41,16 +41,12 @@ exports[`Render basic templates Default 1`] = `
       @media only screen and (min-width:576px) {
         .mj-column-per-100 { width:100% !important; max-width: 100%; }
 .mj-column-per-65 { width:65% !important; max-width: 65%; }
-.mj-column-per-15 { width:15% !important; max-width: 15%; }
-.mj-column-per-10 { width:10% !important; max-width: 10%; }
 .mj-column-px-120 { width:120px !important; max-width: 120px; }
       }
     </style>
     <style media=\\"screen and (min-width:576px)\\">
       .moz-text-html .mj-column-per-100 { width:100% !important; max-width: 100%; }
 .moz-text-html .mj-column-per-65 { width:65% !important; max-width: 65%; }
-.moz-text-html .mj-column-per-15 { width:15% !important; max-width: 15%; }
-.moz-text-html .mj-column-per-10 { width:10% !important; max-width: 10%; }
 .moz-text-html .mj-column-px-120 { width:120px !important; max-width: 120px; }
     </style>
     
@@ -134,126 +130,6 @@ exports[`Render basic templates Default 1`] = `
           </tr>
         </tbody>
       </table>
-    
-                </td>
-              </tr>
-            
-        </tbody>
-      </table>
-    
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
-      </div>
-    
-              <!--[if mso | IE]></td><td style=\\"vertical-align:top;width:80px;\\" ><![endif]-->
-                
-      <div
-         class=\\"mj-column-per-15 mj-outlook-group-fix hide_on_mobile\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:15%;\\"
-      >
-        
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
-      >
-        <tbody>
-          <tr>
-            <td  style=\\"vertical-align:top;padding:0px;\\">
-              
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
-      >
-        <tbody>
-          
-              <tr>
-                <td
-                   align=\\"right\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-                >
-                  
-      <div
-         style=\\"font-family:Arial;font-size:14px;font-weight:600;line-height:3.0;text-align:right;color:#4a4a4a;\\"
-      >下載:</div>
-    
-                </td>
-              </tr>
-            
-        </tbody>
-      </table>
-    
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
-      </div>
-    
-              <!--[if mso | IE]></td><td style=\\"vertical-align:top;width:53px;\\" ><![endif]-->
-                
-      <div
-         class=\\"mj-column-per-10 mj-outlook-group-fix hide_on_mobile\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:10%;\\"
-      >
-        
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
-      >
-        <tbody>
-          <tr>
-            <td  style=\\"vertical-align:top;padding:0px;\\">
-              
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
-      >
-        <tbody>
-          
-              <tr>
-                <td
-                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-                >
-                  
-      <div
-         style=\\"font-family:Arial;font-size:14px;line-height:3.0;text-align:center;color:#4a4a4a;\\"
-      ><a href=\\"https://liker.land/getapp\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" color=\\"#9b9b9b\\">iOS</a></div>
-    
-                </td>
-              </tr>
-            
-        </tbody>
-      </table>
-    
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
-      </div>
-    
-              <!--[if mso | IE]></td><td style=\\"vertical-align:top;width:53px;\\" ><![endif]-->
-                
-      <div
-         class=\\"mj-column-per-10 mj-outlook-group-fix hide_on_mobile\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:10%;\\"
-      >
-        
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
-      >
-        <tbody>
-          <tr>
-            <td  style=\\"vertical-align:top;padding:0px;\\">
-              
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
-      >
-        <tbody>
-          
-              <tr>
-                <td
-                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-                >
-                  
-      <div
-         style=\\"font-family:Arial;font-size:14px;line-height:3.0;text-align:left;color:#4a4a4a;\\"
-      ><a href=\\"https://liker.land/getapp\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" color=\\"#9b9b9b\\">Android</a></div>
     
                 </td>
               </tr>
@@ -562,79 +438,13 @@ exports[`Render basic templates Default 1`] = `
             <td  style=\\"width:400px;\\">
               
       <img
-         alt=\\"Liker Land App\\" height=\\"auto\\" src=\\"http://localhost:3000/static/banners/cta-app/zh.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"400\\"
+         alt=\\"Join as a Civic Liker\\" height=\\"auto\\" src=\\"http://localhost:3000/static/banners/cta-civic-liker/zh.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"400\\"
       />
     
             </td>
           </tr>
         </tbody>
       </table>
-    
-                </td>
-              </tr>
-            
-              <tr>
-                <td
-                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-right:24px;padding-left:24px;word-break:break-word;\\"
-                >
-                  
-      
-     <!--[if mso | IE]><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" ><tr><td><![endif]-->
-              <table
-                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
-              >
-                
-      <tr
-        
-      >
-        <td  style=\\"padding:8px;vertical-align:middle;\\">
-          <table
-             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:3px;width:106px;\\"
-          >
-            <tr>
-              <td  style=\\"font-size:0;height:35px;vertical-align:middle;width:106px;\\">
-                <a  href=\\"https://likecoin.page.link/likerland?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
-                    <img
-                       height=\\"35\\" src=\\"http://localhost:3000/static/badges/app-store.png\\" style=\\"border-radius:3px;display:block;\\" width=\\"106\\"
-                    />
-                  </a>
-                </td>
-              </tr>
-          </table>
-        </td>
-        
-      </tr>
-    
-              </table>
-            <!--[if mso | IE]></td><td><![endif]-->
-              <table
-                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
-              >
-                
-      <tr
-        
-      >
-        <td  style=\\"padding:8px;vertical-align:middle;\\">
-          <table
-             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:3px;width:119px;\\"
-          >
-            <tr>
-              <td  style=\\"font-size:0;height:35px;vertical-align:middle;width:119px;\\">
-                <a  href=\\"https://likecoin.page.link/likerland?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
-                    <img
-                       height=\\"35\\" src=\\"http://localhost:3000/static/badges/google-play.png\\" style=\\"border-radius:3px;display:block;\\" width=\\"119\\"
-                    />
-                  </a>
-                </td>
-              </tr>
-          </table>
-        </td>
-        
-      </tr>
-    
-              </table>
-            <!--[if mso | IE]></td></tr></table><![endif]-->
-    
     
                 </td>
               </tr>
@@ -929,16 +739,12 @@ exports[`Render basic templates With avatar (Civic Liker) 1`] = `
       @media only screen and (min-width:576px) {
         .mj-column-per-100 { width:100% !important; max-width: 100%; }
 .mj-column-per-65 { width:65% !important; max-width: 65%; }
-.mj-column-per-15 { width:15% !important; max-width: 15%; }
-.mj-column-per-10 { width:10% !important; max-width: 10%; }
 .mj-column-px-120 { width:120px !important; max-width: 120px; }
       }
     </style>
     <style media=\\"screen and (min-width:576px)\\">
       .moz-text-html .mj-column-per-100 { width:100% !important; max-width: 100%; }
 .moz-text-html .mj-column-per-65 { width:65% !important; max-width: 65%; }
-.moz-text-html .mj-column-per-15 { width:15% !important; max-width: 15%; }
-.moz-text-html .mj-column-per-10 { width:10% !important; max-width: 10%; }
 .moz-text-html .mj-column-px-120 { width:120px !important; max-width: 120px; }
     </style>
     
@@ -1022,126 +828,6 @@ exports[`Render basic templates With avatar (Civic Liker) 1`] = `
           </tr>
         </tbody>
       </table>
-    
-                </td>
-              </tr>
-            
-        </tbody>
-      </table>
-    
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
-      </div>
-    
-              <!--[if mso | IE]></td><td style=\\"vertical-align:top;width:80px;\\" ><![endif]-->
-                
-      <div
-         class=\\"mj-column-per-15 mj-outlook-group-fix hide_on_mobile\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:15%;\\"
-      >
-        
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
-      >
-        <tbody>
-          <tr>
-            <td  style=\\"vertical-align:top;padding:0px;\\">
-              
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
-      >
-        <tbody>
-          
-              <tr>
-                <td
-                   align=\\"right\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-                >
-                  
-      <div
-         style=\\"font-family:Arial;font-size:14px;font-weight:600;line-height:3.0;text-align:right;color:#4a4a4a;\\"
-      >下載:</div>
-    
-                </td>
-              </tr>
-            
-        </tbody>
-      </table>
-    
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
-      </div>
-    
-              <!--[if mso | IE]></td><td style=\\"vertical-align:top;width:53px;\\" ><![endif]-->
-                
-      <div
-         class=\\"mj-column-per-10 mj-outlook-group-fix hide_on_mobile\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:10%;\\"
-      >
-        
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
-      >
-        <tbody>
-          <tr>
-            <td  style=\\"vertical-align:top;padding:0px;\\">
-              
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
-      >
-        <tbody>
-          
-              <tr>
-                <td
-                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-                >
-                  
-      <div
-         style=\\"font-family:Arial;font-size:14px;line-height:3.0;text-align:center;color:#4a4a4a;\\"
-      ><a href=\\"https://liker.land/getapp\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" color=\\"#9b9b9b\\">iOS</a></div>
-    
-                </td>
-              </tr>
-            
-        </tbody>
-      </table>
-    
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
-      </div>
-    
-              <!--[if mso | IE]></td><td style=\\"vertical-align:top;width:53px;\\" ><![endif]-->
-                
-      <div
-         class=\\"mj-column-per-10 mj-outlook-group-fix hide_on_mobile\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:10%;\\"
-      >
-        
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
-      >
-        <tbody>
-          <tr>
-            <td  style=\\"vertical-align:top;padding:0px;\\">
-              
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
-      >
-        <tbody>
-          
-              <tr>
-                <td
-                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-                >
-                  
-      <div
-         style=\\"font-family:Arial;font-size:14px;line-height:3.0;text-align:left;color:#4a4a4a;\\"
-      ><a href=\\"https://liker.land/getapp\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" color=\\"#9b9b9b\\">Android</a></div>
     
                 </td>
               </tr>
@@ -1426,79 +1112,13 @@ exports[`Render basic templates With avatar (Civic Liker) 1`] = `
             <td  style=\\"width:400px;\\">
               
       <img
-         alt=\\"Liker Land App\\" height=\\"auto\\" src=\\"http://localhost:3000/static/banners/cta-app/zh.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"400\\"
+         alt=\\"Join as a Civic Liker\\" height=\\"auto\\" src=\\"http://localhost:3000/static/banners/cta-civic-liker/zh.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"400\\"
       />
     
             </td>
           </tr>
         </tbody>
       </table>
-    
-                </td>
-              </tr>
-            
-              <tr>
-                <td
-                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-right:24px;padding-left:24px;word-break:break-word;\\"
-                >
-                  
-      
-     <!--[if mso | IE]><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" ><tr><td><![endif]-->
-              <table
-                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
-              >
-                
-      <tr
-        
-      >
-        <td  style=\\"padding:8px;vertical-align:middle;\\">
-          <table
-             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:3px;width:106px;\\"
-          >
-            <tr>
-              <td  style=\\"font-size:0;height:35px;vertical-align:middle;width:106px;\\">
-                <a  href=\\"https://likecoin.page.link/likerland?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
-                    <img
-                       height=\\"35\\" src=\\"http://localhost:3000/static/badges/app-store.png\\" style=\\"border-radius:3px;display:block;\\" width=\\"106\\"
-                    />
-                  </a>
-                </td>
-              </tr>
-          </table>
-        </td>
-        
-      </tr>
-    
-              </table>
-            <!--[if mso | IE]></td><td><![endif]-->
-              <table
-                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
-              >
-                
-      <tr
-        
-      >
-        <td  style=\\"padding:8px;vertical-align:middle;\\">
-          <table
-             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:3px;width:119px;\\"
-          >
-            <tr>
-              <td  style=\\"font-size:0;height:35px;vertical-align:middle;width:119px;\\">
-                <a  href=\\"https://likecoin.page.link/likerland?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
-                    <img
-                       height=\\"35\\" src=\\"http://localhost:3000/static/badges/google-play.png\\" style=\\"border-radius:3px;display:block;\\" width=\\"119\\"
-                    />
-                  </a>
-                </td>
-              </tr>
-          </table>
-        </td>
-        
-      </tr>
-    
-              </table>
-            <!--[if mso | IE]></td></tr></table><![endif]-->
-    
     
                 </td>
               </tr>
@@ -1793,16 +1413,12 @@ exports[`Render basic templates With avatar 1`] = `
       @media only screen and (min-width:576px) {
         .mj-column-per-100 { width:100% !important; max-width: 100%; }
 .mj-column-per-65 { width:65% !important; max-width: 65%; }
-.mj-column-per-15 { width:15% !important; max-width: 15%; }
-.mj-column-per-10 { width:10% !important; max-width: 10%; }
 .mj-column-px-120 { width:120px !important; max-width: 120px; }
       }
     </style>
     <style media=\\"screen and (min-width:576px)\\">
       .moz-text-html .mj-column-per-100 { width:100% !important; max-width: 100%; }
 .moz-text-html .mj-column-per-65 { width:65% !important; max-width: 65%; }
-.moz-text-html .mj-column-per-15 { width:15% !important; max-width: 15%; }
-.moz-text-html .mj-column-per-10 { width:10% !important; max-width: 10%; }
 .moz-text-html .mj-column-px-120 { width:120px !important; max-width: 120px; }
     </style>
     
@@ -1886,126 +1502,6 @@ exports[`Render basic templates With avatar 1`] = `
           </tr>
         </tbody>
       </table>
-    
-                </td>
-              </tr>
-            
-        </tbody>
-      </table>
-    
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
-      </div>
-    
-              <!--[if mso | IE]></td><td style=\\"vertical-align:top;width:80px;\\" ><![endif]-->
-                
-      <div
-         class=\\"mj-column-per-15 mj-outlook-group-fix hide_on_mobile\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:15%;\\"
-      >
-        
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
-      >
-        <tbody>
-          <tr>
-            <td  style=\\"vertical-align:top;padding:0px;\\">
-              
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
-      >
-        <tbody>
-          
-              <tr>
-                <td
-                   align=\\"right\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-                >
-                  
-      <div
-         style=\\"font-family:Arial;font-size:14px;font-weight:600;line-height:3.0;text-align:right;color:#4a4a4a;\\"
-      >下載:</div>
-    
-                </td>
-              </tr>
-            
-        </tbody>
-      </table>
-    
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
-      </div>
-    
-              <!--[if mso | IE]></td><td style=\\"vertical-align:top;width:53px;\\" ><![endif]-->
-                
-      <div
-         class=\\"mj-column-per-10 mj-outlook-group-fix hide_on_mobile\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:10%;\\"
-      >
-        
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
-      >
-        <tbody>
-          <tr>
-            <td  style=\\"vertical-align:top;padding:0px;\\">
-              
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
-      >
-        <tbody>
-          
-              <tr>
-                <td
-                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-                >
-                  
-      <div
-         style=\\"font-family:Arial;font-size:14px;line-height:3.0;text-align:center;color:#4a4a4a;\\"
-      ><a href=\\"https://liker.land/getapp\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" color=\\"#9b9b9b\\">iOS</a></div>
-    
-                </td>
-              </tr>
-            
-        </tbody>
-      </table>
-    
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
-      </div>
-    
-              <!--[if mso | IE]></td><td style=\\"vertical-align:top;width:53px;\\" ><![endif]-->
-                
-      <div
-         class=\\"mj-column-per-10 mj-outlook-group-fix hide_on_mobile\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:10%;\\"
-      >
-        
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
-      >
-        <tbody>
-          <tr>
-            <td  style=\\"vertical-align:top;padding:0px;\\">
-              
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
-      >
-        <tbody>
-          
-              <tr>
-                <td
-                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-                >
-                  
-      <div
-         style=\\"font-family:Arial;font-size:14px;line-height:3.0;text-align:left;color:#4a4a4a;\\"
-      ><a href=\\"https://liker.land/getapp\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" color=\\"#9b9b9b\\">Android</a></div>
     
                 </td>
               </tr>
@@ -2290,79 +1786,13 @@ exports[`Render basic templates With avatar 1`] = `
             <td  style=\\"width:400px;\\">
               
       <img
-         alt=\\"Liker Land App\\" height=\\"auto\\" src=\\"http://localhost:3000/static/banners/cta-app/zh.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"400\\"
+         alt=\\"Join as a Civic Liker\\" height=\\"auto\\" src=\\"http://localhost:3000/static/banners/cta-civic-liker/zh.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"400\\"
       />
     
             </td>
           </tr>
         </tbody>
       </table>
-    
-                </td>
-              </tr>
-            
-              <tr>
-                <td
-                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-right:24px;padding-left:24px;word-break:break-word;\\"
-                >
-                  
-      
-     <!--[if mso | IE]><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" ><tr><td><![endif]-->
-              <table
-                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
-              >
-                
-      <tr
-        
-      >
-        <td  style=\\"padding:8px;vertical-align:middle;\\">
-          <table
-             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:3px;width:106px;\\"
-          >
-            <tr>
-              <td  style=\\"font-size:0;height:35px;vertical-align:middle;width:106px;\\">
-                <a  href=\\"https://likecoin.page.link/likerland?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
-                    <img
-                       height=\\"35\\" src=\\"http://localhost:3000/static/badges/app-store.png\\" style=\\"border-radius:3px;display:block;\\" width=\\"106\\"
-                    />
-                  </a>
-                </td>
-              </tr>
-          </table>
-        </td>
-        
-      </tr>
-    
-              </table>
-            <!--[if mso | IE]></td><td><![endif]-->
-              <table
-                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
-              >
-                
-      <tr
-        
-      >
-        <td  style=\\"padding:8px;vertical-align:middle;\\">
-          <table
-             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:3px;width:119px;\\"
-          >
-            <tr>
-              <td  style=\\"font-size:0;height:35px;vertical-align:middle;width:119px;\\">
-                <a  href=\\"https://likecoin.page.link/likerland?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
-                    <img
-                       height=\\"35\\" src=\\"http://localhost:3000/static/badges/google-play.png\\" style=\\"border-radius:3px;display:block;\\" width=\\"119\\"
-                    />
-                  </a>
-                </td>
-              </tr>
-          </table>
-        </td>
-        
-      </tr>
-    
-              </table>
-            <!--[if mso | IE]></td></tr></table><![endif]-->
-    
     
                 </td>
               </tr>

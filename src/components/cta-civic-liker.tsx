@@ -5,13 +5,13 @@ import { MjmlColumn, MjmlImage } from 'mjml-react';
 
 import { getAssetPath } from '../utils/url';
 
-import { BasicSection } from './sections/basic';
+import { BasicSection, BasicSectionProps } from './sections/basic';
 
-export const CivicLikerCTASection = () => {
+export const CivicLikerCTASection = (props: BasicSectionProps) => {
   const intl = useIntl();
   const bannerSrc = getAssetPath(`/banners/cta-civic-liker/${intl.locale}.png`);
   return (
-    <BasicSection paddingLeft={16} paddingRight={16}>
+    <BasicSection paddingLeft={16} paddingRight={16} {...props}>
       <MjmlColumn>
         <MjmlImage
           src={bannerSrc}

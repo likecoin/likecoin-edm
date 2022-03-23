@@ -1,24 +1,11 @@
 import * as React from 'react';
-import {
-  BorderProps,
-  ClassNameProps,
-  MjmlColumn,
-  MjmlSectionProps,
-  MjmlImage,
-  PaddingProps,
-} from 'mjml-react';
+import { MjmlColumn, MjmlImage } from 'mjml-react';
 
 import { getAssetPath } from '../utils/url';
 
 import { BasicSection, BasicSectionProps } from './sections/basic';
 
-export const CivicLikerClassicBadge = (
-  props: BasicSectionProps &
-    MjmlSectionProps &
-    BorderProps &
-    PaddingProps &
-    ClassNameProps
-) => {
+export const CivicLikerClassicBadge = (props: BasicSectionProps) => {
   return (
     <BasicSection
       backgroundColor="white"

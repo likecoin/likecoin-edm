@@ -1,12 +1,5 @@
 import * as React from 'react';
-import {
-  BorderProps,
-  ClassNameProps,
-  MjmlColumn,
-  MjmlSectionProps,
-  MjmlTable,
-  PaddingProps,
-} from 'mjml-react';
+import { MjmlColumn, MjmlTable } from 'mjml-react';
 import { FormattedMessage } from 'react-intl';
 
 import * as Colors from '../constants/colors';
@@ -17,13 +10,7 @@ import { BasicSection, BasicSectionProps } from './sections/basic';
 
 const MAX_WIDTH = 360;
 
-export const LikeCoinButtonCTA = (
-  props: BasicSectionProps &
-    MjmlSectionProps &
-    BorderProps &
-    PaddingProps &
-    ClassNameProps
-) => {
+export const LikeCoinButtonCTA = (props: BasicSectionProps) => {
   return (
     <BasicSection
       backgroundColor="white"

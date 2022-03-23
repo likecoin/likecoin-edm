@@ -10,22 +10,23 @@ import {
 
 import { useTheme } from '../template-base';
 
-export interface BasicSectionProps {
+interface BasicSectionExtraProps {
   paddingX?: string | number;
   paddingY?: string | number;
 }
+
+export type BasicSectionProps = BasicSectionExtraProps &
+  MjmlSectionProps &
+  BorderProps &
+  PaddingProps &
+  ClassNameProps;
 
 export const BasicSection = ({
   children,
   paddingX,
   paddingY,
   ...props
-}: BasicSectionProps &
-  MjmlSectionProps &
-  RequiredChildrenProps &
-  BorderProps &
-  PaddingProps &
-  ClassNameProps) => {
+}: BasicSectionProps & RequiredChildrenProps) => {
   const {
     sectionWidth,
     sectionPaddingX,

@@ -2,6 +2,13 @@ import { FormatDateOptions, IntlShape } from 'react-intl';
 
 const DEFAULT_TIMEZONE = 'Asia/Hong_Kong';
 
+function parseDateTimeFormatParts(parts: Intl.DateTimeFormatPart[]) {
+  return parts.reduce((obj: { [key: string]: string }, part) => {
+    obj[part.type] = part.value;
+    return obj;
+  }, {});
+}
+
 export function getOrdinalNumber(value: number) {
   let suffix: string;
   const digit = value % 10;
@@ -27,15 +34,17 @@ export function getLocalizedOrdinalDay(
   timestamp: number = 0,
   { timeZone = DEFAULT_TIMEZONE, ...opts }: FormatDateOptions = {}
 ) {
-  const [day] = intl.formatDateToParts(timestamp, {
-    day: 'numeric',
-    timeZone,
-    ...opts,
-  });
+  const { day } = parseDateTimeFormatParts(
+    intl.formatDateToParts(timestamp, {
+      day: 'numeric',
+      timeZone,
+      ...opts,
+    })
+  );
   if (language === 'en') {
-    return getOrdinalNumber(parseInt(day.value));
+    return getOrdinalNumber(parseInt(day));
   }
-  return `${day.value}`;
+  return `${day}`;
 }
 
 export function getLocalizedMonthlyReportDate(
@@ -43,17 +52,19 @@ export function getLocalizedMonthlyReportDate(
   timestamp?: number,
   { timeZone = DEFAULT_TIMEZONE, ...opts }: FormatDateOptions = {}
 ) {
-  const [month, , year] = intl.formatDateToParts(timestamp, {
-    year: 'numeric',
-    month: intl.locale === 'en' ? 'short' : 'numeric',
-    timeZone,
-    ...opts,
-  });
+  const { month, year } = parseDateTimeFormatParts(
+    intl.formatDateToParts(timestamp, {
+      year: 'numeric',
+      month: intl.locale === 'en' ? 'short' : 'numeric',
+      timeZone,
+      ...opts,
+    })
+  );
   return intl.formatMessage(
     { id: 'report.monthly.date' },
     {
-      month: month.value,
-      year: year.value,
+      month,
+      year,
     }
   );
 }

@@ -1,5 +1,6 @@
 import { MonthlyReportCivicLikerV1TemplateProps } from '../../src/templates/reports/monthly/civic-liker/v1.types';
 import { MonthlyReportCivicLikerV2TemplateProps } from '../../src/templates/reports/monthly/civic-liker/v2.types';
+import { MonthlyReportCivicLikerV3TemplateProps } from '../../src/templates/reports/monthly/civic-liker/v3.types';
 
 import {
   SAMPLE_IMAGE_URL,
@@ -99,4 +100,29 @@ export const MonthlyReportCivicLikerV2ClassicSampleData: MonthlyReportCivicLiker
   }),
   supportedContentsRemainsCount: 3,
   fundedCreatorsRemainsCount: 6,
+};
+
+export const MonthlyReportCivicLikerV3SampleData: MonthlyReportCivicLikerV3TemplateProps = {
+  likerID: SAMPLE_LIKER_ID,
+  displayName: SAMPLE_LIKER_DISPLAY_NAME,
+  avatarSrc: SAMPLE_IMAGE_URL,
+  isCivicLiker: true,
+  timestamp: SAMPLE_TIMESTAMP,
+  activeSince: SAMPLE_TIMESTAMP,
+  totalSupportedAmount: 145.1,
+  totalSupportedAmountInUSD: 3.2,
+  balance: 147.1,
+  balanceInUSD: 3.25,
+  delegationRewards: 67.5,
+  creatorsFundRewards: 67.5,
+  supportedWorkCount: 16,
+  supportedCreatorCount: 7,
+  supportedCreators: new Array(3).fill({
+    likerID: SAMPLE_LIKER_ID,
+    displayName: SAMPLE_LIKER_DISPLAY_NAME,
+    avatarSrc: SAMPLE_IMAGE_URL,
+    isCivicLiker: true,
+    likeAmount: 5,
+    workCount: 5,
+  }),
 };

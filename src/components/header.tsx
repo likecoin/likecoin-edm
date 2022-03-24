@@ -4,7 +4,11 @@ import { getAssetPath } from '../utils/url';
 
 import { BasicSection } from './sections/basic';
 
-export const HeaderSection = () => {
+interface HeaderSectionProps {
+  rightItem?: React.ReactNode;
+}
+
+export const HeaderSection = (props: HeaderSectionProps) => {
   return (
     <BasicSection
       paddingTop={32}
@@ -22,6 +26,9 @@ export const HeaderSection = () => {
             )}
           />
         </MjmlColumn>
+        {!!props.rightItem && (
+          <MjmlColumn width="35%">{props.rightItem}</MjmlColumn>
+        )}
       </MjmlGroup>
     </BasicSection>
   );

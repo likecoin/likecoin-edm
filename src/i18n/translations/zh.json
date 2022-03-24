@@ -10,6 +10,8 @@
 
   "greeting": "你好 {name}：",
 
+  "header.manage-delegation": "管理委託",
+
   "help.center.text": "幫助中心",
   "help.center.url": "https://docs.like.co/v/zh",
 
@@ -36,6 +38,19 @@
   "report.monthly.civic-liker.creatorsfund.contents.none": "點擊 LikeCoin button，支持你喜歡的創作者",
   "report.monthly.civic-liker.creatorsfund.badge.count.prepend": "你參加了 Civic Liker Classic，本月已透過按讚分配 5 美元給",
   "report.monthly.civic-liker.creatorsfund.badge.count.append": "位創作者",
+
+  "report.monthly.civic-liker.v3.active-since": "生效自：{date}",
+  "report.monthly.civic-liker.v3.total-supported-balance": "支持總額 / 餘額",
+  "report.monthly.civic-liker.v3.delegation-rewards": "委託回報",
+  "report.monthly.civic-liker.v3.creators-fund-rewards": "創作基金額外贊助",
+  "report.monthly.civic-liker.v3.creators-fund.description": "創作基金由 LikeCoin 社群贊助，參考 Likers 按讚派發。",
+  "report.monthly.civic-liker.v3.work": "作品",
+  "report.monthly.civic-liker.v3.creator": "創作者",
+  "report.monthly.civic-liker.v3.distributerd-to": "已派發",
+  "report.monthly.civic-liker.v3.top-supported": "支持榜",
+  "report.monthly.civic-liker.v3.disclaimer": "LIKE/USD 價格是在發送電郵時計算",
+  "report.monthly.civic-liker.v3.delegate.inactive": "立即委託",
+  "report.monthly.civic-liker.v3.delegate.active": "委託更多",
 
   "report.monthly.creator.subject": "每月讚賞收入報告 ({date})",
   "report.monthly.creator.title": "每月讚賞收入報告",

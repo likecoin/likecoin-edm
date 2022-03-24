@@ -11,12 +11,14 @@ import {
   getReferralTxTemplate,
   getResetPasswordTemplate,
   getTransactionTemplate,
+  getMonthlyReportCivicLikerV3Template,
 } from '../dist';
 
 import {
   MonthlyReportCivicLikerV1SampleData,
   MonthlyReportCivicLikerV2SampleData,
   MonthlyReportCivicLikerV2ClassicSampleData,
+  MonthlyReportCivicLikerV3SampleData,
 } from './data/civic-liker';
 import {
   MonthlyReportCreatorTemplateSampleData,
@@ -94,6 +96,15 @@ handleRequest('/monthly-reports/civic-liker/v2', (req, res) => {
 handleRequest('/monthly-reports/civic-liker/classic', (req, res) => {
   const { subject, body } = getMonthlyReportCivicLikerV2Template({
     ...MonthlyReportCivicLikerV2ClassicSampleData,
+    ...req.query,
+    ...req.body,
+  });
+  res.send(subject.concat(body));
+});
+
+handleRequest('/monthly-reports/civic-liker/v3', (req, res) => {
+  const { subject, body } = getMonthlyReportCivicLikerV3Template({
+    ...MonthlyReportCivicLikerV3SampleData,
     ...req.query,
     ...req.body,
   });

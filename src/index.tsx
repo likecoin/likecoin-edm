@@ -35,6 +35,8 @@ import { MonthlyReportCivicLikerV1Template } from './templates/reports/monthly/c
 import { MonthlyReportCivicLikerV1TemplateProps } from './templates/reports/monthly/civic-liker/v1.types';
 import { MonthlyReportCivicLikerV2Template } from './templates/reports/monthly/civic-liker/v2';
 import { MonthlyReportCivicLikerV2TemplateProps } from './templates/reports/monthly/civic-liker/v2.types';
+import { MonthlyReportCivicLikerV3Template } from './templates/reports/monthly/civic-liker/v3';
+import { MonthlyReportCivicLikerV3TemplateProps } from './templates/reports/monthly/civic-liker/v3.types';
 
 export const getBasicTemplate = (
   props: BasicTemplateProps,
@@ -166,6 +168,23 @@ export const getMonthlyReportCivicLikerV2Template = (
   );
   const { html: body } = render(
     <MonthlyReportCivicLikerV2Template {...props} />,
+    { minify: false, ...options }
+  );
+  return { subject, body };
+};
+
+export const getMonthlyReportCivicLikerV3Template = (
+  props: MonthlyReportCivicLikerV3TemplateProps,
+  options?: Mjml2HtmlOptions
+) => {
+  const intl = initIntl();
+  const subject = getLocalizedMonthlyReportSubject(
+    intl,
+    'civic-liker',
+    props.timestamp
+  );
+  const { html: body } = render(
+    <MonthlyReportCivicLikerV3Template {...props} />,
     { minify: false, ...options }
   );
   return { subject, body };

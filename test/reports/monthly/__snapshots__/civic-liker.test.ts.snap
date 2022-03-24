@@ -343,7 +343,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
                   
       <div
          style=\\"font-family:Arial;font-size:18px;font-weight:600;line-height:1.5;text-align:left;color:#50e3c2;\\"
-      >1年2021月</div>
+      >2021年1月</div>
     
                 </td>
               </tr>
@@ -848,7 +848,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
           <tbody>
             <tr>
               <td
-                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:24px;padding-left:32px;padding-right:32px;padding-top:24px;text-align:center;\\"
+                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:24px;padding-left:32px;padding-right:32px;padding-top:32px;text-align:center;\\"
               >
                 <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
             
@@ -870,7 +870,66 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
           
               <tr>
                 <td
-                   align=\\"center\\" style=\\"background:white;font-size:0px;padding:0px;padding-top:8px;padding-bottom:8px;word-break:break-word;\\"
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:32px;padding-bottom:32px;word-break:break-word;\\"
+                >
+                  
+      <p
+         style=\\"border-top:solid 2px #D7ECEC;font-size:1px;margin:0px auto;width:100%;\\"
+      >
+      </p>
+      
+      <!--[if mso | IE]><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"border-top:solid 2px #D7ECEC;font-size:1px;margin:0px auto;width:536px;\\" role=\\"presentation\\" width=\\"536px\\" ><tr><td style=\\"height:0;line-height:0;\\"> &nbsp;
+</td></tr></table><![endif]-->
+    
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:24px;padding-bottom:32px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Arial;font-size:16px;line-height:1.5;text-align:center;color:#4a4a4a;\\"
+      >跟隨我們</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:collapse;border-spacing:0px;\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"width:220px;\\">
+              
+        <a
+           href=\\"https://twitter.com/likecoin\\" target=\\"_blank\\"
+        >
+          
+      <img
+         height=\\"auto\\" src=\\"http://localhost:3000/static/social-elements/v2/twitter-large-zh.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"220\\"
+      />
+    
+        </a>
+      
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"background:white;font-size:0px;padding:0px;padding-top:16px;padding-bottom:16px;word-break:break-word;\\"
                 >
                   
       
@@ -884,13 +943,13 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
       >
         <td  style=\\"padding:6px;vertical-align:middle;\\">
           <table
-             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:24px;width:28px;\\"
+             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
           >
             <tr>
-              <td  style=\\"font-size:0;height:28px;vertical-align:middle;width:28px;\\">
+              <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
                 <a  href=\\"https://discord.gg/W4DQ6peZZZ\\" target=\\"_blank\\">
                     <img
-                       height=\\"28\\" src=\\"http://localhost:3000/static/social-elements/discord.png\\" style=\\"border-radius:24px;display:block;\\" width=\\"28\\"
+                       height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/discord.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
                   </a>
                 </td>
@@ -911,67 +970,13 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
       >
         <td  style=\\"padding:6px;vertical-align:middle;\\">
           <table
-             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:24px;width:28px;\\"
+             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
           >
             <tr>
-              <td  style=\\"font-size:0;height:28px;vertical-align:middle;width:28px;\\">
-                <a  href=\\"https://medium.com/likecoin\\" target=\\"_blank\\">
-                    <img
-                       height=\\"28\\" src=\\"http://localhost:3000/static/social-elements/medium.png\\" style=\\"border-radius:24px;display:block;\\" width=\\"28\\"
-                    />
-                  </a>
-                </td>
-              </tr>
-          </table>
-        </td>
-        
-      </tr>
-    
-              </table>
-            <!--[if mso | IE]></td><td><![endif]-->
-              <table
-                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
-              >
-                
-      <tr
-        
-      >
-        <td  style=\\"padding:6px;vertical-align:middle;\\">
-          <table
-             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:24px;width:28px;\\"
-          >
-            <tr>
-              <td  style=\\"font-size:0;height:28px;vertical-align:middle;width:28px;\\">
-                <a  href=\\"https://twitter.com/likecoin\\" target=\\"_blank\\">
-                    <img
-                       height=\\"28\\" src=\\"http://localhost:3000/static/social-elements/twitter.png\\" style=\\"border-radius:24px;display:block;\\" width=\\"28\\"
-                    />
-                  </a>
-                </td>
-              </tr>
-          </table>
-        </td>
-        
-      </tr>
-    
-              </table>
-            <!--[if mso | IE]></td><td><![endif]-->
-              <table
-                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
-              >
-                
-      <tr
-        
-      >
-        <td  style=\\"padding:6px;vertical-align:middle;\\">
-          <table
-             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:24px;width:28px;\\"
-          >
-            <tr>
-              <td  style=\\"font-size:0;height:28px;vertical-align:middle;width:28px;\\">
+              <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
                 <a  href=\\"https://github.com/likecoin\\" target=\\"_blank\\">
                     <img
-                       height=\\"28\\" src=\\"http://localhost:3000/static/social-elements/github.png\\" style=\\"border-radius:24px;display:block;\\" width=\\"28\\"
+                       height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/github.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
                   </a>
                 </td>
@@ -992,13 +997,13 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
       >
         <td  style=\\"padding:6px;vertical-align:middle;\\">
           <table
-             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:24px;width:28px;\\"
+             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
           >
             <tr>
-              <td  style=\\"font-size:0;height:28px;vertical-align:middle;width:28px;\\">
-                <a  href=\\"https://www.facebook.com/groups/likecoin\\" target=\\"_blank\\">
+              <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
+                <a  href=\\"https://medium.com/likecoin\\" target=\\"_blank\\">
                     <img
-                       height=\\"28\\" src=\\"http://localhost:3000/static/social-elements/facebook.png\\" style=\\"border-radius:24px;display:block;\\" width=\\"28\\"
+                       height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/medium.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
                   </a>
                 </td>
@@ -1411,7 +1416,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
                   
       <div
          style=\\"font-family:Arial;font-size:18px;font-weight:600;line-height:1.5;text-align:left;color:#50e3c2;\\"
-      >1年2021月</div>
+      >2021年1月</div>
     
                 </td>
               </tr>
@@ -1990,7 +1995,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
           <tbody>
             <tr>
               <td
-                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:24px;padding-left:32px;padding-right:32px;padding-top:24px;text-align:center;\\"
+                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:24px;padding-left:32px;padding-right:32px;padding-top:32px;text-align:center;\\"
               >
                 <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
             
@@ -2012,7 +2017,66 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
           
               <tr>
                 <td
-                   align=\\"center\\" style=\\"background:white;font-size:0px;padding:0px;padding-top:8px;padding-bottom:8px;word-break:break-word;\\"
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:32px;padding-bottom:32px;word-break:break-word;\\"
+                >
+                  
+      <p
+         style=\\"border-top:solid 2px #D7ECEC;font-size:1px;margin:0px auto;width:100%;\\"
+      >
+      </p>
+      
+      <!--[if mso | IE]><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"border-top:solid 2px #D7ECEC;font-size:1px;margin:0px auto;width:536px;\\" role=\\"presentation\\" width=\\"536px\\" ><tr><td style=\\"height:0;line-height:0;\\"> &nbsp;
+</td></tr></table><![endif]-->
+    
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:24px;padding-bottom:32px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Arial;font-size:16px;line-height:1.5;text-align:center;color:#4a4a4a;\\"
+      >跟隨我們</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:collapse;border-spacing:0px;\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"width:220px;\\">
+              
+        <a
+           href=\\"https://twitter.com/likecoin\\" target=\\"_blank\\"
+        >
+          
+      <img
+         height=\\"auto\\" src=\\"http://localhost:3000/static/social-elements/v2/twitter-large-zh.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"220\\"
+      />
+    
+        </a>
+      
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"background:white;font-size:0px;padding:0px;padding-top:16px;padding-bottom:16px;word-break:break-word;\\"
                 >
                   
       
@@ -2026,13 +2090,13 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
       >
         <td  style=\\"padding:6px;vertical-align:middle;\\">
           <table
-             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:24px;width:28px;\\"
+             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
           >
             <tr>
-              <td  style=\\"font-size:0;height:28px;vertical-align:middle;width:28px;\\">
+              <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
                 <a  href=\\"https://discord.gg/W4DQ6peZZZ\\" target=\\"_blank\\">
                     <img
-                       height=\\"28\\" src=\\"http://localhost:3000/static/social-elements/discord.png\\" style=\\"border-radius:24px;display:block;\\" width=\\"28\\"
+                       height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/discord.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
                   </a>
                 </td>
@@ -2053,67 +2117,13 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
       >
         <td  style=\\"padding:6px;vertical-align:middle;\\">
           <table
-             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:24px;width:28px;\\"
+             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
           >
             <tr>
-              <td  style=\\"font-size:0;height:28px;vertical-align:middle;width:28px;\\">
-                <a  href=\\"https://medium.com/likecoin\\" target=\\"_blank\\">
-                    <img
-                       height=\\"28\\" src=\\"http://localhost:3000/static/social-elements/medium.png\\" style=\\"border-radius:24px;display:block;\\" width=\\"28\\"
-                    />
-                  </a>
-                </td>
-              </tr>
-          </table>
-        </td>
-        
-      </tr>
-    
-              </table>
-            <!--[if mso | IE]></td><td><![endif]-->
-              <table
-                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
-              >
-                
-      <tr
-        
-      >
-        <td  style=\\"padding:6px;vertical-align:middle;\\">
-          <table
-             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:24px;width:28px;\\"
-          >
-            <tr>
-              <td  style=\\"font-size:0;height:28px;vertical-align:middle;width:28px;\\">
-                <a  href=\\"https://twitter.com/likecoin\\" target=\\"_blank\\">
-                    <img
-                       height=\\"28\\" src=\\"http://localhost:3000/static/social-elements/twitter.png\\" style=\\"border-radius:24px;display:block;\\" width=\\"28\\"
-                    />
-                  </a>
-                </td>
-              </tr>
-          </table>
-        </td>
-        
-      </tr>
-    
-              </table>
-            <!--[if mso | IE]></td><td><![endif]-->
-              <table
-                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
-              >
-                
-      <tr
-        
-      >
-        <td  style=\\"padding:6px;vertical-align:middle;\\">
-          <table
-             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:24px;width:28px;\\"
-          >
-            <tr>
-              <td  style=\\"font-size:0;height:28px;vertical-align:middle;width:28px;\\">
+              <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
                 <a  href=\\"https://github.com/likecoin\\" target=\\"_blank\\">
                     <img
-                       height=\\"28\\" src=\\"http://localhost:3000/static/social-elements/github.png\\" style=\\"border-radius:24px;display:block;\\" width=\\"28\\"
+                       height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/github.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
                   </a>
                 </td>
@@ -2134,13 +2144,13 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
       >
         <td  style=\\"padding:6px;vertical-align:middle;\\">
           <table
-             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:24px;width:28px;\\"
+             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
           >
             <tr>
-              <td  style=\\"font-size:0;height:28px;vertical-align:middle;width:28px;\\">
-                <a  href=\\"https://www.facebook.com/groups/likecoin\\" target=\\"_blank\\">
+              <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
+                <a  href=\\"https://medium.com/likecoin\\" target=\\"_blank\\">
                     <img
-                       height=\\"28\\" src=\\"http://localhost:3000/static/social-elements/facebook.png\\" style=\\"border-radius:24px;display:block;\\" width=\\"28\\"
+                       height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/medium.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
                   </a>
                 </td>

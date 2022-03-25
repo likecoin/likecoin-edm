@@ -10,20 +10,20 @@ import {
   MjmlText,
 } from 'mjml-react';
 
-import { LIKER_LAND_ROOT } from '../../../../constants';
-import * as Colors from '../../../../constants/colors';
+import { LIKER_LAND_ROOT } from '../../../../../constants';
+import * as Colors from '../../../../../constants/colors';
 
-import { parseArray } from '../../../../utils';
-import { getAssetPath } from '../../../../utils/url';
+import { parseArray } from '../../../../../utils';
+import { getAssetPath } from '../../../../../utils/url';
 
-import { SponsorLinkCTASection } from '../../../../components/cta-sponsor-link';
-import { FooterSection } from '../../../../components/footer';
-import { HeaderSection } from '../../../../components/header';
-import { Link } from '../../../../components/link';
-import { TemplateBase } from '../../../../components/template-base';
-import { BasicSection } from '../../../../components/sections/basic';
-import { MonthlyReportHeaderSection } from '../../../../components/sections/monthly-report-header';
-import { SignedNumber } from '../../../../components/signed-number';
+import { SponsorLinkCTASection } from '../../../../../components/cta-sponsor-link';
+import { FooterSection } from '../../../../../components/footer';
+import { HeaderSection } from '../../../../../components/header';
+import { Link } from '../../../../../components/link';
+import { TemplateBase } from '../../../../../components/template-base';
+import { BasicSection } from '../../../../../components/sections/basic';
+import { MonthlyReportHeaderSection } from '../../../../../components/sections/monthly-report-header';
+import { SignedNumber } from '../../../../../components/signed-number';
 
 import { MonthlyReportCreatorTopContentRow } from './top-content-row';
 import { MonthlyReportCreatorRewardsDetailsColumn } from './rewards-details-column';
@@ -73,14 +73,6 @@ export const MonthlyReportCreatorTemplate = ({
         title={<FormattedMessage id="report.monthly.creator.title" />}
         timestamp={timestamp}
       />
-
-      <BasicSection backgroundColor="white" paddingBottom={0}>
-        <MjmlColumn>
-          <MjmlText color={Colors.LikeGreen} fontSize={16} fontWeight={600}>
-            <FormattedMessage id="greeting" values={{ name: displayName }} />
-          </MjmlText>
-        </MjmlColumn>
-      </BasicSection>
 
       <BasicSection paddingTop={48} paddingBottom={24} backgroundColor="white">
         <MjmlColumn>

@@ -2,10 +2,10 @@ import * as React from 'react';
 import { MjmlColumn, MjmlTable, MjmlText } from 'mjml-react';
 import { FormattedNumber } from 'react-intl';
 
-import * as Colors from '../../../../constants/colors';
+import * as Colors from '../../../../../constants/colors';
 
-import { SignedNumber } from '../../../../components/signed-number';
-import { TableRow } from '../../../../components/table-row';
+import { SignedNumber } from '../../../../../components/signed-number';
+import { TableRow } from '../../../../../components/table-row';
 
 import { MonthlyReportCreatorRewardsDetailsColumnProps } from './types';
 

@@ -1,4 +1,4 @@
-import { Content, MonthlyReport } from '../../../../types';
+import { Content, MonthlyReport } from '../../../../../types';
 
 export interface MonthlyReportCreatorTopContent extends Content {
   likesCount?: number;
@@ -27,8 +27,8 @@ export interface MonthlyReportCreatorRewardsDetailsColumnProps
 }
 
 export interface MonthlyReportCreatorTemplateProps extends MonthlyReport {
-  totalRewardsInLIKE?: number;
   subject?: string;
+  totalRewardsInLIKE?: number;
   totalRewardsInUSD?: number;
   totalRewardsDiffPercentStr?: string;
   subscriptionAmountInLIKE?: number;

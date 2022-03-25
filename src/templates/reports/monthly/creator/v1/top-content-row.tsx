@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { FormattedMessage, FormattedNumber } from 'react-intl';
 
-import * as Colors from '../../../../constants/colors';
+import * as Colors from '../../../../../constants/colors';
 
-import { Link } from '../../../../components/link';
-import { TableRow } from '../../../../components/table-row';
+import { Link } from '../../../../../components/link';
+import { TableRow } from '../../../../../components/table-row';
 
 import { MonthlyReportCreatorTopContentRowProps } from './types';
 

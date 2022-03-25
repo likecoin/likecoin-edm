@@ -5,6 +5,7 @@ import {
   getBasicTemplate,
   getBasicWithAvatarTemplate,
   getMonthlyReportCreatorTemplate,
+  getMonthlyReportCreatorV2Template,
   getMonthlyReportCivicLikerV1Template,
   getMonthlyReportCivicLikerV2Template,
   getNewSupporterTemplate,
@@ -22,6 +23,7 @@ import {
 } from './data/civic-liker';
 import {
   MonthlyReportCreatorTemplateSampleData,
+  MonthlyReportCreatorV2TemplateSampleData,
 } from './data/creator';
 
 const PORT = process.env.PORT || 3000;
@@ -69,6 +71,15 @@ handleRequest('/referral-tx', (req, res) => {
 handleRequest('/monthly-reports/creator', (req, res) => {
   const { subject, body } = getMonthlyReportCreatorTemplate({
     ...MonthlyReportCreatorTemplateSampleData,
+    ...req.query,
+    ...req.body,
+  });
+  res.send(subject.concat(body));
+});
+
+handleRequest('/monthly-reports/creator/v2', (req, res) => {
+  const { subject, body } = getMonthlyReportCreatorV2Template({
+    ...MonthlyReportCreatorV2TemplateSampleData,
     ...req.query,
     ...req.body,
   });

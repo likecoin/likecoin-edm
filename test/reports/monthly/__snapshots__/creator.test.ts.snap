@@ -391,66 +391,6 @@ exports[`Render writer monthly report templates Default 1`] = `
           <tbody>
             <tr>
               <td
-                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:0px;padding-left:32px;padding-right:32px;padding-top:32px;text-align:center;\\"
-              >
-                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
-            
-      <div
-         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
-      >
-        
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
-      >
-        <tbody>
-          <tr>
-            <td  style=\\"vertical-align:top;padding:0px;\\">
-              
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
-      >
-        <tbody>
-          
-              <tr>
-                <td
-                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-                >
-                  
-      <div
-         style=\\"font-family:Arial;font-size:16px;font-weight:600;line-height:1.5;text-align:left;color:#28646e;\\"
-      >你好 Temp Liker ID：</div>
-    
-                </td>
-              </tr>
-            
-        </tbody>
-      </table>
-    
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
-      </div>
-    
-          <!--[if mso | IE]></td></tr></table><![endif]-->
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        </div>
-      </div>
-    
-        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"white\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
-          
-      <div  style=\\"background:white;background-color:white;margin:0px auto;max-width:600px;\\">
-        <div  style=\\"line-height:0;font-size:0;\\">
-        <table
-           align=\\"center\\" background=\\"\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:white;background-color:white;width:100%;\\"
-        >
-          <tbody>
-            <tr>
-              <td
                  style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:24px;padding-left:32px;padding-right:32px;padding-top:48px;text-align:center;\\"
               >
                 <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
@@ -1413,6 +1353,1825 @@ exports[`Render writer monthly report templates Default 1`] = `
     
       
       <!--[if mso | IE]></td></tr></table><![endif]-->
+    
+    
+      </div>
+    
+      </body>
+    </html>
+  "
+`;
+
+exports[`Render writer monthly report templates V2 1`] = `
+"
+    <!doctype html>
+    <html xmlns=\\"http://www.w3.org/1999/xhtml\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" xmlns:o=\\"urn:schemas-microsoft-com:office:office\\">
+      <head>
+        <title>
+          
+        </title>
+        <!--[if !mso]><!-->
+        <meta http-equiv=\\"X-UA-Compatible\\" content=\\"IE=edge\\">
+        <!--<![endif]-->
+        <meta http-equiv=\\"Content-Type\\" content=\\"text/html; charset=UTF-8\\">
+        <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1\\">
+        <style type=\\"text/css\\">
+          #outlook a { padding:0; }
+          body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%; }
+          table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt; }
+          img { border:0;height:auto;line-height:100%; outline:none;text-decoration:none;-ms-interpolation-mode:bicubic; }
+          p { display:block;margin:13px 0; }
+        </style>
+        <!--[if mso]>
+        <noscript>
+        <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+        </xml>
+        </noscript>
+        <![endif]-->
+        <!--[if lte mso 11]>
+        <style type=\\"text/css\\">
+          .mj-outlook-group-fix { width:100% !important; }
+        </style>
+        <![endif]-->
+        
+        
+    <style type=\\"text/css\\">
+      @media only screen and (min-width:576px) {
+        .mj-column-per-100 { width:100% !important; max-width: 100%; }
+.mj-column-per-65 { width:65% !important; max-width: 65%; }
+.mj-column-per-20 { width:20% !important; max-width: 20%; }
+.mj-column-per-80 { width:80% !important; max-width: 80%; }
+.mj-column-per-15 { width:15% !important; max-width: 15%; }
+.mj-column-per-70 { width:70% !important; max-width: 70%; }
+.mj-column-per-25 { width:25% !important; max-width: 25%; }
+.mj-column-per-50 { width:50% !important; max-width: 50%; }
+      }
+    </style>
+    <style media=\\"screen and (min-width:576px)\\">
+      .moz-text-html .mj-column-per-100 { width:100% !important; max-width: 100%; }
+.moz-text-html .mj-column-per-65 { width:65% !important; max-width: 65%; }
+.moz-text-html .mj-column-per-20 { width:20% !important; max-width: 20%; }
+.moz-text-html .mj-column-per-80 { width:80% !important; max-width: 80%; }
+.moz-text-html .mj-column-per-15 { width:15% !important; max-width: 15%; }
+.moz-text-html .mj-column-per-70 { width:70% !important; max-width: 70%; }
+.moz-text-html .mj-column-per-25 { width:25% !important; max-width: 25%; }
+.moz-text-html .mj-column-per-50 { width:50% !important; max-width: 50%; }
+    </style>
+    
+  
+        <style type=\\"text/css\\">
+        
+        
+
+    @media only screen and (max-width:576px) {
+      table.mj-full-width-mobile { width: 100% !important; }
+      td.mj-full-width-mobile { width: auto !important; }
+    }
+  
+        </style>
+        <style type=\\"text/css\\">@media only screen and (max-width: 480px) { 
+                  *[class~=hide_on_mobile] { display: none !important;} 
+                  *[class~=hoverTable] { table-layout: auto !important;}
+                }</style>
+        
+      </head>
+      <body style=\\"word-spacing:normal;background-color:white;\\">
+        
+        
+      <div
+         style=\\"background-color:white;\\"
+      >
+        
+      
+      <!--[if mso | IE]><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"#f7f7f7\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"#f7f7f7\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
+          
+      <div  style=\\"background:#f7f7f7;background-color:#f7f7f7;margin:0px auto;max-width:600px;\\">
+        <div  style=\\"line-height:0;font-size:0;\\">
+        <table
+           align=\\"center\\" background=\\"\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:#f7f7f7;background-color:#f7f7f7;width:100%;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:32px;padding-left:40px;padding-right:40px;padding-top:32px;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"width:520px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr;\\"
+      >
+        <!--[if mso | IE]><table border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" ><tr><td style=\\"vertical-align:top;width:338px;\\" ><![endif]-->
+                
+      <div
+         class=\\"mj-column-per-65 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:65%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"vertical-align:top;padding:0px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:collapse;border-spacing:0px;\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"width:145px;\\">
+              
+      <img
+         height=\\"auto\\" src=\\"http://localhost:3000/static/banners/like-coin-press-kit-liker-land-dark@3x.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"145\\"
+      />
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+    
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"#28646e\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
+    
+      
+      <div  style=\\"background:#28646e;background-color:#28646e;margin:0px auto;max-width:600px;\\">
+        
+        <table
+           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:#28646e;background-color:#28646e;width:100%;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:0px;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" width=\\"600px\\" ><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"#28646e\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"#28646e\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
+          
+      <div  style=\\"background:#28646e;background-color:#28646e;margin:0px auto;max-width:600px;\\">
+        <div  style=\\"line-height:0;font-size:0;\\">
+        <table
+           align=\\"center\\" background=\\"\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:#28646e;background-color:#28646e;width:100%;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:0px;padding-left:32px;padding-right:32px;padding-top:32px;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"width:536px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr;\\"
+      >
+        <!--[if mso | IE]><table border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" ><tr><td style=\\"vertical-align:top;width:107px;\\" ><![endif]-->
+                
+      <div
+         class=\\"mj-column-per-20 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:20%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"vertical-align:top;padding:0px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:collapse;border-spacing:0px;\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"width:68px;\\">
+              
+      <img
+         height=\\"65\\" src=\\"http://localhost:3000/static/icons/civic-liker-icon@3x.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:65px;width:100%;font-size:14px;\\" width=\\"68\\"
+      />
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+              <!--[if mso | IE]></td><td style=\\"vertical-align:top;width:428px;\\" ><![endif]-->
+                
+      <div
+         class=\\"mj-column-per-80 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:80%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"vertical-align:top;padding:0px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"left\\" class=\\"hoverTable\\" style=\\"font-size:0px;padding:0px;padding-top:8px;word-break:break-word;\\"
+                >
+                  
+      <table
+         cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\" style=\\"color:#4a4a4a;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;border:none;\\"
+      >
+        <tr style=\\"border-bottom:none;color:white;font-weight:bolder;font-size:18px\\"><td><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:right;padding:4px;line-height:0.5;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center right;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td style=\\"text-align:right\\" width=\\"99\\"><mj-text>likertemp</mj-text></td></tr>
+      </table>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+    
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table></td></tr><tr><td class=\\"\\" width=\\"600px\\" ><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"#28646e\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"#28646e\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
+          
+      <div  style=\\"background:#28646e;background-color:#28646e;margin:0px auto;max-width:600px;\\">
+        <div  style=\\"line-height:0;font-size:0;\\">
+        <table
+           align=\\"center\\" background=\\"\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:#28646e;background-color:#28646e;width:100%;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:32px;padding-left:32px;padding-right:32px;padding-top:0px;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"vertical-align:top;padding:0px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;padding-top:16px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Arial;font-size:28px;font-weight:600;line-height:1.5;text-align:left;color:white;\\"
+      >每月讚賞收入報告</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Arial;font-size:18px;font-weight:600;line-height:1.5;text-align:left;color:#50e3c2;\\"
+      >2021年1月</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+    
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"white\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
+          
+      <div  style=\\"background:white;background-color:white;margin:0px auto;max-width:600px;\\">
+        <div  style=\\"line-height:0;font-size:0;\\">
+        <table
+           align=\\"center\\" background=\\"\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:white;background-color:white;width:100%;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:24px;padding-left:32px;padding-right:32px;padding-top:48px;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"vertical-align:top;padding:0px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Arial;font-size:16px;font-weight:600;line-height:1.5;text-align:center;color:#4a4a4a;\\"
+      >所獲回饋</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+    
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"white\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
+          
+      <div  style=\\"background:white;background-color:white;margin:0px auto;max-width:600px;\\">
+        <div  style=\\"line-height:0;font-size:0;\\">
+        <table
+           align=\\"center\\" background=\\"\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:white;background-color:white;width:100%;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:0px;padding-left:32px;padding-right:32px;padding-top:0px;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"width:536px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr;\\"
+      >
+        <!--[if mso | IE]><table border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" ><tr><td style=\\"vertical-align:top;width:80px;\\" ><![endif]-->
+                
+      <div
+         class=\\"mj-column-per-15 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:15%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"vertical-align:top;padding:0px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Arial;font-size:12px;line-height:36px;text-align:left;color:transparent;\\"
+      >(-8%)</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+              <!--[if mso | IE]></td><td style=\\"vertical-align:top;width:375px;\\" ><![endif]-->
+                
+      <div
+         class=\\"mj-column-per-70 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:70%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"vertical-align:top;padding:0px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Arial;font-size:36px;font-weight:600;line-height:36px;text-align:center;color:#28646e;\\"
+      >1,235.5<span style=\\"font-size:24px\\"> $LIKE</span></div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+              <!--[if mso | IE]></td><td style=\\"vertical-align:top;width:80px;\\" ><![endif]-->
+                
+      <div
+         class=\\"mj-column-per-15 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:15%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"vertical-align:top;padding:0px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"right\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Arial;font-size:12px;line-height:36px;text-align:right;color:#4a4a4a;\\"
+      ><span style=\\"color:#ff0000;word-break:keep-all\\">(-8%)</span></div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+    
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"white\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
+          
+      <div  style=\\"background:white;background-color:white;margin:0px auto;max-width:600px;\\">
+        <div  style=\\"line-height:0;font-size:0;\\">
+        <table
+           align=\\"center\\" background=\\"\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:white;background-color:white;width:100%;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:48px;padding-left:32px;padding-right:32px;padding-top:24px;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"vertical-align:top;padding:0px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Arial;font-size:14px;line-height:1.5;text-align:center;color:#9b9b9b;\\"
+      >(USD 27.26)*</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+    
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"white\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
+          
+      <div  style=\\"background:white;background-color:white;margin:0px auto;max-width:600px;\\">
+        <div  style=\\"line-height:0;font-size:0;\\">
+        <table
+           align=\\"center\\" background=\\"\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:white;background-color:white;width:100%;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:32px;padding-left:32px;padding-right:32px;padding-top:0px;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:134px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-25 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"vertical-align:top;padding:0px;padding-top:32px;padding-right:20px;padding-left:20px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
+      <p
+         style=\\"border-top:solid 2px #28646e;font-size:1px;margin:0px auto;width:100%;\\"
+      >
+      </p>
+      
+      <!--[if mso | IE]><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"border-top:solid 2px #28646e;font-size:1px;margin:0px auto;width:94px;\\" role=\\"presentation\\" width=\\"94px\\" ><tr><td style=\\"height:0;line-height:0;\\"> &nbsp;
+</td></tr></table><![endif]-->
+    
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:32px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Arial;font-size:32px;font-weight:600;line-height:1.5;text-align:center;color:#28646e;\\"
+      >12</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:12px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Arial;font-size:12px;line-height:1.5;text-align:center;color:#4a4a4a;\\"
+      >讚賞公民</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:12px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Arial;font-size:12px;line-height:1.5;text-align:center;color:#4a4a4a;\\"
+      ><span style=\\"color:#36de00;word-break:keep-all\\">(+1)</span></div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td><td class=\\"\\" style=\\"vertical-align:top;width:134px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-25 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"vertical-align:top;padding:0px;padding-top:32px;padding-right:20px;padding-left:20px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
+      <p
+         style=\\"border-top:solid 2px #D7ECEC;font-size:1px;margin:0px auto;width:100%;\\"
+      >
+      </p>
+      
+      <!--[if mso | IE]><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"border-top:solid 2px #D7ECEC;font-size:1px;margin:0px auto;width:94px;\\" role=\\"presentation\\" width=\\"94px\\" ><tr><td style=\\"height:0;line-height:0;\\"> &nbsp;
+</td></tr></table><![endif]-->
+    
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:32px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Arial;font-size:32px;font-weight:400;line-height:1.5;text-align:center;color:#4a4a4a;\\"
+      >16</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:12px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Arial;font-size:12px;line-height:1.5;text-align:center;color:#4a4a4a;\\"
+      >Likers</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:12px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Arial;font-size:12px;line-height:1.5;text-align:center;color:#4a4a4a;\\"
+      ><span style=\\"color:#36de00;word-break:keep-all\\">(+6)</span></div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td><td class=\\"\\" style=\\"vertical-align:top;width:134px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-25 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"vertical-align:top;padding:0px;padding-top:32px;padding-right:20px;padding-left:20px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
+      <p
+         style=\\"border-top:solid 2px #D7ECEC;font-size:1px;margin:0px auto;width:100%;\\"
+      >
+      </p>
+      
+      <!--[if mso | IE]><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"border-top:solid 2px #D7ECEC;font-size:1px;margin:0px auto;width:94px;\\" role=\\"presentation\\" width=\\"94px\\" ><tr><td style=\\"height:0;line-height:0;\\"> &nbsp;
+</td></tr></table><![endif]-->
+    
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:32px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Arial;font-size:32px;font-weight:400;line-height:1.5;text-align:center;color:#4a4a4a;\\"
+      >8</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:12px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Arial;font-size:12px;line-height:1.5;text-align:center;color:#4a4a4a;\\"
+      >作品</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:12px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Arial;font-size:12px;line-height:1.5;text-align:center;color:#4a4a4a;\\"
+      ><span style=\\"color:#36de00;word-break:keep-all\\">(+1)</span></div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td><td class=\\"\\" style=\\"vertical-align:top;width:134px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-25 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"vertical-align:top;padding:0px;padding-top:32px;padding-right:20px;padding-left:20px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
+      <p
+         style=\\"border-top:solid 2px #D7ECEC;font-size:1px;margin:0px auto;width:100%;\\"
+      >
+      </p>
+      
+      <!--[if mso | IE]><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"border-top:solid 2px #D7ECEC;font-size:1px;margin:0px auto;width:94px;\\" role=\\"presentation\\" width=\\"94px\\" ><tr><td style=\\"height:0;line-height:0;\\"> &nbsp;
+</td></tr></table><![endif]-->
+    
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:32px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Arial;font-size:32px;font-weight:400;line-height:1.5;text-align:center;color:#4a4a4a;\\"
+      >53</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:12px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Arial;font-size:12px;line-height:1.5;text-align:center;color:#4a4a4a;\\"
+      >點讚</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:12px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Arial;font-size:12px;line-height:1.5;text-align:center;color:#4a4a4a;\\"
+      ><span style=\\"color:#ff0000;word-break:keep-all\\">(-12%)</span></div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+    
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"white\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
+          
+      <div  style=\\"background:white;background-color:white;margin:0px auto;max-width:600px;\\">
+        <div  style=\\"line-height:0;font-size:0;\\">
+        <table
+           align=\\"center\\" background=\\"\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:white;background-color:white;width:100%;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:32px;padding-left:16px;padding-right:16px;padding-top:32px;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:568px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"vertical-align:top;padding:0px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:collapse;border-spacing:0px;\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"width:568px;\\">
+              
+        <a
+           href=\\"https://dao.like.co/validators/cosmosvaloper1jxpfche2386a6m0kvfpj6xq9zlrjtuqwzda6rn\\" target=\\"_blank\\"
+        >
+          
+      <img
+         height=\\"auto\\" src=\\"http://localhost:3000/static/banners/cta-civic-liker-staking/active/zh.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"568\\"
+      />
+    
+        </a>
+      
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+    
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"#f7f7f7\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"#f7f7f7\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
+          
+      <div  style=\\"background:#f7f7f7;background-color:#f7f7f7;margin:0px auto;max-width:600px;\\">
+        <div  style=\\"line-height:0;font-size:0;\\">
+        <table
+           align=\\"center\\" background=\\"\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:#f7f7f7;background-color:#f7f7f7;width:100%;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:32px;padding-left:32px;padding-right:32px;padding-top:48px;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"vertical-align:top;padding:0px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Arial;font-size:16px;font-weight:600;line-height:1.5;text-align:center;color:#4a4a4a;\\"
+      >你的最踴躍支持者</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+    
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"#f7f7f7\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"#f7f7f7\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
+          
+      <div  style=\\"background:#f7f7f7;background-color:#f7f7f7;margin:0px auto;max-width:600px;\\">
+        <div  style=\\"line-height:0;font-size:0;\\">
+        <table
+           align=\\"center\\" background=\\"\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:#f7f7f7;background-color:#f7f7f7;width:100%;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:0px;padding-left:32px;padding-right:32px;padding-top:0px;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:268px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-50 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"background-color:white;vertical-align:top;padding:0px;padding-top:12px;padding-right:24px;padding-bottom:12px;padding-left:24px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
+      <table
+         cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\" style=\\"color:#4a4a4a;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;border:none;\\"
+      >
+        <tr><td width=\\"60\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:right;padding:4px;line-height:0.5;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center right;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td style=\\"padding-left:24px;color:#28646e;font-size:16px\\">likertemp</td></tr>
+      </table>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td><td class=\\"\\" style=\\"vertical-align:top;width:268px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-50 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"background-color:white;vertical-align:top;padding:0px;padding-top:12px;padding-right:24px;padding-bottom:12px;padding-left:24px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
+      <table
+         cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\" style=\\"color:#4a4a4a;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;border:none;\\"
+      >
+        <tr><td width=\\"60\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:right;padding:4px;line-height:0.5;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center right;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td style=\\"padding-left:24px;color:#28646e;font-size:16px\\">likertemp</td></tr>
+      </table>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+    
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"#f7f7f7\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"#f7f7f7\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
+          
+      <div  style=\\"background:#f7f7f7;background-color:#f7f7f7;margin:0px auto;max-width:600px;\\">
+        <div  style=\\"line-height:0;font-size:0;\\">
+        <table
+           align=\\"center\\" background=\\"\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:#f7f7f7;background-color:#f7f7f7;width:100%;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:0px;padding-left:32px;padding-right:32px;padding-top:0px;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:268px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-50 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"background-color:white;vertical-align:top;padding:0px;padding-top:12px;padding-right:24px;padding-bottom:12px;padding-left:24px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
+      <table
+         cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\" style=\\"color:#4a4a4a;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;border:none;\\"
+      >
+        <tr><td width=\\"60\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:right;padding:4px;line-height:0.5;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center right;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td style=\\"padding-left:24px;color:#28646e;font-size:16px\\">likertemp</td></tr>
+      </table>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td><td class=\\"\\" style=\\"vertical-align:top;width:268px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-50 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"background-color:white;vertical-align:top;padding:0px;padding-top:12px;padding-right:24px;padding-bottom:12px;padding-left:24px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
+      <table
+         cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\" style=\\"color:#4a4a4a;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;border:none;\\"
+      >
+        <tr><td width=\\"60\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:right;padding:4px;line-height:0.5;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center right;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td style=\\"padding-left:24px;color:#28646e;font-size:16px\\">likertemp</td></tr>
+      </table>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+    
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"#f7f7f7\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"#f7f7f7\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
+          
+      <div  style=\\"background:#f7f7f7;background-color:#f7f7f7;margin:0px auto;max-width:600px;\\">
+        <div  style=\\"line-height:0;font-size:0;\\">
+        <table
+           align=\\"center\\" background=\\"\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:#f7f7f7;background-color:#f7f7f7;width:100%;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:32px;padding-left:32px;padding-right:32px;padding-top:0px;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"background-color:white;vertical-align:top;padding:0px;padding-top:12px;padding-right:24px;padding-bottom:12px;padding-left:24px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
+      <table
+         cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\" style=\\"color:#4a4a4a;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;border:none;\\"
+      >
+        <tr><td width=\\"60\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:right;padding:4px;line-height:0.5;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center right;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td style=\\"padding-left:24px;color:#28646e;font-size:16px\\">likertemp</td></tr>
+      </table>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+    
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"#f7f7f7\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"#f7f7f7\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
+          
+      <div  style=\\"background:#f7f7f7;background-color:#f7f7f7;margin:0px auto;max-width:600px;\\">
+        <div  style=\\"line-height:0;font-size:0;\\">
+        <table
+           align=\\"center\\" background=\\"\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:#f7f7f7;background-color:#f7f7f7;width:100%;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:32px;padding-left:32px;padding-right:32px;padding-top:0px;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"vertical-align:top;padding:0px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Arial;font-size:16px;font-weight:600;line-height:1.5;text-align:center;color:#4a4a4a;\\"
+      >你最受歡迎的作品</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+    
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"#f7f7f7\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"#f7f7f7\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
+          
+      <div  style=\\"background:#f7f7f7;background-color:#f7f7f7;margin:0px auto;max-width:600px;\\">
+        <div  style=\\"line-height:0;font-size:0;\\">
+        <table
+           align=\\"center\\" background=\\"\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:#f7f7f7;background-color:#f7f7f7;width:100%;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:32px;padding-left:32px;padding-right:32px;padding-top:0px;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"background-color:white;vertical-align:top;padding:0px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
+      <table
+         cellpadding=\\"8px\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\" style=\\"color:#4a4a4a;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;border:none;\\"
+      >
+        <tr style=\\"vertical-align:middle;border-top:1px solid #d8d8d8;border-bottom:1px solid #d8d8d8\\"><td width=\\"48\\" style=\\"padding-left:24px;padding-top:12px;padding-bottom:12px\\"><a href=\\"https://example.com\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Lorem Ipsum\\" style=\\"display:block;width:48px;height:48px;object-fit:cover\\"/></a></td><td style=\\"padding-right:16px\\"><a href=\\"https://example.com\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:none\\">Lorem Ipsum</a></td><td style=\\"word-break:keep-all;text-align:right\\"><div style=\\"color:#9b9b9b;font-size:16px\\">8</div><div style=\\"color:#9b9b9b;font-size:12px\\">讚賞公民</div></td><td style=\\"word-break:keep-all;text-align:right\\"><div style=\\"color:#9b9b9b;font-size:16px\\">8</div><div style=\\"color:#9b9b9b;font-size:12px\\">Likers</div></td><td style=\\"word-break:keep-all;text-align:right;padding-right:24px\\"><div style=\\"color:#28646e;font-size:16px\\">28.1</div><div style=\\"font-size:12px\\">$LIKE</div></td></tr><tr style=\\"vertical-align:middle;border-top:none;border-bottom:1px solid #d8d8d8\\"><td width=\\"48\\" style=\\"padding-left:24px;padding-top:12px;padding-bottom:12px\\"><a href=\\"https://example.com\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Lorem Ipsum\\" style=\\"display:block;width:48px;height:48px;object-fit:cover\\"/></a></td><td style=\\"padding-right:16px\\"><a href=\\"https://example.com\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:none\\">Lorem Ipsum</a></td><td style=\\"word-break:keep-all;text-align:right\\"><div style=\\"color:#9b9b9b;font-size:16px\\">8</div><div style=\\"color:#9b9b9b;font-size:12px\\">讚賞公民</div></td><td style=\\"word-break:keep-all;text-align:right\\"><div style=\\"color:#9b9b9b;font-size:16px\\">8</div><div style=\\"color:#9b9b9b;font-size:12px\\">Likers</div></td><td style=\\"word-break:keep-all;text-align:right;padding-right:24px\\"><div style=\\"color:#28646e;font-size:16px\\">28.1</div><div style=\\"font-size:12px\\">$LIKE</div></td></tr><tr style=\\"vertical-align:middle;border-top:none;border-bottom:1px solid #d8d8d8\\"><td width=\\"48\\" style=\\"padding-left:24px;padding-top:12px;padding-bottom:12px\\"><a href=\\"https://example.com\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Lorem Ipsum\\" style=\\"display:block;width:48px;height:48px;object-fit:cover\\"/></a></td><td style=\\"padding-right:16px\\"><a href=\\"https://example.com\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:none\\">Lorem Ipsum</a></td><td style=\\"word-break:keep-all;text-align:right\\"><div style=\\"color:#9b9b9b;font-size:16px\\">8</div><div style=\\"color:#9b9b9b;font-size:12px\\">讚賞公民</div></td><td style=\\"word-break:keep-all;text-align:right\\"><div style=\\"color:#9b9b9b;font-size:16px\\">8</div><div style=\\"color:#9b9b9b;font-size:12px\\">Likers</div></td><td style=\\"word-break:keep-all;text-align:right;padding-right:24px\\"><div style=\\"color:#28646e;font-size:16px\\">28.1</div><div style=\\"font-size:12px\\">$LIKE</div></td></tr><tr style=\\"vertical-align:middle;border-top:none;border-bottom:1px solid #d8d8d8\\"><td width=\\"48\\" style=\\"padding-left:24px;padding-top:12px;padding-bottom:12px\\"><a href=\\"https://example.com\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Lorem Ipsum\\" style=\\"display:block;width:48px;height:48px;object-fit:cover\\"/></a></td><td style=\\"padding-right:16px\\"><a href=\\"https://example.com\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:none\\">Lorem Ipsum</a></td><td style=\\"word-break:keep-all;text-align:right\\"><div style=\\"color:#9b9b9b;font-size:16px\\">8</div><div style=\\"color:#9b9b9b;font-size:12px\\">讚賞公民</div></td><td style=\\"word-break:keep-all;text-align:right\\"><div style=\\"color:#9b9b9b;font-size:16px\\">8</div><div style=\\"color:#9b9b9b;font-size:12px\\">Likers</div></td><td style=\\"word-break:keep-all;text-align:right;padding-right:24px\\"><div style=\\"color:#28646e;font-size:16px\\">28.1</div><div style=\\"font-size:12px\\">$LIKE</div></td></tr><tr style=\\"vertical-align:middle;border-top:none;border-bottom:1px solid #d8d8d8\\"><td width=\\"48\\" style=\\"padding-left:24px;padding-top:12px;padding-bottom:12px\\"><a href=\\"https://example.com\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Lorem Ipsum\\" style=\\"display:block;width:48px;height:48px;object-fit:cover\\"/></a></td><td style=\\"padding-right:16px\\"><a href=\\"https://example.com\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:none\\">Lorem Ipsum</a></td><td style=\\"word-break:keep-all;text-align:right\\"><div style=\\"color:#9b9b9b;font-size:16px\\">8</div><div style=\\"color:#9b9b9b;font-size:12px\\">讚賞公民</div></td><td style=\\"word-break:keep-all;text-align:right\\"><div style=\\"color:#9b9b9b;font-size:16px\\">8</div><div style=\\"color:#9b9b9b;font-size:12px\\">Likers</div></td><td style=\\"word-break:keep-all;text-align:right;padding-right:24px\\"><div style=\\"color:#28646e;font-size:16px\\">28.1</div><div style=\\"font-size:12px\\">$LIKE</div></td></tr>
+      </table>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+    
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
+    
+      
+      <div  style=\\"background:white;background-color:white;margin:0px auto;max-width:600px;\\">
+        
+        <table
+           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:white;background-color:white;width:100%;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:24px;padding-left:32px;padding-right:32px;padding-top:32px;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"vertical-align:top;padding:0px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:32px;padding-bottom:32px;word-break:break-word;\\"
+                >
+                  
+      <p
+         style=\\"border-top:solid 2px #D7ECEC;font-size:1px;margin:0px auto;width:100%;\\"
+      >
+      </p>
+      
+      <!--[if mso | IE]><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"border-top:solid 2px #D7ECEC;font-size:1px;margin:0px auto;width:536px;\\" role=\\"presentation\\" width=\\"536px\\" ><tr><td style=\\"height:0;line-height:0;\\"> &nbsp;
+</td></tr></table><![endif]-->
+    
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:24px;padding-bottom:32px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Arial;font-size:16px;line-height:1.5;text-align:center;color:#4a4a4a;\\"
+      >跟隨我們</div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:collapse;border-spacing:0px;\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"width:220px;\\">
+              
+        <a
+           href=\\"https://twitter.com/likecoin\\" target=\\"_blank\\"
+        >
+          
+      <img
+         height=\\"auto\\" src=\\"http://localhost:3000/static/social-elements/v2/twitter-large-zh.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"220\\"
+      />
+    
+        </a>
+      
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"background:white;font-size:0px;padding:0px;padding-top:16px;padding-bottom:16px;word-break:break-word;\\"
+                >
+                  
+      
+     <!--[if mso | IE]><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" ><tr><td><![endif]-->
+              <table
+                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
+              >
+                
+      <tr
+        
+      >
+        <td  style=\\"padding:6px;vertical-align:middle;\\">
+          <table
+             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
+          >
+            <tr>
+              <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
+                <a  href=\\"https://discord.gg/W4DQ6peZZZ\\" target=\\"_blank\\">
+                    <img
+                       height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/discord.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
+                    />
+                  </a>
+                </td>
+              </tr>
+          </table>
+        </td>
+        
+      </tr>
+    
+              </table>
+            <!--[if mso | IE]></td><td><![endif]-->
+              <table
+                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
+              >
+                
+      <tr
+        
+      >
+        <td  style=\\"padding:6px;vertical-align:middle;\\">
+          <table
+             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
+          >
+            <tr>
+              <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
+                <a  href=\\"https://github.com/likecoin\\" target=\\"_blank\\">
+                    <img
+                       height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/github.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
+                    />
+                  </a>
+                </td>
+              </tr>
+          </table>
+        </td>
+        
+      </tr>
+    
+              </table>
+            <!--[if mso | IE]></td><td><![endif]-->
+              <table
+                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
+              >
+                
+      <tr
+        
+      >
+        <td  style=\\"padding:6px;vertical-align:middle;\\">
+          <table
+             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
+          >
+            <tr>
+              <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
+                <a  href=\\"https://medium.com/likecoin\\" target=\\"_blank\\">
+                    <img
+                       height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/medium.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
+                    />
+                  </a>
+                </td>
+              </tr>
+          </table>
+        </td>
+        
+      </tr>
+    
+              </table>
+            <!--[if mso | IE]></td></tr></table><![endif]-->
+    
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:4px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Arial;font-size:14px;line-height:1.5;text-align:center;color:#4a4a4a;\\"
+      ><a href=\\"https://docs.like.co/v/zh?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">幫助中心</a></div>
+    
+                </td>
+              </tr>
+            
+              <tr>
+                <td
+                   align=\\"center\\" style=\\"font-size:0px;padding:4px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Arial;font-size:14px;line-height:1.5;text-align:center;color:#4a4a4a;\\"
+      ><a href=\\"https://like.co/in/settings/others?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">取消訂閱</a></div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"#f7f7f7\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"#f7f7f7\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
+          
+      <div  style=\\"background:#f7f7f7;background-color:#f7f7f7;margin:0px auto;max-width:600px;\\">
+        <div  style=\\"line-height:0;font-size:0;\\">
+        <table
+           align=\\"center\\" background=\\"\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:#f7f7f7;background-color:#f7f7f7;width:100%;\\"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:32px;padding-left:32px;padding-right:32px;padding-top:32px;text-align:center;\\"
+              >
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
+            
+      <div
+         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
+      >
+        
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
+      >
+        <tbody>
+          <tr>
+            <td  style=\\"vertical-align:top;padding:0px;\\">
+              
+      <table
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
+      >
+        <tbody>
+          
+              <tr>
+                <td
+                   align=\\"left\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                >
+                  
+      <div
+         style=\\"font-family:Arial;font-size:12px;line-height:1.5;text-align:left;color:#9b9b9b;\\"
+      >*LIKE/USD 價格是在發送電郵時計算</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+    
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><![endif]-->
     
     
       </div>

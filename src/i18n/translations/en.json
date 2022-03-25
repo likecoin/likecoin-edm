@@ -66,6 +66,9 @@
   "report.monthly.creator.unit": "{value, plural, one {like} other {likes}}",
   "report.monthly.creator.top-contents": "Your top works",
 
+  "report.monthly.creator.v2.top-supporters": "Top Supporters",
+  "report.monthly.creator.v2.top-contents": "Top Contents",
+
   "referral-tx.title": "Congratulation, you received referral rewards",
   "referral-tx.description.referee": "You have installed Liker Land app with <span>user</span>'s referral code.<br></br>You both received {amount} LikeCoin as rewards.",
   "referral-tx.description.referrer": "<span>user</span> has installed Liker Land app because of you.<br></br>You both received {amount} LikeCoin as rewards.",
@@ -83,6 +86,11 @@
   "transaction.subtitle": "You have received {amount} LikeCoin",
   "transaction.content": "Hi {name}, <br></br><br></br> You have received {amount} LikeCoin from {fromUser}. <br></br> Check the transaction details: ",
   "transaction.remarks": "Remarks： {remarks}",
+
+  "unit.civic-likers": "{value, plural, one {Civic Liker} other {Civic Likers}}",
+  "unit.likers": "{value, plural, one {Liker} other {Likers}}",
+  "unit.likes": "{value, plural, one {Like} other {Likes}}",
+  "unit.works": "{value, plural, one {Work} other {Works}}",
 
   "unsubscribe.text": "Unsubscribe"
 }

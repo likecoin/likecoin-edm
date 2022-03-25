@@ -1,4 +1,5 @@
-import { MonthlyReportCreatorTemplateProps } from '../../src/templates/reports/monthly/creator/types';
+import { MonthlyReportCreatorTemplateProps } from '../../src/templates/reports/monthly/creator/v1/types';
+import { MonthlyReportCreatorV2TemplateProps } from '../../src/templates/reports/monthly/creator/v2/types';
 
 import {
   SAMPLE_IMAGE_URL,
@@ -35,5 +36,38 @@ export const MonthlyReportCreatorTemplateSampleData: MonthlyReportCreatorTemplat
     imageSrc: SAMPLE_IMAGE_URL,
     likesCount: 321,
     url: SAMPLE_URL,
+  }),
+};
+
+export const MonthlyReportCreatorV2TemplateSampleData: MonthlyReportCreatorV2TemplateProps = {
+  likerID: SAMPLE_LIKER_ID,
+  displayName: SAMPLE_LIKER_DISPLAY_NAME,
+  avatarSrc: SAMPLE_IMAGE_URL,
+  isCivicLiker: true,
+  timestamp: SAMPLE_TIMESTAMP,
+  totalRewardsDiffInPercent: -0.08,
+  totalRewardsInLIKE: 1235.5,
+  totalRewardsInUSD: 27.26,
+  civicLikersCount: 12,
+  civicLikersDiff: 1,
+  likersCount: 16,
+  likersDiff: 6,
+  worksCount: 8,
+  worksDiff: 1,
+  likesCount: 53,
+  likesDiffInPercent: -0.12,
+  topSupporters: new Array(5).fill({
+    likerID: SAMPLE_LIKER_ID,
+    displayName: SAMPLE_LIKER_DISPLAY_NAME,
+    avatarSrc: SAMPLE_IMAGE_URL,
+    isCivicLiker: true,
+  }),
+  topContents: new Array(5).fill({
+    title: SAMPLE_TEXT,
+    imageSrc: SAMPLE_IMAGE_URL,
+    url: SAMPLE_URL,
+    likesAmount: 28.1,
+    likersCount: 8,
+    civicLikersCount: 8,
   }),
 };

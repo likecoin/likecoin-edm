@@ -66,6 +66,9 @@
   "report.monthly.creator.unit": "按赞",
   "report.monthly.creator.top-contents": "你最受欢迎的作品",
 
+  "report.monthly.creator.v2.top-supporters": "你的最踊跃支持者",
+  "report.monthly.creator.v2.top-contents": "你最受欢迎的作品",
+
   "referral-tx.title": "恭喜，你已获得推荐奖赏",
   "referral-tx.description.referee": "你因 <span>user</span> 的推荐下载了 Liker Land。<br></br>你们两位各获得 {amount} LikeCoin 奖赏。",
   "referral-tx.description.referrer": "<span>user</span> 已因你的推荐下载了 Liker Land。<br></br>你们两位各获得 {amount} LikeCoin 奖赏。",
@@ -83,6 +86,11 @@
   "transaction.subtitle": "你已收到 {amount} LikeCoin",
   "transaction.content": "{name} 你好, <br></br><br></br> 你已收到 {fromUser} 發送的 {amount} LikeCoin。 <br></br> 查阅交易详情：",
   "transaction.remarks": "备註： {remarks}",
+
+  "unit.civic-likers": "赞赏公民",
+  "unit.likers": "Likers",
+  "unit.likes": "点赞",
+  "unit.works": "作品",
 
   "unsubscribe.text": "取消订阅"
 }

@@ -296,14 +296,10 @@ export const MonthlyReportCreatorV2Template = ({
       </BasicSection>
       <BasicSection paddingY={0} backgroundColor="white">
         <MjmlGroup>
+          {/* Dummy column for totalRewardsInLIKE to align center */}
           <MjmlColumn width="15%">
             <MjmlText fontSize={12} color="transparent" lineHeight="36px">
-              <SignedNumber
-                prefix="("
-                value={totalRewardsDiffInPercent}
-                isPercent={true}
-                suffix=")"
-              />
+              ({totalRewardsDiffInPercent}%)
             </MjmlText>
           </MjmlColumn>
           <MjmlColumn width="70%">

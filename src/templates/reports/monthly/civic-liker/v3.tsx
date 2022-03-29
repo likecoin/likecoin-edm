@@ -296,66 +296,77 @@ export const MonthlyReportCivicLikerV3Template = (
         </MjmlColumn>
       </BasicSection>
 
-      <BasicSection paddingBottom={0}>
-        <MjmlColumn>
-          <MjmlText
-            color={Colors.Grey4A}
-            fontSize={16}
-            fontWeight={600}
-            align="center"
-          >
-            <FormattedMessage id="report.monthly.civic-liker.v3.top-supported" />
-          </MjmlText>
-        </MjmlColumn>
-      </BasicSection>
-      <BasicSection>
-        <MjmlColumn backgroundColor="white">
-          <MjmlTable cellpadding="8px">
-            {supportedCreators.map((creator, i) => (
-              <TableRow key={creator.likerID} isFirstChild={i === 0}>
-                <td
-                  width={48}
-                  style={{ paddingLeft: 24, paddingBottom: 16, paddingTop: 16 }}
-                >
-                  <Avatar
-                    src={creator.avatarSrc}
-                    likerID={creator.likerID}
-                    displayName={creator.displayName}
-                    isCivicLiker={creator.isCivicLiker}
-                    size={48}
-                  />
-                </td>
-                <td>
-                  <Link
-                    href={`${LIKER_LAND_ROOT}/${creator.likerID}`}
-                    isWrapUtm={true}
-                    style={{ textDecoration: 'none', color: Colors.LikeGreen }}
-                  >
-                    {creator.displayName}
-                  </Link>
-                </td>
-                <td style={{ textAlign: 'right' }}>
-                  <span style={{ color: Colors.LikeGreen }}>
-                    {creator.workCount}
-                  </span>
-                  <br />
-                  <FormattedMessage
-                    id="report.monthly.civic-liker.v3.work"
-                    values={{ count: creator.workCount }}
-                  />
-                </td>
-                <td style={{ textAlign: 'right', paddingRight: 24 }}>
-                  <span style={{ color: Colors.LikeGreen }}>
-                    {creator.likeAmount}
-                  </span>
-                  <br />
-                  $LIKE
-                </td>
-              </TableRow>
-            ))}
-          </MjmlTable>
-        </MjmlColumn>
-      </BasicSection>
+      {!!supportedCreators.length && (
+        <>
+          <BasicSection paddingBottom={0}>
+            <MjmlColumn>
+              <MjmlText
+                color={Colors.Grey4A}
+                fontSize={16}
+                fontWeight={600}
+                align="center"
+              >
+                <FormattedMessage id="report.monthly.civic-liker.v3.top-supported" />
+              </MjmlText>
+            </MjmlColumn>
+          </BasicSection>
+          <BasicSection>
+            <MjmlColumn backgroundColor="white">
+              <MjmlTable cellpadding="8px">
+                {supportedCreators.map((creator, i) => (
+                  <TableRow key={creator.likerID} isFirstChild={i === 0}>
+                    <td
+                      width={48}
+                      style={{
+                        paddingLeft: 24,
+                        paddingBottom: 16,
+                        paddingTop: 16,
+                      }}
+                    >
+                      <Avatar
+                        src={creator.avatarSrc}
+                        likerID={creator.likerID}
+                        displayName={creator.displayName}
+                        isCivicLiker={creator.isCivicLiker}
+                        size={48}
+                      />
+                    </td>
+                    <td>
+                      <Link
+                        href={`${LIKER_LAND_ROOT}/${creator.likerID}`}
+                        isWrapUtm={true}
+                        style={{
+                          textDecoration: 'none',
+                          color: Colors.LikeGreen,
+                        }}
+                      >
+                        {creator.displayName}
+                      </Link>
+                    </td>
+                    <td style={{ textAlign: 'right' }}>
+                      <span style={{ color: Colors.LikeGreen }}>
+                        {creator.workCount}
+                      </span>
+                      <br />
+                      <FormattedMessage
+                        id="report.monthly.civic-liker.v3.work"
+                        values={{ count: creator.workCount }}
+                      />
+                    </td>
+                    <td style={{ textAlign: 'right', paddingRight: 24 }}>
+                      <span style={{ color: Colors.LikeGreen }}>
+                        {creator.likeAmount}
+                      </span>
+                      <br />
+                      $LIKE
+                    </td>
+                  </TableRow>
+                ))}
+              </MjmlTable>
+            </MjmlColumn>
+          </BasicSection>
+        </>
+      )}
 
       <FooterSection />
 

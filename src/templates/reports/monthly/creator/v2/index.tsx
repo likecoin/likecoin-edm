@@ -157,7 +157,7 @@ const MonthlyReportCreatorV2TopContentsSection = ({
 }) => {
   return (
     <>
-      <BasicSection paddingTop={0}>
+      <BasicSection paddingTop={48}>
         <MjmlColumn>
           <MjmlText
             color={Colors.Grey4A}
@@ -359,8 +359,14 @@ export const MonthlyReportCreatorV2Template = ({
 
       <CivicLikerStakingCTASection isActive={isCivicLiker} />
 
-      <MonthlyReportCreatorV2TopSupportersSection supporters={topSupporters} />
-      <MonthlyReportCreatorV2TopContentsSection contents={topContents} />
+      {topSupporters && (
+        <MonthlyReportCreatorV2TopSupportersSection
+          supporters={topSupporters}
+        />
+      )}
+      {topContents && (
+        <MonthlyReportCreatorV2TopContentsSection contents={topContents} />
+      )}
 
       <FooterSection />
 

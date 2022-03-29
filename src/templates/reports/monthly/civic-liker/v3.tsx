@@ -261,8 +261,8 @@ export const MonthlyReportCivicLikerV3Template = (
           </MjmlText>
         </MjmlColumn>
       </BasicSection>
-      <BasicSection>
-        <MjmlColumn>
+      <BasicSection paddingTop={8}>
+        <MjmlColumn paddingTop={24}>
           <MjmlText
             color={Colors.LikeGreen}
             fontSize={32}
@@ -278,7 +278,7 @@ export const MonthlyReportCivicLikerV3Template = (
             />
           </MjmlText>
         </MjmlColumn>
-        <MjmlColumn>
+        <MjmlColumn paddingTop={24}>
           <MjmlText
             color={Colors.LikeGreen}
             fontSize={32}

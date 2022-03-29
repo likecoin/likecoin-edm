@@ -59,8 +59,9 @@ const MonthlyReportCreatorV2StatsColumn = ({
       <MjmlText paddingTop={12} fontSize={12} align="center">
         <SignedNumber
           prefix="("
-          value={diff * (isDiffInPercent ? 100 : 1)}
-          suffix={`${isDiffInPercent ? '%' : ''})`}
+          value={diff}
+          isPercent={isDiffInPercent}
+          suffix=")"
         />
       </MjmlText>
     </MjmlColumn>
@@ -316,8 +317,9 @@ export const MonthlyReportCreatorV2Template = ({
             <MjmlText fontSize={12} lineHeight="36px" align="right">
               <SignedNumber
                 prefix="("
-                value={totalRewardsDiffInPercent * 100}
-                suffix="%)"
+                value={totalRewardsDiffInPercent}
+                isPercent={true}
+                suffix=")"
               />
             </MjmlText>
           </MjmlColumn>

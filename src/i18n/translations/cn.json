@@ -40,7 +40,7 @@
   "report.monthly.civic-liker.creatorsfund.badge.count.append": "位创作者",
 
   "report.monthly.civic-liker.v3.active-since": "生效自：{date}",
-  "report.monthly.civic-liker.v3.total-supported-balance": "支持总额 / 余额",
+  "report.monthly.civic-liker.v3.total-supported-balance": "已分配总额 / 可分配总额",
   "report.monthly.civic-liker.v3.delegation-rewards": "委托回报",
   "report.monthly.civic-liker.v3.creators-fund-rewards": "创作基金额外赞助",
   "report.monthly.civic-liker.v3.creators-fund.description": "创作基金由 LikeCoin 社群赞助，参考 Likers 按赞派发。",

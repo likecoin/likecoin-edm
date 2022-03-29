@@ -1845,7 +1845,7 @@ exports[`Render writer monthly report templates V2 1`] = `
                   
       <div
          style=\\"font-family:Arial;font-size:12px;line-height:36px;text-align:left;color:transparent;\\"
-      >(-8%)</div>
+      ><span style=\\"color:#ff0000;word-break:keep-all\\">(-8%)</span></div>
     
                 </td>
               </tr>

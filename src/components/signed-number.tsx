@@ -18,7 +18,7 @@ export const SignedNumber = (props: SignedNumberProps) => {
   const { value = 0, isPercent = false, prefix = '', suffix = '' } = props;
   let numericValue = Number(value);
   if (isPercent) {
-    numericValue = Math.min(999, numericValue * 100);
+    numericValue = Math.min(999, numericValue);
   }
   const color = getNumberColor(numericValue);
   const sign = numericValue > 0 ? '+' : '';

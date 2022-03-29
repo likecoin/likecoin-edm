@@ -104,7 +104,8 @@ export const MonthlyReportCreatorTemplate = ({
               <SignedNumber
                 prefix="("
                 value={totalRewardsDiffPercentStr}
-                suffix="%)"
+                isPercent={true}
+                suffix=")"
               />
             </MjmlText>
           </MjmlColumn>

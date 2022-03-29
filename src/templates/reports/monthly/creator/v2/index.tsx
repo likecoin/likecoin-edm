@@ -104,7 +104,7 @@ const MonthlyReportCreatorV2TopSupporterColumn = ({
               fontSize: 16,
             }}
           >
-            {likerID}
+            {displayName || likerID}
           </td>
         </tr>
       </MjmlTable>

@@ -2531,7 +2531,7 @@ exports[`Render writer monthly report templates V2 1`] = `
       <table
          cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\" style=\\"color:#4a4a4a;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;border:none;\\"
       >
-        <tr><td width=\\"60\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:right;padding:4px;line-height:0.5;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center right;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td style=\\"padding-left:24px;color:#28646e;font-size:16px\\">likertemp</td></tr>
+        <tr><td width=\\"60\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:right;padding:4px;line-height:0.5;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center right;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td style=\\"padding-left:24px;color:#28646e;font-size:16px\\">Temp Liker ID</td></tr>
       </table>
     
                 </td>
@@ -2573,7 +2573,7 @@ exports[`Render writer monthly report templates V2 1`] = `
       <table
          cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\" style=\\"color:#4a4a4a;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;border:none;\\"
       >
-        <tr><td width=\\"60\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:right;padding:4px;line-height:0.5;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center right;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td style=\\"padding-left:24px;color:#28646e;font-size:16px\\">likertemp</td></tr>
+        <tr><td width=\\"60\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:right;padding:4px;line-height:0.5;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center right;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td style=\\"padding-left:24px;color:#28646e;font-size:16px\\">Temp Liker ID</td></tr>
       </table>
     
                 </td>
@@ -2635,7 +2635,7 @@ exports[`Render writer monthly report templates V2 1`] = `
       <table
          cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\" style=\\"color:#4a4a4a;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;border:none;\\"
       >
-        <tr><td width=\\"60\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:right;padding:4px;line-height:0.5;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center right;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td style=\\"padding-left:24px;color:#28646e;font-size:16px\\">likertemp</td></tr>
+        <tr><td width=\\"60\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:right;padding:4px;line-height:0.5;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center right;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td style=\\"padding-left:24px;color:#28646e;font-size:16px\\">Temp Liker ID</td></tr>
       </table>
     
                 </td>
@@ -2677,7 +2677,7 @@ exports[`Render writer monthly report templates V2 1`] = `
       <table
          cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\" style=\\"color:#4a4a4a;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;border:none;\\"
       >
-        <tr><td width=\\"60\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:right;padding:4px;line-height:0.5;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center right;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td style=\\"padding-left:24px;color:#28646e;font-size:16px\\">likertemp</td></tr>
+        <tr><td width=\\"60\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:right;padding:4px;line-height:0.5;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center right;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td style=\\"padding-left:24px;color:#28646e;font-size:16px\\">Temp Liker ID</td></tr>
       </table>
     
                 </td>
@@ -2739,7 +2739,7 @@ exports[`Render writer monthly report templates V2 1`] = `
       <table
          cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\" style=\\"color:#4a4a4a;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;border:none;\\"
       >
-        <tr><td width=\\"60\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:right;padding:4px;line-height:0.5;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center right;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td style=\\"padding-left:24px;color:#28646e;font-size:16px\\">likertemp</td></tr>
+        <tr><td width=\\"60\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:right;padding:4px;line-height:0.5;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center right;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td style=\\"padding-left:24px;color:#28646e;font-size:16px\\">Temp Liker ID</td></tr>
       </table>
     
                 </td>

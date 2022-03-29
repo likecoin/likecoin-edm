@@ -148,7 +148,7 @@ export const MonthlyReportCivicLikerV3Template = (
             fontWeight={600}
             align="center"
           >
-            /{balance}
+            /{balance} $LIKE
           </MjmlText>
           <MjmlText color={Colors.Grey9B} fontSize={14} align="center">
             ({totalSupportedAmountInUSD}/{balanceInUSD} USD)*

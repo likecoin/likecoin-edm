@@ -14,12 +14,12 @@ import { getAssetPath } from '../utils/url';
 import { BasicSection } from './sections/basic';
 import { HelpCenterLink } from './help-center-link';
 import { UnsubscribeLink } from './unsubscribe-link';
-import { FormattedMessage, useIntl } from 'react-intl';
+import { useIntl } from 'react-intl';
 
 const socialElements = [
   {
     key: 'discord',
-    href: 'https://discord.gg/W4DQ6peZZZ',
+    href: 'https://discord.gg/likecoin',
     assetPath: '/social-elements/v2/discord.png',
   },
   {
@@ -28,9 +28,9 @@ const socialElements = [
     assetPath: '/social-elements/v2/github.png',
   },
   {
-    key: 'medium',
-    href: 'https://medium.com/likecoin',
-    assetPath: '/social-elements/v2/medium.png',
+    key: 'blog',
+    href: 'https://blog.like.co',
+    assetPath: '/social-elements/v2/blog.png',
   },
 ];
 
@@ -50,15 +50,6 @@ export const FooterSection = () => {
           borderColor={Colors.PaleCyan}
           borderWidth={2}
         />
-        <MjmlText
-          paddingTop={24}
-          paddingBottom={32}
-          color={Colors.Grey4A}
-          fontSize={16}
-          align="center"
-        >
-          <FormattedMessage id="footer.follow-us" />
-        </MjmlText>
         <MjmlImage
           width={220}
           src={getAssetPath(

@@ -6,8 +6,6 @@
 
   "download": "Download:",
 
-  "footer.follow-us": "Follow us",
-
   "greeting": "Dear {name}",
 
   "header.manage-delegation": "Manage delegation",
@@ -40,8 +38,8 @@
   "report.monthly.civic-liker.creatorsfund.badge.count.append": "creators by Civic Liker Classic",
   
   "report.monthly.civic-liker.v3.active-since": "Since: {date}",
-  "report.monthly.civic-liker.v3.total-supported-balance": "Total supported / balance",
-  "report.monthly.civic-liker.v3.delegation-rewards": "Yielded from delegation rewards",
+  "report.monthly.civic-liker.v3.total-supported-balance": "Supported / Total Budget",
+  "report.monthly.civic-liker.v3.delegation-rewards": "New budget for reward this month",
   "report.monthly.civic-liker.v3.creators-fund-rewards": "Extra from Creators Fund",
   "report.monthly.civic-liker.v3.creators-fund.description": "Bonus sponsored by LikeCoin community, distributed by Likers.",
   "report.monthly.civic-liker.v3.work": "{count, plural, one {Work} other {Works}}",

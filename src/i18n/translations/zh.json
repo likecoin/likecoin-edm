@@ -6,8 +6,6 @@
 
   "download": "下載:",
 
-  "footer.follow-us": "跟隨我們",
-
   "greeting": "你好 {name}：",
 
   "header.manage-delegation": "管理委託",
@@ -40,15 +38,15 @@
   "report.monthly.civic-liker.creatorsfund.badge.count.append": "位創作者",
 
   "report.monthly.civic-liker.v3.active-since": "生效自：{date}",
-  "report.monthly.civic-liker.v3.total-supported-balance": "已分配總額 / 可分配總額",
-  "report.monthly.civic-liker.v3.delegation-rewards": "委託回報",
+  "report.monthly.civic-liker.v3.total-supported-balance": "已讚賞 / 可讚賞總額",
+  "report.monthly.civic-liker.v3.delegation-rewards": "本月產生的可讚賞預算",
   "report.monthly.civic-liker.v3.creators-fund-rewards": "創作基金額外贊助",
   "report.monthly.civic-liker.v3.creators-fund.description": "創作基金由 LikeCoin 社群贊助，參考 Likers 按讚派發。",
   "report.monthly.civic-liker.v3.work": "作品",
   "report.monthly.civic-liker.v3.creator": "創作者",
   "report.monthly.civic-liker.v3.distributerd-to": "已派發",
   "report.monthly.civic-liker.v3.top-supported": "支持榜",
-  "report.monthly.civic-liker.v3.disclaimer": "LIKE/USD 價格是在發送電郵時計算",
+  "report.monthly.civic-liker.v3.disclaimer": "LIKE/USD 匯率按發送電郵當刻的數據計算",
   "report.monthly.civic-liker.v3.delegate.inactive": "立即委託",
   "report.monthly.civic-liker.v3.delegate.active": "委託更多",
 

@@ -125,7 +125,7 @@ export const MonthlyReportCivicLikerV3Template = (
       <BasicSection backgroundColor="white" paddingBottom={0}>
         <MjmlColumn>
           <MjmlText
-            paddingBottom={32}
+            paddingBottom={16}
             color={Colors.Grey4A}
             fontSize={16}
             fontWeight={600}
@@ -141,16 +141,16 @@ export const MonthlyReportCivicLikerV3Template = (
             align="center"
           >
             {totalSupportedAmount}
+            <span style={{ fontSize: 32 }}>/{balance}</span>
+            <br />
+            <span style={{ fontSize: 16 }}>$LIKE</span>
           </MjmlText>
           <MjmlText
-            color={Colors.LikeGreen}
-            fontSize={20}
-            fontWeight={600}
+            paddingTop={8}
+            color={Colors.Grey9B}
+            fontSize={14}
             align="center"
           >
-            /{balance} $LIKE
-          </MjmlText>
-          <MjmlText color={Colors.Grey9B} fontSize={14} align="center">
             ({totalSupportedAmountInUSD}/{balanceInUSD} USD)*
           </MjmlText>
         </MjmlColumn>

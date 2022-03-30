@@ -267,7 +267,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
       <table
          cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\" style=\\"color:#4a4a4a;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;border:none;\\"
       >
-        <tr style=\\"border-bottom:none;color:white;font-weight:bolder;font-size:18px\\"><td><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:right;padding:4px;line-height:0.5;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center right;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td style=\\"text-align:right\\" width=\\"99\\"><mj-text>likertemp</mj-text></td></tr>
+        <tr style=\\"border-bottom:none;color:white;font-weight:bolder;font-size:18px\\"><td><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:right;padding:4px;line-height:0.5;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center right;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td style=\\"text-align:right\\" width=\\"130\\"><mj-text font-size=\\"18px\\" font-weight=\\"600\\" font-family=\\"Arial\\">Temp Liker ID</mj-text></td></tr>
       </table>
     
                 </td>
@@ -887,18 +887,6 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
             
               <tr>
                 <td
-                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:24px;padding-bottom:32px;word-break:break-word;\\"
-                >
-                  
-      <div
-         style=\\"font-family:Arial;font-size:16px;line-height:1.5;text-align:center;color:#4a4a4a;\\"
-      >跟隨我們</div>
-    
-                </td>
-              </tr>
-            
-              <tr>
-                <td
                    align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
                 >
                   
@@ -947,7 +935,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
           >
             <tr>
               <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                <a  href=\\"https://discord.gg/W4DQ6peZZZ\\" target=\\"_blank\\">
+                <a  href=\\"https://discord.gg/likecoin\\" target=\\"_blank\\">
                     <img
                        height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/discord.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
@@ -1001,9 +989,9 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
           >
             <tr>
               <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                <a  href=\\"https://medium.com/likecoin\\" target=\\"_blank\\">
+                <a  href=\\"https://blog.like.co\\" target=\\"_blank\\">
                     <img
-                       height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/medium.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
+                       height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/blog.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
                   </a>
                 </td>
@@ -1340,7 +1328,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
       <table
          cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\" style=\\"color:#4a4a4a;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;border:none;\\"
       >
-        <tr style=\\"border-bottom:none;color:white;font-weight:bolder;font-size:18px\\"><td><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:right;padding:4px;line-height:0.5;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center right;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td style=\\"text-align:right\\" width=\\"99\\"><mj-text>likertemp</mj-text></td></tr>
+        <tr style=\\"border-bottom:none;color:white;font-weight:bolder;font-size:18px\\"><td><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:right;padding:4px;line-height:0.5;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center right;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td style=\\"text-align:right\\" width=\\"130\\"><mj-text font-size=\\"18px\\" font-weight=\\"600\\" font-family=\\"Arial\\">Temp Liker ID</mj-text></td></tr>
       </table>
     
                 </td>
@@ -2034,18 +2022,6 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
             
               <tr>
                 <td
-                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:24px;padding-bottom:32px;word-break:break-word;\\"
-                >
-                  
-      <div
-         style=\\"font-family:Arial;font-size:16px;line-height:1.5;text-align:center;color:#4a4a4a;\\"
-      >跟隨我們</div>
-    
-                </td>
-              </tr>
-            
-              <tr>
-                <td
                    align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
                 >
                   
@@ -2094,7 +2070,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
           >
             <tr>
               <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                <a  href=\\"https://discord.gg/W4DQ6peZZZ\\" target=\\"_blank\\">
+                <a  href=\\"https://discord.gg/likecoin\\" target=\\"_blank\\">
                     <img
                        height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/discord.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
@@ -2148,9 +2124,9 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
           >
             <tr>
               <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                <a  href=\\"https://medium.com/likecoin\\" target=\\"_blank\\">
+                <a  href=\\"https://blog.like.co\\" target=\\"_blank\\">
                     <img
-                       height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/medium.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
+                       height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/blog.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
                   </a>
                 </td>
@@ -2529,7 +2505,7 @@ exports[`Render Civic Liker monthly report templates V3 1`] = `
       <table
          cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\" style=\\"color:#4a4a4a;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;border:none;\\"
       >
-        <tr style=\\"border-bottom:none;color:white;font-weight:bolder;font-size:18px\\"><td><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:right;padding:4px;line-height:0.5;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center right;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td style=\\"text-align:right\\" width=\\"99\\"><mj-text>likertemp</mj-text></td></tr>
+        <tr style=\\"border-bottom:none;color:white;font-weight:bolder;font-size:18px\\"><td><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:right;padding:4px;line-height:0.5;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center right;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td style=\\"text-align:right\\" width=\\"130\\"><mj-text font-size=\\"18px\\" font-weight=\\"600\\" font-family=\\"Arial\\">Temp Liker ID</mj-text></td></tr>
       </table>
     
                 </td>
@@ -2753,12 +2729,12 @@ exports[`Render Civic Liker monthly report templates V3 1`] = `
           
               <tr>
                 <td
-                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-bottom:32px;word-break:break-word;\\"
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-bottom:16px;word-break:break-word;\\"
                 >
                   
       <div
          style=\\"font-family:Arial;font-size:16px;font-weight:600;line-height:1.5;text-align:center;color:#4a4a4a;\\"
-      >已分配總額 / 可分配總額</div>
+      >已讚賞 / 可讚賞總額</div>
     
                 </td>
               </tr>
@@ -2770,26 +2746,14 @@ exports[`Render Civic Liker monthly report templates V3 1`] = `
                   
       <div
          style=\\"font-family:Arial;font-size:48px;font-weight:600;line-height:1;text-align:center;color:#28646e;\\"
-      >145.1</div>
+      >145.1<span style=\\"font-size:32px\\">/147.1</span><br/><span style=\\"font-size:16px\\">$LIKE</span></div>
     
                 </td>
               </tr>
             
               <tr>
                 <td
-                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-                >
-                  
-      <div
-         style=\\"font-family:Arial;font-size:20px;font-weight:600;line-height:1.5;text-align:center;color:#28646e;\\"
-      >/147.1 $LIKE</div>
-    
-                </td>
-              </tr>
-            
-              <tr>
-                <td
-                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:8px;word-break:break-word;\\"
                 >
                   
       <div
@@ -2871,7 +2835,7 @@ exports[`Render Civic Liker monthly report templates V3 1`] = `
                   
       <div
          style=\\"font-family:Arial;font-size:12px;font-weight:600;line-height:1.5;text-align:center;color:#4a4a4a;\\"
-      >委託回報</div>
+      >本月產生的可讚賞預算</div>
     
                 </td>
               </tr>
@@ -3445,18 +3409,6 @@ exports[`Render Civic Liker monthly report templates V3 1`] = `
             
               <tr>
                 <td
-                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:24px;padding-bottom:32px;word-break:break-word;\\"
-                >
-                  
-      <div
-         style=\\"font-family:Arial;font-size:16px;line-height:1.5;text-align:center;color:#4a4a4a;\\"
-      >跟隨我們</div>
-    
-                </td>
-              </tr>
-            
-              <tr>
-                <td
                    align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
                 >
                   
@@ -3505,7 +3457,7 @@ exports[`Render Civic Liker monthly report templates V3 1`] = `
           >
             <tr>
               <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                <a  href=\\"https://discord.gg/W4DQ6peZZZ\\" target=\\"_blank\\">
+                <a  href=\\"https://discord.gg/likecoin\\" target=\\"_blank\\">
                     <img
                        height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/discord.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
@@ -3559,9 +3511,9 @@ exports[`Render Civic Liker monthly report templates V3 1`] = `
           >
             <tr>
               <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                <a  href=\\"https://medium.com/likecoin\\" target=\\"_blank\\">
+                <a  href=\\"https://blog.like.co\\" target=\\"_blank\\">
                     <img
-                       height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/medium.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
+                       height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/blog.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
                   </a>
                 </td>
@@ -3658,7 +3610,7 @@ exports[`Render Civic Liker monthly report templates V3 1`] = `
                   
       <div
          style=\\"font-family:Arial;font-size:12px;line-height:1.5;text-align:left;color:#9b9b9b;\\"
-      >*LIKE/USD 價格是在發送電郵時計算</div>
+      >*LIKE/USD 匯率按發送電郵當刻的數據計算</div>
     
                 </td>
               </tr>

@@ -19,7 +19,7 @@ import { BasicSection } from './basic';
 
 const canvas = createCanvas(200, 100);
 const ctx = canvas.getContext('2d');
-ctx.font = '18px monospace';
+ctx.font = '600 18px Arial';
 
 export interface MonthlyReportHeaderSectionProps extends User {
   title?: React.ReactNode;
@@ -73,9 +73,11 @@ export const MonthlyReportHeaderSection = (
                 </td>
                 <td
                   style={{ textAlign: 'right' }}
-                  width={ctx.measureText(likerID).width}
+                  width={ctx.measureText(displayName).width + 12}
                 >
-                  <MjmlText>{likerID}</MjmlText>
+                  <MjmlText fontSize={18} fontWeight={600} fontFamily="Arial">
+                    {displayName}
+                  </MjmlText>
                 </td>
               </tr>
             </MjmlTable>

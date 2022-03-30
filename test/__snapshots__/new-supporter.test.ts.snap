@@ -517,18 +517,6 @@ exports[`Render new supporter templates Default 1`] = `
             
               <tr>
                 <td
-                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:24px;padding-bottom:32px;word-break:break-word;\\"
-                >
-                  
-      <div
-         style=\\"font-family:Arial;font-size:16px;line-height:1.5;text-align:center;color:#4a4a4a;\\"
-      >跟隨我們</div>
-    
-                </td>
-              </tr>
-            
-              <tr>
-                <td
                    align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
                 >
                   
@@ -577,7 +565,7 @@ exports[`Render new supporter templates Default 1`] = `
           >
             <tr>
               <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                <a  href=\\"https://discord.gg/W4DQ6peZZZ\\" target=\\"_blank\\">
+                <a  href=\\"https://discord.gg/likecoin\\" target=\\"_blank\\">
                     <img
                        height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/discord.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
@@ -631,9 +619,9 @@ exports[`Render new supporter templates Default 1`] = `
           >
             <tr>
               <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                <a  href=\\"https://medium.com/likecoin\\" target=\\"_blank\\">
+                <a  href=\\"https://blog.like.co\\" target=\\"_blank\\">
                     <img
-                       height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/medium.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
+                       height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/blog.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
                   </a>
                 </td>

@@ -331,7 +331,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
                   
       <div
          style=\\"font-family:Arial;font-size:28px;font-weight:600;line-height:1.5;text-align:left;color:white;\\"
-      >讚賞公民每月贊助報告</div>
+      >讚賞公民贊助報告</div>
     
                 </td>
               </tr>
@@ -1392,7 +1392,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
                   
       <div
          style=\\"font-family:Arial;font-size:28px;font-weight:600;line-height:1.5;text-align:left;color:white;\\"
-      >讚賞公民每月贊助報告</div>
+      >讚賞公民贊助報告</div>
     
                 </td>
               </tr>
@@ -2569,7 +2569,7 @@ exports[`Render Civic Liker monthly report templates V3 1`] = `
                   
       <div
          style=\\"font-family:Arial;font-size:28px;font-weight:600;line-height:1.5;text-align:left;color:white;\\"
-      >讚賞公民每月贊助報告</div>
+      >讚賞公民贊助報告</div>
     
                 </td>
               </tr>

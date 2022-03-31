@@ -347,7 +347,7 @@ export const MonthlyReportCreatorV2Template = ({
           value={likersCount}
           diff={likersDiff}
         />
-        <MonthlyReportCreatorV2StatsColumn
+        {/* <MonthlyReportCreatorV2StatsColumn
           label={<FormattedMessage id="unit.works" />}
           value={worksCount}
           diff={worksDiff}
@@ -357,7 +357,7 @@ export const MonthlyReportCreatorV2Template = ({
           value={likesCount}
           diff={likesDiffInPercent}
           isDiffInPercent={true}
-        />
+        /> */}
       </BasicSection>
 
       <CivicLikerStakingCTASection isActive={isCivicLiker} />

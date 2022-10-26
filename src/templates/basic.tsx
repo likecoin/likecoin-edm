@@ -20,6 +20,7 @@ export interface BasicTemplateProps {
   avatarURL?: string;
   isCivicLiker?: boolean;
   content?: string;
+  unsubscribeLink?: string;
   language?: string;
 }
 
@@ -30,6 +31,7 @@ export const BasicTemplate = ({
   subtitle,
   subtitlePrepend,
   content,
+  unsubscribeLink,
   language,
 }: BasicTemplateProps) => {
   return (
@@ -90,7 +92,7 @@ export const BasicTemplate = ({
       </BasicSection>
       <ContentSection content={content} />
       <CivicLikerCTASection />
-      <FooterSection />
+      <FooterSection unsubscribeLink={unsubscribeLink} />
     </TemplateBase>
   );
 };

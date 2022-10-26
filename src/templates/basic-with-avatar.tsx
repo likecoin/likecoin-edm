@@ -19,7 +19,7 @@ export const BasicWithAvatarTemplate = ({
     <BasicTemplate
       {...props}
       titleTop={
-        <Avatar src={avatarURL} isCivicLiker={isCivicLiker} size={102} />
+        <Avatar src={avatarURL} isCivicLiker={isCivicLiker} size={100} />
       }
     />
   );

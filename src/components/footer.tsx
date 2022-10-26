@@ -34,7 +34,11 @@ const socialElements = [
   },
 ];
 
-export const FooterSection = () => {
+export const FooterSection = ({
+  unsubscribeLink,
+}: {
+  unsubscribeLink?: string;
+}) => {
   const intl = useIntl();
   return (
     <BasicSection
@@ -81,7 +85,7 @@ export const FooterSection = () => {
           <HelpCenterLink />
         </MjmlText>
         <MjmlText align="center" padding={4}>
-          <UnsubscribeLink />
+          <UnsubscribeLink link={unsubscribeLink} />
         </MjmlText>
       </MjmlColumn>
     </BasicSection>

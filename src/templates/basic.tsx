@@ -6,6 +6,7 @@ import { getAssetPath } from '../utils/url';
 
 import { ContentSection } from '../components/content';
 import { CivicLikerCTASection } from '../components/cta-civic-liker';
+import { WritingNFTCTASection } from '../components/cta-writing-nft';
 import { FooterSection } from '../components/footer';
 import { HeaderSection } from '../components/header';
 import { BasicSection } from '../components/sections/basic';
@@ -20,6 +21,7 @@ export interface BasicTemplateProps {
   avatarURL?: string;
   isCivicLiker?: boolean;
   content?: string;
+  cta?: string;
   unsubscribeLink?: string;
   language?: string;
 }
@@ -31,6 +33,7 @@ export const BasicTemplate = ({
   subtitle,
   subtitlePrepend,
   content,
+  cta = 'writing-nft',
   unsubscribeLink,
   language,
 }: BasicTemplateProps) => {
@@ -91,7 +94,8 @@ export const BasicTemplate = ({
         </MjmlColumn>
       </BasicSection>
       <ContentSection content={content} />
-      <CivicLikerCTASection />
+      {cta === 'civic-liker' && <CivicLikerCTASection />}
+      {cta === 'writing-nft' && <WritingNFTCTASection />}
       <FooterSection unsubscribeLink={unsubscribeLink} />
     </TemplateBase>
   );

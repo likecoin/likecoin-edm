@@ -10,7 +10,6 @@ export interface LinkProps
     HTMLAnchorElement
   > {
   isWrapUtm?: boolean;
-  wrapUtmPrefix?: string;
   textDecoration?: string;
 }
 
@@ -26,14 +25,13 @@ export const Link = (props: LinkProps) => {
     href,
     style,
     isWrapUtm = false,
-    wrapUtmPrefix,
     textDecoration = 'underline',
     ...restProps
   } = props;
 
   return (
     <a
-      href={href && isWrapUtm ? wrapUtm(href, wrapUtmPrefix) : href}
+      href={href && isWrapUtm ? wrapUtm(href) : href}
       target="_blank"
       rel="noreferrer noopener"
       style={{

@@ -39,6 +39,8 @@ import { MonthlyReportCivicLikerV3Template } from './templates/reports/monthly/c
 import { MonthlyReportCivicLikerV3TemplateProps } from './templates/reports/monthly/civic-liker/v3.types';
 import { MonthlyReportCreatorV2TemplateProps } from './templates/reports/monthly/creator/v2/types';
 import { MonthlyReportCreatorV2Template } from './templates/reports/monthly/creator/v2';
+import { CreatorFollowConfirmationTemplate } from './templates/writing-nft/creator-follow/confirmation';
+import { CreatorFollowConfirmationTemplateProps } from './templates/writing-nft/creator-follow/confirmation.types';
 
 export const getBasicTemplate = (
   props: BasicTemplateProps,
@@ -208,6 +210,27 @@ export const getMonthlyReportCivicLikerV3Template = (
   const { html: body } = render(
     <MonthlyReportCivicLikerV3Template {...props} />,
     { minify: false, ...options }
+  );
+  return { subject, body };
+};
+
+export const getCreatorFollowConfirmationTemplate = (
+  props: CreatorFollowConfirmationTemplateProps,
+  options?: Mjml2HtmlOptions
+) => {
+  const intl = initIntl();
+  const {
+    subject = intl.formatMessage(
+      { id: 'writing-nft_creator-follow_confirmation_subject' },
+      { displayName: props.creatorDisplayName }
+    ),
+  } = props;
+  const { html: body } = render(
+    <CreatorFollowConfirmationTemplate {...props} />,
+    {
+      minify: false,
+      ...options,
+    }
   );
   return { subject, body };
 };

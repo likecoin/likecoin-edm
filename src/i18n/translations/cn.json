@@ -78,5 +78,8 @@
   "unsubscribe.text": "取消订阅",
   "writing-nft_creator-follow_confirmation_content": "请<a>点击这里</a>或以下连结以确认追踪 {displayName} 的 Writing NFT。",
   "writing-nft_creator-follow_confirmation_subject": "Writing NFT - 追踪 {displayName}",
-  "writing-nft_creator-follow_confirmation_title": "追踪 {displayName} 的 Writing NFT"
+  "writing-nft_creator-follow_confirmation_title": "追踪 {displayName} 的 Writing NFT",
+  "writing-nft_creator-follow_publish-new_content": "<a>NFT_TITLE</a>已经出版。立即抢购支持吧！",
+  "writing-nft_creator-follow_publish-new_subject": "{displayName} 出版了新的 Writing NFT",
+  "writing-nft_creator-follow_publish-new_title": "{displayName} 出版了新的 Writing NFT"
 }

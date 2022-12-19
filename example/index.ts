@@ -14,6 +14,7 @@ import {
   getTransactionTemplate,
   getMonthlyReportCivicLikerV3Template,
   getCreatorFollowConfirmationTemplate,
+  getCreatorFollowPublishNewTemplate,
 } from '../dist';
 
 import {
@@ -28,6 +29,7 @@ import {
 } from './data/creator';
 import {
   CreatorFollowConfirmationSampleData,
+  CreatorFollowPublishNewSampleData,
 } from './data/writing-nft';
 
 const PORT = process.env.PORT || 3000;
@@ -129,6 +131,15 @@ handleRequest('/monthly-reports/civic-liker/v3', (req, res) => {
 handleRequest('/writing-nft/creator-follow/confirmation', (req, res) => {
   const { subject, body } = getCreatorFollowConfirmationTemplate({
     ...CreatorFollowConfirmationSampleData,
+    ...req.query,
+    ...req.body,
+  });
+  res.send(subject.concat(body));
+});
+
+handleRequest('/writing-nft/creator-follow/publish-new', (req, res) => {
+  const { subject, body } = getCreatorFollowPublishNewTemplate({
+    ...CreatorFollowPublishNewSampleData,
     ...req.query,
     ...req.body,
   });

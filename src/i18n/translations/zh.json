@@ -78,5 +78,8 @@
   "unsubscribe.text": "取消訂閱",
   "writing-nft_creator-follow_confirmation_content": "請<a>點擊這裡</a>或以下連結以確認追蹤 {displayName} 的 Writing NFT。",
   "writing-nft_creator-follow_confirmation_subject": "Writing NFT - 追蹤 {displayName}",
-  "writing-nft_creator-follow_confirmation_title": "追蹤 {displayName} 的 Writing NFT"
+  "writing-nft_creator-follow_confirmation_title": "追蹤 {displayName} 的 Writing NFT",
+  "writing-nft_creator-follow_publish-new_content": " <a>NFT_TITLE</a>已經出版。立即搶購支持吧！",
+  "writing-nft_creator-follow_publish-new_subject": "{displayName} 出版了新的 Writing NFT",
+  "writing-nft_creator-follow_publish-new_title": "{displayName} 出版了新的 Writing NFT"
 }

@@ -40,7 +40,11 @@ import { MonthlyReportCivicLikerV3TemplateProps } from './templates/reports/mont
 import { MonthlyReportCreatorV2TemplateProps } from './templates/reports/monthly/creator/v2/types';
 import { MonthlyReportCreatorV2Template } from './templates/reports/monthly/creator/v2';
 import { CreatorFollowConfirmationTemplate } from './templates/writing-nft/creator-follow/confirmation';
-import { CreatorFollowConfirmationTemplateProps } from './templates/writing-nft/creator-follow/confirmation.types';
+import {
+  CreatorFollowConfirmationTemplateProps,
+  CreatorFollowPublishNewTemplateProps,
+} from './templates/writing-nft/creator-follow/confirmation.types';
+import { CreatorFollowPublishNewTemplate } from './templates/writing-nft/creator-follow/publish-new';
 
 export const getBasicTemplate = (
   props: BasicTemplateProps,
@@ -227,6 +231,27 @@ export const getCreatorFollowConfirmationTemplate = (
   } = props;
   const { html: body } = render(
     <CreatorFollowConfirmationTemplate {...props} />,
+    {
+      minify: false,
+      ...options,
+    }
+  );
+  return { subject, body };
+};
+
+export const getCreatorFollowPublishNewTemplate = (
+  props: CreatorFollowPublishNewTemplateProps,
+  options?: Mjml2HtmlOptions
+) => {
+  const intl = initIntl();
+  const {
+    subject = intl.formatMessage(
+      { id: 'writing-nft_creator-follow_publish-new_subject' },
+      { displayName: props.creatorDisplayName }
+    ),
+  } = props;
+  const { html: body } = render(
+    <CreatorFollowPublishNewTemplate {...props} />,
     {
       minify: false,
       ...options,

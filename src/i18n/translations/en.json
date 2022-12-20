@@ -77,7 +77,7 @@
   "unit.works": "{value, plural, one {Work} other {Works}}",
   "unsubscribe.text": "Unsubscribe",
   "writing-nft_creator-follow_confirmation_content": "Please <a>click here</a> or the link below to confirm following {displayName}'s Writing NFT.",
-  "writing-nft_creator-follow_confirmation_subject": "Follow {displayName}'s Writing NFT",
+  "writing-nft_creator-follow_confirmation_subject": "Writing NFT - Follow {displayName}",
   "writing-nft_creator-follow_confirmation_title": "Follow {displayName}'s Writing NFT",
   "writing-nft_creator-follow_publish-new_content": "<a>NFT_TITLE</a> is now live!",
   "writing-nft_creator-follow_publish-new_subject": "New Writing NFT by {displayName} is live",

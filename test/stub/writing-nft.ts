@@ -7,13 +7,15 @@ import {
   SAMPLE_IMAGE_URL,
   SAMPLE_LIKER_ID,
   SAMPLE_LIKER_DISPLAY_NAME,
+  SAMPLE_CREATOR_DISPLAY_NAME,
+  SAMPLE_CREATOR_LIKER_ID,
   SAMPLE_URL,
   SAMPLE_TEXT,
 } from './samples';
 
 export const CreatorFollowConfirmationSampleData: CreatorFollowConfirmationTemplateProps = {
-  creatorLikerId: SAMPLE_LIKER_ID,
-  creatorDisplayName: SAMPLE_LIKER_DISPLAY_NAME,
+  creatorLikerId: SAMPLE_CREATOR_LIKER_ID,
+  creatorDisplayName: SAMPLE_CREATOR_DISPLAY_NAME,
   creatorAvatarSrc: SAMPLE_IMAGE_URL,
   creatorIsCivicLiker: true,
   followerDisplayName: SAMPLE_LIKER_DISPLAY_NAME,

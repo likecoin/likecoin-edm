@@ -68,7 +68,7 @@ export const CreatorFollowConfirmationTemplate = ({
             <FormattedMessage
               id="writing-nft_creator-follow_confirmation_content"
               values={{
-                displayName: followerDisplayName,
+                displayName: creatorDisplayName,
                 a: (chunks: string) => (
                   <Link href={confirmationLink} isWrapUtm={true}>
                     {chunks}

@@ -1,6 +1,6 @@
-import { MonthlyReportCivicLikerV1TemplateProps } from '../../src/templates/reports/monthly/civic-liker/v1.types';
-import { MonthlyReportCivicLikerV2TemplateProps } from '../../src/templates/reports/monthly/civic-liker/v2.types';
-import { MonthlyReportCivicLikerV3TemplateProps } from '../../src/templates/reports/monthly/civic-liker/v3.types';
+import { MonthlyReportCivicLikerV1TemplateProps } from '../../dist/templates/reports/monthly/civic-liker/v1.types';
+import { MonthlyReportCivicLikerV2TemplateProps } from '../../dist/templates/reports/monthly/civic-liker/v2.types';
+import { MonthlyReportCivicLikerV3TemplateProps } from '../../dist/templates/reports/monthly/civic-liker/v3.types';
 
 import {
   SAMPLE_IMAGE_URL,

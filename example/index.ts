@@ -15,6 +15,8 @@ import {
   getMonthlyReportCivicLikerV3Template,
   getCreatorFollowConfirmationTemplate,
   getCreatorFollowPublishNewTemplate,
+  getNFTNotificationTransferTemplate,
+  getNFTNotificationPurchaseTemplate,
 } from '../dist';
 
 import {
@@ -30,7 +32,9 @@ import {
 import {
   CreatorFollowConfirmationSampleData,
   CreatorFollowPublishNewSampleData,
-} from './data/writing-nft';
+  NFTNotificationPurchaseSampleData,
+  NFTNotificationTransferSampleData,
+} from './data/nft';
 
 const PORT = process.env.PORT || 3000;
 
@@ -128,7 +132,7 @@ handleRequest('/monthly-reports/civic-liker/v3', (req, res) => {
   res.send(subject.concat(body));
 });
 
-handleRequest('/writing-nft/creator-follow/confirmation', (req, res) => {
+handleRequest('/nft/creator-follow/confirmation', (req, res) => {
   const { subject, body } = getCreatorFollowConfirmationTemplate({
     ...CreatorFollowConfirmationSampleData,
     ...req.query,
@@ -137,9 +141,27 @@ handleRequest('/writing-nft/creator-follow/confirmation', (req, res) => {
   res.send(subject.concat(body));
 });
 
-handleRequest('/writing-nft/creator-follow/publish-new', (req, res) => {
+handleRequest('/nft/creator-follow/publish-new', (req, res) => {
   const { subject, body } = getCreatorFollowPublishNewTemplate({
     ...CreatorFollowPublishNewSampleData,
+    ...req.query,
+    ...req.body,
+  });
+  res.send(subject.concat(body));
+});
+
+handleRequest('/nft/notification/transfer', (req, res) => {
+  const { subject, body } = getNFTNotificationTransferTemplate({
+    ...NFTNotificationTransferSampleData,
+    ...req.query,
+    ...req.body,
+  });
+  res.send(subject.concat(body));
+});
+
+handleRequest('/nft/notification/purchase', (req, res) => {
+  const { subject, body } = getNFTNotificationPurchaseTemplate({
+    ...NFTNotificationPurchaseSampleData,
     ...req.query,
     ...req.body,
   });

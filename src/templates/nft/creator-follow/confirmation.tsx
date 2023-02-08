@@ -12,10 +12,14 @@ import { Link } from '../../../components/link';
 import { BasicSection } from '../../../components/sections/basic';
 import { TemplateBase } from '../../../components/template-base';
 
-import { CreatorFollowPublishNewTemplateProps } from './confirmation.types';
-import { NFTWidget } from '../../../components/nft-widget';
+import { NFTCreatorTemplateProps } from '../types';
 
-export const CreatorFollowPublishNewTemplate = ({
+export interface CreatorFollowConfirmationTemplateProps
+  extends NFTCreatorTemplateProps {
+  confirmationLink?: string;
+}
+
+export const CreatorFollowConfirmationTemplate = ({
   subject,
   language,
   creatorLikerId,
@@ -23,11 +27,9 @@ export const CreatorFollowPublishNewTemplate = ({
   creatorAvatarSrc,
   creatorIsCivicLiker = false,
   followerDisplayName = '',
+  confirmationLink,
   unsubscribeLink,
-  nftTitle,
-  nftCoverImageSrc,
-  nftURL,
-}: CreatorFollowPublishNewTemplateProps) => {
+}: CreatorFollowConfirmationTemplateProps) => {
   return (
     <TemplateBase language={language} subject={subject}>
       <HeaderSection />
@@ -53,7 +55,7 @@ export const CreatorFollowPublishNewTemplate = ({
             paddingTop={24}
           >
             <FormattedMessage
-              id="writing-nft_creator-follow_publish-new_title"
+              id="writing-nft_creator-follow_confirmation_title"
               values={{ displayName: creatorDisplayName }}
             />
           </MjmlText>
@@ -69,25 +71,20 @@ export const CreatorFollowPublishNewTemplate = ({
           </MjmlText>
           <MjmlText paddingTop={24}>
             <FormattedMessage
-              id="writing-nft_creator-follow_publish-new_content"
+              id="writing-nft_creator-follow_confirmation_content"
               values={{
-                a: () => (
-                  <Link href={nftURL} isWrapUtm={true}>
-                    {nftTitle}
+                displayName: creatorDisplayName,
+                a: (chunks: string) => (
+                  <Link href={confirmationLink} isWrapUtm={true}>
+                    {chunks}
                   </Link>
                 ),
               }}
             />
           </MjmlText>
-        </MjmlColumn>
-      </BasicSection>
-      <BasicSection paddingTop={32} paddingBottom={32}>
-        <MjmlColumn>
-          <NFTWidget
-            title={nftTitle}
-            coverImageSrc={nftCoverImageSrc}
-            url={nftURL}
-          />
+          <MjmlText paddingTop={24}>
+            <Link href={confirmationLink}>{confirmationLink}</Link>
+          </MjmlText>
         </MjmlColumn>
       </BasicSection>
       <WritingNFTCTASection />

@@ -8,6 +8,12 @@
   "header.manage-delegation": "管理委託",
   "help.center.text": "帮助中心",
   "help.center.url": "https://docs.like.co/v/zh",
+  "nft_notification_purchase_content": "你已收藏了 <nft>NFT_TITLE</nft>，请按<details>此</details>查阅详情。",
+  "nft_notification_purchase_subject": "你已收藏了 {nftTitle}",
+  "nft_notification_purchase_title": "你已收藏了 {nftTitle}  ",
+  "nft_notification_transfer_content": "<sender>SENDER</sender> 已转赠 <nft>NFT_TITLE</nft> 给你，请按<details>此</details>查阅。",
+  "nft_notification_transfer_subject": "{sender} 已转赠 {nftTitle} 给你",
+  "nft_notification_transfer_title": "{sender} 已转赠 {nftTitle} 给你",
   "referral-tx.check-wallet": "奖金已转帐至你的钱包，请用 <a>Liker Land app</a> 查看。",
   "referral-tx.description.referee": "你因 <span>user</span> 的推荐下载了 Liker Land。<br></br>你们两位各获得 {amount} LikeCoin 奖赏。",
   "referral-tx.description.referrer": "<span>user</span> 已因你的推荐下载了 Liker Land。<br></br>你们两位各获得 {amount} LikeCoin 奖赏。",
@@ -79,7 +85,7 @@
   "writing-nft_creator-follow_confirmation_content": "请<a>点击这里</a>或以下连结以确认追踪 {displayName} 的 Writing NFT。",
   "writing-nft_creator-follow_confirmation_subject": "Writing NFT - 追踪 {displayName}",
   "writing-nft_creator-follow_confirmation_title": "追踪 {displayName} 的 Writing NFT",
-  "writing-nft_creator-follow_publish-new_content": "<a>NFT_TITLE</a>已经出版。立即抢购支持吧！",
+  "writing-nft_creator-follow_publish-new_content": "<a>NFT_TITLE</a> 已经出版。立即抢购支持吧！",
   "writing-nft_creator-follow_publish-new_subject": "{displayName} 出版了新的 Writing NFT",
   "writing-nft_creator-follow_publish-new_title": "{displayName} 出版了新的 Writing NFT"
 }

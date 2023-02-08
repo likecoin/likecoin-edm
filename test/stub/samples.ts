@@ -1,6 +1,8 @@
 export const SAMPLE_IMAGE_URL = 'https://liker.land/logo.png';
 export const SAMPLE_LIKER_DISPLAY_NAME = 'Temp Liker ID';
 export const SAMPLE_LIKER_ID = 'likertemp';
+export const SAMPLE_LIKEE_DISPLAY_NAME = 'Temp Likee ID';
+export const SAMPLE_LIKEE_ID = 'likeetemp';
 export const SAMPLE_CREATOR_DISPLAY_NAME = 'Creator';
 export const SAMPLE_CREATOR_LIKER_ID = 'creator';
 export const SAMPLE_RICH_TEXT = '<p>Lorem <b>Ipsum</b></p>';

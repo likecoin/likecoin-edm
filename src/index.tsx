@@ -39,12 +39,22 @@ import { MonthlyReportCivicLikerV3Template } from './templates/reports/monthly/c
 import { MonthlyReportCivicLikerV3TemplateProps } from './templates/reports/monthly/civic-liker/v3.types';
 import { MonthlyReportCreatorV2TemplateProps } from './templates/reports/monthly/creator/v2/types';
 import { MonthlyReportCreatorV2Template } from './templates/reports/monthly/creator/v2';
-import { CreatorFollowConfirmationTemplate } from './templates/writing-nft/creator-follow/confirmation';
 import {
+  CreatorFollowConfirmationTemplate,
   CreatorFollowConfirmationTemplateProps,
+} from './templates/nft/creator-follow/confirmation';
+import {
+  CreatorFollowPublishNewTemplate,
   CreatorFollowPublishNewTemplateProps,
-} from './templates/writing-nft/creator-follow/confirmation.types';
-import { CreatorFollowPublishNewTemplate } from './templates/writing-nft/creator-follow/publish-new';
+} from './templates/nft/creator-follow/publish-new';
+import {
+  NFTNotifcationTransferTemplate,
+  NFTNotifcationTransferTemplateProps,
+} from './templates/nft/notification/transfer';
+import {
+  NFTNotifcationPurchaseTemplate,
+  NFTNotifcationPurchaseTemplateProps,
+} from './templates/nft/notification/purchase';
 
 export const getBasicTemplate = (
   props: BasicTemplateProps,
@@ -257,5 +267,41 @@ export const getCreatorFollowPublishNewTemplate = (
       ...options,
     }
   );
+  return { subject, body };
+};
+
+export const getNFTNotificationTransferTemplate = (
+  props: NFTNotifcationTransferTemplateProps,
+  options?: Mjml2HtmlOptions
+) => {
+  const intl = initIntl();
+  const {
+    subject = intl.formatMessage(
+      { id: 'nft_notification_transfer_subject' },
+      { sender: props.senderDisplayName, nftTitle: props.nftTitle }
+    ),
+  } = props;
+  const { html: body } = render(<NFTNotifcationTransferTemplate {...props} />, {
+    minify: false,
+    ...options,
+  });
+  return { subject, body };
+};
+
+export const getNFTNotificationPurchaseTemplate = (
+  props: NFTNotifcationPurchaseTemplateProps,
+  options?: Mjml2HtmlOptions
+) => {
+  const intl = initIntl();
+  const {
+    subject = intl.formatMessage(
+      { id: 'nft_notification_purchase_subject' },
+      { nftTitle: props.nftTitle }
+    ),
+  } = props;
+  const { html: body } = render(<NFTNotifcationPurchaseTemplate {...props} />, {
+    minify: false,
+    ...options,
+  });
   return { subject, body };
 };

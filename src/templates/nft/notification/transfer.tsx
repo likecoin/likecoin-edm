@@ -1,8 +1,9 @@
 import * as React from 'react';
 import { FormattedMessage } from 'react-intl';
 
-import { Link } from '../../../components/link';
 import { LIKER_LAND_ROOT } from '../../../constants';
+
+import { Link } from '../../../components/link';
 
 import { NFTDefaultTemplate, NFTDefaultTemplateProps } from '../default';
 

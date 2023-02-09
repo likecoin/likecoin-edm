@@ -296,7 +296,7 @@ export const getNFTNotificationPurchaseTemplate = (
   const {
     subject = intl.formatMessage(
       { id: 'nft_notification_purchase_subject' },
-      { nftTitle: props.nftTitle }
+      { buyer: props.buyerDisplayName, nftTitle: props.nftTitle }
     ),
   } = props;
   const { html: body } = render(<NFTNotifcationPurchaseTemplate {...props} />, {

@@ -44,10 +44,10 @@ export const NFTNotificationTransferSampleData: NFTNotifcationTransferTemplatePr
 
 export const NFTNotificationPurchaseSampleData: NFTNotifcationPurchaseTemplateProps = {
   ...CreatorFollowConfirmationSampleData,
-  sellerLikerId: SAMPLE_LIKEE_ID,
-  sellerDisplayName: SAMPLE_LIKEE_DISPLAY_NAME,
-  sellerAvatarSrc: SAMPLE_IMAGE_URL,
-  sellerIsCivicLiker: true,
+  buyerLikerId: SAMPLE_LIKEE_ID,
+  buyerDisplayName: SAMPLE_LIKEE_DISPLAY_NAME,
+  buyerAvatarSrc: SAMPLE_IMAGE_URL,
+  buyerIsCivicLiker: true,
   nftTitle: SAMPLE_TEXT,
   nftCoverImageSrc: SAMPLE_IMAGE_URL,
   nftURL: SAMPLE_URL,

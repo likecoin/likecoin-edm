@@ -8,7 +8,7 @@
   "header.manage-delegation": "Manage delegation",
   "help.center.text": "Help Center",
   "help.center.url": "https://docs.like.co",
-  "nft_notification_purchase_content": "<buyer>BUYER</buyer> have bought <nft>NFT_TITLE</nft> for <price>LikeCoin</price>.",
+  "nft_notification_purchase_content": "<buyer>BUYER</buyer> has bought <nft>NFT_TITLE</nft> for <price>LikeCoin</price>.",
   "nft_notification_purchase_subject": "You have sold {nftTitle} for {price} LikeCoin",
   "nft_notification_purchase_title": "You have sold {nftTitle} for {price} LikeCoin",
   "nft_notification_transfer_content": "<sender>SENDER</sender> has sent you a piece of creative work <nft>NFT_TITLE</nft>.",

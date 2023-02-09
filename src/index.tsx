@@ -4,6 +4,7 @@ import { Mjml2HtmlOptions, render } from 'mjml-react';
 import { initIntl } from './i18n';
 
 import { getLocalizedMonthlyReportSubject } from './utils/localization';
+import { formatNumber } from './utils/number';
 
 import { BasicTemplate, BasicTemplateProps } from './templates/basic';
 import {
@@ -296,7 +297,7 @@ export const getNFTNotificationPurchaseTemplate = (
   const {
     subject = intl.formatMessage(
       { id: 'nft_notification_purchase_subject' },
-      { buyer: props.buyerDisplayName, nftTitle: props.nftTitle }
+      { price: formatNumber(props.priceInLIKE), nftTitle: props.nftTitle }
     ),
   } = props;
   const { html: body } = render(<NFTNotifcationPurchaseTemplate {...props} />, {

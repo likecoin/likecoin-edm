@@ -48,6 +48,7 @@ export const NFTNotificationPurchaseSampleData: NFTNotifcationPurchaseTemplatePr
   buyerDisplayName: SAMPLE_LIKEE_DISPLAY_NAME,
   buyerAvatarSrc: SAMPLE_IMAGE_URL,
   buyerIsCivicLiker: true,
+  priceInLIKE: 200000,
   nftTitle: SAMPLE_TEXT,
   nftCoverImageSrc: SAMPLE_IMAGE_URL,
   nftURL: SAMPLE_URL,

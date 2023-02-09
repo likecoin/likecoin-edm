@@ -2,10 +2,12 @@ import * as React from 'react';
 import { FormattedMessage } from 'react-intl';
 
 import { LIKER_LAND_ROOT } from '../../../constants';
+import * as Colors from '../../../constants/colors';
 
 import { Link } from '../../../components/link';
 
 import { NFTDefaultTemplate, NFTDefaultTemplateProps } from '../default';
+import { formatNumber } from '../../../utils/number';
 
 export interface NFTNotifcationPurchaseTemplateProps
   extends NFTDefaultTemplateProps {
@@ -13,6 +15,7 @@ export interface NFTNotifcationPurchaseTemplateProps
   buyerDisplayName?: string;
   buyerAvatarSrc?: string;
   buyerIsCivicLiker?: boolean;
+  priceInLIKE?: number;
 }
 
 export const NFTNotifcationPurchaseTemplate = (
@@ -25,7 +28,9 @@ export const NFTNotifcationPurchaseTemplate = (
     buyerIsCivicLiker = false,
     nftTitle,
     nftURL,
+    priceInLIKE = 0,
   } = props;
+  const formattedPrice = formatNumber(priceInLIKE);
   return (
     <NFTDefaultTemplate
       {...props}
@@ -36,7 +41,7 @@ export const NFTNotifcationPurchaseTemplate = (
       headerText={
         <FormattedMessage
           id="nft_notification_purchase_title"
-          values={{ buyer: buyerDisplayName, nftTitle }}
+          values={{ price: formattedPrice, nftTitle }}
         />
       }
       body={
@@ -50,6 +55,11 @@ export const NFTNotifcationPurchaseTemplate = (
               >
                 {buyerDisplayName}
               </Link>
+            ),
+            price: (unit: string) => (
+              <strong style={{ color: Colors.LikeGreen }}>
+                {formattedPrice} {unit}
+              </strong>
             ),
             nft: () => (
               <Link href={nftURL} isWrapUtm={true}>

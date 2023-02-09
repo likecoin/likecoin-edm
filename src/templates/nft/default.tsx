@@ -20,6 +20,7 @@ export interface NFTDefaultTemplateProps extends NFTTemplateProps {
   headerAvatarLikerID?: string;
   headerAvatarIsCivicLiker?: boolean;
   headerText?: React.ReactNode;
+  message?: string;
   body?: React.ReactElement;
 }
 
@@ -31,6 +32,7 @@ export const NFTDefaultTemplate = ({
   headerAvatarLikerID,
   headerAvatarIsCivicLiker,
   headerText,
+  message,
   body,
   followerDisplayName = '',
   unsubscribeLink,
@@ -47,21 +49,23 @@ export const NFTDefaultTemplate = ({
         paddingBottom={48}
       >
         <MjmlColumn>
-          <Avatar
-            src={headerAvatarSrc}
-            likerID={headerAvatarDisplayName}
-            displayName={headerAvatarLikerID}
-            isCivicLiker={headerAvatarIsCivicLiker}
-            size={44}
-            display="inline-block"
-            align="left"
-          />
+          {!message && (
+            <Avatar
+              src={headerAvatarSrc}
+              likerID={headerAvatarDisplayName}
+              displayName={headerAvatarLikerID}
+              isCivicLiker={headerAvatarIsCivicLiker}
+              size={44}
+              display="inline-block"
+              align="left"
+            />
+          )}
           <MjmlText
             color="white"
             fontSize={24}
             fontWeight={600}
             align="left"
-            paddingTop={24}
+            paddingTop={message ? 0 : 24}
           >
             {headerText}
           </MjmlText>
@@ -78,6 +82,20 @@ export const NFTDefaultTemplate = ({
           <MjmlText paddingTop={24}>{body}</MjmlText>
         </MjmlColumn>
       </BasicSection>
+      {!!message && (
+        <BasicSection paddingTop={32} paddingLeft={64} paddingRight={64}>
+          <MjmlColumn padding={16} backgroundColor="white" borderRadius={24}>
+            <Avatar
+              src={headerAvatarSrc}
+              likerID={headerAvatarDisplayName}
+              displayName={headerAvatarLikerID}
+              isCivicLiker={headerAvatarIsCivicLiker}
+              size={44}
+            />
+            <MjmlText paddingTop={16} align="center">{message}</MjmlText>
+          </MjmlColumn>
+        </BasicSection>
+      )}
       <BasicSection paddingTop={32} paddingBottom={32}>
         <MjmlColumn>
           <NFTWidget

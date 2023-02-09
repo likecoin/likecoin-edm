@@ -9,7 +9,10 @@ const largeNumFormatter = new Intl.NumberFormat('en-US', {
   maximumFractionDigits: 2,
 });
 
-export function formatNumber(num: number = 0, options: { isFull?: boolean } = {}) {
+export function formatNumber(
+  num: number = 0,
+  options: { isFull?: boolean } = {}
+) {
   return (!options.isFull && num >= 100000
     ? largeNumFormatter
     : smallNumFormatter

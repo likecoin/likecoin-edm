@@ -92,7 +92,9 @@ export const NFTDefaultTemplate = ({
               isCivicLiker={headerAvatarIsCivicLiker}
               size={44}
             />
-            <MjmlText paddingTop={16} align="center">{message}</MjmlText>
+            <MjmlText paddingTop={16} align="center">
+              {message}
+            </MjmlText>
           </MjmlColumn>
         </BasicSection>
       )}

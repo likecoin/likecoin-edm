@@ -1,4 +1,4 @@
-export interface CreatorFollowTemplateProps {
+export interface NFTCreatorTemplateProps {
   subject?: string;
   language?: string;
   creatorLikerId?: string;
@@ -9,13 +9,7 @@ export interface CreatorFollowTemplateProps {
   unsubscribeLink?: string;
 }
 
-export interface CreatorFollowConfirmationTemplateProps
-  extends CreatorFollowTemplateProps {
-  confirmationLink?: string;
-}
-
-export interface CreatorFollowPublishNewTemplateProps
-  extends CreatorFollowTemplateProps {
+export interface NFTTemplateProps extends NFTCreatorTemplateProps {
   nftTitle?: string;
   nftCoverImageSrc?: string;
   nftURL?: string;

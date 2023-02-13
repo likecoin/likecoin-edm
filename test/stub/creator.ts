@@ -1,5 +1,5 @@
-import { MonthlyReportCreatorTemplateProps } from '../../src/templates/reports/monthly/creator/v1/types';
-import { MonthlyReportCreatorV2TemplateProps } from '../../src/templates/reports/monthly/creator/v2/types';
+import { MonthlyReportCreatorTemplateProps } from '../../dist/templates/reports/monthly/creator/v1/types';
+import { MonthlyReportCreatorV2TemplateProps } from '../../dist/templates/reports/monthly/creator/v2/types';
 
 import {
   SAMPLE_IMAGE_URL,

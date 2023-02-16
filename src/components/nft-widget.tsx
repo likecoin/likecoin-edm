@@ -22,7 +22,7 @@ export const NFTWidget = ({ title, coverImageSrc, url }: NFTWidgetProps) => {
           border: `2px solid ${Colors.GreyD8}`,
           display: 'block',
           fontSize: 16,
-          lineHeight: 24,
+          lineHeight: 1.5,
         }}
       >
         <tr>

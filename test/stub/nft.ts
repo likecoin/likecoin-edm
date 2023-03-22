@@ -1,5 +1,5 @@
-import { NFTNotifcationTransferTemplateProps } from '../../dist/templates/nft/notification/transfer';
-import { NFTNotifcationPurchaseTemplateProps } from '../../dist/templates/nft/notification/purchase';
+import { NFTNotificationTransferTemplateProps } from '../../dist/templates/nft/notification/transfer';
+import { NFTNotificationPurchaseTemplateProps } from '../../dist/templates/nft/notification/purchase';
 import { CreatorFollowConfirmationTemplateProps } from '../../dist/templates/nft/creator-follow/confirmation';
 import { CreatorFollowPublishNewTemplateProps } from '../../dist/templates/nft/creator-follow/publish-new';
 
@@ -31,7 +31,7 @@ export const CreatorFollowPublishNewSampleData: CreatorFollowPublishNewTemplateP
   nftURL: SAMPLE_URL,
 };
 
-export const NFTNotificationTransferSampleData: NFTNotifcationTransferTemplateProps = {
+export const NFTNotificationTransferSampleData: NFTNotificationTransferTemplateProps = {
   ...CreatorFollowConfirmationSampleData,
   senderLikerId: SAMPLE_LIKEE_ID,
   senderDisplayName: SAMPLE_LIKEE_DISPLAY_NAME,
@@ -42,7 +42,7 @@ export const NFTNotificationTransferSampleData: NFTNotifcationTransferTemplatePr
   nftURL: SAMPLE_URL,
 };
 
-export const NFTNotificationPurchaseSampleData: NFTNotifcationPurchaseTemplateProps = {
+export const NFTNotificationPurchaseSampleData: NFTNotificationPurchaseTemplateProps = {
   ...CreatorFollowConfirmationSampleData,
   buyerLikerId: SAMPLE_LIKEE_ID,
   buyerDisplayName: SAMPLE_LIKEE_DISPLAY_NAME,

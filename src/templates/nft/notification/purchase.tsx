@@ -9,7 +9,7 @@ import { Link } from '../../../components/link';
 import { NFTDefaultTemplate, NFTDefaultTemplateProps } from '../default';
 import { formatNumber } from '../../../utils/number';
 
-export interface NFTNotifcationPurchaseTemplateProps
+export interface NFTNotificationPurchaseTemplateProps
   extends NFTDefaultTemplateProps {
   buyerLikerId?: string;
   buyerDisplayName?: string;
@@ -18,8 +18,8 @@ export interface NFTNotifcationPurchaseTemplateProps
   priceInLIKE?: number;
 }
 
-export const NFTNotifcationPurchaseTemplate = (
-  props: NFTNotifcationPurchaseTemplateProps
+export const NFTNotificationPurchaseTemplate = (
+  props: NFTNotificationPurchaseTemplateProps
 ) => {
   const {
     buyerLikerId,

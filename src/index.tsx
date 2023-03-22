@@ -49,12 +49,12 @@ import {
   CreatorFollowPublishNewTemplateProps,
 } from './templates/nft/creator-follow/publish-new';
 import {
-  NFTNotifcationTransferTemplate,
-  NFTNotifcationTransferTemplateProps,
+  NFTNotificationTransferTemplate,
+  NFTNotificationTransferTemplateProps,
 } from './templates/nft/notification/transfer';
 import {
-  NFTNotifcationPurchaseTemplate,
-  NFTNotifcationPurchaseTemplateProps,
+  NFTNotificationPurchaseTemplate,
+  NFTNotificationPurchaseTemplateProps,
 } from './templates/nft/notification/purchase';
 
 export const getBasicTemplate = (
@@ -272,7 +272,7 @@ export const getCreatorFollowPublishNewTemplate = (
 };
 
 export const getNFTNotificationTransferTemplate = (
-  props: NFTNotifcationTransferTemplateProps,
+  props: NFTNotificationTransferTemplateProps,
   options?: Mjml2HtmlOptions
 ) => {
   const intl = initIntl();
@@ -282,7 +282,7 @@ export const getNFTNotificationTransferTemplate = (
       { sender: props.senderDisplayName, nftTitle: props.nftTitle }
     ),
   } = props;
-  const { html: body } = render(<NFTNotifcationTransferTemplate {...props} />, {
+  const { html: body } = render(<NFTNotificationTransferTemplate {...props} />, {
     minify: false,
     ...options,
   });
@@ -290,7 +290,7 @@ export const getNFTNotificationTransferTemplate = (
 };
 
 export const getNFTNotificationPurchaseTemplate = (
-  props: NFTNotifcationPurchaseTemplateProps,
+  props: NFTNotificationPurchaseTemplateProps,
   options?: Mjml2HtmlOptions
 ) => {
   const intl = initIntl();
@@ -300,7 +300,7 @@ export const getNFTNotificationPurchaseTemplate = (
       { price: formatNumber(props.priceInLIKE), nftTitle: props.nftTitle }
     ),
   } = props;
-  const { html: body } = render(<NFTNotifcationPurchaseTemplate {...props} />, {
+  const { html: body } = render(<NFTNotificationPurchaseTemplate {...props} />, {
     minify: false,
     ...options,
   });

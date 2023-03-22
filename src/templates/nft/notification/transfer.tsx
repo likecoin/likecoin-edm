@@ -7,7 +7,7 @@ import { Link } from '../../../components/link';
 
 import { NFTDefaultTemplate, NFTDefaultTemplateProps } from '../default';
 
-export interface NFTNotifcationTransferTemplateProps
+export interface NFTNotificationTransferTemplateProps
   extends NFTDefaultTemplateProps {
   senderLikerId?: string;
   senderDisplayName?: string;
@@ -15,8 +15,8 @@ export interface NFTNotifcationTransferTemplateProps
   senderIsCivicLiker?: boolean;
 }
 
-export const NFTNotifcationTransferTemplate = (
-  props: NFTNotifcationTransferTemplateProps
+export const NFTNotificationTransferTemplate = (
+  props: NFTNotificationTransferTemplateProps
 ) => {
   const {
     senderLikerId,

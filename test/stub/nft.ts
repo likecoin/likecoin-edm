@@ -40,6 +40,7 @@ export const NFTNotificationTransferSampleData: NFTNotificationTransferTemplateP
   nftTitle: SAMPLE_TEXT,
   nftCoverImageSrc: SAMPLE_IMAGE_URL,
   nftURL: SAMPLE_URL,
+  message: SAMPLE_TEXT,
 };
 
 export const NFTNotificationPurchaseSampleData: NFTNotificationPurchaseTemplateProps = {
@@ -52,4 +53,5 @@ export const NFTNotificationPurchaseSampleData: NFTNotificationPurchaseTemplateP
   nftTitle: SAMPLE_TEXT,
   nftCoverImageSrc: SAMPLE_IMAGE_URL,
   nftURL: SAMPLE_URL,
+  message: SAMPLE_TEXT,
 };

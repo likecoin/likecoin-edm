@@ -282,10 +282,13 @@ export const getNFTNotificationTransferTemplate = (
       { sender: props.senderDisplayName, nftTitle: props.nftTitle }
     ),
   } = props;
-  const { html: body } = render(<NFTNotificationTransferTemplate {...props} />, {
-    minify: false,
-    ...options,
-  });
+  const { html: body } = render(
+    <NFTNotificationTransferTemplate {...props} />,
+    {
+      minify: false,
+      ...options,
+    }
+  );
   return { subject, body };
 };
 
@@ -300,9 +303,12 @@ export const getNFTNotificationPurchaseTemplate = (
       { price: formatNumber(props.priceInLIKE), nftTitle: props.nftTitle }
     ),
   } = props;
-  const { html: body } = render(<NFTNotificationPurchaseTemplate {...props} />, {
-    minify: false,
-    ...options,
-  });
+  const { html: body } = render(
+    <NFTNotificationPurchaseTemplate {...props} />,
+    {
+      minify: false,
+      ...options,
+    }
+  );
   return { subject, body };
 };

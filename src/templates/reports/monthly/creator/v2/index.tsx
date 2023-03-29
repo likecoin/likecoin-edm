@@ -158,7 +158,7 @@ const MonthlyReportCreatorV2TopContentsSection = ({
 }) => {
   return (
     <>
-      <BasicSection paddingTop={48}>
+      <BasicSection paddingTop={48} backgroundColor="white">
         <MjmlColumn>
           <MjmlText
             color={Colors.Grey4A}
@@ -170,15 +170,15 @@ const MonthlyReportCreatorV2TopContentsSection = ({
           </MjmlText>
         </MjmlColumn>
       </BasicSection>
-      <BasicSection paddingTop={0}>
+      <BasicSection paddingTop={0} paddingX={0} backgroundColor="white">
         <MjmlColumn backgroundColor="white">
-          <MjmlTable cellpadding="8px">
+          <MjmlTable cellpadding="4px">
             {contents.map((content, i) => (
               <TableRow key={content.url} isFirstChild={i === 0}>
                 <td
-                  width={48}
+                  width={36}
                   style={{
-                    paddingLeft: 24,
+                    paddingLeft: 16,
                     paddingTop: 12,
                     paddingBottom: 12,
                   }}
@@ -189,8 +189,8 @@ const MonthlyReportCreatorV2TopContentsSection = ({
                       alt={content.title}
                       style={{
                         display: 'block',
-                        width: 48,
-                        height: 48,
+                        width: 36,
+                        height: 36,
                         objectFit: 'cover',
                       }}
                     />
@@ -230,7 +230,7 @@ const MonthlyReportCreatorV2TopContentsSection = ({
                   style={{
                     wordBreak: 'keep-all',
                     textAlign: 'right',
-                    paddingRight: 24,
+                    paddingRight: 16,
                   }}
                 >
                   <div style={{ color: Colors.LikeGreen, fontSize: 16 }}>
@@ -371,7 +371,7 @@ export const MonthlyReportCreatorV2Template = ({
         <MonthlyReportCreatorV2TopContentsSection contents={topContents} />
       )}
 
-      <FooterSection />
+      <FooterSection shouldShowDivider={!!topContents} />
 
       <BasicSection>
         <MjmlColumn>

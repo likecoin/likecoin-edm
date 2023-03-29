@@ -36,8 +36,10 @@ const socialElements = [
 
 export const FooterSection = ({
   unsubscribeLink,
+  shouldShowDivider = true,
 }: {
   unsubscribeLink?: string;
+  shouldShowDivider?: boolean;
 }) => {
   const intl = useIntl();
   return (
@@ -48,12 +50,14 @@ export const FooterSection = ({
       paddingBottom={24}
     >
       <MjmlColumn>
-        <MjmlDivider
-          paddingTop={32}
-          paddingBottom={32}
-          borderColor={Colors.PaleCyan}
-          borderWidth={2}
-        />
+        {shouldShowDivider && (
+          <MjmlDivider
+            paddingTop={32}
+            paddingBottom={32}
+            borderColor={Colors.PaleCyan}
+            borderWidth={2}
+          />
+        )}
         <MjmlImage
           width={220}
           src={getAssetPath(

@@ -298,7 +298,11 @@ export const MonthlyReportCivicLikerV3Template = (
 
       {!!supportedCreators.length && (
         <>
-          <BasicSection paddingBottom={0}>
+          <BasicSection
+            paddingTop={48}
+            paddingBottom={0}
+            backgroundColor="white"
+          >
             <MjmlColumn>
               <MjmlText
                 color={Colors.Grey4A}
@@ -310,15 +314,15 @@ export const MonthlyReportCivicLikerV3Template = (
               </MjmlText>
             </MjmlColumn>
           </BasicSection>
-          <BasicSection>
-            <MjmlColumn backgroundColor="white">
-              <MjmlTable cellpadding="8px">
+          <BasicSection paddingX={0} backgroundColor="white">
+            <MjmlColumn>
+              <MjmlTable cellpadding="4px">
                 {supportedCreators.map((creator, i) => (
                   <TableRow key={creator.likerID} isFirstChild={i === 0}>
                     <td
-                      width={48}
+                      width={28}
                       style={{
-                        paddingLeft: 24,
+                        paddingLeft: 16,
                         paddingBottom: 16,
                         paddingTop: 16,
                       }}
@@ -328,7 +332,7 @@ export const MonthlyReportCivicLikerV3Template = (
                         likerID={creator.likerID}
                         displayName={creator.displayName}
                         isCivicLiker={creator.isCivicLiker}
-                        size={48}
+                        size={28}
                       />
                     </td>
                     <td>
@@ -353,7 +357,7 @@ export const MonthlyReportCivicLikerV3Template = (
                         values={{ count: creator.workCount }}
                       />
                     </td>
-                    <td style={{ textAlign: 'right', paddingRight: 24 }}>
+                    <td style={{ textAlign: 'right', paddingRight: 16 }}>
                       <span style={{ color: Colors.LikeGreen }}>
                         {creator.likeAmount}
                       </span>
@@ -368,7 +372,7 @@ export const MonthlyReportCivicLikerV3Template = (
         </>
       )}
 
-      <FooterSection />
+      <FooterSection shouldShowDivider={false} />
 
       <BasicSection>
         <MjmlColumn>

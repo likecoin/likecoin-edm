@@ -4,9 +4,9 @@ import { MjmlRaw } from 'mjml-react';
 import { DEFAULT_AVATAR_URL, LIKER_LAND_ROOT } from '../constants';
 import { getAssetPath } from '../utils/url';
 
-import { Link } from './link';
+import { Link, LinkProps } from './link';
 
-export interface AvatarProps {
+export interface AvatarProps extends LinkProps {
   likerID?: string;
   displayName?: string;
   isCivicLiker?: boolean;
@@ -17,17 +17,18 @@ export interface AvatarProps {
   lineHeight?: number;
 }
 
-export const Avatar = (props: AvatarProps) => {
-  const {
-    likerID = '',
-    displayName = '',
-    isCivicLiker = false,
-    src = DEFAULT_AVATAR_URL,
-    size = 40,
-    align = 'center',
-    display = 'block',
-    lineHeight = 1,
-  } = props;
+export const Avatar = ({
+  likerID = '',
+  displayName = '',
+  isCivicLiker = false,
+  src = DEFAULT_AVATAR_URL,
+  size = 40,
+  align = 'center',
+  display = 'block',
+  lineHeight = 1,
+  style,
+  ...props
+}: AvatarProps) => {
   return (
     <MjmlRaw>
       <Link
@@ -48,7 +49,9 @@ export const Avatar = (props: AvatarProps) => {
                 backgroundSize: 'contain',
               }
             : {}),
+          ...style,
         }}
+        {...props}
       >
         <img
           src={src}

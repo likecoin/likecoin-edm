@@ -83,7 +83,7 @@ export const NFTDefaultTemplate = ({
         </MjmlColumn>
       </BasicSection>
       {!!message && (
-        <BasicSection paddingTop={32} paddingLeft={64} paddingRight={64}>
+        <BasicSection paddingTop={64} paddingLeft={64} paddingRight={64}>
           <MjmlColumn padding={16} backgroundColor="white" borderRadius={24}>
             <Avatar
               src={headerAvatarSrc}
@@ -91,8 +91,9 @@ export const NFTDefaultTemplate = ({
               displayName={headerAvatarLikerID}
               isCivicLiker={headerAvatarIsCivicLiker}
               size={44}
+              style={{ marginTop: -48 }}
             />
-            <MjmlText paddingTop={16} align="center">
+            <MjmlText paddingTop={16} paddingBottom={24} align="center">
               {message}
             </MjmlText>
           </MjmlColumn>

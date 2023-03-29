@@ -23,6 +23,7 @@ export type BasicSectionProps = BasicSectionExtraProps &
 
 export const BasicSection = ({
   children,
+  padding,
   paddingX,
   paddingY,
   ...props
@@ -33,12 +34,25 @@ export const BasicSection = ({
     sectionBgURL,
     sectionBgColor,
   } = useTheme();
+
+  const paddingXWithFallback = React.useMemo(() => {
+    if (paddingX !== undefined) return paddingX;
+    if (padding !== undefined) return padding;
+    return sectionPaddingX;
+  }, [paddingX, padding, sectionPaddingX]);
+
+  const paddingYWithFallback = React.useMemo(() => {
+    if (paddingY !== undefined) return paddingY;
+    if (padding !== undefined) return padding;
+    return 32;
+  }, [paddingY, padding]);
+
   return (
     <MjmlSection
-      paddingTop={paddingY !== undefined ? paddingY : 32}
-      paddingBottom={paddingY !== undefined ? paddingY : 32}
-      paddingLeft={paddingX !== undefined ? paddingX : sectionPaddingX}
-      paddingRight={paddingX !== undefined ? paddingX : sectionPaddingX}
+      paddingTop={paddingYWithFallback}
+      paddingBottom={paddingYWithFallback}
+      paddingLeft={paddingXWithFallback}
+      paddingRight={paddingXWithFallback}
       backgroundSize={sectionWidth}
       backgroundUrl={sectionBgURL}
       backgroundColor={sectionBgColor}

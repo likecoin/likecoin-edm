@@ -9,9 +9,17 @@ export interface NFTWidgetProps {
   title?: string;
   coverImageSrc?: string;
   url?: string;
+  priceLabel?: string;
+  style?: React.CSSProperties;
 }
 
-export const NFTWidget = ({ title, coverImageSrc, url }: NFTWidgetProps) => {
+export const NFTWidget = ({
+  title,
+  coverImageSrc,
+  url,
+  priceLabel,
+  style,
+}: NFTWidgetProps) => {
   return (
     <MjmlRaw>
       <table
@@ -23,6 +31,7 @@ export const NFTWidget = ({ title, coverImageSrc, url }: NFTWidgetProps) => {
           display: 'block',
           fontSize: 16,
           lineHeight: 1.5,
+          ...style,
         }}
       >
         <tr>
@@ -67,6 +76,18 @@ export const NFTWidget = ({ title, coverImageSrc, url }: NFTWidgetProps) => {
                       {title}
                     </strong>
                   </Link>
+                  {!!priceLabel && (
+                    <p
+                      style={{
+                        color: Colors.LikeGreen,
+                        fontSize: 14,
+                        fontFamily: 'Arial',
+                        fontWeight: 600,
+                      }}
+                    >
+                      {priceLabel}
+                    </p>
+                  )}
                 </td>
               </tr>
             </table>

@@ -1,5 +1,6 @@
 import { NFTNotificationTransferTemplateProps } from '../../dist/templates/nft/notification/transfer';
 import { NFTNotificationPurchaseTemplateProps } from '../../dist/templates/nft/notification/purchase';
+import { NFTNotificationPurchaseMultipleTemplateProps } from '../../dist/templates/nft/notification/purchase-multiple';
 import { CreatorFollowConfirmationTemplateProps } from '../../dist/templates/nft/creator-follow/confirmation';
 import { CreatorFollowPublishNewTemplateProps } from '../../dist/templates/nft/creator-follow/publish-new';
 
@@ -54,4 +55,41 @@ export const NFTNotificationPurchaseSampleData: NFTNotificationPurchaseTemplateP
   nftCoverImageSrc: SAMPLE_IMAGE_URL,
   nftURL: SAMPLE_URL,
   message: SAMPLE_TEXT,
+};
+
+export const NFTNotificationPurchaseMultipleSampleData: NFTNotificationPurchaseMultipleTemplateProps = {
+  unsubscribeLink: SAMPLE_URL,
+  sellerDisplayName: SAMPLE_LIKER_DISPLAY_NAME,
+  buyerLikerID: SAMPLE_LIKEE_ID,
+  buyerDisplayName: SAMPLE_LIKEE_DISPLAY_NAME,
+  buyerAvatarSrc: SAMPLE_IMAGE_URL,
+  buyerIsCivicLiker: true,
+  buyerMessage: SAMPLE_TEXT,
+  purchasedItems: [
+    {
+      title: SAMPLE_TEXT,
+      coverImageSrc: SAMPLE_IMAGE_URL,
+      url: SAMPLE_URL,
+      priceInLIKE: 1024,
+    },
+    {
+      title: SAMPLE_TEXT,
+      coverImageSrc: SAMPLE_IMAGE_URL,
+      url: SAMPLE_URL,
+      priceInLIKE: 2048,
+    },
+    {
+      title: SAMPLE_TEXT,
+      coverImageSrc: SAMPLE_IMAGE_URL,
+      url: SAMPLE_URL,
+      priceInLIKE: 64,
+    },
+    {
+      title: SAMPLE_TEXT,
+      coverImageSrc: SAMPLE_IMAGE_URL,
+      url: SAMPLE_URL,
+      priceInLIKE: 32,
+    },
+  ],
+  totalPriceInLIKE: 3168,
 };

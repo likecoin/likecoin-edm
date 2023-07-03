@@ -100,7 +100,7 @@ export const NFTDefaultTemplate = ({
         </BasicSection>
       )}
       <BasicSection paddingTop={32} paddingBottom={32}>
-        <MjmlColumn>
+        <MjmlColumn width={320}>
           <NFTWidget
             title={nftTitle}
             coverImageSrc={nftCoverImageSrc}

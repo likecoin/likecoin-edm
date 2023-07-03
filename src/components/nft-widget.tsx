@@ -27,7 +27,7 @@ export const NFTWidget = ({
           width: '100%',
           borderRadius: 14,
           backgroundColor: '#ffffff',
-          border: `2px solid ${Colors.GreyD8}`,
+          border: `2px solid ${Colors.GreyEB}`,
           display: 'block',
           fontSize: 16,
           lineHeight: 1.5,
@@ -75,19 +75,22 @@ export const NFTWidget = ({
                     >
                       {title}
                     </strong>
+                    {!!priceLabel && (
+                      <p
+                        style={{
+                          color: Colors.LikeGreen,
+                          fontSize: 14,
+                          fontFamily: 'Arial',
+                          fontWeight: 600,
+                          textAlign: 'right',
+                          marginTop: 14,
+                          marginBottom: 0,
+                        }}
+                      >
+                        {priceLabel}
+                      </p>
+                    )}
                   </Link>
-                  {!!priceLabel && (
-                    <p
-                      style={{
-                        color: Colors.LikeGreen,
-                        fontSize: 14,
-                        fontFamily: 'Arial',
-                        fontWeight: 600,
-                      }}
-                    >
-                      {priceLabel}
-                    </p>
-                  )}
                 </td>
               </tr>
             </table>

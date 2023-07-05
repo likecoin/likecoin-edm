@@ -3,6 +3,8 @@ import { MjmlRaw } from 'mjml-react';
 
 import * as Colors from '../constants/colors';
 
+import { getAssetPath } from '../utils/url';
+
 import { Link } from './link';
 
 export interface NFTWidgetProps {
@@ -75,24 +77,35 @@ export const NFTWidget = ({
                     >
                       {title}
                     </strong>
-                    {!!priceLabel && (
-                      <p
-                        style={{
-                          color: Colors.LikeGreen,
-                          fontSize: 14,
-                          fontFamily: 'Arial',
-                          fontWeight: 600,
-                          textAlign: 'right',
-                          marginTop: 14,
-                          marginBottom: 0,
-                        }}
-                      >
-                        {priceLabel}
-                      </p>
-                    )}
                   </Link>
                 </td>
               </tr>
+              {!!priceLabel && (
+                <tr>
+                  <td
+                    style={{
+                      paddingTop: 12,
+                      color: Colors.LikeGreen,
+                      fontSize: 14,
+                      fontFamily: 'Arial',
+                      fontWeight: 600,
+                      textAlign: 'right',
+                    }}
+                  >
+                    <img
+                      width={14}
+                      height={14}
+                      src={getAssetPath('/icons/coin-insert.png')}
+                      style={{
+                        verticalAlign: 'middle',
+                        marginRight: 8,
+                        marginBottom: 3,
+                      }}
+                    />
+                    <span>{priceLabel}</span>
+                  </td>
+                </tr>
+              )}
             </table>
           </td>
         </tr>

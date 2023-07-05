@@ -9,7 +9,7 @@
   "help.center.text": "Help Center",
   "help.center.url": "https://docs.like.co",
   "nft_notification_purchase_content": "<buyer>BUYER</buyer> has bought <nft>NFT_TITLE</nft> for <price>LikeCoin</price>.",
-  "nft_notification_purchase_multiple_content": "<buyer>BUYER</buyer> has bought multiple items for <price>LIKE</price>:",
+  "nft_notification_purchase_multiple_content": "Congratulation! <buyer>BUYER</buyer> has collected your following works for <price>LIKE</price>:",
   "nft_notification_purchase_multiple_subject": "You have sold {count} items for {price} LIKE",
   "nft_notification_purchase_multiple_title": "You have sold {count} items for {price} LIKE",
   "nft_notification_purchase_subject": "You have sold {nftTitle} for {price} LikeCoin",

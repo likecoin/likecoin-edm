@@ -225,7 +225,7 @@ export const NFTNotificationPurchaseMultipleTemplate = ({
           </MjmlColumn>
         </BasicSection>
       )}
-      <WritingNFTCTASection />
+      <WritingNFTCTASection isButton={true} paddingBottom={64} />
       <FooterSection unsubscribeLink={unsubscribeLink} />
     </TemplateBase>
   );

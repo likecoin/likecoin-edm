@@ -108,7 +108,11 @@ export const NFTDefaultTemplate = ({
           />
         </MjmlColumn>
       </BasicSection>
-      <WritingNFTCTASection />
+      <WritingNFTCTASection
+        likerID={headerAvatarLikerID}
+        isButton={true}
+        paddingBottom={64}
+      />
       <FooterSection unsubscribeLink={unsubscribeLink} />
     </TemplateBase>
   );

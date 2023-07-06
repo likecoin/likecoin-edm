@@ -87,7 +87,11 @@ export const CreatorFollowConfirmationTemplate = ({
           </MjmlText>
         </MjmlColumn>
       </BasicSection>
-      <WritingNFTCTASection />
+      <WritingNFTCTASection
+        isButton={true}
+        paddingBottom={64}
+        likerID={creatorLikerId}
+      />
       <FooterSection unsubscribeLink={unsubscribeLink} />
     </TemplateBase>
   );

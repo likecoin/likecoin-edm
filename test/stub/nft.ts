@@ -13,6 +13,7 @@ import {
   SAMPLE_TEXT,
   SAMPLE_LIKEE_ID,
   SAMPLE_LIKEE_DISPLAY_NAME,
+  SAMPLE_NFT_IMAGE_URL,
 } from './samples';
 
 export const CreatorFollowConfirmationSampleData: CreatorFollowConfirmationTemplateProps = {
@@ -28,7 +29,7 @@ export const CreatorFollowConfirmationSampleData: CreatorFollowConfirmationTempl
 export const CreatorFollowPublishNewSampleData: CreatorFollowPublishNewTemplateProps = {
   ...CreatorFollowConfirmationSampleData,
   nftTitle: SAMPLE_TEXT,
-  nftCoverImageSrc: SAMPLE_IMAGE_URL,
+  nftCoverImageSrc: SAMPLE_NFT_IMAGE_URL,
   nftURL: SAMPLE_URL,
 };
 
@@ -39,7 +40,7 @@ export const NFTNotificationTransferSampleData: NFTNotificationTransferTemplateP
   senderAvatarSrc: SAMPLE_IMAGE_URL,
   senderIsCivicLiker: true,
   nftTitle: SAMPLE_TEXT,
-  nftCoverImageSrc: SAMPLE_IMAGE_URL,
+  nftCoverImageSrc: SAMPLE_NFT_IMAGE_URL,
   nftURL: SAMPLE_URL,
   message: SAMPLE_TEXT,
 };
@@ -52,7 +53,7 @@ export const NFTNotificationPurchaseSampleData: NFTNotificationPurchaseTemplateP
   buyerIsCivicLiker: true,
   priceInLIKE: 200000,
   nftTitle: SAMPLE_TEXT,
-  nftCoverImageSrc: SAMPLE_IMAGE_URL,
+  nftCoverImageSrc: SAMPLE_NFT_IMAGE_URL,
   nftURL: SAMPLE_URL,
   message: SAMPLE_TEXT,
 };
@@ -68,28 +69,40 @@ export const NFTNotificationPurchaseMultipleSampleData: NFTNotificationPurchaseM
   purchasedItems: [
     {
       title: SAMPLE_TEXT,
-      coverImageSrc: SAMPLE_IMAGE_URL,
-      url: SAMPLE_URL,
-      priceInLIKE: 1024,
-    },
-    {
-      title: SAMPLE_TEXT,
-      coverImageSrc: SAMPLE_IMAGE_URL,
+      coverImageSrc: SAMPLE_NFT_IMAGE_URL,
       url: SAMPLE_URL,
       priceInLIKE: 2048,
     },
     {
       title: SAMPLE_TEXT,
-      coverImageSrc: SAMPLE_IMAGE_URL,
+      coverImageSrc: SAMPLE_NFT_IMAGE_URL,
+      url: SAMPLE_URL,
+      priceInLIKE: 1024,
+    },
+    {
+      title: SAMPLE_TEXT,
+      coverImageSrc: SAMPLE_NFT_IMAGE_URL,
       url: SAMPLE_URL,
       priceInLIKE: 64,
     },
     {
       title: SAMPLE_TEXT,
-      coverImageSrc: SAMPLE_IMAGE_URL,
+      coverImageSrc: SAMPLE_NFT_IMAGE_URL,
       url: SAMPLE_URL,
       priceInLIKE: 32,
     },
+    {
+      title: SAMPLE_TEXT,
+      coverImageSrc: SAMPLE_NFT_IMAGE_URL,
+      url: SAMPLE_URL,
+      priceInLIKE: 16,
+    },
+    {
+      title: SAMPLE_TEXT,
+      coverImageSrc: SAMPLE_NFT_IMAGE_URL,
+      url: SAMPLE_URL,
+      priceInLIKE: 8,
+    },
   ],
-  totalPriceInLIKE: 3168,
+  totalPriceInLIKE: 3192,
 };

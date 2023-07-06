@@ -42,7 +42,9 @@ export const WritingNFTCTASection = ({
     );
   }
 
-  const bannerSrc = getAssetPath(`/banners/cta-writing-nft.jpg`);
+  const bannerSrc = getAssetPath(
+    `/banners/cta-turn-story-into-collectible.jpg`
+  );
   return (
     <BasicSection paddingLeft={16} paddingRight={16} {...props}>
       <MjmlColumn>

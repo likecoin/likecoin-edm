@@ -52,8 +52,8 @@ export const NFTDefaultTemplate = ({
           {!message && (
             <Avatar
               src={headerAvatarSrc}
-              likerID={headerAvatarDisplayName}
-              displayName={headerAvatarLikerID}
+              likerID={headerAvatarLikerID}
+              displayName={headerAvatarDisplayName}
               isCivicLiker={headerAvatarIsCivicLiker}
               size={44}
               display="inline-block"
@@ -87,8 +87,8 @@ export const NFTDefaultTemplate = ({
           <MjmlColumn padding={16} backgroundColor="white" borderRadius={24}>
             <Avatar
               src={headerAvatarSrc}
-              likerID={headerAvatarDisplayName}
-              displayName={headerAvatarLikerID}
+              likerID={headerAvatarLikerID}
+              displayName={headerAvatarDisplayName}
               isCivicLiker={headerAvatarIsCivicLiker}
               size={44}
               style={{ marginTop: -48 }}

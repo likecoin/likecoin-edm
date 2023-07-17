@@ -56,6 +56,10 @@ import {
   NFTNotificationPurchaseTemplate,
   NFTNotificationPurchaseTemplateProps,
 } from './templates/nft/notification/purchase';
+import {
+  NFTNotificationPurchaseMultipleTemplate,
+  NFTNotificationPurchaseMultipleTemplateProps,
+} from './templates/nft/notification/purchase-multiple';
 
 export const getBasicTemplate = (
   props: BasicTemplateProps,
@@ -305,6 +309,30 @@ export const getNFTNotificationPurchaseTemplate = (
   } = props;
   const { html: body } = render(
     <NFTNotificationPurchaseTemplate {...props} />,
+    {
+      minify: false,
+      ...options,
+    }
+  );
+  return { subject, body };
+};
+
+export const getNFTNotificationPurchaseMultipleTemplate = (
+  props: NFTNotificationPurchaseMultipleTemplateProps,
+  options?: Mjml2HtmlOptions
+) => {
+  const intl = initIntl();
+  const {
+    subject = intl.formatMessage(
+      { id: 'nft_notification_purchase_multiple_subject' },
+      {
+        price: formatNumber(props.totalPriceInLIKE),
+        count: props.purchasedItems.length,
+      }
+    ),
+  } = props;
+  const { html: body } = render(
+    <NFTNotificationPurchaseMultipleTemplate {...props} />,
     {
       minify: false,
       ...options,

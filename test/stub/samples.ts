@@ -10,3 +10,4 @@ export const SAMPLE_TEXT = 'Lorem Ipsum';
 export const SAMPLE_TIMESTAMP = 1609459860000;
 export const SAMPLE_URL = 'https://example.com';
 export const SAMPLE_REMARK = 'likecoin remark';
+export const SAMPLE_NFT_IMAGE_URL = 'https://static.like.co/primitive-nft.jpg';

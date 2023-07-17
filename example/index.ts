@@ -17,6 +17,7 @@ import {
   getCreatorFollowPublishNewTemplate,
   getNFTNotificationTransferTemplate,
   getNFTNotificationPurchaseTemplate,
+  getNFTNotificationPurchaseMultipleTemplate,
 } from '../dist';
 
 import {
@@ -32,6 +33,7 @@ import {
 import {
   CreatorFollowConfirmationSampleData,
   CreatorFollowPublishNewSampleData,
+  NFTNotificationPurchaseMultipleSampleData,
   NFTNotificationPurchaseSampleData,
   NFTNotificationTransferSampleData,
 } from './data/nft';
@@ -162,6 +164,15 @@ handleRequest('/nft/notification/transfer', (req, res) => {
 handleRequest('/nft/notification/purchase', (req, res) => {
   const { subject, body } = getNFTNotificationPurchaseTemplate({
     ...NFTNotificationPurchaseSampleData,
+    ...req.query,
+    ...req.body,
+  });
+  res.send(subject.concat(body));
+});
+
+handleRequest('/nft/notification/purchase-multiple', (req, res) => {
+  const { subject, body } = getNFTNotificationPurchaseMultipleTemplate({
+    ...NFTNotificationPurchaseMultipleSampleData,
     ...req.query,
     ...req.body,
   });

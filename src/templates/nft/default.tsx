@@ -52,8 +52,8 @@ export const NFTDefaultTemplate = ({
           {!message && (
             <Avatar
               src={headerAvatarSrc}
-              likerID={headerAvatarDisplayName}
-              displayName={headerAvatarLikerID}
+              likerID={headerAvatarLikerID}
+              displayName={headerAvatarDisplayName}
               isCivicLiker={headerAvatarIsCivicLiker}
               size={44}
               display="inline-block"
@@ -87,8 +87,8 @@ export const NFTDefaultTemplate = ({
           <MjmlColumn padding={16} backgroundColor="white" borderRadius={24}>
             <Avatar
               src={headerAvatarSrc}
-              likerID={headerAvatarDisplayName}
-              displayName={headerAvatarLikerID}
+              likerID={headerAvatarLikerID}
+              displayName={headerAvatarDisplayName}
               isCivicLiker={headerAvatarIsCivicLiker}
               size={44}
               style={{ marginTop: -48 }}
@@ -100,7 +100,7 @@ export const NFTDefaultTemplate = ({
         </BasicSection>
       )}
       <BasicSection paddingTop={32} paddingBottom={32}>
-        <MjmlColumn>
+        <MjmlColumn width={320}>
           <NFTWidget
             title={nftTitle}
             coverImageSrc={nftCoverImageSrc}
@@ -108,7 +108,11 @@ export const NFTDefaultTemplate = ({
           />
         </MjmlColumn>
       </BasicSection>
-      <WritingNFTCTASection />
+      <WritingNFTCTASection
+        likerID={headerAvatarLikerID}
+        isButton={true}
+        paddingBottom={64}
+      />
       <FooterSection unsubscribeLink={unsubscribeLink} />
     </TemplateBase>
   );

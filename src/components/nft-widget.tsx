@@ -96,6 +96,7 @@ export const NFTWidget = ({
                       width={14}
                       height={14}
                       src={getAssetPath('/icons/coin-insert.png')}
+                      alt=""
                       style={{
                         verticalAlign: 'middle',
                         marginRight: 8,

@@ -6,7 +6,6 @@ import * as Colors from '../../../constants/colors';
 import { LIKER_LAND_ROOT } from '../../../constants';
 
 import { Avatar } from '../../../components/avatar';
-import { WritingNFTCTASection } from '../../../components/cta-writing-nft';
 import { FooterSection } from '../../../components/footer';
 import { HeaderSection } from '../../../components/header';
 import { Link } from '../../../components/link';
@@ -211,6 +210,7 @@ export const NFTNotificationPurchaseMultipleTemplate = ({
                       width={14}
                       height={14}
                       src={getAssetPath('/icons/coin-insert.png')}
+                      alt=""
                       style={{
                         verticalAlign: 'middle',
                         marginRight: 8,
@@ -225,7 +225,6 @@ export const NFTNotificationPurchaseMultipleTemplate = ({
           </MjmlColumn>
         </BasicSection>
       )}
-      <WritingNFTCTASection isButton={true} paddingBottom={64} />
       <FooterSection unsubscribeLink={unsubscribeLink} />
     </TemplateBase>
   );

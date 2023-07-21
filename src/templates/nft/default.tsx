@@ -22,6 +22,7 @@ export interface NFTDefaultTemplateProps extends NFTTemplateProps {
   headerText?: React.ReactNode;
   message?: string;
   body?: React.ReactElement;
+  shouldShowCTA?: boolean;
 }
 
 export const NFTDefaultTemplate = ({
@@ -39,6 +40,7 @@ export const NFTDefaultTemplate = ({
   nftTitle,
   nftCoverImageSrc,
   nftURL,
+  shouldShowCTA = false,
 }: NFTDefaultTemplateProps) => {
   return (
     <TemplateBase language={language} subject={subject}>
@@ -108,11 +110,14 @@ export const NFTDefaultTemplate = ({
           />
         </MjmlColumn>
       </BasicSection>
-      <WritingNFTCTASection
-        likerID={headerAvatarLikerID}
-        isButton={true}
-        paddingBottom={64}
-      />
+      {shouldShowCTA && (
+        <WritingNFTCTASection
+          url={nftURL}
+          likerID={headerAvatarLikerID}
+          isButton={true}
+          paddingBottom={64}
+        />
+      )}
       <FooterSection unsubscribeLink={unsubscribeLink} />
     </TemplateBase>
   );

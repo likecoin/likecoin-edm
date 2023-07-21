@@ -5,7 +5,6 @@ import { MjmlColumn, MjmlText } from 'mjml-react';
 import * as Colors from '../../../constants/colors';
 
 import { Avatar } from '../../../components/avatar';
-import { WritingNFTCTASection } from '../../../components/cta-writing-nft';
 import { FooterSection } from '../../../components/footer';
 import { HeaderSection } from '../../../components/header';
 import { Link } from '../../../components/link';
@@ -61,7 +60,7 @@ export const CreatorFollowConfirmationTemplate = ({
           </MjmlText>
         </MjmlColumn>
       </BasicSection>
-      <BasicSection paddingTop={48} paddingBottom={0}>
+      <BasicSection paddingTop={48} paddingBottom={48}>
         <MjmlColumn>
           <MjmlText>
             <FormattedMessage
@@ -87,11 +86,6 @@ export const CreatorFollowConfirmationTemplate = ({
           </MjmlText>
         </MjmlColumn>
       </BasicSection>
-      <WritingNFTCTASection
-        isButton={true}
-        paddingBottom={64}
-        likerID={creatorLikerId}
-      />
       <FooterSection unsubscribeLink={unsubscribeLink} />
     </TemplateBase>
   );

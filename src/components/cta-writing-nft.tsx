@@ -12,16 +12,21 @@ import { BasicSection, BasicSectionProps } from './sections/basic';
 export interface WritingNFTCTASectionProps extends BasicSectionProps {
   isButton?: boolean;
   likerID?: string;
+  url?: string;
 }
 
 export const WritingNFTCTASection = ({
   isButton = false,
   likerID,
+  url: overrideURL,
   ...props
 }: WritingNFTCTASectionProps) => {
   const intl = useIntl();
   const url = wrapUtm(
-    likerID ? `${LIKER_LAND_ROOT}/${likerID}` : `${LIKER_LAND_ROOT}/writing-nft`
+    overrideURL ||
+      (likerID
+        ? `${LIKER_LAND_ROOT}/${likerID}`
+        : `${LIKER_LAND_ROOT}/writing-nft`)
   );
   if (isButton) {
     return (

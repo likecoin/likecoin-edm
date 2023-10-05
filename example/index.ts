@@ -18,6 +18,7 @@ import {
   getNFTNotificationTransferTemplate,
   getNFTNotificationPurchaseTemplate,
   getNFTNotificationPurchaseMultipleTemplate,
+  getBasicV2Template,
 } from '../dist';
 
 import {
@@ -52,6 +53,11 @@ function handleRequest(path: string, handler: RequestHandler) {
 
 handleRequest('/basic', (req, res) => {
   const { body } = getBasicTemplate({ ...req.query, ...req.body });
+  res.send(body);
+});
+
+handleRequest('/v2/basic', (req, res) => {
+  const { body } = getBasicV2Template({ ...req.query, ...req.body });
   res.send(body);
 });
 

@@ -60,12 +60,25 @@ import {
   NFTNotificationPurchaseMultipleTemplate,
   NFTNotificationPurchaseMultipleTemplateProps,
 } from './templates/nft/notification/purchase-multiple';
+import { BasicV2Template, BasicV2TemplateProps } from './templates/basic-v2';
 
 export const getBasicTemplate = (
   props: BasicTemplateProps,
   options?: Mjml2HtmlOptions
 ) => {
   const { html: body } = render(<BasicTemplate {...props} />, {
+    minify: false,
+    ...options,
+  });
+  const { subject } = props;
+  return { subject, body };
+};
+
+export const getBasicV2Template = (
+  props: BasicV2TemplateProps,
+  options?: Mjml2HtmlOptions
+) => {
+  const { html: body } = render(<BasicV2Template {...props} />, {
     minify: false,
     ...options,
   });

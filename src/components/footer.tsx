@@ -63,7 +63,7 @@ export const FooterSection = ({
           src={getAssetPath(
             `/social-elements/v2/twitter-large-${intl.locale}.png`
           )}
-          href="https://twitter.com/likecoin"
+          href="https://twitter.com/likerland"
         />
         <MjmlSocial
           mode="horizontal"

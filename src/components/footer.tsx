@@ -33,6 +33,11 @@ const socialElements = [
     href: 'https://blog.like.co',
     assetPath: '/social-elements/v2/blog.png',
   },
+  {
+    key: 'instagram',
+    href: 'https://www.instagram.com/liker.land',
+    assetPath: '/social-elements/v2/instagram.png',
+  },
 ];
 
 export const FooterSection = ({

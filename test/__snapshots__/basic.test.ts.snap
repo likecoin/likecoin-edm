@@ -406,9 +406,9 @@ exports[`Render basic templates Default 1`] = `
           <tbody>
             <tr>
               <td
-                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:32px;padding-left:16px;padding-right:16px;padding-top:32px;text-align:center;\\"
+                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:32px;padding-left:40px;padding-right:40px;padding-top:32px;text-align:center;\\"
               >
-                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:584px;\\" ><![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
             
       <div
          class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
@@ -428,38 +428,39 @@ exports[`Render basic templates Default 1`] = `
           
               <tr>
                 <td
-                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-bottom:16px;word-break:break-word;\\"
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:0px;padding-bottom:32px;word-break:break-word;\\"
                 >
                   
-      <div
-         style=\\"font-family:Arial;font-size:20px;font-weight:600;line-height:1.5;text-align:center;color:#4a4a4a;\\"
-      >立即收藏以表支持</div>
+      <p
+         style=\\"border-top:solid 2px #D7ECEC;font-size:1px;margin:0px auto;width:100%;\\"
+      >
+      </p>
+      
+      <!--[if mso | IE]><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"border-top:solid 2px #D7ECEC;font-size:1px;margin:0px auto;width:536px;\\" role=\\"presentation\\" width=\\"536px\\" ><tr><td style=\\"height:0;line-height:0;\\"> &nbsp;
+</td></tr></table><![endif]-->
+    
     
                 </td>
               </tr>
             
               <tr>
                 <td
-                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                   align=\\"center\\" vertical-align=\\"middle\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
                 >
                   
       <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:collapse;border-spacing:0px;\\"
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:separate;line-height:100%;\\"
       >
         <tbody>
           <tr>
-            <td  style=\\"width:400px;\\">
-              
-        <a
-           href=\\"https://liker.land/writing-nft?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\"
-        >
-          
-      <img
-         alt=\\"立即收藏以表支持\\" height=\\"auto\\" src=\\"http://localhost:3000/static/banners/cta-turn-story-into-collectible.jpg\\" style=\\"border:0;border-radius:24px;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"400\\"
-      />
-    
-        </a>
-      
+            <td
+               align=\\"center\\" bgcolor=\\"#aaf1e7\\" role=\\"presentation\\" style=\\"border:none;border-radius:14px;cursor:auto;mso-padding-alt:10px 25px;background:#aaf1e7;\\" valign=\\"middle\\"
+            >
+              <a
+                 href=\\"https://newsletter.like.co?utm_medium=email&amp;utm_source=email\\" rel=\\"noopener noreferrer\\" style=\\"display:inline-block;background:#aaf1e7;color:#28646e;font-family:Arial;font-size:14px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:14px;\\" target=\\"_blank\\"
+              >
+                訂閱電子報
+              </a>
             </td>
           </tr>
         </tbody>
@@ -497,7 +498,7 @@ exports[`Render basic templates Default 1`] = `
           <tbody>
             <tr>
               <td
-                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:24px;padding-left:40px;padding-right:40px;padding-top:32px;text-align:center;\\"
+                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:24px;padding-left:40px;padding-right:40px;padding-top:0px;text-align:center;\\"
               >
                 <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
             
@@ -519,23 +520,6 @@ exports[`Render basic templates Default 1`] = `
           
               <tr>
                 <td
-                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:32px;padding-bottom:32px;word-break:break-word;\\"
-                >
-                  
-      <p
-         style=\\"border-top:solid 2px #D7ECEC;font-size:1px;margin:0px auto;width:100%;\\"
-      >
-      </p>
-      
-      <!--[if mso | IE]><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"border-top:solid 2px #D7ECEC;font-size:1px;margin:0px auto;width:536px;\\" role=\\"presentation\\" width=\\"536px\\" ><tr><td style=\\"height:0;line-height:0;\\"> &nbsp;
-</td></tr></table><![endif]-->
-    
-    
-                </td>
-              </tr>
-            
-              <tr>
-                <td
                    align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
                 >
                   
@@ -547,7 +531,7 @@ exports[`Render basic templates Default 1`] = `
             <td  style=\\"width:220px;\\">
               
         <a
-           href=\\"https://twitter.com/likecoin\\" target=\\"_blank\\"
+           href=\\"https://twitter.com/likerland?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\"
         >
           
       <img
@@ -586,7 +570,7 @@ exports[`Render basic templates Default 1`] = `
             <tbody>
               <tr>
                 <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://discord.gg/likecoin\\" target=\\"_blank\\">
+                  <a  href=\\"https://discord.gg/likecoin?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
                     <img
                        height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/discord.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
@@ -617,7 +601,7 @@ exports[`Render basic templates Default 1`] = `
             <tbody>
               <tr>
                 <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://github.com/likecoin\\" target=\\"_blank\\">
+                  <a  href=\\"https://github.com/likecoin?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
                     <img
                        height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/github.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
@@ -648,9 +632,40 @@ exports[`Render basic templates Default 1`] = `
             <tbody>
               <tr>
                 <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://blog.like.co\\" target=\\"_blank\\">
+                  <a  href=\\"https://blog.like.co?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
                     <img
                        height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/blog.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
+                    />
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        
+      </tr>
+    
+                </tbody>
+              </table>
+            <!--[if mso | IE]></td><td><![endif]-->
+              <table
+                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
+              >
+                <tbody>
+                  
+      <tr
+        
+      >
+        <td  style=\\"padding:6px;vertical-align:middle;\\">
+          <table
+             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
+          >
+            <tbody>
+              <tr>
+                <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
+                  <a  href=\\"https://www.instagram.com/liker.land?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
+                    <img
+                       height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/instagram.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
                   </a>
                 </td>
@@ -1104,9 +1119,9 @@ exports[`Render basic templates With avatar (Civic Liker) 1`] = `
           <tbody>
             <tr>
               <td
-                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:32px;padding-left:16px;padding-right:16px;padding-top:32px;text-align:center;\\"
+                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:32px;padding-left:40px;padding-right:40px;padding-top:32px;text-align:center;\\"
               >
-                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:584px;\\" ><![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
             
       <div
          class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
@@ -1126,38 +1141,39 @@ exports[`Render basic templates With avatar (Civic Liker) 1`] = `
           
               <tr>
                 <td
-                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-bottom:16px;word-break:break-word;\\"
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:0px;padding-bottom:32px;word-break:break-word;\\"
                 >
                   
-      <div
-         style=\\"font-family:Arial;font-size:20px;font-weight:600;line-height:1.5;text-align:center;color:#4a4a4a;\\"
-      >立即收藏以表支持</div>
+      <p
+         style=\\"border-top:solid 2px #D7ECEC;font-size:1px;margin:0px auto;width:100%;\\"
+      >
+      </p>
+      
+      <!--[if mso | IE]><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"border-top:solid 2px #D7ECEC;font-size:1px;margin:0px auto;width:536px;\\" role=\\"presentation\\" width=\\"536px\\" ><tr><td style=\\"height:0;line-height:0;\\"> &nbsp;
+</td></tr></table><![endif]-->
+    
     
                 </td>
               </tr>
             
               <tr>
                 <td
-                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                   align=\\"center\\" vertical-align=\\"middle\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
                 >
                   
       <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:collapse;border-spacing:0px;\\"
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:separate;line-height:100%;\\"
       >
         <tbody>
           <tr>
-            <td  style=\\"width:400px;\\">
-              
-        <a
-           href=\\"https://liker.land/writing-nft?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\"
-        >
-          
-      <img
-         alt=\\"立即收藏以表支持\\" height=\\"auto\\" src=\\"http://localhost:3000/static/banners/cta-turn-story-into-collectible.jpg\\" style=\\"border:0;border-radius:24px;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"400\\"
-      />
-    
-        </a>
-      
+            <td
+               align=\\"center\\" bgcolor=\\"#aaf1e7\\" role=\\"presentation\\" style=\\"border:none;border-radius:14px;cursor:auto;mso-padding-alt:10px 25px;background:#aaf1e7;\\" valign=\\"middle\\"
+            >
+              <a
+                 href=\\"https://newsletter.like.co?utm_medium=email&amp;utm_source=email\\" rel=\\"noopener noreferrer\\" style=\\"display:inline-block;background:#aaf1e7;color:#28646e;font-family:Arial;font-size:14px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:14px;\\" target=\\"_blank\\"
+              >
+                訂閱電子報
+              </a>
             </td>
           </tr>
         </tbody>
@@ -1195,7 +1211,7 @@ exports[`Render basic templates With avatar (Civic Liker) 1`] = `
           <tbody>
             <tr>
               <td
-                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:24px;padding-left:40px;padding-right:40px;padding-top:32px;text-align:center;\\"
+                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:24px;padding-left:40px;padding-right:40px;padding-top:0px;text-align:center;\\"
               >
                 <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
             
@@ -1217,23 +1233,6 @@ exports[`Render basic templates With avatar (Civic Liker) 1`] = `
           
               <tr>
                 <td
-                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:32px;padding-bottom:32px;word-break:break-word;\\"
-                >
-                  
-      <p
-         style=\\"border-top:solid 2px #D7ECEC;font-size:1px;margin:0px auto;width:100%;\\"
-      >
-      </p>
-      
-      <!--[if mso | IE]><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"border-top:solid 2px #D7ECEC;font-size:1px;margin:0px auto;width:536px;\\" role=\\"presentation\\" width=\\"536px\\" ><tr><td style=\\"height:0;line-height:0;\\"> &nbsp;
-</td></tr></table><![endif]-->
-    
-    
-                </td>
-              </tr>
-            
-              <tr>
-                <td
                    align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
                 >
                   
@@ -1245,7 +1244,7 @@ exports[`Render basic templates With avatar (Civic Liker) 1`] = `
             <td  style=\\"width:220px;\\">
               
         <a
-           href=\\"https://twitter.com/likecoin\\" target=\\"_blank\\"
+           href=\\"https://twitter.com/likerland?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\"
         >
           
       <img
@@ -1284,7 +1283,7 @@ exports[`Render basic templates With avatar (Civic Liker) 1`] = `
             <tbody>
               <tr>
                 <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://discord.gg/likecoin\\" target=\\"_blank\\">
+                  <a  href=\\"https://discord.gg/likecoin?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
                     <img
                        height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/discord.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
@@ -1315,7 +1314,7 @@ exports[`Render basic templates With avatar (Civic Liker) 1`] = `
             <tbody>
               <tr>
                 <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://github.com/likecoin\\" target=\\"_blank\\">
+                  <a  href=\\"https://github.com/likecoin?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
                     <img
                        height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/github.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
@@ -1346,9 +1345,40 @@ exports[`Render basic templates With avatar (Civic Liker) 1`] = `
             <tbody>
               <tr>
                 <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://blog.like.co\\" target=\\"_blank\\">
+                  <a  href=\\"https://blog.like.co?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
                     <img
                        height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/blog.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
+                    />
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        
+      </tr>
+    
+                </tbody>
+              </table>
+            <!--[if mso | IE]></td><td><![endif]-->
+              <table
+                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
+              >
+                <tbody>
+                  
+      <tr
+        
+      >
+        <td  style=\\"padding:6px;vertical-align:middle;\\">
+          <table
+             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
+          >
+            <tbody>
+              <tr>
+                <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
+                  <a  href=\\"https://www.instagram.com/liker.land?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
+                    <img
+                       height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/instagram.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
                   </a>
                 </td>
@@ -1802,9 +1832,9 @@ exports[`Render basic templates With avatar 1`] = `
           <tbody>
             <tr>
               <td
-                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:32px;padding-left:16px;padding-right:16px;padding-top:32px;text-align:center;\\"
+                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:32px;padding-left:40px;padding-right:40px;padding-top:32px;text-align:center;\\"
               >
-                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:584px;\\" ><![endif]-->
+                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
             
       <div
          class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
@@ -1824,38 +1854,39 @@ exports[`Render basic templates With avatar 1`] = `
           
               <tr>
                 <td
-                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-bottom:16px;word-break:break-word;\\"
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:0px;padding-bottom:32px;word-break:break-word;\\"
                 >
                   
-      <div
-         style=\\"font-family:Arial;font-size:20px;font-weight:600;line-height:1.5;text-align:center;color:#4a4a4a;\\"
-      >立即收藏以表支持</div>
+      <p
+         style=\\"border-top:solid 2px #D7ECEC;font-size:1px;margin:0px auto;width:100%;\\"
+      >
+      </p>
+      
+      <!--[if mso | IE]><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"border-top:solid 2px #D7ECEC;font-size:1px;margin:0px auto;width:536px;\\" role=\\"presentation\\" width=\\"536px\\" ><tr><td style=\\"height:0;line-height:0;\\"> &nbsp;
+</td></tr></table><![endif]-->
+    
     
                 </td>
               </tr>
             
               <tr>
                 <td
-                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                   align=\\"center\\" vertical-align=\\"middle\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
                 >
                   
       <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:collapse;border-spacing:0px;\\"
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:separate;line-height:100%;\\"
       >
         <tbody>
           <tr>
-            <td  style=\\"width:400px;\\">
-              
-        <a
-           href=\\"https://liker.land/writing-nft?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\"
-        >
-          
-      <img
-         alt=\\"立即收藏以表支持\\" height=\\"auto\\" src=\\"http://localhost:3000/static/banners/cta-turn-story-into-collectible.jpg\\" style=\\"border:0;border-radius:24px;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"400\\"
-      />
-    
-        </a>
-      
+            <td
+               align=\\"center\\" bgcolor=\\"#aaf1e7\\" role=\\"presentation\\" style=\\"border:none;border-radius:14px;cursor:auto;mso-padding-alt:10px 25px;background:#aaf1e7;\\" valign=\\"middle\\"
+            >
+              <a
+                 href=\\"https://newsletter.like.co?utm_medium=email&amp;utm_source=email\\" rel=\\"noopener noreferrer\\" style=\\"display:inline-block;background:#aaf1e7;color:#28646e;font-family:Arial;font-size:14px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:14px;\\" target=\\"_blank\\"
+              >
+                訂閱電子報
+              </a>
             </td>
           </tr>
         </tbody>
@@ -1893,7 +1924,7 @@ exports[`Render basic templates With avatar 1`] = `
           <tbody>
             <tr>
               <td
-                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:24px;padding-left:40px;padding-right:40px;padding-top:32px;text-align:center;\\"
+                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:24px;padding-left:40px;padding-right:40px;padding-top:0px;text-align:center;\\"
               >
                 <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
             
@@ -1915,23 +1946,6 @@ exports[`Render basic templates With avatar 1`] = `
           
               <tr>
                 <td
-                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:32px;padding-bottom:32px;word-break:break-word;\\"
-                >
-                  
-      <p
-         style=\\"border-top:solid 2px #D7ECEC;font-size:1px;margin:0px auto;width:100%;\\"
-      >
-      </p>
-      
-      <!--[if mso | IE]><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"border-top:solid 2px #D7ECEC;font-size:1px;margin:0px auto;width:536px;\\" role=\\"presentation\\" width=\\"536px\\" ><tr><td style=\\"height:0;line-height:0;\\"> &nbsp;
-</td></tr></table><![endif]-->
-    
-    
-                </td>
-              </tr>
-            
-              <tr>
-                <td
                    align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
                 >
                   
@@ -1943,7 +1957,7 @@ exports[`Render basic templates With avatar 1`] = `
             <td  style=\\"width:220px;\\">
               
         <a
-           href=\\"https://twitter.com/likecoin\\" target=\\"_blank\\"
+           href=\\"https://twitter.com/likerland?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\"
         >
           
       <img
@@ -1982,7 +1996,7 @@ exports[`Render basic templates With avatar 1`] = `
             <tbody>
               <tr>
                 <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://discord.gg/likecoin\\" target=\\"_blank\\">
+                  <a  href=\\"https://discord.gg/likecoin?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
                     <img
                        height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/discord.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
@@ -2013,7 +2027,7 @@ exports[`Render basic templates With avatar 1`] = `
             <tbody>
               <tr>
                 <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://github.com/likecoin\\" target=\\"_blank\\">
+                  <a  href=\\"https://github.com/likecoin?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
                     <img
                        height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/github.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
@@ -2044,9 +2058,40 @@ exports[`Render basic templates With avatar 1`] = `
             <tbody>
               <tr>
                 <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://blog.like.co\\" target=\\"_blank\\">
+                  <a  href=\\"https://blog.like.co?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
                     <img
                        height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/blog.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
+                    />
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        
+      </tr>
+    
+                </tbody>
+              </table>
+            <!--[if mso | IE]></td><td><![endif]-->
+              <table
+                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
+              >
+                <tbody>
+                  
+      <tr
+        
+      >
+        <td  style=\\"padding:6px;vertical-align:middle;\\">
+          <table
+             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
+          >
+            <tbody>
+              <tr>
+                <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
+                  <a  href=\\"https://www.instagram.com/liker.land?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
+                    <img
+                       height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/instagram.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
                   </a>
                 </td>

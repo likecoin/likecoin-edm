@@ -84,7 +84,7 @@ export const FooterSection = ({
             src={getAssetPath(
               `/social-elements/v2/twitter-large-${intl.locale}.png`
             )}
-            href="https://twitter.com/likerland"
+            href={wrapUtm("https://twitter.com/likerland")}
           />
           <MjmlSocial
             mode="horizontal"
@@ -99,7 +99,7 @@ export const FooterSection = ({
             {socialElements.map(({ key, href, assetPath }) => (
               <MjmlSocialElement
                 key={key}
-                href={href}
+                href={wrapUtm(href)}
                 src={getAssetPath(assetPath)}
               >
                 {null}

@@ -33,7 +33,7 @@ export const BasicTemplate = ({
   subtitle,
   subtitlePrepend,
   content,
-  cta = 'writing-nft',
+  cta = '',
   unsubscribeLink,
   language,
 }: BasicTemplateProps) => {

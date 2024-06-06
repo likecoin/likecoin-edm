@@ -61,6 +61,10 @@ import {
   NFTNotificationPurchaseMultipleTemplateProps,
 } from './templates/nft/notification/purchase-multiple';
 import { BasicV2Template, BasicV2TemplateProps } from './templates/basic-v2';
+import {
+  NFTTwoContentWithMessageAndButtonTemplate,
+  NFTTwoContentWithMessageAndButtonTemplateProps,
+} from './templates/nft/two-content-with-message-and-button';
 
 export const getBasicTemplate = (
   props: BasicTemplateProps,
@@ -352,4 +356,18 @@ export const getNFTNotificationPurchaseMultipleTemplate = (
     }
   );
   return { subject, body };
+};
+
+export const getNFTTwoContentWithMessageAndButtonTemplate = (
+  props: NFTTwoContentWithMessageAndButtonTemplateProps,
+  options?: Mjml2HtmlOptions
+) => {
+  const { html: body } = render(
+    <NFTTwoContentWithMessageAndButtonTemplate {...props} />,
+    {
+      minify: false,
+      ...options,
+    }
+  );
+  return { body };
 };

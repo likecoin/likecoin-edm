@@ -71,7 +71,7 @@
   "dependencies": {
     "@types/mjml-react": "^2.0.6",
     "canvas": "^2.8.0",
-    "mjml": "^4.13.0",
+    "mjml": "^4.15.3",
     "mjml-react": "^2.0.8",
     "react-intl": "^5.10.16"
   }

@@ -120,6 +120,8 @@ export const NFTTwoContentWithMessageAndButtonTemplateSampleData: NFTTwoContentW
   append2: `<p>If you have any questions, please feel free to contact our <a href="#">Customer Service</a> for assistance.<br>
   Thank you for cherishing this book, and may you enjoy the pleasure of reading.</p>
   <p>Liker Land</p>`,
+  messageAvatarSrc1: SAMPLE_IMAGE_URL,
+  messageAvatarSrc2: SAMPLE_IMAGE_URL,
   messageTitle1: '突破出版的留言：',
   messageTitle2: 'Message from the publisher:',
   messageContent1: '感謝支持，2024 散步去！',

@@ -19,6 +19,7 @@ interface NFTMessageBoxProps {
   title?: string;
   content?: string;
   avatarSrc?: string;
+  style?: React.CSSProperties;
 }
 
 const NFTMessageBox = (props: NFTMessageBoxProps) => (
@@ -41,33 +42,41 @@ const NFTMessageBox = (props: NFTMessageBoxProps) => (
         borderTopLeftRadius: 24,
 
         boxShadow: '0px 20px 20px 0px rgba(0, 0, 0, 0.04)',
+
+        ...props.style,
       }}
     >
-      <tr>
-        <td style={{ paddingLeft: 24, width: 48 }}>
-          <Avatar
-            src={props.avatarSrc}
-            size={40}
-            style={{ marginTop: -16, marginLeft: -4 }}
-          />
-        </td>
-        <td
-          style={{
-            paddingTop: 8,
-            paddingRight: 16,
-            paddingLeft: 8,
-            fontWeight: 'bold',
-            lineHeight: 1.5,
-          }}
-        >
-          {props.title}
-        </td>
-      </tr>
+      {!!(props.avatarSrc || props.title) && (
+        <tr>
+          {!!props.avatarSrc && (
+            <td style={{ paddingLeft: 24, width: 48 }}>
+              <Avatar
+                src={props.avatarSrc}
+                size={40}
+                style={{ marginTop: -16, marginLeft: -4 }}
+              />
+            </td>
+          )}
+          {!!props.title && (
+            <td
+              style={{
+                paddingTop: props.avatarSrc ? 8 : 16,
+                paddingRight: 16,
+                paddingLeft: props.avatarSrc ? 8 : 24,
+                fontWeight: 'bold',
+                lineHeight: 1.5,
+              }}
+            >
+              {props.title}
+            </td>
+          )}
+        </tr>
+      )}
       <tr>
         <td
           colSpan={2}
           style={{
-            paddingTop: 4,
+            paddingTop: props.avatarSrc || props.title ? 4 : 16,
             paddingBottom: 16,
             paddingRight: 16,
             paddingLeft: 24,
@@ -98,21 +107,24 @@ export const NFTContentWithMessageAndButtonSection = (
     <BasicSection
       paddingLeft={40}
       paddingRight={40}
-      paddingTop={32}
-      paddingBottom={32}
+      paddingTop={16}
+      paddingBottom={16}
     >
       <MjmlColumn>
         {!!props.content && (
-          <MjmlText paddingBottom={24}>
+          <MjmlText>
             <div dangerouslySetInnerHTML={{ __html: props.content }} />
           </MjmlText>
         )}
 
-        <NFTMessageBox
-          avatarSrc={props.messageAvatarSrc}
-          content={props.messageContent}
-          title={props.messageTitle}
-        />
+        {!!(props.messageTitle || props.messageContent) && (
+          <NFTMessageBox
+            avatarSrc={props.messageAvatarSrc}
+            content={props.messageContent}
+            title={props.messageTitle}
+            style={{ marginTop: 32 }}
+          />
+        )}
 
         {!!props.buttonText && (
           <MjmlButton

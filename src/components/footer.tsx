@@ -109,9 +109,11 @@ export const FooterSection = ({
           <MjmlText align="center" padding={4}>
             <HelpCenterLink />
           </MjmlText>
-          <MjmlText align="center" padding={4}>
-            <UnsubscribeLink link={unsubscribeLink} />
-          </MjmlText>
+          {!!unsubscribeLink && (
+            <MjmlText align="center" padding={4}>
+              <UnsubscribeLink link={unsubscribeLink} />
+            </MjmlText>
+          )}
         </MjmlColumn>
       </BasicSection>
     </>

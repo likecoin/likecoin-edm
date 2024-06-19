@@ -2,11 +2,9 @@
 
 exports[`Render new transaction templates Default 1`] = `
 "<!doctype html>
-<html xmlns=\\"http://www.w3.org/1999/xhtml\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" xmlns:o=\\"urn:schemas-microsoft-com:office:office\\">
+<html lang=\\"und\\" dir=\\"auto\\" xmlns=\\"http://www.w3.org/1999/xhtml\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" xmlns:o=\\"urn:schemas-microsoft-com:office:office\\">
   <head>
-    <title>
-      您已收到 100 LikeCoin
-    </title>
+    <title>您已收到 100 LikeCoin</title>
     <!--[if !mso]><!-->
     <meta http-equiv=\\"X-UA-Compatible\\" content=\\"IE=edge\\">
     <!--<![endif]-->
@@ -49,19 +47,20 @@ exports[`Render new transaction templates Default 1`] = `
 .moz-text-html .mj-column-px-120 { width:120px !important; max-width: 120px; }
     </style>
     
+    
   
+    
     <style type=\\"text/css\\">
-    
-    
 
-    @media only screen and (max-width:576px) {
+    @media only screen and (max-width:575px) {
       table.mj-full-width-mobile { width: 100% !important; }
       td.mj-full-width-mobile { width: auto !important; }
     }
   
     </style>
+     
     <style type=\\"text/css\\">
-    @media only screen and (max-width: 480px) { 
+@media only screen and (max-width: 480px) { 
                   *[class~=hide_on_mobile] { display: none !important;} 
                   *[class~=hoverTable] { table-layout: auto !important;}
                 }
@@ -72,7 +71,7 @@ exports[`Render new transaction templates Default 1`] = `
     
     
       <div
-         style=\\"background-color:white;\\"
+         style=\\"background-color:white;\\" lang=\\"und\\" dir=\\"auto\\"
       >
         
       
@@ -124,7 +123,7 @@ exports[`Render new transaction templates Default 1`] = `
             <td  style=\\"width:145px;\\">
               
       <img
-         height=\\"auto\\" src=\\"http://localhost:3000/static/banners/like-coin-press-kit-liker-land-dark@3x.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"145\\"
+         alt=\\"\\" src=\\"http://localhost:3000/static/banners/like-coin-press-kit-liker-land-dark@3x.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"145\\" height=\\"auto\\"
       />
     
             </td>
@@ -199,7 +198,7 @@ exports[`Render new transaction templates Default 1`] = `
             <td  style=\\"width:120px;\\">
               
       <img
-         height=\\"120\\" src=\\"http://localhost:3000/static/tx.png\\" style=\\"border:0;border-radius:60px;display:block;outline:none;text-decoration:none;height:120px;width:100%;font-size:14px;\\" width=\\"120\\"
+         alt=\\"\\" src=\\"http://localhost:3000/static/tx.png\\" style=\\"border:0;border-radius:60px;display:block;outline:none;text-decoration:none;height:120px;width:100%;font-size:14px;\\" width=\\"120\\" height=\\"120\\"
       />
     
             </td>
@@ -571,7 +570,7 @@ exports[`Render new transaction templates Default 1`] = `
             <td  style=\\"width:400px;\\">
               
       <img
-         alt=\\"Join as a Civic Liker\\" height=\\"auto\\" src=\\"http://localhost:3000/static/banners/cta-civic-liker/en.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"400\\"
+         alt=\\"Join as a Civic Liker\\" src=\\"http://localhost:3000/static/banners/cta-civic-liker/en.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"400\\" height=\\"auto\\"
       />
     
             </td>
@@ -649,7 +648,7 @@ exports[`Render new transaction templates Default 1`] = `
             
               <tr>
                 <td
-                   align=\\"center\\" vertical-align=\\"middle\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
                 >
                   
       <table
@@ -739,7 +738,7 @@ exports[`Render new transaction templates Default 1`] = `
         >
           
       <img
-         height=\\"auto\\" src=\\"http://localhost:3000/static/social-elements/v2/twitter-large-en.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"220\\"
+         alt=\\"\\" src=\\"http://localhost:3000/static/social-elements/v2/twitter-large-en.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"220\\" height=\\"auto\\"
       />
     
         </a>
@@ -776,7 +775,7 @@ exports[`Render new transaction templates Default 1`] = `
                 <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
                   <a  href=\\"https://discord.gg/likecoin?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
                     <img
-                       height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/discord.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
+                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/discord.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
                   </a>
                 </td>
@@ -807,7 +806,7 @@ exports[`Render new transaction templates Default 1`] = `
                 <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
                   <a  href=\\"https://github.com/likecoin?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
                     <img
-                       height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/github.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
+                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/github.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
                   </a>
                 </td>
@@ -838,7 +837,7 @@ exports[`Render new transaction templates Default 1`] = `
                 <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
                   <a  href=\\"https://blog.like.co?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
                     <img
-                       height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/blog.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
+                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/blog.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
                   </a>
                 </td>
@@ -869,7 +868,7 @@ exports[`Render new transaction templates Default 1`] = `
                 <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
                   <a  href=\\"https://www.instagram.com/liker.land?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
                     <img
-                       height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/instagram.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
+                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/instagram.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
                   </a>
                 </td>
@@ -896,18 +895,6 @@ exports[`Render new transaction templates Default 1`] = `
       <div
          style=\\"font-family:Arial;font-size:14px;line-height:1.5;text-align:center;color:#4a4a4a;\\"
       ><a href=\\"https://docs.like.co?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">Help Center</a></div>
-    
-                </td>
-              </tr>
-            
-              <tr>
-                <td
-                   align=\\"center\\" style=\\"font-size:0px;padding:4px;word-break:break-word;\\"
-                >
-                  
-      <div
-         style=\\"font-family:Arial;font-size:14px;line-height:1.5;text-align:center;color:#4a4a4a;\\"
-      ><a href=\\"https://like.co/in/settings/others?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">Unsubscribe</a></div>
     
                 </td>
               </tr>

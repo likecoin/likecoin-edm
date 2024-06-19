@@ -9,5 +9,6 @@ export const GreyD8 = '#d8d8d8';
 export const GreyEB = '#ebebeb';
 export const GreyF7 = '#f7f7f7';
 
+export const White = '#ffffff';
 export const Green = '#36de00';
 export const Red = '#ff0000';

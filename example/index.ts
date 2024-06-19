@@ -19,6 +19,7 @@ import {
   getNFTNotificationPurchaseTemplate,
   getNFTNotificationPurchaseMultipleTemplate,
   getBasicV2Template,
+  getNFTTwoContentWithMessageAndButtonTemplate,
 } from '../dist';
 
 import {
@@ -34,6 +35,7 @@ import {
 import {
   CreatorFollowConfirmationSampleData,
   CreatorFollowPublishNewSampleData,
+  NFTTwoContentWithMessageAndButtonTemplateSampleData,
   NFTNotificationPurchaseMultipleSampleData,
   NFTNotificationPurchaseSampleData,
   NFTNotificationTransferSampleData,
@@ -183,6 +185,15 @@ handleRequest('/nft/notification/purchase-multiple', (req, res) => {
     ...req.body,
   });
   res.send(subject.concat(body));
+});
+
+handleRequest('/nft/2-content-with-message-n-button', (req, res) => {
+  const { body } = getNFTTwoContentWithMessageAndButtonTemplate({
+    ...NFTTwoContentWithMessageAndButtonTemplateSampleData,
+    ...req.query,
+    ...req.body,
+  });
+  res.send(body);
 });
 
 app.get('/', (_, res) => {

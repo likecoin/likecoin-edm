@@ -1,9 +1,18 @@
 import { ASSETS_ROOT } from '../constants';
 
-export function wrapUtm(url: string) {
+export function wrapUtm(
+  url: string,
+  {
+    medium = 'email',
+    source = 'edm',
+  }: {
+    medium?: string;
+    source?: string;
+  } = {}
+) {
   return `${url}${
     url.includes('?') ? '&' : '?'
-  }utm_medium=email&utm_source=email`;
+  }utm_medium=${medium}&utm_source=${source}`;
 }
 
 export function getAssetPath(path: string = '') {

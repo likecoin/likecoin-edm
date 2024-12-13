@@ -267,7 +267,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
       <table
          cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\" style=\\"color:#4a4a4a;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;border:none;\\"
       >
-        <tr style=\\"border-bottom:none;color:white;font-weight:bolder;font-size:18px\\"><td><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:right;padding:4px;line-height:0.5;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center right;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td style=\\"text-align:right\\" width=\\"130\\"><mj-text font-size=\\"18px\\" font-weight=\\"600\\" font-family=\\"Arial\\">Temp Liker ID</mj-text></td></tr>
+        <tr style=\\"border-bottom:none;color:white;font-weight:bolder;font-size:18px\\"><td><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=edm\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:right;padding:4px;line-height:0.5;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center right;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td style=\\"text-align:right\\" width=\\"130\\"><mj-text font-size=\\"18px\\" font-weight=\\"600\\" font-family=\\"Arial\\">Temp Liker ID</mj-text></td></tr>
       </table>
     
                 </td>
@@ -813,7 +813,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
       <table
          cellpadding=\\"8px\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\" style=\\"color:#4a4a4a;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;border:none;\\"
       >
-        <tr style=\\"vertical-align:middle;border-top:1px solid #d8d8d8;border-bottom:1px solid #d8d8d8\\"><td style=\\"width:48px\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:4px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center center;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#4a4a4a;text-decoration:none\\">Temp Liker ID</a></td><td style=\\"text-align:right\\"><div style=\\"color:#28646e;font-size:16px\\">12</div><div style=\\"font-size:12px\\">作品</div></td><td style=\\"text-align:right\\"><div style=\\"color:#28646e;font-size:16px\\">1234</div><div style=\\"font-size:12px\\">LIKE</div></td></tr><tr style=\\"vertical-align:middle;border-top:none;border-bottom:1px solid #d8d8d8\\"><td style=\\"width:48px\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:4px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center center;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#4a4a4a;text-decoration:none\\">Temp Liker ID</a></td><td style=\\"text-align:right\\"><div style=\\"color:#28646e;font-size:16px\\">12</div><div style=\\"font-size:12px\\">作品</div></td><td style=\\"text-align:right\\"><div style=\\"color:#28646e;font-size:16px\\">1234</div><div style=\\"font-size:12px\\">LIKE</div></td></tr><tr style=\\"vertical-align:middle;border-top:none;border-bottom:1px solid #d8d8d8\\"><td style=\\"width:48px\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:4px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center center;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#4a4a4a;text-decoration:none\\">Temp Liker ID</a></td><td style=\\"text-align:right\\"><div style=\\"color:#28646e;font-size:16px\\">12</div><div style=\\"font-size:12px\\">作品</div></td><td style=\\"text-align:right\\"><div style=\\"color:#28646e;font-size:16px\\">1234</div><div style=\\"font-size:12px\\">LIKE</div></td></tr>
+        <tr style=\\"vertical-align:middle;border-top:1px solid #d8d8d8;border-bottom:1px solid #d8d8d8\\"><td style=\\"width:48px\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=edm\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:4px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center center;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=edm\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#4a4a4a;text-decoration:none\\">Temp Liker ID</a></td><td style=\\"text-align:right\\"><div style=\\"color:#28646e;font-size:16px\\">12</div><div style=\\"font-size:12px\\">作品</div></td><td style=\\"text-align:right\\"><div style=\\"color:#28646e;font-size:16px\\">1234</div><div style=\\"font-size:12px\\">LIKE</div></td></tr><tr style=\\"vertical-align:middle;border-top:none;border-bottom:1px solid #d8d8d8\\"><td style=\\"width:48px\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=edm\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:4px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center center;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=edm\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#4a4a4a;text-decoration:none\\">Temp Liker ID</a></td><td style=\\"text-align:right\\"><div style=\\"color:#28646e;font-size:16px\\">12</div><div style=\\"font-size:12px\\">作品</div></td><td style=\\"text-align:right\\"><div style=\\"color:#28646e;font-size:16px\\">1234</div><div style=\\"font-size:12px\\">LIKE</div></td></tr><tr style=\\"vertical-align:middle;border-top:none;border-bottom:1px solid #d8d8d8\\"><td style=\\"width:48px\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=edm\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:4px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center center;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=edm\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#4a4a4a;text-decoration:none\\">Temp Liker ID</a></td><td style=\\"text-align:right\\"><div style=\\"color:#28646e;font-size:16px\\">12</div><div style=\\"font-size:12px\\">作品</div></td><td style=\\"text-align:right\\"><div style=\\"color:#28646e;font-size:16px\\">1234</div><div style=\\"font-size:12px\\">LIKE</div></td></tr>
       </table>
     
                 </td>
@@ -837,17 +837,18 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
         </div>
       </div>
     
-        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"white\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
-          
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
+    
+      
       <div  style=\\"background:white;background-color:white;margin:0px auto;max-width:600px;\\">
-        <div  style=\\"line-height:0;font-size:0;\\">
+        
         <table
-           align=\\"center\\" background=\\"\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:white;background-color:white;width:100%;\\"
+           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:white;background-color:white;width:100%;\\"
         >
           <tbody>
             <tr>
               <td
-                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:32px;padding-left:32px;padding-right:32px;padding-top:32px;text-align:center;\\"
+                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:24px;padding-left:32px;padding-right:32px;padding-top:32px;text-align:center;\\"
               >
                 <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
             
@@ -898,89 +899,10 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
                align=\\"center\\" bgcolor=\\"#aaf1e7\\" role=\\"presentation\\" style=\\"border:none;border-radius:14px;cursor:auto;mso-padding-alt:10px 25px;background:#aaf1e7;\\" valign=\\"middle\\"
             >
               <a
-                 href=\\"https://newsletter.like.co?utm_medium=email&amp;utm_source=email\\" rel=\\"noopener noreferrer\\" style=\\"display:inline-block;background:#aaf1e7;color:#28646e;font-family:Arial;font-size:14px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:14px;\\" target=\\"_blank\\"
+                 href=\\"https://liker.land/store?utm_medium=email&amp;utm_source=edm-footer\\" rel=\\"noopener noreferrer\\" style=\\"display:inline-block;background:#aaf1e7;color:#28646e;font-family:Arial;font-size:14px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:14px;\\" target=\\"_blank\\"
               >
-                訂閱電子報
+                瀏覽書店
               </a>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
-                </td>
-              </tr>
-            
-        </tbody>
-      </table>
-    
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
-      </div>
-    
-          <!--[if mso | IE]></td></tr></table><![endif]-->
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        </div>
-      </div>
-    
-        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
-    
-      
-      <div  style=\\"background:white;background-color:white;margin:0px auto;max-width:600px;\\">
-        
-        <table
-           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:white;background-color:white;width:100%;\\"
-        >
-          <tbody>
-            <tr>
-              <td
-                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:24px;padding-left:32px;padding-right:32px;padding-top:0px;text-align:center;\\"
-              >
-                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
-            
-      <div
-         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
-      >
-        
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
-      >
-        <tbody>
-          <tr>
-            <td  style=\\"vertical-align:top;padding:0px;\\">
-              
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
-      >
-        <tbody>
-          
-              <tr>
-                <td
-                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-                >
-                  
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:collapse;border-spacing:0px;\\"
-      >
-        <tbody>
-          <tr>
-            <td  style=\\"width:220px;\\">
-              
-        <a
-           href=\\"https://twitter.com/likerland?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\"
-        >
-          
-      <img
-         alt=\\"\\" src=\\"http://localhost:3000/static/social-elements/v2/twitter-large-zh.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"220\\" height=\\"auto\\"
-      />
-    
-        </a>
-      
             </td>
           </tr>
         </tbody>
@@ -1011,9 +933,9 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
             <tbody>
               <tr>
                 <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://discord.gg/likecoin?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
+                  <a  href=\\"https://www.facebook.com/Liker.Land?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
                     <img
-                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/discord.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
+                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/facebook.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
                   </a>
                 </td>
@@ -1042,71 +964,40 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
             <tbody>
               <tr>
                 <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://github.com/likecoin?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
-                    <img
-                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/github.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
-                    />
-                  </a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-        
-      </tr>
-    
-                </tbody>
-              </table>
-            <!--[if mso | IE]></td><td><![endif]-->
-              <table
-                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
-              >
-                <tbody>
-                  
-      <tr
-        
-      >
-        <td  style=\\"padding:6px;vertical-align:middle;\\">
-          <table
-             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
-          >
-            <tbody>
-              <tr>
-                <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://blog.like.co?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
-                    <img
-                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/blog.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
-                    />
-                  </a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-        
-      </tr>
-    
-                </tbody>
-              </table>
-            <!--[if mso | IE]></td><td><![endif]-->
-              <table
-                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
-              >
-                <tbody>
-                  
-      <tr
-        
-      >
-        <td  style=\\"padding:6px;vertical-align:middle;\\">
-          <table
-             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
-          >
-            <tbody>
-              <tr>
-                <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://www.instagram.com/liker.land?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
+                  <a  href=\\"https://www.instagram.com/liker.land?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
                     <img
                        alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/instagram.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
+                    />
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        
+      </tr>
+    
+                </tbody>
+              </table>
+            <!--[if mso | IE]></td><td><![endif]-->
+              <table
+                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
+              >
+                <tbody>
+                  
+      <tr
+        
+      >
+        <td  style=\\"padding:6px;vertical-align:middle;\\">
+          <table
+             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
+          >
+            <tbody>
+              <tr>
+                <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
+                  <a  href=\\"https://blog.liker.land?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
+                    <img
+                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/blog.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
                   </a>
                 </td>
@@ -1132,7 +1023,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
                   
       <div
          style=\\"font-family:Arial;font-size:14px;line-height:1.5;text-align:center;color:#4a4a4a;\\"
-      ><a href=\\"https://docs.like.co/v/zh?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">幫助中心</a></div>
+      ><a href=\\"https://docs.like.co/v/zh?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">幫助中心</a></div>
     
                 </td>
               </tr>
@@ -1433,7 +1324,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
       <table
          cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\" style=\\"color:#4a4a4a;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;border:none;\\"
       >
-        <tr style=\\"border-bottom:none;color:white;font-weight:bolder;font-size:18px\\"><td><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:right;padding:4px;line-height:0.5;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center right;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td style=\\"text-align:right\\" width=\\"130\\"><mj-text font-size=\\"18px\\" font-weight=\\"600\\" font-family=\\"Arial\\">Temp Liker ID</mj-text></td></tr>
+        <tr style=\\"border-bottom:none;color:white;font-weight:bolder;font-size:18px\\"><td><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=edm\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:right;padding:4px;line-height:0.5;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center right;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td style=\\"text-align:right\\" width=\\"130\\"><mj-text font-size=\\"18px\\" font-weight=\\"600\\" font-family=\\"Arial\\">Temp Liker ID</mj-text></td></tr>
       </table>
     
                 </td>
@@ -1916,7 +1807,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
                   
       <div
          style=\\"font-family:Arial;font-size:16px;line-height:1.5;text-align:left;color:#4a4a4a;\\"
-      >你正在按月支持以下作者，扣款日期為每月 1 日。<a href=\\"https://liker.land/settings/civic?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">按此管理訂閱選項</a></div>
+      >你正在按月支持以下作者，扣款日期為每月 1 日。<a href=\\"https://liker.land/settings/civic?utm_medium=email&amp;utm_source=edm\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">按此管理訂閱選項</a></div>
     
                 </td>
               </tr>
@@ -1929,7 +1820,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
       <table
          cellpadding=\\"8px\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\" style=\\"color:#4a4a4a;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;border:none;\\"
       >
-        <tr style=\\"vertical-align:middle;border-top:1px solid #d8d8d8;border-bottom:1px solid #d8d8d8\\"><td width=\\"48\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:4px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center center;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#4a4a4a;text-decoration:none\\">Temp Liker ID</a></td><td style=\\"text-align:right\\"><img alt=\\"USD 5/mo\\" src=\\"http://localhost:3000/static/emoji/coffee.png\\" width=\\"18\\" height=\\"18\\" style=\\"width:18px;height:18px;vertical-align:middle;margin-right:8px\\"/>USD 5/mo</td></tr><tr style=\\"vertical-align:middle;border-top:none;border-bottom:1px solid #d8d8d8\\"><td width=\\"48\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:4px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center center;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#4a4a4a;text-decoration:none\\">Temp Liker ID</a></td><td style=\\"text-align:right\\"><img alt=\\"USD 5/mo\\" src=\\"http://localhost:3000/static/emoji/coffee.png\\" width=\\"18\\" height=\\"18\\" style=\\"width:18px;height:18px;vertical-align:middle;margin-right:8px\\"/>USD 5/mo</td></tr><tr style=\\"vertical-align:middle;border-top:none;border-bottom:1px solid #d8d8d8\\"><td width=\\"48\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:4px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center center;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#4a4a4a;text-decoration:none\\">Temp Liker ID</a></td><td style=\\"text-align:right\\"><img alt=\\"USD 5/mo\\" src=\\"http://localhost:3000/static/emoji/coffee.png\\" width=\\"18\\" height=\\"18\\" style=\\"width:18px;height:18px;vertical-align:middle;margin-right:8px\\"/>USD 5/mo</td></tr>
+        <tr style=\\"vertical-align:middle;border-top:1px solid #d8d8d8;border-bottom:1px solid #d8d8d8\\"><td width=\\"48\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=edm\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:4px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center center;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=edm\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#4a4a4a;text-decoration:none\\">Temp Liker ID</a></td><td style=\\"text-align:right\\"><img alt=\\"USD 5/mo\\" src=\\"http://localhost:3000/static/emoji/coffee.png\\" width=\\"18\\" height=\\"18\\" style=\\"width:18px;height:18px;vertical-align:middle;margin-right:8px\\"/>USD 5/mo</td></tr><tr style=\\"vertical-align:middle;border-top:none;border-bottom:1px solid #d8d8d8\\"><td width=\\"48\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=edm\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:4px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center center;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=edm\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#4a4a4a;text-decoration:none\\">Temp Liker ID</a></td><td style=\\"text-align:right\\"><img alt=\\"USD 5/mo\\" src=\\"http://localhost:3000/static/emoji/coffee.png\\" width=\\"18\\" height=\\"18\\" style=\\"width:18px;height:18px;vertical-align:middle;margin-right:8px\\"/>USD 5/mo</td></tr><tr style=\\"vertical-align:middle;border-top:none;border-bottom:1px solid #d8d8d8\\"><td width=\\"48\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=edm\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:4px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center center;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=edm\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#4a4a4a;text-decoration:none\\">Temp Liker ID</a></td><td style=\\"text-align:right\\"><img alt=\\"USD 5/mo\\" src=\\"http://localhost:3000/static/emoji/coffee.png\\" width=\\"18\\" height=\\"18\\" style=\\"width:18px;height:18px;vertical-align:middle;margin-right:8px\\"/>USD 5/mo</td></tr>
       </table>
     
                 </td>
@@ -2079,17 +1970,18 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
         </div>
       </div>
     
-        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"white\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
-          
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
+    
+      
       <div  style=\\"background:white;background-color:white;margin:0px auto;max-width:600px;\\">
-        <div  style=\\"line-height:0;font-size:0;\\">
+        
         <table
-           align=\\"center\\" background=\\"\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:white;background-color:white;width:100%;\\"
+           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:white;background-color:white;width:100%;\\"
         >
           <tbody>
             <tr>
               <td
-                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:32px;padding-left:32px;padding-right:32px;padding-top:32px;text-align:center;\\"
+                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:24px;padding-left:32px;padding-right:32px;padding-top:32px;text-align:center;\\"
               >
                 <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
             
@@ -2140,89 +2032,10 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
                align=\\"center\\" bgcolor=\\"#aaf1e7\\" role=\\"presentation\\" style=\\"border:none;border-radius:14px;cursor:auto;mso-padding-alt:10px 25px;background:#aaf1e7;\\" valign=\\"middle\\"
             >
               <a
-                 href=\\"https://newsletter.like.co?utm_medium=email&amp;utm_source=email\\" rel=\\"noopener noreferrer\\" style=\\"display:inline-block;background:#aaf1e7;color:#28646e;font-family:Arial;font-size:14px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:14px;\\" target=\\"_blank\\"
+                 href=\\"https://liker.land/store?utm_medium=email&amp;utm_source=edm-footer\\" rel=\\"noopener noreferrer\\" style=\\"display:inline-block;background:#aaf1e7;color:#28646e;font-family:Arial;font-size:14px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:14px;\\" target=\\"_blank\\"
               >
-                訂閱電子報
+                瀏覽書店
               </a>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
-                </td>
-              </tr>
-            
-        </tbody>
-      </table>
-    
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
-      </div>
-    
-          <!--[if mso | IE]></td></tr></table><![endif]-->
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        </div>
-      </div>
-    
-        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
-    
-      
-      <div  style=\\"background:white;background-color:white;margin:0px auto;max-width:600px;\\">
-        
-        <table
-           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:white;background-color:white;width:100%;\\"
-        >
-          <tbody>
-            <tr>
-              <td
-                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:24px;padding-left:32px;padding-right:32px;padding-top:0px;text-align:center;\\"
-              >
-                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
-            
-      <div
-         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
-      >
-        
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
-      >
-        <tbody>
-          <tr>
-            <td  style=\\"vertical-align:top;padding:0px;\\">
-              
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
-      >
-        <tbody>
-          
-              <tr>
-                <td
-                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-                >
-                  
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:collapse;border-spacing:0px;\\"
-      >
-        <tbody>
-          <tr>
-            <td  style=\\"width:220px;\\">
-              
-        <a
-           href=\\"https://twitter.com/likerland?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\"
-        >
-          
-      <img
-         alt=\\"\\" src=\\"http://localhost:3000/static/social-elements/v2/twitter-large-zh.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"220\\" height=\\"auto\\"
-      />
-    
-        </a>
-      
             </td>
           </tr>
         </tbody>
@@ -2253,9 +2066,9 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
             <tbody>
               <tr>
                 <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://discord.gg/likecoin?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
+                  <a  href=\\"https://www.facebook.com/Liker.Land?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
                     <img
-                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/discord.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
+                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/facebook.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
                   </a>
                 </td>
@@ -2284,71 +2097,40 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
             <tbody>
               <tr>
                 <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://github.com/likecoin?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
-                    <img
-                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/github.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
-                    />
-                  </a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-        
-      </tr>
-    
-                </tbody>
-              </table>
-            <!--[if mso | IE]></td><td><![endif]-->
-              <table
-                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
-              >
-                <tbody>
-                  
-      <tr
-        
-      >
-        <td  style=\\"padding:6px;vertical-align:middle;\\">
-          <table
-             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
-          >
-            <tbody>
-              <tr>
-                <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://blog.like.co?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
-                    <img
-                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/blog.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
-                    />
-                  </a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-        
-      </tr>
-    
-                </tbody>
-              </table>
-            <!--[if mso | IE]></td><td><![endif]-->
-              <table
-                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
-              >
-                <tbody>
-                  
-      <tr
-        
-      >
-        <td  style=\\"padding:6px;vertical-align:middle;\\">
-          <table
-             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
-          >
-            <tbody>
-              <tr>
-                <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://www.instagram.com/liker.land?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
+                  <a  href=\\"https://www.instagram.com/liker.land?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
                     <img
                        alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/instagram.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
+                    />
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        
+      </tr>
+    
+                </tbody>
+              </table>
+            <!--[if mso | IE]></td><td><![endif]-->
+              <table
+                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
+              >
+                <tbody>
+                  
+      <tr
+        
+      >
+        <td  style=\\"padding:6px;vertical-align:middle;\\">
+          <table
+             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
+          >
+            <tbody>
+              <tr>
+                <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
+                  <a  href=\\"https://blog.liker.land?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
+                    <img
+                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/blog.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
                   </a>
                 </td>
@@ -2374,7 +2156,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
                   
       <div
          style=\\"font-family:Arial;font-size:14px;line-height:1.5;text-align:center;color:#4a4a4a;\\"
-      ><a href=\\"https://docs.like.co/v/zh?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">幫助中心</a></div>
+      ><a href=\\"https://docs.like.co/v/zh?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">幫助中心</a></div>
     
                 </td>
               </tr>
@@ -2717,7 +2499,7 @@ exports[`Render Civic Liker monthly report templates V3 1`] = `
       <table
          cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\" style=\\"color:#4a4a4a;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;border:none;\\"
       >
-        <tr style=\\"border-bottom:none;color:white;font-weight:bolder;font-size:18px\\"><td><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:right;padding:4px;line-height:0.5;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center right;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td style=\\"text-align:right\\" width=\\"130\\"><mj-text font-size=\\"18px\\" font-weight=\\"600\\" font-family=\\"Arial\\">Temp Liker ID</mj-text></td></tr>
+        <tr style=\\"border-bottom:none;color:white;font-weight:bolder;font-size:18px\\"><td><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=edm\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:right;padding:4px;line-height:0.5;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center right;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:48px;height:48px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td style=\\"text-align:right\\" width=\\"130\\"><mj-text font-size=\\"18px\\" font-weight=\\"600\\" font-family=\\"Arial\\">Temp Liker ID</mj-text></td></tr>
       </table>
     
                 </td>
@@ -3549,81 +3331,7 @@ exports[`Render Civic Liker monthly report templates V3 1`] = `
       <table
          cellpadding=\\"4px\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\" style=\\"color:#4a4a4a;font-family:Arial;font-size:14px;line-height:22px;table-layout:auto;width:100%;border:none;\\"
       >
-        <tr style=\\"vertical-align:middle;border-top:1px solid #d8d8d8;border-bottom:1px solid #d8d8d8\\"><td width=\\"28\\" style=\\"padding-left:16px;padding-bottom:16px;padding-top:16px\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:3px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center center;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:28px;height:28px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:none\\">Temp Liker ID</a></td><td style=\\"text-align:right\\"><span style=\\"color:#28646e\\">5</span><br/>作品</td><td style=\\"text-align:right;padding-right:16px\\"><span style=\\"color:#28646e\\">5</span><br/>$LIKE</td></tr><tr style=\\"vertical-align:middle;border-top:none;border-bottom:1px solid #d8d8d8\\"><td width=\\"28\\" style=\\"padding-left:16px;padding-bottom:16px;padding-top:16px\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:3px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center center;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:28px;height:28px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:none\\">Temp Liker ID</a></td><td style=\\"text-align:right\\"><span style=\\"color:#28646e\\">5</span><br/>作品</td><td style=\\"text-align:right;padding-right:16px\\"><span style=\\"color:#28646e\\">5</span><br/>$LIKE</td></tr><tr style=\\"vertical-align:middle;border-top:none;border-bottom:1px solid #d8d8d8\\"><td width=\\"28\\" style=\\"padding-left:16px;padding-bottom:16px;padding-top:16px\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:3px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center center;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:28px;height:28px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:none\\">Temp Liker ID</a></td><td style=\\"text-align:right\\"><span style=\\"color:#28646e\\">5</span><br/>作品</td><td style=\\"text-align:right;padding-right:16px\\"><span style=\\"color:#28646e\\">5</span><br/>$LIKE</td></tr>
-      </table>
-    
-                </td>
-              </tr>
-            
-        </tbody>
-      </table>
-    
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
-      </div>
-    
-          <!--[if mso | IE]></td></tr></table><![endif]-->
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        </div>
-      </div>
-    
-        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"white\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
-          
-      <div  style=\\"background:white;background-color:white;margin:0px auto;max-width:600px;\\">
-        <div  style=\\"line-height:0;font-size:0;\\">
-        <table
-           align=\\"center\\" background=\\"\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:white;background-color:white;width:100%;\\"
-        >
-          <tbody>
-            <tr>
-              <td
-                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:32px;padding-left:32px;padding-right:32px;padding-top:32px;text-align:center;\\"
-              >
-                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
-            
-      <div
-         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
-      >
-        
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
-      >
-        <tbody>
-          <tr>
-            <td  style=\\"vertical-align:top;padding:0px;\\">
-              
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
-      >
-        <tbody>
-          
-              <tr>
-                <td
-                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-                >
-                  
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:separate;line-height:100%;\\"
-      >
-        <tbody>
-          <tr>
-            <td
-               align=\\"center\\" bgcolor=\\"#aaf1e7\\" role=\\"presentation\\" style=\\"border:none;border-radius:14px;cursor:auto;mso-padding-alt:10px 25px;background:#aaf1e7;\\" valign=\\"middle\\"
-            >
-              <a
-                 href=\\"https://newsletter.like.co?utm_medium=email&amp;utm_source=email\\" rel=\\"noopener noreferrer\\" style=\\"display:inline-block;background:#aaf1e7;color:#28646e;font-family:Arial;font-size:14px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:14px;\\" target=\\"_blank\\"
-              >
-                訂閱電子報
-              </a>
-            </td>
-          </tr>
-        </tbody>
+        <tr style=\\"vertical-align:middle;border-top:1px solid #d8d8d8;border-bottom:1px solid #d8d8d8\\"><td width=\\"28\\" style=\\"padding-left:16px;padding-bottom:16px;padding-top:16px\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=edm\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:3px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center center;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:28px;height:28px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=edm\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:none\\">Temp Liker ID</a></td><td style=\\"text-align:right\\"><span style=\\"color:#28646e\\">5</span><br/>作品</td><td style=\\"text-align:right;padding-right:16px\\"><span style=\\"color:#28646e\\">5</span><br/>$LIKE</td></tr><tr style=\\"vertical-align:middle;border-top:none;border-bottom:1px solid #d8d8d8\\"><td width=\\"28\\" style=\\"padding-left:16px;padding-bottom:16px;padding-top:16px\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=edm\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:3px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center center;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:28px;height:28px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=edm\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:none\\">Temp Liker ID</a></td><td style=\\"text-align:right\\"><span style=\\"color:#28646e\\">5</span><br/>作品</td><td style=\\"text-align:right;padding-right:16px\\"><span style=\\"color:#28646e\\">5</span><br/>$LIKE</td></tr><tr style=\\"vertical-align:middle;border-top:none;border-bottom:1px solid #d8d8d8\\"><td width=\\"28\\" style=\\"padding-left:16px;padding-bottom:16px;padding-top:16px\\"><mj-raw><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=edm\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:3px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center center;background-size:contain\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"Temp Liker ID\\" style=\\"width:28px;height:28px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a></mj-raw></td><td><a href=\\"https://liker.land/likertemp?utm_medium=email&amp;utm_source=edm\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:none\\">Temp Liker ID</a></td><td style=\\"text-align:right\\"><span style=\\"color:#28646e\\">5</span><br/>作品</td><td style=\\"text-align:right;padding-right:16px\\"><span style=\\"color:#28646e\\">5</span><br/>$LIKE</td></tr>
       </table>
     
                 </td>
@@ -3658,7 +3366,7 @@ exports[`Render Civic Liker monthly report templates V3 1`] = `
           <tbody>
             <tr>
               <td
-                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:24px;padding-left:32px;padding-right:32px;padding-top:0px;text-align:center;\\"
+                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:24px;padding-left:32px;padding-right:32px;padding-top:32px;text-align:center;\\"
               >
                 <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
             
@@ -3684,22 +3392,18 @@ exports[`Render Civic Liker monthly report templates V3 1`] = `
                 >
                   
       <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:collapse;border-spacing:0px;\\"
+         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:separate;line-height:100%;\\"
       >
         <tbody>
           <tr>
-            <td  style=\\"width:220px;\\">
-              
-        <a
-           href=\\"https://twitter.com/likerland?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\"
-        >
-          
-      <img
-         alt=\\"\\" src=\\"http://localhost:3000/static/social-elements/v2/twitter-large-zh.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"220\\" height=\\"auto\\"
-      />
-    
-        </a>
-      
+            <td
+               align=\\"center\\" bgcolor=\\"#aaf1e7\\" role=\\"presentation\\" style=\\"border:none;border-radius:14px;cursor:auto;mso-padding-alt:10px 25px;background:#aaf1e7;\\" valign=\\"middle\\"
+            >
+              <a
+                 href=\\"https://liker.land/store?utm_medium=email&amp;utm_source=edm-footer\\" rel=\\"noopener noreferrer\\" style=\\"display:inline-block;background:#aaf1e7;color:#28646e;font-family:Arial;font-size:14px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:14px;\\" target=\\"_blank\\"
+              >
+                瀏覽書店
+              </a>
             </td>
           </tr>
         </tbody>
@@ -3730,9 +3434,9 @@ exports[`Render Civic Liker monthly report templates V3 1`] = `
             <tbody>
               <tr>
                 <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://discord.gg/likecoin?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
+                  <a  href=\\"https://www.facebook.com/Liker.Land?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
                     <img
-                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/discord.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
+                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/facebook.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
                   </a>
                 </td>
@@ -3761,71 +3465,40 @@ exports[`Render Civic Liker monthly report templates V3 1`] = `
             <tbody>
               <tr>
                 <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://github.com/likecoin?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
-                    <img
-                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/github.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
-                    />
-                  </a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-        
-      </tr>
-    
-                </tbody>
-              </table>
-            <!--[if mso | IE]></td><td><![endif]-->
-              <table
-                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
-              >
-                <tbody>
-                  
-      <tr
-        
-      >
-        <td  style=\\"padding:6px;vertical-align:middle;\\">
-          <table
-             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
-          >
-            <tbody>
-              <tr>
-                <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://blog.like.co?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
-                    <img
-                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/blog.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
-                    />
-                  </a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-        
-      </tr>
-    
-                </tbody>
-              </table>
-            <!--[if mso | IE]></td><td><![endif]-->
-              <table
-                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
-              >
-                <tbody>
-                  
-      <tr
-        
-      >
-        <td  style=\\"padding:6px;vertical-align:middle;\\">
-          <table
-             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
-          >
-            <tbody>
-              <tr>
-                <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://www.instagram.com/liker.land?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
+                  <a  href=\\"https://www.instagram.com/liker.land?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
                     <img
                        alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/instagram.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
+                    />
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        
+      </tr>
+    
+                </tbody>
+              </table>
+            <!--[if mso | IE]></td><td><![endif]-->
+              <table
+                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
+              >
+                <tbody>
+                  
+      <tr
+        
+      >
+        <td  style=\\"padding:6px;vertical-align:middle;\\">
+          <table
+             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
+          >
+            <tbody>
+              <tr>
+                <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
+                  <a  href=\\"https://blog.liker.land?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
+                    <img
+                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/blog.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
                   </a>
                 </td>
@@ -3851,7 +3524,7 @@ exports[`Render Civic Liker monthly report templates V3 1`] = `
                   
       <div
          style=\\"font-family:Arial;font-size:14px;line-height:1.5;text-align:center;color:#4a4a4a;\\"
-      ><a href=\\"https://docs.like.co/v/zh?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">幫助中心</a></div>
+      ><a href=\\"https://docs.like.co/v/zh?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">幫助中心</a></div>
     
                 </td>
               </tr>

@@ -280,7 +280,7 @@ exports[`Render referral tx templates Referee 1`] = `
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
         <tbody>
-          <a href=\\"https://liker.land/?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:8px;line-height:1\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"\\" style=\\"width:88px;height:88px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a>
+          <a href=\\"https://liker.land/?utm_medium=email&amp;utm_source=edm\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:8px;line-height:1\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"\\" style=\\"width:88px;height:88px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a>
               <tr>
                 <td
                    align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:8px;padding-bottom:8px;word-break:break-word;\\"
@@ -332,7 +332,7 @@ exports[`Render referral tx templates Referee 1`] = `
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
         <tbody>
-          <a href=\\"https://liker.land/?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:8px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center center;background-size:contain\\"><img src=\\"http://localhost:3000/static/default-avatar.jpg\\" alt=\\"\\" style=\\"width:88px;height:88px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a>
+          <a href=\\"https://liker.land/?utm_medium=email&amp;utm_source=edm\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:8px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center center;background-size:contain\\"><img src=\\"http://localhost:3000/static/default-avatar.jpg\\" alt=\\"\\" style=\\"width:88px;height:88px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a>
               <tr>
                 <td
                    align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:8px;padding-bottom:8px;word-break:break-word;\\"
@@ -412,7 +412,7 @@ exports[`Render referral tx templates Referee 1`] = `
                   
       <div
          style=\\"font-family:Arial;font-size:14px;line-height:1.5;text-align:center;color:#9b9b9b;\\"
-      >奬金已轉帳至你的錢包，請用 <a href=\\"https://liker.land/getapp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">Liker Land app</a> 查看。</div>
+      >奬金已轉帳至你的錢包，請用 <a href=\\"https://liker.land/getapp?utm_medium=email&amp;utm_source=edm\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">Liker Land app</a> 查看。</div>
     
                 </td>
               </tr>
@@ -507,17 +507,18 @@ exports[`Render referral tx templates Referee 1`] = `
         </div>
       </div>
     
-        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"white\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
-          
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
+    
+      
       <div  style=\\"background:white;background-color:white;margin:0px auto;max-width:600px;\\">
-        <div  style=\\"line-height:0;font-size:0;\\">
+        
         <table
-           align=\\"center\\" background=\\"\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:white;background-color:white;width:100%;\\"
+           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:white;background-color:white;width:100%;\\"
         >
           <tbody>
             <tr>
               <td
-                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:32px;padding-left:32px;padding-right:32px;padding-top:32px;text-align:center;\\"
+                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:24px;padding-left:32px;padding-right:32px;padding-top:32px;text-align:center;\\"
               >
                 <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
             
@@ -568,89 +569,10 @@ exports[`Render referral tx templates Referee 1`] = `
                align=\\"center\\" bgcolor=\\"#aaf1e7\\" role=\\"presentation\\" style=\\"border:none;border-radius:14px;cursor:auto;mso-padding-alt:10px 25px;background:#aaf1e7;\\" valign=\\"middle\\"
             >
               <a
-                 href=\\"https://newsletter.like.co?utm_medium=email&amp;utm_source=email\\" rel=\\"noopener noreferrer\\" style=\\"display:inline-block;background:#aaf1e7;color:#28646e;font-family:Arial;font-size:14px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:14px;\\" target=\\"_blank\\"
+                 href=\\"https://liker.land/store?utm_medium=email&amp;utm_source=edm-footer\\" rel=\\"noopener noreferrer\\" style=\\"display:inline-block;background:#aaf1e7;color:#28646e;font-family:Arial;font-size:14px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:14px;\\" target=\\"_blank\\"
               >
-                訂閱電子報
+                瀏覽書店
               </a>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
-                </td>
-              </tr>
-            
-        </tbody>
-      </table>
-    
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
-      </div>
-    
-          <!--[if mso | IE]></td></tr></table><![endif]-->
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        </div>
-      </div>
-    
-        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
-    
-      
-      <div  style=\\"background:white;background-color:white;margin:0px auto;max-width:600px;\\">
-        
-        <table
-           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:white;background-color:white;width:100%;\\"
-        >
-          <tbody>
-            <tr>
-              <td
-                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:24px;padding-left:32px;padding-right:32px;padding-top:0px;text-align:center;\\"
-              >
-                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
-            
-      <div
-         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
-      >
-        
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
-      >
-        <tbody>
-          <tr>
-            <td  style=\\"vertical-align:top;padding:0px;\\">
-              
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
-      >
-        <tbody>
-          
-              <tr>
-                <td
-                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-                >
-                  
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:collapse;border-spacing:0px;\\"
-      >
-        <tbody>
-          <tr>
-            <td  style=\\"width:220px;\\">
-              
-        <a
-           href=\\"https://twitter.com/likerland?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\"
-        >
-          
-      <img
-         alt=\\"\\" src=\\"http://localhost:3000/static/social-elements/v2/twitter-large-zh.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"220\\" height=\\"auto\\"
-      />
-    
-        </a>
-      
             </td>
           </tr>
         </tbody>
@@ -681,9 +603,9 @@ exports[`Render referral tx templates Referee 1`] = `
             <tbody>
               <tr>
                 <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://discord.gg/likecoin?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
+                  <a  href=\\"https://www.facebook.com/Liker.Land?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
                     <img
-                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/discord.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
+                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/facebook.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
                   </a>
                 </td>
@@ -712,71 +634,40 @@ exports[`Render referral tx templates Referee 1`] = `
             <tbody>
               <tr>
                 <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://github.com/likecoin?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
-                    <img
-                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/github.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
-                    />
-                  </a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-        
-      </tr>
-    
-                </tbody>
-              </table>
-            <!--[if mso | IE]></td><td><![endif]-->
-              <table
-                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
-              >
-                <tbody>
-                  
-      <tr
-        
-      >
-        <td  style=\\"padding:6px;vertical-align:middle;\\">
-          <table
-             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
-          >
-            <tbody>
-              <tr>
-                <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://blog.like.co?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
-                    <img
-                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/blog.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
-                    />
-                  </a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-        
-      </tr>
-    
-                </tbody>
-              </table>
-            <!--[if mso | IE]></td><td><![endif]-->
-              <table
-                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
-              >
-                <tbody>
-                  
-      <tr
-        
-      >
-        <td  style=\\"padding:6px;vertical-align:middle;\\">
-          <table
-             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
-          >
-            <tbody>
-              <tr>
-                <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://www.instagram.com/liker.land?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
+                  <a  href=\\"https://www.instagram.com/liker.land?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
                     <img
                        alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/instagram.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
+                    />
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        
+      </tr>
+    
+                </tbody>
+              </table>
+            <!--[if mso | IE]></td><td><![endif]-->
+              <table
+                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
+              >
+                <tbody>
+                  
+      <tr
+        
+      >
+        <td  style=\\"padding:6px;vertical-align:middle;\\">
+          <table
+             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
+          >
+            <tbody>
+              <tr>
+                <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
+                  <a  href=\\"https://blog.liker.land?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
+                    <img
+                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/blog.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
                   </a>
                 </td>
@@ -802,7 +693,7 @@ exports[`Render referral tx templates Referee 1`] = `
                   
       <div
          style=\\"font-family:Arial;font-size:14px;line-height:1.5;text-align:center;color:#4a4a4a;\\"
-      ><a href=\\"https://docs.like.co/v/zh?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">幫助中心</a></div>
+      ><a href=\\"https://docs.like.co/v/zh?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">幫助中心</a></div>
     
                 </td>
               </tr>
@@ -1116,7 +1007,7 @@ exports[`Render referral tx templates Referrer 1`] = `
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
         <tbody>
-          <a href=\\"https://liker.land/?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:8px;line-height:1\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"\\" style=\\"width:88px;height:88px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a>
+          <a href=\\"https://liker.land/?utm_medium=email&amp;utm_source=edm\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:8px;line-height:1\\"><img src=\\"https://liker.land/logo.png\\" alt=\\"\\" style=\\"width:88px;height:88px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a>
               <tr>
                 <td
                    align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:8px;padding-bottom:8px;word-break:break-word;\\"
@@ -1168,7 +1059,7 @@ exports[`Render referral tx templates Referrer 1`] = `
          border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
       >
         <tbody>
-          <a href=\\"https://liker.land/?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:8px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center center;background-size:contain\\"><img src=\\"http://localhost:3000/static/default-avatar.jpg\\" alt=\\"\\" style=\\"width:88px;height:88px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a>
+          <a href=\\"https://liker.land/?utm_medium=email&amp;utm_source=edm\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline;display:block;text-align:center;padding:8px;line-height:1;background-image:url(http://localhost:3000/static/avatar/halo/civic-liker.png);background-repeat:no-repeat;background-position:center center;background-size:contain\\"><img src=\\"http://localhost:3000/static/default-avatar.jpg\\" alt=\\"\\" style=\\"width:88px;height:88px;border-radius:100%;object-fit:cover;border:2px solid #ccc\\"/></a>
               <tr>
                 <td
                    align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:8px;padding-bottom:8px;word-break:break-word;\\"
@@ -1248,7 +1139,7 @@ exports[`Render referral tx templates Referrer 1`] = `
                   
       <div
          style=\\"font-family:Arial;font-size:14px;line-height:1.5;text-align:center;color:#9b9b9b;\\"
-      >奬金已轉帳至你的錢包，請用 <a href=\\"https://liker.land/getapp?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">Liker Land app</a> 查看。</div>
+      >奬金已轉帳至你的錢包，請用 <a href=\\"https://liker.land/getapp?utm_medium=email&amp;utm_source=edm\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">Liker Land app</a> 查看。</div>
     
                 </td>
               </tr>
@@ -1343,17 +1234,18 @@ exports[`Render referral tx templates Referrer 1`] = `
         </div>
       </div>
     
-        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><v:rect style=\\"width:600px;\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" fill=\\"true\\" stroke=\\"false\\"><v:fill origin=\\"0.5, 0\\" position=\\"0.5, 0\\" src=\\"\\" color=\\"white\\" type=\\"tile\\" size=\\"600px\\" aspect=\\"atmost\\" /><v:textbox style=\\"mso-fit-shape-to-text:true\\" inset=\\"0,0,0,0\\"><![endif]-->
-          
+        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
+    
+      
       <div  style=\\"background:white;background-color:white;margin:0px auto;max-width:600px;\\">
-        <div  style=\\"line-height:0;font-size:0;\\">
+        
         <table
-           align=\\"center\\" background=\\"\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:white;background-color:white;width:100%;\\"
+           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:white;background-color:white;width:100%;\\"
         >
           <tbody>
             <tr>
               <td
-                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:32px;padding-left:32px;padding-right:32px;padding-top:32px;text-align:center;\\"
+                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:24px;padding-left:32px;padding-right:32px;padding-top:32px;text-align:center;\\"
               >
                 <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
             
@@ -1404,89 +1296,10 @@ exports[`Render referral tx templates Referrer 1`] = `
                align=\\"center\\" bgcolor=\\"#aaf1e7\\" role=\\"presentation\\" style=\\"border:none;border-radius:14px;cursor:auto;mso-padding-alt:10px 25px;background:#aaf1e7;\\" valign=\\"middle\\"
             >
               <a
-                 href=\\"https://newsletter.like.co?utm_medium=email&amp;utm_source=email\\" rel=\\"noopener noreferrer\\" style=\\"display:inline-block;background:#aaf1e7;color:#28646e;font-family:Arial;font-size:14px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:14px;\\" target=\\"_blank\\"
+                 href=\\"https://liker.land/store?utm_medium=email&amp;utm_source=edm-footer\\" rel=\\"noopener noreferrer\\" style=\\"display:inline-block;background:#aaf1e7;color:#28646e;font-family:Arial;font-size:14px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:14px;\\" target=\\"_blank\\"
               >
-                訂閱電子報
+                瀏覽書店
               </a>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
-                </td>
-              </tr>
-            
-        </tbody>
-      </table>
-    
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
-      </div>
-    
-          <!--[if mso | IE]></td></tr></table><![endif]-->
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        </div>
-      </div>
-    
-        <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" class=\\"\\" role=\\"presentation\\" style=\\"width:600px;\\" width=\\"600\\" bgcolor=\\"white\\" ><tr><td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\"><![endif]-->
-    
-      
-      <div  style=\\"background:white;background-color:white;margin:0px auto;max-width:600px;\\">
-        
-        <table
-           align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"background:white;background-color:white;width:100%;\\"
-        >
-          <tbody>
-            <tr>
-              <td
-                 style=\\"direction:ltr;font-size:0px;padding:0px;padding-bottom:24px;padding-left:32px;padding-right:32px;padding-top:0px;text-align:center;\\"
-              >
-                <!--[if mso | IE]><table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td class=\\"\\" style=\\"vertical-align:top;width:536px;\\" ><![endif]-->
-            
-      <div
-         class=\\"mj-column-per-100 mj-outlook-group-fix\\" style=\\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\\"
-      >
-        
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" width=\\"100%\\"
-      >
-        <tbody>
-          <tr>
-            <td  style=\\"vertical-align:top;padding:0px;\\">
-              
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"\\" width=\\"100%\\"
-      >
-        <tbody>
-          
-              <tr>
-                <td
-                   align=\\"center\\" style=\\"font-size:0px;padding:0px;word-break:break-word;\\"
-                >
-                  
-      <table
-         border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-collapse:collapse;border-spacing:0px;\\"
-      >
-        <tbody>
-          <tr>
-            <td  style=\\"width:220px;\\">
-              
-        <a
-           href=\\"https://twitter.com/likerland?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\"
-        >
-          
-      <img
-         alt=\\"\\" src=\\"http://localhost:3000/static/social-elements/v2/twitter-large-zh.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"220\\" height=\\"auto\\"
-      />
-    
-        </a>
-      
             </td>
           </tr>
         </tbody>
@@ -1517,9 +1330,9 @@ exports[`Render referral tx templates Referrer 1`] = `
             <tbody>
               <tr>
                 <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://discord.gg/likecoin?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
+                  <a  href=\\"https://www.facebook.com/Liker.Land?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
                     <img
-                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/discord.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
+                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/facebook.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
                   </a>
                 </td>
@@ -1548,71 +1361,40 @@ exports[`Render referral tx templates Referrer 1`] = `
             <tbody>
               <tr>
                 <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://github.com/likecoin?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
-                    <img
-                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/github.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
-                    />
-                  </a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-        
-      </tr>
-    
-                </tbody>
-              </table>
-            <!--[if mso | IE]></td><td><![endif]-->
-              <table
-                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
-              >
-                <tbody>
-                  
-      <tr
-        
-      >
-        <td  style=\\"padding:6px;vertical-align:middle;\\">
-          <table
-             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
-          >
-            <tbody>
-              <tr>
-                <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://blog.like.co?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
-                    <img
-                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/blog.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
-                    />
-                  </a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-        
-      </tr>
-    
-                </tbody>
-              </table>
-            <!--[if mso | IE]></td><td><![endif]-->
-              <table
-                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
-              >
-                <tbody>
-                  
-      <tr
-        
-      >
-        <td  style=\\"padding:6px;vertical-align:middle;\\">
-          <table
-             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
-          >
-            <tbody>
-              <tr>
-                <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://www.instagram.com/liker.land?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\">
+                  <a  href=\\"https://www.instagram.com/liker.land?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
                     <img
                        alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/instagram.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
+                    />
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        
+      </tr>
+    
+                </tbody>
+              </table>
+            <!--[if mso | IE]></td><td><![endif]-->
+              <table
+                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
+              >
+                <tbody>
+                  
+      <tr
+        
+      >
+        <td  style=\\"padding:6px;vertical-align:middle;\\">
+          <table
+             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
+          >
+            <tbody>
+              <tr>
+                <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
+                  <a  href=\\"https://blog.liker.land?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
+                    <img
+                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/blog.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
                   </a>
                 </td>
@@ -1638,7 +1420,7 @@ exports[`Render referral tx templates Referrer 1`] = `
                   
       <div
          style=\\"font-family:Arial;font-size:14px;line-height:1.5;text-align:center;color:#4a4a4a;\\"
-      ><a href=\\"https://docs.like.co/v/zh?utm_medium=email&amp;utm_source=email\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">幫助中心</a></div>
+      ><a href=\\"https://docs.like.co/v/zh?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">幫助中心</a></div>
     
                 </td>
               </tr>

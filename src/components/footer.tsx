@@ -3,12 +3,11 @@ import {
   MjmlButton,
   MjmlColumn,
   MjmlDivider,
-  MjmlImage,
   MjmlSocial,
   MjmlSocialElement,
   MjmlText,
 } from 'mjml-react';
-import { FormattedMessage, useIntl } from 'react-intl';
+import { FormattedMessage } from 'react-intl';
 
 import * as Colors from '../constants/colors';
 import { getAssetPath, wrapUtm } from '../utils/url';
@@ -19,24 +18,19 @@ import { UnsubscribeLink } from './unsubscribe-link';
 
 const socialElements = [
   {
-    key: 'discord',
-    href: 'https://discord.gg/likecoin',
-    assetPath: '/social-elements/v2/discord.png',
-  },
-  {
-    key: 'github',
-    href: 'https://github.com/likecoin',
-    assetPath: '/social-elements/v2/github.png',
-  },
-  {
-    key: 'blog',
-    href: 'https://blog.like.co',
-    assetPath: '/social-elements/v2/blog.png',
+    key: 'facebook',
+    href: 'https://www.facebook.com/Liker.Land',
+    assetPath: '/social-elements/v2/facebook.png',
   },
   {
     key: 'instagram',
     href: 'https://www.instagram.com/liker.land',
     assetPath: '/social-elements/v2/instagram.png',
+  },
+  {
+    key: 'blog',
+    href: 'https://blog.liker.land',
+    assetPath: '/social-elements/v2/blog.png',
   },
 ];
 
@@ -47,10 +41,13 @@ export const FooterSection = ({
   unsubscribeLink?: string;
   shouldShowDivider?: boolean;
 }) => {
-  const intl = useIntl();
   return (
     <>
-      <BasicSection backgroundColor="white">
+      <BasicSection
+        backgroundColor="white"
+        backgroundUrl={undefined}
+        paddingBottom={24}
+      >
         <MjmlColumn>
           {shouldShowDivider && (
             <MjmlDivider
@@ -65,27 +62,11 @@ export const FooterSection = ({
             fontWeight={600}
             backgroundColor={Colors.LighterCyan}
             borderRadius={14}
-            href={wrapUtm('https://newsletter.like.co')}
+            href={wrapUtm('https://liker.land/store', { source: 'edm-footer' })}
             rel="noopener noreferrer"
           >
-            <FormattedMessage id="footer_newsletter_button" />
+            <FormattedMessage id="footer_browse_store" />
           </MjmlButton>
-        </MjmlColumn>
-      </BasicSection>
-      <BasicSection
-        backgroundColor="white"
-        backgroundUrl={undefined}
-        paddingTop={0}
-        paddingBottom={24}
-      >
-        <MjmlColumn>
-          <MjmlImage
-            width={220}
-            src={getAssetPath(
-              `/social-elements/v2/twitter-large-${intl.locale}.png`
-            )}
-            href={wrapUtm('https://twitter.com/likerland')}
-          />
           <MjmlSocial
             mode="horizontal"
             paddingTop={16}
@@ -99,7 +80,7 @@ export const FooterSection = ({
             {socialElements.map(({ key, href, assetPath }) => (
               <MjmlSocialElement
                 key={key}
-                href={wrapUtm(href)}
+                href={wrapUtm(href, { source: 'edm-footer' })}
                 src={getAssetPath(assetPath)}
               >
                 {null}
@@ -107,11 +88,11 @@ export const FooterSection = ({
             ))}
           </MjmlSocial>
           <MjmlText align="center" padding={4}>
-            <HelpCenterLink />
+            <HelpCenterLink utmSource="edm-footer" />
           </MjmlText>
           {!!unsubscribeLink && (
             <MjmlText align="center" padding={4}>
-              <UnsubscribeLink link={unsubscribeLink} />
+              <UnsubscribeLink href={unsubscribeLink} utmSource="edm-footer" />
             </MjmlText>
           )}
         </MjmlColumn>

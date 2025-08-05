@@ -21,9 +21,7 @@ export const HeaderSection = (props: HeaderSectionProps) => {
           <MjmlImage
             align="left"
             width={145}
-            src={getAssetPath(
-              '/banners/like-coin-press-kit-liker-land-dark@3x.png'
-            )}
+            src={getAssetPath('/3ookcom-logo.png')}
           />
         </MjmlColumn>
         {!!props.rightItem && (

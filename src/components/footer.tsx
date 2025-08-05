@@ -18,19 +18,24 @@ import { UnsubscribeLink } from './unsubscribe-link';
 
 const socialElements = [
   {
-    key: 'facebook',
-    href: 'https://www.facebook.com/Liker.Land',
-    assetPath: '/social-elements/v2/facebook.png',
-  },
-  {
     key: 'instagram',
-    href: 'https://www.instagram.com/liker.land',
+    href: 'https://www.instagram.com/3ookcom',
     assetPath: '/social-elements/v2/instagram.png',
   },
   {
-    key: 'blog',
-    href: 'https://blog.liker.land',
-    assetPath: '/social-elements/v2/blog.png',
+    key: 'facebook',
+    href: 'https://www.facebook.com/3ookcom',
+    assetPath: '/social-elements/v2/facebook.png',
+  },
+  {
+    key: 'threads',
+    href: 'https://www.threads.com/@3ookcom',
+    assetPath: '/social-elements/v2/threads.png',
+  },
+  {
+    key: 'substack',
+    href: 'https://review.3ook.com',
+    assetPath: '/social-elements/v2/substack.png',
   },
 ];
 
@@ -58,11 +63,11 @@ export const FooterSection = ({
             />
           )}
           <MjmlButton
-            color={Colors.LikeGreen}
+            color={Colors.LighterCyan}
             fontWeight={600}
-            backgroundColor={Colors.LighterCyan}
+            backgroundColor={Colors.Black13}
             borderRadius={14}
-            href={wrapUtm('https://liker.land/store', { source: 'edm-footer' })}
+            href={wrapUtm('https://3ook.com/store', { source: 'edm-footer' })}
             rel="noopener noreferrer"
           >
             <FormattedMessage id="footer_browse_store" />

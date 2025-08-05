@@ -9,7 +9,7 @@
   "greeting": "Dear {name}",
   "header.manage-delegation": "Manage delegation",
   "help.center.text": "Help Center",
-  "help.center.url": "https://docs.like.co",
+  "help.center.url": "https://docs.3ook.com",
   "nft_notification_purchase_content": "<buyer>BUYER</buyer> has bought <nft>NFT_TITLE</nft> for <price>LikeCoin</price>.",
   "nft_notification_purchase_multiple_content": "Congratulation! <buyer>BUYER</buyer> has collected your following works for <price>LIKE</price>:",
   "nft_notification_purchase_multiple_subject": "You have sold {count} items for {price} LIKE",

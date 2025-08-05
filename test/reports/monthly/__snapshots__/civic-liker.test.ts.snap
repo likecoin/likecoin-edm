@@ -127,7 +127,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
             <td  style=\\"width:145px;\\">
               
       <img
-         alt=\\"\\" src=\\"http://localhost:3000/static/banners/like-coin-press-kit-liker-land-dark@3x.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"145\\" height=\\"auto\\"
+         alt=\\"\\" src=\\"http://localhost:3000/static/3ookcom-logo.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"145\\" height=\\"auto\\"
       />
     
             </td>
@@ -896,10 +896,10 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
         <tbody>
           <tr>
             <td
-               align=\\"center\\" bgcolor=\\"#aaf1e7\\" role=\\"presentation\\" style=\\"border:none;border-radius:14px;cursor:auto;mso-padding-alt:10px 25px;background:#aaf1e7;\\" valign=\\"middle\\"
+               align=\\"center\\" bgcolor=\\"#131313\\" role=\\"presentation\\" style=\\"border:none;border-radius:14px;cursor:auto;mso-padding-alt:10px 25px;background:#131313;\\" valign=\\"middle\\"
             >
               <a
-                 href=\\"https://liker.land/store?utm_medium=email&amp;utm_source=edm-footer\\" rel=\\"noopener noreferrer\\" style=\\"display:inline-block;background:#aaf1e7;color:#28646e;font-family:Arial;font-size:14px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:14px;\\" target=\\"_blank\\"
+                 href=\\"https://3ook.com/store?utm_medium=email&amp;utm_source=edm-footer\\" rel=\\"noopener noreferrer\\" style=\\"display:inline-block;background:#131313;color:#aaf1e7;font-family:Arial;font-size:14px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:14px;\\" target=\\"_blank\\"
               >
                 瀏覽書店
               </a>
@@ -933,38 +933,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
             <tbody>
               <tr>
                 <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://www.facebook.com/Liker.Land?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
-                    <img
-                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/facebook.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
-                    />
-                  </a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-        
-      </tr>
-    
-                </tbody>
-              </table>
-            <!--[if mso | IE]></td><td><![endif]-->
-              <table
-                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
-              >
-                <tbody>
-                  
-      <tr
-        
-      >
-        <td  style=\\"padding:6px;vertical-align:middle;\\">
-          <table
-             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
-          >
-            <tbody>
-              <tr>
-                <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://www.instagram.com/liker.land?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
+                  <a  href=\\"https://www.instagram.com/3ookcom?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
                     <img
                        alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/instagram.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
@@ -995,9 +964,71 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
             <tbody>
               <tr>
                 <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://blog.liker.land?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
+                  <a  href=\\"https://www.facebook.com/3ookcom?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
                     <img
-                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/blog.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
+                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/facebook.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
+                    />
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        
+      </tr>
+    
+                </tbody>
+              </table>
+            <!--[if mso | IE]></td><td><![endif]-->
+              <table
+                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
+              >
+                <tbody>
+                  
+      <tr
+        
+      >
+        <td  style=\\"padding:6px;vertical-align:middle;\\">
+          <table
+             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
+          >
+            <tbody>
+              <tr>
+                <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
+                  <a  href=\\"https://www.threads.com/@3ookcom?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
+                    <img
+                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/threads.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
+                    />
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        
+      </tr>
+    
+                </tbody>
+              </table>
+            <!--[if mso | IE]></td><td><![endif]-->
+              <table
+                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
+              >
+                <tbody>
+                  
+      <tr
+        
+      >
+        <td  style=\\"padding:6px;vertical-align:middle;\\">
+          <table
+             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
+          >
+            <tbody>
+              <tr>
+                <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
+                  <a  href=\\"https://review.3ook.com?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
+                    <img
+                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/substack.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
                   </a>
                 </td>
@@ -1023,7 +1054,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
                   
       <div
          style=\\"font-family:Arial;font-size:14px;line-height:1.5;text-align:center;color:#4a4a4a;\\"
-      ><a href=\\"https://docs.like.co/v/zh?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">幫助中心</a></div>
+      ><a href=\\"https://docs.3ook.com?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">幫助中心</a></div>
     
                 </td>
               </tr>
@@ -1184,7 +1215,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
             <td  style=\\"width:145px;\\">
               
       <img
-         alt=\\"\\" src=\\"http://localhost:3000/static/banners/like-coin-press-kit-liker-land-dark@3x.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"145\\" height=\\"auto\\"
+         alt=\\"\\" src=\\"http://localhost:3000/static/3ookcom-logo.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"145\\" height=\\"auto\\"
       />
     
             </td>
@@ -2029,10 +2060,10 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
         <tbody>
           <tr>
             <td
-               align=\\"center\\" bgcolor=\\"#aaf1e7\\" role=\\"presentation\\" style=\\"border:none;border-radius:14px;cursor:auto;mso-padding-alt:10px 25px;background:#aaf1e7;\\" valign=\\"middle\\"
+               align=\\"center\\" bgcolor=\\"#131313\\" role=\\"presentation\\" style=\\"border:none;border-radius:14px;cursor:auto;mso-padding-alt:10px 25px;background:#131313;\\" valign=\\"middle\\"
             >
               <a
-                 href=\\"https://liker.land/store?utm_medium=email&amp;utm_source=edm-footer\\" rel=\\"noopener noreferrer\\" style=\\"display:inline-block;background:#aaf1e7;color:#28646e;font-family:Arial;font-size:14px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:14px;\\" target=\\"_blank\\"
+                 href=\\"https://3ook.com/store?utm_medium=email&amp;utm_source=edm-footer\\" rel=\\"noopener noreferrer\\" style=\\"display:inline-block;background:#131313;color:#aaf1e7;font-family:Arial;font-size:14px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:14px;\\" target=\\"_blank\\"
               >
                 瀏覽書店
               </a>
@@ -2066,38 +2097,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
             <tbody>
               <tr>
                 <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://www.facebook.com/Liker.Land?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
-                    <img
-                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/facebook.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
-                    />
-                  </a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-        
-      </tr>
-    
-                </tbody>
-              </table>
-            <!--[if mso | IE]></td><td><![endif]-->
-              <table
-                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
-              >
-                <tbody>
-                  
-      <tr
-        
-      >
-        <td  style=\\"padding:6px;vertical-align:middle;\\">
-          <table
-             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
-          >
-            <tbody>
-              <tr>
-                <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://www.instagram.com/liker.land?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
+                  <a  href=\\"https://www.instagram.com/3ookcom?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
                     <img
                        alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/instagram.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
@@ -2128,9 +2128,71 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
             <tbody>
               <tr>
                 <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://blog.liker.land?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
+                  <a  href=\\"https://www.facebook.com/3ookcom?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
                     <img
-                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/blog.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
+                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/facebook.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
+                    />
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        
+      </tr>
+    
+                </tbody>
+              </table>
+            <!--[if mso | IE]></td><td><![endif]-->
+              <table
+                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
+              >
+                <tbody>
+                  
+      <tr
+        
+      >
+        <td  style=\\"padding:6px;vertical-align:middle;\\">
+          <table
+             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
+          >
+            <tbody>
+              <tr>
+                <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
+                  <a  href=\\"https://www.threads.com/@3ookcom?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
+                    <img
+                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/threads.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
+                    />
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        
+      </tr>
+    
+                </tbody>
+              </table>
+            <!--[if mso | IE]></td><td><![endif]-->
+              <table
+                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
+              >
+                <tbody>
+                  
+      <tr
+        
+      >
+        <td  style=\\"padding:6px;vertical-align:middle;\\">
+          <table
+             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
+          >
+            <tbody>
+              <tr>
+                <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
+                  <a  href=\\"https://review.3ook.com?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
+                    <img
+                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/substack.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
                   </a>
                 </td>
@@ -2156,7 +2218,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
                   
       <div
          style=\\"font-family:Arial;font-size:14px;line-height:1.5;text-align:center;color:#4a4a4a;\\"
-      ><a href=\\"https://docs.like.co/v/zh?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">幫助中心</a></div>
+      ><a href=\\"https://docs.3ook.com?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">幫助中心</a></div>
     
                 </td>
               </tr>
@@ -2319,7 +2381,7 @@ exports[`Render Civic Liker monthly report templates V3 1`] = `
             <td  style=\\"width:145px;\\">
               
       <img
-         alt=\\"\\" src=\\"http://localhost:3000/static/banners/like-coin-press-kit-liker-land-dark@3x.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"145\\" height=\\"auto\\"
+         alt=\\"\\" src=\\"http://localhost:3000/static/3ookcom-logo.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"145\\" height=\\"auto\\"
       />
     
             </td>
@@ -3397,10 +3459,10 @@ exports[`Render Civic Liker monthly report templates V3 1`] = `
         <tbody>
           <tr>
             <td
-               align=\\"center\\" bgcolor=\\"#aaf1e7\\" role=\\"presentation\\" style=\\"border:none;border-radius:14px;cursor:auto;mso-padding-alt:10px 25px;background:#aaf1e7;\\" valign=\\"middle\\"
+               align=\\"center\\" bgcolor=\\"#131313\\" role=\\"presentation\\" style=\\"border:none;border-radius:14px;cursor:auto;mso-padding-alt:10px 25px;background:#131313;\\" valign=\\"middle\\"
             >
               <a
-                 href=\\"https://liker.land/store?utm_medium=email&amp;utm_source=edm-footer\\" rel=\\"noopener noreferrer\\" style=\\"display:inline-block;background:#aaf1e7;color:#28646e;font-family:Arial;font-size:14px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:14px;\\" target=\\"_blank\\"
+                 href=\\"https://3ook.com/store?utm_medium=email&amp;utm_source=edm-footer\\" rel=\\"noopener noreferrer\\" style=\\"display:inline-block;background:#131313;color:#aaf1e7;font-family:Arial;font-size:14px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:14px;\\" target=\\"_blank\\"
               >
                 瀏覽書店
               </a>
@@ -3434,38 +3496,7 @@ exports[`Render Civic Liker monthly report templates V3 1`] = `
             <tbody>
               <tr>
                 <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://www.facebook.com/Liker.Land?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
-                    <img
-                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/facebook.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
-                    />
-                  </a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-        
-      </tr>
-    
-                </tbody>
-              </table>
-            <!--[if mso | IE]></td><td><![endif]-->
-              <table
-                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
-              >
-                <tbody>
-                  
-      <tr
-        
-      >
-        <td  style=\\"padding:6px;vertical-align:middle;\\">
-          <table
-             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
-          >
-            <tbody>
-              <tr>
-                <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://www.instagram.com/liker.land?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
+                  <a  href=\\"https://www.instagram.com/3ookcom?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
                     <img
                        alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/instagram.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
@@ -3496,9 +3527,71 @@ exports[`Render Civic Liker monthly report templates V3 1`] = `
             <tbody>
               <tr>
                 <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
-                  <a  href=\\"https://blog.liker.land?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
+                  <a  href=\\"https://www.facebook.com/3ookcom?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
                     <img
-                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/blog.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
+                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/facebook.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
+                    />
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        
+      </tr>
+    
+                </tbody>
+              </table>
+            <!--[if mso | IE]></td><td><![endif]-->
+              <table
+                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
+              >
+                <tbody>
+                  
+      <tr
+        
+      >
+        <td  style=\\"padding:6px;vertical-align:middle;\\">
+          <table
+             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
+          >
+            <tbody>
+              <tr>
+                <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
+                  <a  href=\\"https://www.threads.com/@3ookcom?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
+                    <img
+                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/threads.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
+                    />
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        
+      </tr>
+    
+                </tbody>
+              </table>
+            <!--[if mso | IE]></td><td><![endif]-->
+              <table
+                 align=\\"center\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"float:none;display:inline-table;\\"
+              >
+                <tbody>
+                  
+      <tr
+        
+      >
+        <td  style=\\"padding:6px;vertical-align:middle;\\">
+          <table
+             border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" role=\\"presentation\\" style=\\"border-radius:16px;width:32px;\\"
+          >
+            <tbody>
+              <tr>
+                <td  style=\\"font-size:0;height:32px;vertical-align:middle;width:32px;\\">
+                  <a  href=\\"https://review.3ook.com?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\">
+                    <img
+                       alt=\\"\\" height=\\"32\\" src=\\"http://localhost:3000/static/social-elements/v2/substack.png\\" style=\\"border-radius:16px;display:block;\\" width=\\"32\\"
                     />
                   </a>
                 </td>
@@ -3524,7 +3617,7 @@ exports[`Render Civic Liker monthly report templates V3 1`] = `
                   
       <div
          style=\\"font-family:Arial;font-size:14px;line-height:1.5;text-align:center;color:#4a4a4a;\\"
-      ><a href=\\"https://docs.like.co/v/zh?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">幫助中心</a></div>
+      ><a href=\\"https://docs.3ook.com?utm_medium=email&amp;utm_source=edm-footer\\" target=\\"_blank\\" rel=\\"noreferrer noopener\\" style=\\"color:#28646e;text-decoration:underline\\">幫助中心</a></div>
     
                 </td>
               </tr>

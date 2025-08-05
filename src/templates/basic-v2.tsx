@@ -40,7 +40,7 @@ export const BasicV2Template = ({
     <TemplateBase language={language} subject={subject}>
       <HeaderSection />
       <BasicSection
-        backgroundColor={Colors.LikeGreen}
+        backgroundColor={Colors.Black13}
         paddingTop={48}
         paddingBottom={48}
       >

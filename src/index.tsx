@@ -65,6 +65,7 @@ import {
   NFTTwoContentWithMessageAndButtonTemplate,
   NFTTwoContentWithMessageAndButtonTemplateProps,
 } from './templates/nft/two-content-with-message-and-button';
+import { IntercomTemplate } from './templates/intercom';
 
 export const getBasicTemplate = (
   props: BasicTemplateProps,
@@ -370,4 +371,16 @@ export const getNFTTwoContentWithMessageAndButtonTemplate = (
     }
   );
   return { body };
+};
+
+export const getIntercomTemplate = (
+  props: BasicV2TemplateProps,
+  options?: Mjml2HtmlOptions
+) => {
+  const { html: body } = render(<IntercomTemplate {...props} />, {
+    minify: false,
+    ...options,
+  });
+  const { subject } = props;
+  return { subject, body };
 };

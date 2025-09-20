@@ -21,6 +21,7 @@ export interface BasicV2TemplateProps {
   unsubscribeLink?: string;
   language?: string;
   isFullHeaderLogo?: boolean;
+  globalCSS?: string;
 }
 
 export const BasicV2Template = ({
@@ -33,6 +34,7 @@ export const BasicV2Template = ({
   unsubscribeLink,
   isFullHeaderLogo = true,
   language,
+  globalCSS,
 }: BasicV2TemplateProps) => {
   return (
     <TemplateBase
@@ -41,22 +43,26 @@ export const BasicV2Template = ({
       textColor={Colors.Black13}
       bodyBackgroundColor={Colors.Black13}
       linkColor={Colors.Black13}
+      globalCSS={globalCSS}
     >
       <HeaderV2Section isFullLogo={isFullHeaderLogo} />
+      {!!(titleTop || title || subtitle) && (
         <BasicSection
           backgroundColor={Colors.GreyF9}
           borderBottom={`solid 2px ${Colors.Black13}`}
         >
           <MjmlColumn>
             {titleTop}
-            <MjmlText
-              color={Colors.Black13}
-              fontSize={24}
-              fontWeight={600}
-              align="left"
-            >
-              {title}
-            </MjmlText>
+            {title && (
+              <MjmlText
+                color={Colors.Black13}
+                fontSize={24}
+                fontWeight={600}
+                align="left"
+              >
+                {title}
+              </MjmlText>
+            )}
             {subtitle && (
               <MjmlText
                 color={Colors.Black13}
@@ -70,6 +76,7 @@ export const BasicV2Template = ({
             )}
           </MjmlColumn>
         </BasicSection>
+      )}
       <ContentSection paddingX={32} content={content} />
       <FooterV2Section unsubscribeLink={unsubscribeLink} />
     </TemplateBase>

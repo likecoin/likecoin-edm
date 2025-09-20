@@ -20,6 +20,7 @@ import {
   getNFTNotificationPurchaseMultipleTemplate,
   getBasicV2Template,
   getNFTTwoContentWithMessageAndButtonTemplate,
+  getIntercomTemplate,
 } from '../dist';
 
 import {
@@ -193,6 +194,11 @@ handleRequest('/nft/2-content-with-message-n-button', (req, res) => {
     ...req.query,
     ...req.body,
   });
+  res.send(body);
+});
+
+handleRequest('/intercom', (req, res) => {
+  const { body } = getIntercomTemplate({ ...req.query, ...req.body });
   res.send(body);
 });
 

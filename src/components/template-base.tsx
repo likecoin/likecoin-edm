@@ -39,6 +39,7 @@ export interface TemplateBaseProps extends React.PropsWithChildren<{}> {
   textColor?: string;
   bodyBackgroundColor?: string;
   linkColor?: string;
+  globalCSS?: string;
 }
 
 export const TemplateBase = (props: TemplateBaseProps) => {
@@ -49,6 +50,7 @@ export const TemplateBase = (props: TemplateBaseProps) => {
     textColor = Colors.Grey4A,
     bodyBackgroundColor = Colors.White,
     linkColor = Colors.LikeGreen,
+    globalCSS = '',
   } = props;
   const theme = getThemeConfig({ isExtruded });
   return (
@@ -75,6 +77,7 @@ export const TemplateBase = (props: TemplateBaseProps) => {
                   *[class~=hide_on_mobile] { display: none !important;} 
                   *[class~=hoverTable] { table-layout: auto !important;}
                 }
+                ${globalCSS}
               `}
             </MjmlStyle>
             <MjmlBreakpoint width={576} />

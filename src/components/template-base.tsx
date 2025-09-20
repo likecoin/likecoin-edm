@@ -24,7 +24,7 @@ function getThemeConfig(opts: { isExtruded?: boolean } = {}) {
     sectionWidth: templateWidth,
     sectionPaddingX: isExtruded ? 40 : 32,
     sectionBgURL: isExtruded ? getAssetPath('/templates/basic/bg.jpg') : '',
-    sectionBgColor: isExtruded ? 'white' : Colors.GreyF7,
+    sectionBgColor: isExtruded ? Colors.White : Colors.GreyF7,
   };
 }
 
@@ -36,10 +36,20 @@ export interface TemplateBaseProps extends React.PropsWithChildren<{}> {
   subject?: string;
   isExtruded?: boolean;
   language?: string;
+  textColor?: string;
+  bodyBackgroundColor?: string;
+  linkColor?: string;
 }
 
 export const TemplateBase = (props: TemplateBaseProps) => {
-  const { isExtruded = false, language, subject = '' } = props;
+  const {
+    isExtruded = false,
+    language,
+    subject = '',
+    textColor = Colors.Grey4A,
+    bodyBackgroundColor = Colors.White,
+    linkColor = Colors.LikeGreen,
+  } = props;
   const theme = getThemeConfig({ isExtruded });
   return (
     <IntlProvider language={language}>
@@ -51,13 +61,16 @@ export const TemplateBase = (props: TemplateBaseProps) => {
               <MjmlAll
                 fontFamily="Arial"
                 fontSize="14px"
-                color={Colors.Grey4A}
+                color={textColor}
                 padding={0}
               />
               <MjmlText lineHeight="1.5" />
             </MjmlAttributes>
             <MjmlStyle>
               {`
+                a {
+                  color: ${linkColor};
+                }
                 @media only screen and (max-width: 480px) { 
                   *[class~=hide_on_mobile] { display: none !important;} 
                   *[class~=hoverTable] { table-layout: auto !important;}
@@ -66,7 +79,10 @@ export const TemplateBase = (props: TemplateBaseProps) => {
             </MjmlStyle>
             <MjmlBreakpoint width={576} />
           </MjmlHead>
-          <MjmlBody backgroundColor="white" width={theme.templateWidth}>
+          <MjmlBody
+            backgroundColor={bodyBackgroundColor}
+            width={theme.templateWidth}
+          >
             {props.children}
           </MjmlBody>
         </Mjml>

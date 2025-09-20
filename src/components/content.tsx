@@ -5,16 +5,20 @@ import { BasicSection } from './sections/basic';
 
 export const ContentSection = ({
   content,
+  paddingTop = 32,
+  paddingX = 40,
   paddingBottom = 32,
 }: {
   content?: string;
+  paddingTop?: number;
+  paddingX?: number;
   paddingBottom?: number;
 }) => {
   return (
     <BasicSection
-      paddingTop={32}
-      paddingLeft={40}
-      paddingRight={40}
+      paddingTop={paddingTop}
+      paddingLeft={paddingX}
+      paddingRight={paddingX}
       paddingBottom={paddingBottom}
     >
       <MjmlColumn>

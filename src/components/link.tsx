@@ -30,6 +30,7 @@ export const Link = (props: LinkProps) => {
     utmMedium,
     utmSource,
     textDecoration = 'underline',
+    color = Colors.LikeGreen,
     ...restProps
   } = props;
 
@@ -43,7 +44,7 @@ export const Link = (props: LinkProps) => {
       target="_blank"
       rel="noreferrer noopener"
       style={{
-        color: Colors.LikeGreen,
+        color,
         textDecoration: textDecoration,
         ...style,
       }}

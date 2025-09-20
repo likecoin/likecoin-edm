@@ -64,18 +64,21 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
     </style>
      
     <style type=\\"text/css\\">
-@media only screen and (max-width: 480px) { 
+a {
+                  color: #28646e;
+                }
+                @media only screen and (max-width: 480px) { 
                   *[class~=hide_on_mobile] { display: none !important;} 
                   *[class~=hoverTable] { table-layout: auto !important;}
                 }
     </style>
     
   </head>
-  <body style=\\"word-spacing:normal;background-color:white;\\">
+  <body style=\\"word-spacing:normal;background-color:#ffffff;\\">
     
     
       <div
-         style=\\"background-color:white;\\" lang=\\"und\\" dir=\\"auto\\"
+         style=\\"background-color:#ffffff;\\" lang=\\"und\\" dir=\\"auto\\"
       >
         
       
@@ -127,7 +130,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
             <td  style=\\"width:145px;\\">
               
       <img
-         alt=\\"\\" src=\\"http://localhost:3000/static/3ookcom-logo.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"145\\" height=\\"auto\\"
+         alt=\\"\\" src=\\"http://localhost:3000/static/banners/like-coin-press-kit-liker-land-dark@3x.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"145\\" height=\\"auto\\"
       />
     
             </td>
@@ -896,10 +899,10 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
         <tbody>
           <tr>
             <td
-               align=\\"center\\" bgcolor=\\"#131313\\" role=\\"presentation\\" style=\\"border:none;border-radius:14px;cursor:auto;mso-padding-alt:10px 25px;background:#131313;\\" valign=\\"middle\\"
+               align=\\"center\\" bgcolor=\\"#28646e\\" role=\\"presentation\\" style=\\"border:none;border-radius:14px;cursor:auto;mso-padding-alt:10px 25px;background:#28646e;\\" valign=\\"middle\\"
             >
               <a
-                 href=\\"https://3ook.com/store?utm_medium=email&amp;utm_source=edm-footer\\" rel=\\"noopener noreferrer\\" style=\\"display:inline-block;background:#131313;color:#aaf1e7;font-family:Arial;font-size:14px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:14px;\\" target=\\"_blank\\"
+                 href=\\"https://3ook.com/store?utm_medium=email&amp;utm_source=edm-footer\\" rel=\\"noopener noreferrer\\" style=\\"display:inline-block;background:#28646e;color:#aaf1e7;font-family:Arial;font-size:14px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:14px;\\" target=\\"_blank\\"
               >
                 瀏覽書店
               </a>
@@ -913,7 +916,7 @@ exports[`Render Civic Liker monthly report templates V1 1`] = `
             
               <tr>
                 <td
-                   align=\\"center\\" style=\\"background:white;font-size:0px;padding:0px;padding-top:16px;padding-bottom:16px;word-break:break-word;\\"
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:16px;padding-bottom:16px;word-break:break-word;\\"
                 >
                   
       
@@ -1152,18 +1155,21 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
     </style>
      
     <style type=\\"text/css\\">
-@media only screen and (max-width: 480px) { 
+a {
+                  color: #28646e;
+                }
+                @media only screen and (max-width: 480px) { 
                   *[class~=hide_on_mobile] { display: none !important;} 
                   *[class~=hoverTable] { table-layout: auto !important;}
                 }
     </style>
     
   </head>
-  <body style=\\"word-spacing:normal;background-color:white;\\">
+  <body style=\\"word-spacing:normal;background-color:#ffffff;\\">
     
     
       <div
-         style=\\"background-color:white;\\" lang=\\"und\\" dir=\\"auto\\"
+         style=\\"background-color:#ffffff;\\" lang=\\"und\\" dir=\\"auto\\"
       >
         
       
@@ -1215,7 +1221,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
             <td  style=\\"width:145px;\\">
               
       <img
-         alt=\\"\\" src=\\"http://localhost:3000/static/3ookcom-logo.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"145\\" height=\\"auto\\"
+         alt=\\"\\" src=\\"http://localhost:3000/static/banners/like-coin-press-kit-liker-land-dark@3x.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"145\\" height=\\"auto\\"
       />
     
             </td>
@@ -2060,10 +2066,10 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
         <tbody>
           <tr>
             <td
-               align=\\"center\\" bgcolor=\\"#131313\\" role=\\"presentation\\" style=\\"border:none;border-radius:14px;cursor:auto;mso-padding-alt:10px 25px;background:#131313;\\" valign=\\"middle\\"
+               align=\\"center\\" bgcolor=\\"#28646e\\" role=\\"presentation\\" style=\\"border:none;border-radius:14px;cursor:auto;mso-padding-alt:10px 25px;background:#28646e;\\" valign=\\"middle\\"
             >
               <a
-                 href=\\"https://3ook.com/store?utm_medium=email&amp;utm_source=edm-footer\\" rel=\\"noopener noreferrer\\" style=\\"display:inline-block;background:#131313;color:#aaf1e7;font-family:Arial;font-size:14px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:14px;\\" target=\\"_blank\\"
+                 href=\\"https://3ook.com/store?utm_medium=email&amp;utm_source=edm-footer\\" rel=\\"noopener noreferrer\\" style=\\"display:inline-block;background:#28646e;color:#aaf1e7;font-family:Arial;font-size:14px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:14px;\\" target=\\"_blank\\"
               >
                 瀏覽書店
               </a>
@@ -2077,7 +2083,7 @@ exports[`Render Civic Liker monthly report templates V2 1`] = `
             
               <tr>
                 <td
-                   align=\\"center\\" style=\\"background:white;font-size:0px;padding:0px;padding-top:16px;padding-bottom:16px;word-break:break-word;\\"
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:16px;padding-bottom:16px;word-break:break-word;\\"
                 >
                   
       
@@ -2318,18 +2324,21 @@ exports[`Render Civic Liker monthly report templates V3 1`] = `
     </style>
      
     <style type=\\"text/css\\">
-@media only screen and (max-width: 480px) { 
+a {
+                  color: #28646e;
+                }
+                @media only screen and (max-width: 480px) { 
                   *[class~=hide_on_mobile] { display: none !important;} 
                   *[class~=hoverTable] { table-layout: auto !important;}
                 }
     </style>
     
   </head>
-  <body style=\\"word-spacing:normal;background-color:white;\\">
+  <body style=\\"word-spacing:normal;background-color:#ffffff;\\">
     
     
       <div
-         style=\\"background-color:white;\\" lang=\\"und\\" dir=\\"auto\\"
+         style=\\"background-color:#ffffff;\\" lang=\\"und\\" dir=\\"auto\\"
       >
         
       
@@ -2381,7 +2390,7 @@ exports[`Render Civic Liker monthly report templates V3 1`] = `
             <td  style=\\"width:145px;\\">
               
       <img
-         alt=\\"\\" src=\\"http://localhost:3000/static/3ookcom-logo.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"145\\" height=\\"auto\\"
+         alt=\\"\\" src=\\"http://localhost:3000/static/banners/like-coin-press-kit-liker-land-dark@3x.png\\" style=\\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:14px;\\" width=\\"145\\" height=\\"auto\\"
       />
     
             </td>
@@ -3459,10 +3468,10 @@ exports[`Render Civic Liker monthly report templates V3 1`] = `
         <tbody>
           <tr>
             <td
-               align=\\"center\\" bgcolor=\\"#131313\\" role=\\"presentation\\" style=\\"border:none;border-radius:14px;cursor:auto;mso-padding-alt:10px 25px;background:#131313;\\" valign=\\"middle\\"
+               align=\\"center\\" bgcolor=\\"#28646e\\" role=\\"presentation\\" style=\\"border:none;border-radius:14px;cursor:auto;mso-padding-alt:10px 25px;background:#28646e;\\" valign=\\"middle\\"
             >
               <a
-                 href=\\"https://3ook.com/store?utm_medium=email&amp;utm_source=edm-footer\\" rel=\\"noopener noreferrer\\" style=\\"display:inline-block;background:#131313;color:#aaf1e7;font-family:Arial;font-size:14px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:14px;\\" target=\\"_blank\\"
+                 href=\\"https://3ook.com/store?utm_medium=email&amp;utm_source=edm-footer\\" rel=\\"noopener noreferrer\\" style=\\"display:inline-block;background:#28646e;color:#aaf1e7;font-family:Arial;font-size:14px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:14px;\\" target=\\"_blank\\"
               >
                 瀏覽書店
               </a>
@@ -3476,7 +3485,7 @@ exports[`Render Civic Liker monthly report templates V3 1`] = `
             
               <tr>
                 <td
-                   align=\\"center\\" style=\\"background:white;font-size:0px;padding:0px;padding-top:16px;padding-bottom:16px;word-break:break-word;\\"
+                   align=\\"center\\" style=\\"font-size:0px;padding:0px;padding-top:16px;padding-bottom:16px;word-break:break-word;\\"
                 >
                   
       

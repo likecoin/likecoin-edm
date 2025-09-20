@@ -87,6 +87,7 @@
   "unit.likes": "點讚",
   "unit.works": "作品",
   "unsubscribe.text": "取消訂閱",
+  "unsubscribe.text.v2": "不想要收到這類電子郵件？ 可按<a>這裏</a>取消訂閱。",
   "writing-nft_creator-follow_confirmation_content": "請<a>點擊這裡</a>或以下連結以確認追蹤 {displayName} 的 Writing NFT。",
   "writing-nft_creator-follow_confirmation_subject": "Writing NFT - 追蹤 {displayName}",
   "writing-nft_creator-follow_confirmation_title": "追蹤 {displayName} 的 Writing NFT",

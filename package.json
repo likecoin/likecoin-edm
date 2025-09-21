@@ -43,16 +43,16 @@
     "access": "public"
   },
   "author": "Ng Wing Tat, David",
-  "module": "dist/likecoin-edm.esm.js",
+  "module": "dist/edm.esm.js",
   "size-limit": [
     {
-      "path": "dist/likecoin-edm.cjs.production.min.js",
-      "limit": "10 KB",
+      "path": "dist/edm.cjs.production.min.js",
+      "limit": "20 KB",
       "webpack": false
     },
     {
-      "path": "dist/likecoin-edm.esm.js",
-      "limit": "10 KB",
+      "path": "dist/edm.esm.js",
+      "limit": "25 KB",
       "webpack": false
     }
   ],

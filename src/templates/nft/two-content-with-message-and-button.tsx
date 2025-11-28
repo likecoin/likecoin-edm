@@ -10,8 +10,8 @@ import {
 import * as Colors from '../../constants/colors';
 
 import { Avatar } from '../../components/avatar';
-import { FooterSection } from '../../components/footer';
-import { HeaderSection } from '../../components/header';
+import { FooterV2Section } from '../../components/footer-v2';
+import { HeaderV2Section } from '../../components/header-v2';
 import { TemplateBase } from '../../components/template-base';
 import { BasicSection } from '../../components/sections/basic';
 
@@ -131,7 +131,7 @@ export const NFTContentWithMessageAndButtonSection = (
             color={Colors.White}
             align="left"
             fontWeight={600}
-            backgroundColor={Colors.LikeGreen}
+            backgroundColor={Colors.Black13}
             paddingTop={32}
             paddingBottom={16}
             inner-padding="16px 64px"
@@ -178,18 +178,24 @@ export const NFTTwoContentWithMessageAndButtonTemplate = (
   props: NFTTwoContentWithMessageAndButtonTemplateProps
 ) => {
   return (
-    <TemplateBase subject={props.subject}>
-      <HeaderSection />
+    <TemplateBase subject={props.subject} linkColor={Colors.Black13}>
+      <HeaderV2Section />
 
       <BasicSection
-        backgroundColor={Colors.LikeGreen}
-        paddingLeft={40}
-        paddingRight={40}
-        paddingTop={60}
-        paddingBottom={60}
+        backgroundColor={Colors.Black13}
+        paddingLeft={32}
+        paddingRight={32}
+        paddingTop={40}
+        paddingBottom={40}
+        borderTop={`${Colors.LikeCyan} 4px solid`}
       >
         <MjmlColumn>
-          <MjmlText color="white" fontSize={36} fontWeight={600} align="left">
+          <MjmlText
+            color={Colors.White}
+            fontSize={36}
+            fontWeight={600}
+            align="left"
+          >
             {props.title1}
             <br />
             {props.title2}
@@ -228,7 +234,7 @@ export const NFTTwoContentWithMessageAndButtonTemplate = (
         buttonText={props.buttonText2}
       />
 
-      <FooterSection unsubscribeLink={props.unsubscribeLink} />
+      <FooterV2Section unsubscribeLink={props.unsubscribeLink} />
     </TemplateBase>
   );
 };

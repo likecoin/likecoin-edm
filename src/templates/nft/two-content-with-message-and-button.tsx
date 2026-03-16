@@ -187,28 +187,6 @@ export const NFTTwoContentWithMessageAndButtonTemplate = (
     <TemplateBase subject={props.subject} linkColor={Colors.Black13}>
       <HeaderV2Section />
 
-      <BasicSection
-        backgroundColor={Colors.Black13}
-        paddingLeft={32}
-        paddingRight={32}
-        paddingTop={40}
-        paddingBottom={40}
-        borderTop={`${Colors.LikeCyan} 4px solid`}
-      >
-        <MjmlColumn>
-          <MjmlText
-            color={Colors.White}
-            fontSize={36}
-            fontWeight={600}
-            align="left"
-          >
-            {props.title1}
-            <br />
-            {props.title2}
-          </MjmlText>
-        </MjmlColumn>
-      </BasicSection>
-
       <NFTContentWithMessageAndButtonSection
         content={props.content1}
         append={props.append1}

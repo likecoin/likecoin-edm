@@ -11,7 +11,13 @@ export const HeaderV2Section = ({
   isFullLogo?: boolean;
 }) => {
   return (
-    <BasicSection padding={32} backgroundColor={Colors.Black13}>
+    <BasicSection
+      padding={32}
+      backgroundColor={Colors.Black13}
+      backgroundUrl={getAssetPath('/bg/131313.png')}
+      backgroundRepeat="repeat"
+      backgroundSize="auto"
+    >
       <MjmlGroup>
         <MjmlColumn>
           {isFullLogo ? (

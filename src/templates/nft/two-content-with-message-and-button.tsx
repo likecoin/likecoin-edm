@@ -177,6 +177,12 @@ export interface NFTTwoContentWithMessageAndButtonTemplateProps {
 export const NFTTwoContentWithMessageAndButtonTemplate = (
   props: NFTTwoContentWithMessageAndButtonTemplateProps
 ) => {
+  const hasContent2 =
+    !!props.content2 ||
+    !!props.append2 ||
+    !!props.messageTitle2 ||
+    !!props.messageContent2 ||
+    !!props.buttonText2;
   return (
     <TemplateBase subject={props.subject} linkColor={Colors.Black13}>
       <HeaderV2Section />
@@ -213,26 +219,30 @@ export const NFTTwoContentWithMessageAndButtonTemplate = (
         buttonText={props.buttonText1}
       />
 
-      <BasicSection
-        paddingLeft={40}
-        paddingRight={40}
-        paddingTop={24}
-        paddingBottom={24}
-      >
-        <MjmlColumn>
-          <MjmlDivider borderColor={Colors.Grey4A} borderWidth={1} />
-        </MjmlColumn>
-      </BasicSection>
+      {hasContent2 && (
+        <React.Fragment>
+          <BasicSection
+            paddingLeft={40}
+            paddingRight={40}
+            paddingTop={24}
+            paddingBottom={24}
+          >
+            <MjmlColumn>
+              <MjmlDivider borderColor={Colors.Grey4A} borderWidth={1} />
+            </MjmlColumn>
+          </BasicSection>
 
-      <NFTContentWithMessageAndButtonSection
-        content={props.content2}
-        append={props.append2}
-        messageAvatarSrc={props.messageAvatarSrc2}
-        messageTitle={props.messageTitle2}
-        messageContent={props.messageContent2}
-        buttonHref={props.buttonHref2}
-        buttonText={props.buttonText2}
-      />
+          <NFTContentWithMessageAndButtonSection
+            content={props.content2}
+            append={props.append2}
+            messageAvatarSrc={props.messageAvatarSrc2}
+            messageTitle={props.messageTitle2}
+            messageContent={props.messageContent2}
+            buttonHref={props.buttonHref2}
+            buttonText={props.buttonText2}
+          />
+        </React.Fragment>
+      )}
 
       <FooterV2Section unsubscribeLink={props.unsubscribeLink} />
     </TemplateBase>

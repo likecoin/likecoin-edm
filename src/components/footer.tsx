@@ -1,9 +1,7 @@
 import * as React from 'react';
-import { MjmlButton, MjmlColumn, MjmlDivider, MjmlText } from 'mjml-react';
-import { FormattedMessage } from 'react-intl';
+import { MjmlColumn, MjmlDivider, MjmlText } from 'mjml-react';
 
 import * as Colors from '../constants/colors';
-import { wrapUtm } from '../utils/url';
 
 import { BasicSection } from './sections/basic';
 import { HelpCenterLink } from './help-center-link';
@@ -33,16 +31,6 @@ export const FooterSection = ({
               borderWidth={2}
             />
           )}
-          <MjmlButton
-            color={Colors.LighterCyan}
-            fontWeight={600}
-            backgroundColor={Colors.LikeGreen}
-            borderRadius={14}
-            href={wrapUtm('https://3ook.com/store', { source: 'edm-footer' })}
-            rel="noopener noreferrer"
-          >
-            <FormattedMessage id="footer_browse_store" />
-          </MjmlButton>
           <SocialElements paddingTop={16} paddingBottom={16} />
           <MjmlText align="center" padding={4}>
             <HelpCenterLink utmSource="edm-footer" />
